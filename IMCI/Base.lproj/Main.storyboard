@@ -1,25 +1,1336 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="rd5-jK-qDc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ZEx-iX-ui9">
+            <objects>
+                <navigationController id="rd5-jK-qDc" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VPk-Ru-ynD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JHm-qu-ztS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aPI-Wh-7Ox" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-682.66666666666663" y="-1822.333333333333"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdU-B7-hf3">
+                                <rect key="frame" x="283" y="356" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G4c-jG-1lT">
+                                <rect key="frame" x="0.0" y="64" width="320" height="626"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Key elements of IMCI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWK-sZ-wed">
+                                        <rect key="frame" x="16" y="0.0" width="188" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Assessment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocv-Mq-umS">
+                                        <rect key="frame" x="16" y="19" width="103" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="320" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="304" translatesAutoresizingMaskIntoConstraints="NO" id="XBC-s0-ehF">
+                                        <rect key="frame" x="16" y="34" width="281" height="47"/>
+                                        <string key="text">Assess for general danger signs (or possible bacterial infection in a young infant), common illnesses and other health problems.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Classification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ydf-A9-ozF">
+                                        <rect key="frame" x="16" y="78" width="115" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" fixedFrame="YES" text="Pink: Severe classification needing admission or pre-referral treatment and referral." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccx-Uv-qFk">
+                                        <rect key="frame" x="16" y="115" width="304" height="39"/>
+                                        <color key="backgroundColor" red="1" green="0.41176470588235292" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yellow: A classification needing specific medical treatment and advice" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwE-Cm-Iel">
+                                        <rect key="frame" x="16" y="153" width="304" height="37"/>
+                                        <color key="backgroundColor" red="1" green="0.84313725490196079" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Green: Not serious and in most cases no drugs are needed. Simple advice on home management is given." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MrZ-uY-mPr">
+                                        <rect key="frame" x="16" y="191" width="304" height="51"/>
+                                        <color key="backgroundColor" red="0.19607843137254902" green="0.80392156862745101" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. Identify Treatment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jja-GE-5a4">
+                                        <rect key="frame" x="16" y="238" width="157" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="521-17-1cc">
+                                        <rect key="frame" x="16" y="340" width="304" height="47"/>
+                                        <string key="text">Shows how to administer treatments for identified classifications. It shows those requiring admissions or referral specific treatment and advice on homecare.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Color: Classification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnc-md-8D4">
+                                        <rect key="frame" x="16" y="99" width="304" height="18"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4. Treat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZu-5O-YrV">
+                                        <rect key="frame" x="16" y="325" width="157" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5. Counsel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcJ-oA-quI">
+                                        <rect key="frame" x="16" y="386" width="157" height="19"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHv-nJ-rVZ">
+                                        <rect key="frame" x="26" y="576" width="268" height="30"/>
+                                        <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Proceed">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="fEK-L3-Ngv" kind="push" id="WcQ-sQ-C3e"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtb-Re-V5Q">
+                                        <rect key="frame" x="16" y="407" width="304" height="66"/>
+                                        <string key="text">Teach the mother when to return to clinic if follow up is indicated and recognized signs that indicate that the child should be brought back to the clinic.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6. Follow up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbN-Dg-2rr">
+                                        <rect key="frame" x="16" y="481" width="157" height="19"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Woh-kL-ylr">
+                                        <rect key="frame" x="16" y="502" width="304" height="66"/>
+                                        <string key="text">Children requiring to be seen again are identified and brought back to the clinic, appropriate follow up care is offered and reassessed for any new problems.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twG-OI-JRL">
+                                        <rect key="frame" x="16" y="250" width="304" height="82"/>
+                                        <string key="text">Helps health workers to quickly and accurately identify treatment as per each classification. If a child has more than one classification, the health worker must look at more than one table to find the appropriate treatment.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274509803915" green="0.91764705882352937" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="bdU-B7-hf3" secondAttribute="trailing" constant="21" id="9JF-ad-yps"/>
+                            <constraint firstAttribute="trailing" secondItem="G4c-jG-1lT" secondAttribute="trailing" id="GvU-Uk-WeU"/>
+                            <constraint firstAttribute="bottom" secondItem="bdU-B7-hf3" secondAttribute="bottom" constant="212" id="SFH-TF-ink"/>
+                            <constraint firstItem="G4c-jG-1lT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fJI-Da-H4p"/>
+                            <constraint firstAttribute="bottom" secondItem="G4c-jG-1lT" secondAttribute="bottom" constant="-122" id="iKu-LZ-XCP"/>
+                            <constraint firstItem="G4c-jG-1lT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="xbx-o3-9Rq"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="mOL-80-POI"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="320" height="568"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-247.46666666666667" y="-1823.28"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Lhm-jk-xNH">
+            <objects>
+                <viewController id="fEK-L3-Ngv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s0S-Mb-bUi"/>
+                        <viewControllerLayoutGuide type="bottom" id="22o-qp-Qn1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5ax-zP-yHn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Xnc-Uc-SmL">
+                                <rect key="frame" x="32" y="91" width="354" height="83"/>
+                                <color key="backgroundColor" red="1" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="ASSESS, CLASSIFY &amp; IDENTIFY TREATMENT ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="99s-aQ-DzV" kind="push" id="k6P-u2-BGJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aVX-vg-S9Y">
+                                <rect key="frame" x="32" y="182" width="177" height="81"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="TREAT THE INFANT/ CHILD">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="XjE-ju-8kA" kind="push" id="Hqi-OO-CbH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="06v-BG-qp1">
+                                <rect key="frame" x="217" y="182" width="169" height="81"/>
+                                <color key="backgroundColor" red="0.66666666666666663" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="COUNSEL THE MOTHER">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xku-PA-fFw" kind="push" id="Tzw-4P-P0X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nyb-al-jxX">
+                                <rect key="frame" x="217" y="271" width="169" height="81"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.70980392156862748" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="HIV CARE FOR CHILDREN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3oS-Hw-Io2">
+                                <rect key="frame" x="32" y="271" width="177" height="81"/>
+                                <color key="backgroundColor" red="1" green="0.73333333333333328" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="FOLLOW UP CARE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yGw-ZV-QN8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f4E-aS-LaO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-381" y="-961"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fbM-lg-9og">
+            <objects>
+                <viewController id="xku-PA-fFw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r7F-JF-RYH"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gbc-0S-XDm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LME-as-Enj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntF-ei-hmu">
+                                <rect key="frame" x="20" y="157" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Age up to 2 months">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8ff-Xn-NUW" kind="push" id="dr7-W5-OMR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="HAF-hQ-edd">
+                                <rect key="frame" x="20" y="226" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Age 2 months up to 5 years">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1Ud-S5-qsS" kind="push" id="sEj-cc-CVT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Please select the age of the child involved" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0d-XO-cNS">
+                                <rect key="frame" x="20" y="72" width="280" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="RpK-Ff-axv"/>
+                                    <constraint firstAttribute="width" constant="383" id="fmu-Nd-WYF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="U0d-XO-cNS" firstAttribute="leading" secondItem="LME-as-Enj" secondAttribute="leadingMargin" id="2oY-Gj-qyh"/>
+                            <constraint firstItem="U0d-XO-cNS" firstAttribute="top" secondItem="r7F-JF-RYH" secondAttribute="bottom" id="910-p5-SpG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GYU-wh-5zd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dOX-Vx-zEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-381" y="-233"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Cy4-e6-3uu">
+            <objects>
+                <viewController id="1Ud-S5-qsS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Y8-AN-Sja"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hgf-3K-wm9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Ia-d4-1so">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aC3-NI-IAq">
+                                <rect key="frame" x="0.0" y="64" width="320" height="944"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Teach correct positioning and attachment, for breastfeed" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIf-KR-tcq">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOv-B7-P1q">
+                                        <rect key="frame" x="0.0" y="42" width="154" height="30"/>
+                                        <state key="normal" title="Up to 6 months of age"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aF-ma-NKc">
+                                        <rect key="frame" x="0.0" y="73" width="180" height="30"/>
+                                        <state key="normal" title="6 months up to 12 months"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uQ-1C-MJf">
+                                        <rect key="frame" x="0.0" y="104" width="164" height="30"/>
+                                        <state key="normal" title="12 months up to 2 years"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oD7-dV-oNF">
+                                        <rect key="frame" x="0.0" y="137" width="119" height="30"/>
+                                        <state key="normal" title="2 years and older"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Recommendations for care for development" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2A-jH-PBl">
+                                        <rect key="frame" x="0.0" y="165" width="320" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2A-z0-vNm">
+                                        <rect key="frame" x="0.0" y="197" width="135" height="30"/>
+                                        <state key="normal" title="Age up to 4 months"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3C-vT-vGb">
+                                        <rect key="frame" x="0.0" y="225" width="204" height="30"/>
+                                        <state key="normal" title="Age 4 months up to 6 months"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6J-Bz-Y6A">
+                                        <rect key="frame" x="0.0" y="253" width="180" height="30"/>
+                                        <state key="normal" title="6 months up to 12 months"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYw-B1-qZD">
+                                        <rect key="frame" x="0.0" y="284" width="164" height="30"/>
+                                        <state key="normal" title="12 months up to 2 years"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1KR-FN-5l0">
+                                        <rect key="frame" x="0.0" y="314" width="119" height="30"/>
+                                        <state key="normal" title="2 years and older"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Feeding Options: HIV Exposed and Infected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Acq-v2-4UV">
+                                        <rect key="frame" x="0.0" y="341" width="320" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Feeding Problems" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vba-bI-TxJ">
+                                        <rect key="frame" x="0.0" y="510" width="320" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="HBC-va-c0z"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Counsel the caregiver about care for development problems" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETj-Wp-XMD">
+                                        <rect key="frame" x="0.0" y="569" width="320" height="49"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IY1-G6-paN">
+                                        <rect key="frame" x="0.0" y="370" width="320" height="30"/>
+                                        <state key="normal" title="Counsel mother on infant feeding"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="XNW-tO-AXs">
+                                        <rect key="frame" x="0.0" y="390" width="320" height="66"/>
+                                        <state key="normal" title="Feeding advice for a child of a HIV positive mother who has chosen to breastfeed"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="4x9-DV-mlx">
+                                        <rect key="frame" x="0.0" y="449" width="320" height="59"/>
+                                        <state key="normal" title="Feeding advice for a child of a HIV positive mother who has chosen not to breastfeed or child who cannot be breastfed"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Counsel the mother on fluids and when to return" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITL-WU-Jcu">
+                                        <rect key="frame" x="0.0" y="649" width="320" height="38"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Counsel mother about her own health" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Mw-Ri-KBV">
+                                        <rect key="frame" x="0.0" y="728" width="320" height="38"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="Mvn-oz-uGQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUJ-lT-tgs">
+                                        <rect key="frame" x="0.0" y="540" width="320" height="30"/>
+                                        <state key="normal" title="follow for feeding problems"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgA-3i-Fx5">
+                                        <rect key="frame" x="0.0" y="620" width="320" height="30"/>
+                                        <state key="normal" title="care for development problems"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EzT-YA-9Tr">
+                                        <rect key="frame" x="0.0" y="690" width="320" height="30"/>
+                                        <state key="normal" title="counsel on fluids and when to return"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT4-R2-avw">
+                                        <rect key="frame" x="0.0" y="774" width="320" height="30"/>
+                                        <state key="normal" title="counsel about mother's health"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="bgA-3i-Fx5" firstAttribute="leading" secondItem="aC3-NI-IAq" secondAttribute="leading" id="07w-db-Feu"/>
+                                    <constraint firstItem="EzT-YA-9Tr" firstAttribute="trailing" secondItem="ITL-WU-Jcu" secondAttribute="trailing" id="0Ee-V4-w3U"/>
+                                    <constraint firstAttribute="trailing" secondItem="HT4-R2-avw" secondAttribute="trailing" id="0XG-hI-Byi"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="trailing" secondItem="IY1-G6-paN" secondAttribute="trailing" id="4um-EK-dQz"/>
+                                    <constraint firstItem="7Mw-Ri-KBV" firstAttribute="top" secondItem="EzT-YA-9Tr" secondAttribute="bottom" constant="8" symbolic="YES" id="6sO-AK-a4w"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="trailing" secondItem="4x9-DV-mlx" secondAttribute="trailing" id="8Hy-k9-KyZ"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="trailing" secondItem="lUJ-lT-tgs" secondAttribute="trailing" id="9ll-jv-U01"/>
+                                    <constraint firstItem="7Mw-Ri-KBV" firstAttribute="trailing" secondItem="EzT-YA-9Tr" secondAttribute="trailing" id="AJW-E6-0a7"/>
+                                    <constraint firstItem="bgA-3i-Fx5" firstAttribute="leading" secondItem="ETj-Wp-XMD" secondAttribute="leading" id="B1r-IC-n8s"/>
+                                    <constraint firstItem="lUJ-lT-tgs" firstAttribute="leading" secondItem="ETj-Wp-XMD" secondAttribute="leading" id="CLq-WE-Tpr"/>
+                                    <constraint firstItem="7Mw-Ri-KBV" firstAttribute="trailing" secondItem="HT4-R2-avw" secondAttribute="trailing" id="CYV-Ps-cFp"/>
+                                    <constraint firstItem="bgA-3i-Fx5" firstAttribute="top" secondItem="lUJ-lT-tgs" secondAttribute="bottom" constant="50" id="DP1-of-Vy4"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="IY1-G6-paN" secondAttribute="leading" id="Ejr-z2-vFP"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="n3C-vT-vGb" secondAttribute="leading" id="Enk-WE-YGd"/>
+                                    <constraint firstItem="EzT-YA-9Tr" firstAttribute="leading" secondItem="ITL-WU-Jcu" secondAttribute="leading" id="IpC-8a-KAb"/>
+                                    <constraint firstItem="lUJ-lT-tgs" firstAttribute="top" secondItem="Vba-bI-TxJ" secondAttribute="bottom" constant="1" id="JMk-r7-poJ"/>
+                                    <constraint firstItem="HT4-R2-avw" firstAttribute="top" secondItem="7Mw-Ri-KBV" secondAttribute="bottom" constant="8" symbolic="YES" id="LWk-1i-P8H"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="3aF-ma-NKc" secondAttribute="leading" id="Noc-yQ-iGc"/>
+                                    <constraint firstItem="EzT-YA-9Tr" firstAttribute="top" secondItem="ITL-WU-Jcu" secondAttribute="bottom" constant="3" id="NtR-05-Cdm"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="top" secondItem="aC3-NI-IAq" secondAttribute="top" constant="574" id="OFL-vW-Zs3"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="top" secondItem="4x9-DV-mlx" secondAttribute="bottom" constant="2" id="OSD-ua-5jq"/>
+                                    <constraint firstItem="HT4-R2-avw" firstAttribute="leading" secondItem="7Mw-Ri-KBV" secondAttribute="leading" id="P0K-T0-tEl"/>
+                                    <constraint firstItem="ETj-Wp-XMD" firstAttribute="trailing" secondItem="bgA-3i-Fx5" secondAttribute="trailing" id="Poi-G5-tiJ"/>
+                                    <constraint firstItem="ETj-Wp-XMD" firstAttribute="top" secondItem="Vba-bI-TxJ" secondAttribute="bottom" constant="30" id="QLn-er-cJm"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="1KR-FN-5l0" secondAttribute="leading" id="RLX-Ct-ksL"/>
+                                    <constraint firstItem="7Mw-Ri-KBV" firstAttribute="leading" secondItem="EzT-YA-9Tr" secondAttribute="leading" id="RrW-pe-h1O"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="Acq-v2-4UV" secondAttribute="leading" id="YCU-jY-csm"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="trailing" secondItem="XNW-tO-AXs" secondAttribute="trailing" id="ZTk-9s-ojt"/>
+                                    <constraint firstItem="bgA-3i-Fx5" firstAttribute="trailing" secondItem="ITL-WU-Jcu" secondAttribute="trailing" id="aVH-7H-XEw"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="XNW-tO-AXs" secondAttribute="leading" id="abp-cm-w6O"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="s2A-z0-vNm" secondAttribute="leading" id="acm-q2-Crr"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="4x9-DV-mlx" secondAttribute="leading" id="auO-1I-rdl"/>
+                                    <constraint firstItem="ITL-WU-Jcu" firstAttribute="leading" secondItem="bgA-3i-Fx5" secondAttribute="leading" id="az7-J3-bqE"/>
+                                    <constraint firstItem="lUJ-lT-tgs" firstAttribute="leading" secondItem="Vba-bI-TxJ" secondAttribute="leading" id="bIs-cH-h2Z"/>
+                                    <constraint firstItem="bgA-3i-Fx5" firstAttribute="centerX" secondItem="aC3-NI-IAq" secondAttribute="centerX" id="bzQ-S7-zME"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="V2A-jH-PBl" secondAttribute="leading" id="c8u-AC-7Dd"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="8uQ-1C-MJf" secondAttribute="leading" id="dSD-sO-dlp"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="oD7-dV-oNF" secondAttribute="leading" id="gl7-pr-cE8"/>
+                                    <constraint firstItem="bgA-3i-Fx5" firstAttribute="top" secondItem="ETj-Wp-XMD" secondAttribute="bottom" constant="2" id="hEl-3B-wKO"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="BOv-B7-P1q" secondAttribute="leading" id="hgt-kr-JXo"/>
+                                    <constraint firstItem="ITL-WU-Jcu" firstAttribute="top" secondItem="ETj-Wp-XMD" secondAttribute="bottom" constant="31" id="iO9-OS-zcP"/>
+                                    <constraint firstAttribute="bottom" secondItem="HT4-R2-avw" secondAttribute="bottom" constant="76" id="ilt-JA-1Z4"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="ZIf-KR-tcq" secondAttribute="leading" id="lnm-Cx-q5o"/>
+                                    <constraint firstItem="ETj-Wp-XMD" firstAttribute="trailing" secondItem="lUJ-lT-tgs" secondAttribute="trailing" id="n4O-Zz-WTS"/>
+                                    <constraint firstItem="EzT-YA-9Tr" firstAttribute="top" secondItem="bgA-3i-Fx5" secondAttribute="bottom" constant="40" id="niD-MW-eIU"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="trailing" secondItem="Acq-v2-4UV" secondAttribute="trailing" id="t0K-Db-dPC"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="e6J-Bz-Y6A" secondAttribute="leading" id="t1W-LW-vCN"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="trailing" secondItem="V2A-jH-PBl" secondAttribute="trailing" id="tON-hd-qqf"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="trailing" secondItem="ZIf-KR-tcq" secondAttribute="trailing" id="wnP-XE-acQ"/>
+                                    <constraint firstItem="Vba-bI-TxJ" firstAttribute="leading" secondItem="bYw-B1-qZD" secondAttribute="leading" id="yZA-NU-Jh9"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="aC3-NI-IAq" secondAttribute="trailing" id="1rT-aU-YkL"/>
+                            <constraint firstAttribute="bottom" secondItem="aC3-NI-IAq" secondAttribute="bottom" constant="-440" id="DR1-fe-6Fs"/>
+                            <constraint firstItem="aC3-NI-IAq" firstAttribute="top" secondItem="3Y8-AN-Sja" secondAttribute="bottom" id="aTw-Vl-dTD"/>
+                            <constraint firstItem="aC3-NI-IAq" firstAttribute="leading" secondItem="7Ia-d4-1so" secondAttribute="leading" id="tUu-aV-wSi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="QVz-9e-T1R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ljf-QC-RW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-202" y="505"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Lot-Iw-kXh">
+            <objects>
+                <viewController id="8ff-Xn-NUW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jFx-he-D5q"/>
+                        <viewControllerLayoutGuide type="bottom" id="g2x-uv-1b1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0St-1H-nrg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teach correct positioning and attachment, for breastfeed" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2V-ck-DJI">
+                                <rect key="frame" x="0.0" y="64" width="320" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Advice mother on when to return" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGa-kr-BC4">
+                                <rect key="frame" x="0.0" y="141" width="320" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVX-AD-xbE">
+                                <rect key="frame" x="0.0" y="103" width="320" height="30"/>
+                                <state key="normal" title="Positioning and attachment, for breastfeeding"/>
+                                <connections>
+                                    <segue destination="BmE-fS-n7R" kind="push" id="B9K-ea-IEP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WV4-KV-5lC">
+                                <rect key="frame" x="0.0" y="160" width="320" height="30"/>
+                                <state key="normal" title="Advice mother on when to return"/>
+                                <connections>
+                                    <segue destination="yH3-7b-j94" kind="push" id="vjD-WJ-ON6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjs-aB-qCf">
+                                <rect key="frame" x="0.0" y="217" width="320" height="30"/>
+                                <state key="normal" title="Counsel mother about her own health"/>
+                                <connections>
+                                    <segue destination="EoJ-30-5Ca" kind="push" id="lFd-8v-sx1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Counsel mother about her own health" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nnv-eX-FJs">
+                                <rect key="frame" x="0.0" y="193" width="320" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KTz-l2-D87"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b5L-U0-ZIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-574" y="505"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="e5w-XE-fX2">
+            <objects>
+                <viewController id="BmE-fS-n7R" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lXb-TP-j7n"/>
+                        <viewControllerLayoutGuide type="bottom" id="zcM-8e-ZD7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hen-Ly-9Jt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="6F0-fV-9mX">
+                                <rect key="frame" x="31" y="88" width="257" height="47"/>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.95686274509803915" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Teach Correct Positioning and Attachment for Breastfeeding"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hQv-NE-4ax">
+                                <rect key="frame" x="31" y="143" width="257" height="37"/>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.95686274509803915" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Teach the Mother to treat breast or nipple problems"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9eN-1k-6AB">
+                                <rect key="frame" x="31" y="188" width="257" height="42"/>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.95686274509803915" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Counsel the HIV positive mother who has chosen not to breastfeed"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="UOu-GO-g9G">
+                                <rect key="frame" x="31" y="238" width="257" height="54"/>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.95686274509803915" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Teach the mother to keep infant wth low weight or low body temperature warm at home"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="s7p-FR-MCu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IgB-ca-M9K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-760" y="1252"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jXA-PE-x5G">
+            <objects>
+                <viewController id="yH3-7b-j94" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TBY-jt-dtT"/>
+                        <viewControllerLayoutGuide type="bottom" id="F4b-K6-99Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fvI-re-CfA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Breastfeed frequently, as often and for long as the infant wants, day or night, during sickness and health" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EO-uP-OrA">
+                                <rect key="frame" x="3" y="72" width="317" height="59"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• In cool weather, cover infant's head and feet and dress the infant with extra clothing. " textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0c1-CS-cv3">
+                                <rect key="frame" x="3" y="173" width="317" height="59"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yMs-Jo-PAX">
+                                <rect key="frame" x="0.0" y="130" width="260" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="• if baby cannot be breastfed, counsel on alternative feeding"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="When to return to a health worker or a health facility:" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8q-Hi-r8b">
+                                <rect key="frame" x="20" y="240" width="269" height="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQ1-Jc-qiR">
+                                <rect key="frame" x="40" y="286" width="240" height="30"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Follow up visit">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTH-Cd-SR3">
+                                <rect key="frame" x="41" y="324" width="240" height="30"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="When to return immediately">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Z5F-8i-Gi3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kBJ-7t-FCq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-417" y="1252"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ahj-XK-quo">
+            <objects>
+                <viewController id="EoJ-30-5Ca" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5oB-wp-YOV"/>
+                        <viewControllerLayoutGuide type="bottom" id="y6a-yM-QUc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5wz-ve-K7n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G7l-hz-S11">
+                                <rect key="frame" x="0.0" y="64" width="320" height="807"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If the mother is sick, provide care for help, or refer for help" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQw-FD-urp">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="w0R-WM-rm9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SFi-Yj-ZUg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57" y="1252"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hQr-ZA-dxJ">
+            <objects>
+                <viewController id="fP7-e2-Kq0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WuO-Jo-b6i"/>
+                        <viewControllerLayoutGuide type="bottom" id="gAI-Ci-Xt7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6eY-fF-zkP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teach mother to give oral drugs at home" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xD-Zh-6D8">
+                                <rect key="frame" x="0.0" y="64" width="320" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teach mother to trea local infections at home" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCW-p1-4Ei">
+                                <rect key="frame" x="0.0" y="116" width="320" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Give these treatments in health facility only" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4n-2d-Mac">
+                                <rect key="frame" x="0.0" y="166" width="320" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rehydration therapy &amp; feeding for diarrhoea" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7x-n8-sc0">
+                                <rect key="frame" x="0.0" y="222" width="320" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Give multivitamin/ mineral supplement for persistent diarrhoea" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ykb-do-hRb">
+                                <rect key="frame" x="0.0" y="418" width="320" height="42"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgG-bz-WNj">
+                                <rect key="frame" x="0.0" y="380" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Rehydration in children with severe malnutrition"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wQ4-gB-2Ct">
+                                <rect key="frame" x="0.0" y="269" width="320" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Plan B: Treat Diarrhoea at Facility with ORS (Some Dehydration)"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2EI-CZ-Jgy">
+                                <rect key="frame" x="0.0" y="307" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Plan C: Treat Severe Dehydration Quickly"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rehydration therapy for dehydration in children with severe malnutrition" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaU-hI-RcJ">
+                                <rect key="frame" x="0.0" y="336" width="320" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cQ-5E-7hd">
+                                <rect key="frame" x="0.0" y="86" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Oral drugs at home"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOJ-DN-3Ui">
+                                <rect key="frame" x="0.0" y="137" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Local infections at home"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FsR-Tw-NS1">
+                                <rect key="frame" x="0.0" y="190" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Treatments in health facility"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2w-6e-ok6">
+                                <rect key="frame" x="0.0" y="244" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Plan A: Treat Diarrhoea at Home (No Dehydration)"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZN-JP-a5p">
+                                <rect key="frame" x="0.0" y="460" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Persistent Diarrhoea"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="e6z-ed-ehS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qrk-ug-cc2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="532" y="59"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6pR-dN-RKJ">
+            <objects>
+                <viewController id="Rgo-2z-obq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uhq-St-Ewb"/>
+                        <viewControllerLayoutGuide type="bottom" id="nIc-DJ-Xet"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c9k-em-xWl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Give the treatments in health facility only" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OjI-lu-Ik0">
+                                <rect key="frame" x="0.0" y="72" width="600" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teach the mother to give oral drugs at home" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdw-He-2eS">
+                                <rect key="frame" x="0.0" y="128" width="600" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teach the mother how to treat local infections at home" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDf-oL-xsO">
+                                <rect key="frame" x="0.0" y="184" width="600" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XvW-jl-BLn">
+                                <rect key="frame" x="20" y="95" width="280" height="30"/>
+                                <state key="normal" title="Health facility"/>
+                                <connections>
+                                    <segue destination="FJI-E7-0mu" kind="push" id="5hP-Le-scc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9o-Lu-vZH">
+                                <rect key="frame" x="20" y="152" width="280" height="30"/>
+                                <state key="normal" title="Oral drugs at home"/>
+                                <connections>
+                                    <segue destination="e4n-PF-f8M" kind="push" id="1GS-cz-PPJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dk0-Ks-6mm">
+                                <rect key="frame" x="20" y="208" width="280" height="30"/>
+                                <state key="normal" title="Treat infections at home"/>
+                                <connections>
+                                    <segue destination="rM2-Tc-EL7" kind="push" id="h9Y-CW-Hci"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="N8h-aF-IMg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X6S-eD-DCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="532" y="-686"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1ac-Ga-mfy">
+            <objects>
+                <viewController id="FJI-E7-0mu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IjC-ef-vCN"/>
+                        <viewControllerLayoutGuide type="bottom" id="b9E-wp-b7W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EIR-7d-QZv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wo-Rf-MDZ">
+                                <rect key="frame" x="20" y="65" width="280" height="123"/>
+                                <string key="text">• Explain to the moher why the drug is given.
+• Determine the appropriate dose for the child weight (or age).
+• Use a sterile needle and sterile syringe. Measure dose accurately.
+* Give the drug as an intramuscular injection.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zxU-2E-0Vh">
+                                <rect key="frame" x="20" y="196" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Give an intramuscular antibiotc"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="KUv-iT-hdw">
+                                <rect key="frame" x="20" y="226" width="280" height="66"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Treat the young infant to prevent low blood sugar"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ap1-aM-mij"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DcU-gR-Yeu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="965" y="-1269"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OGn-8b-Tkh">
+            <objects>
+                <viewController id="e4n-PF-f8M" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LlZ-qI-iA6"/>
+                        <viewControllerLayoutGuide type="bottom" id="br9-31-C3m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VfF-NY-Eoh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ut6-5d-0LC">
+                                <rect key="frame" x="0.0" y="72" width="580" height="190"/>
+                                <string key="text">Follow the instructions below for every oral drug to be given at home.
+Also follow the instructions listed with each drug's dosage table.
+• Determine the appropriate drugs and dosage for the child's age weight.
+* Tell the mother the reason for giving the drug to the child.
+* Demonstrate how to measure a dose.
+* Watch the mother practise measuring a dose by herself.
+* Ask the mother to give the first dose to her child.
+* Explain carefully how to give the drug, label and package the drug.
+* If more than one drug will be given, collect, count and package each drug separately.
+* Explain that all oral drug tablets or syrups must be used to finish the course of treatment, even if the child gets better.
+* Check the mother's understanding before she leaves the clinic.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SvL-wG-UT6">
+                                <rect key="frame" x="20" y="270" width="280" height="30"/>
+                                <state key="normal" title="Give an Appropriate Oral Antibiotic"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1F-Yq-nID">
+                                <rect key="frame" x="20" y="301" width="280" height="30"/>
+                                <state key="normal" title="Give Zinc Sulphate"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GhR-i1-zE1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P2R-C2-XTk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1355" y="-1269"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FPy-qa-dAv">
+            <objects>
+                <viewController id="rM2-Tc-EL7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lcE-TN-lia"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hm4-n8-NXB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A2y-26-XKU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5r-qw-cgx">
+                                <rect key="frame" x="20" y="72" width="280" height="142"/>
+                                <string key="text">* Explain how the treatment is given.
+* Watch her as she does the treatment in the clinic.
+* She should return to the clininc if the infection worsens.
+* Check the mother's understanding before she leaves the clinic.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Cua-kO-vb3">
+                                <rect key="frame" x="20" y="237" width="280" height="55"/>
+                                <state key="normal" title="To Treat Skin Pustules or Umbilical Infection"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jJb-wY-0pG">
+                                <rect key="frame" x="20" y="280" width="280" height="44"/>
+                                <state key="normal" title="To Treat Thrush (white patches in mouth) or Mouth Ulcers"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="BGa-js-QfX">
+                                <rect key="frame" x="20" y="324" width="280" height="39"/>
+                                <state key="normal" title="Treat Eye Infection with Tetracycline Eye Ointment"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3Qu-By-ZM1">
+                                <rect key="frame" x="20" y="375" width="280" height="30"/>
+                                <state key="normal" title="Immunize Every Sick Young Infant as Needed"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="qeO-O1-YSU">
+                                <rect key="frame" x="20" y="443" width="280" height="50"/>
+                                <state key="normal" title="Counsel the mother about care for development problems"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIi-st-Xkb">
+                                <rect key="frame" x="20" y="413" width="280" height="30"/>
+                                <state key="normal" title="Treat Diarrhoea"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UeK-Km-9Ej"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4HP-fB-rTu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1742" y="-1269"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6Hp-og-99W">
+            <objects>
+                <viewController id="99s-aQ-DzV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hNs-fK-OtX"/>
+                        <viewControllerLayoutGuide type="bottom" id="mxE-It-ceD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nbB-BA-Mqk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Please select the age of the infant/ child to assess" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2A-Vo-2Q7">
+                                <rect key="frame" x="16" y="72" width="284" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="hBG-1E-bLx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qe4-Sv-Anx">
+                                <rect key="frame" x="20" y="150" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.99607843137254903" green="0.69019607843137254" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Age up to 2 months">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="IVB-Gy-A2F" kind="push" id="qt4-n1-zJy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="D0t-6x-g8k">
+                                <rect key="frame" x="20" y="209" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="ivo-xA-nGo"/>
+                                </constraints>
+                                <state key="normal" title="Age 2 months up to 5 years">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lRf-cL-QU2" kind="push" id="uge-QG-dzO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="R2A-Vo-2Q7" firstAttribute="top" secondItem="hNs-fK-OtX" secondAttribute="bottom" constant="8" symbolic="YES" id="Dp5-FA-dAW"/>
+                            <constraint firstItem="D0t-6x-g8k" firstAttribute="trailing" secondItem="qe4-Sv-Anx" secondAttribute="trailing" id="EXw-i0-1Pa"/>
+                            <constraint firstItem="R2A-Vo-2Q7" firstAttribute="centerX" secondItem="qe4-Sv-Anx" secondAttribute="centerX" id="IUE-0m-Qfr"/>
+                            <constraint firstItem="qe4-Sv-Anx" firstAttribute="top" secondItem="R2A-Vo-2Q7" secondAttribute="bottom" constant="8" symbolic="YES" id="LLX-zU-C9f"/>
+                            <constraint firstItem="D0t-6x-g8k" firstAttribute="leading" secondItem="nbB-BA-Mqk" secondAttribute="leadingMargin" constant="12" id="PVF-wn-2aP"/>
+                            <constraint firstItem="D0t-6x-g8k" firstAttribute="centerX" secondItem="qe4-Sv-Anx" secondAttribute="centerX" id="ejP-kq-U0V"/>
+                            <constraint firstItem="D0t-6x-g8k" firstAttribute="top" secondItem="qe4-Sv-Anx" secondAttribute="bottom" constant="29" id="j7M-sM-dme"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Cky-eX-JY3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OP8-DA-4bc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1269" y="-221"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xfO-EU-NJt">
+            <objects>
+                <viewController id="IVB-Gy-A2F" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0BH-S5-5Oa"/>
+                        <viewControllerLayoutGuide type="bottom" id="4sn-3X-hAz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KQ8-nC-exF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ASK THE MOTHER WHAT THE YOUNG INFANT'S PROBLEMS ARE:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJm-H4-9Li">
+                                <rect key="frame" x="0.0" y="65" width="320" height="41"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CHECK FOR:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mrd-Ao-CJ4">
+                                <rect key="frame" x="0.0" y="180" width="320" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FpF-vk-xa5">
+                                <rect key="frame" x="0.0" y="106" width="320" height="66"/>
+                                <string key="text">Determine if this is an initial or follow up visit for this problem
+If it is an initial visit, assess the young infant as follows:</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="WmR-aS-kh9">
+                                <rect key="frame" x="0.0" y="332" width="320" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Feeding problem, low weight or low birthweight"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yG8-hD-FqL">
+                                <rect key="frame" x="0.0" y="372" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Young infant's immunization status"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tv5-bu-aCU">
+                                <rect key="frame" x="0.0" y="471" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Rescuscitate the young infant"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgW-H1-Z7S">
+                                <rect key="frame" x="0.0" y="523" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Keep the young infant warm"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Helping Babies Breathe:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxs-He-mXJ">
+                                <rect key="frame" x="0.0" y="453" width="320" height="17"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9X-Gg-TZO">
+                                <rect key="frame" x="0.0" y="204" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Very Severe Disease"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Lt-uI-G58">
+                                <rect key="frame" x="0.0" y="234" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Jaundice"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mk-Iy-Src">
+                                <rect key="frame" x="0.0" y="259" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Eye Infections"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUi-BC-MaA">
+                                <rect key="frame" x="0.0" y="283" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Does the infant have diarrhoea?"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZW-Ka-2t2">
+                                <rect key="frame" x="0.0" y="396" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Care for development"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xbf-NZ-B9q">
+                                <rect key="frame" x="0.0" y="425" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Special treatments needs"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keep the infant warm:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwf-74-fEJ">
+                                <rect key="frame" x="0.0" y="504" width="320" height="17"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DED-9y-hYA">
+                                <rect key="frame" x="0.0" y="312" width="320" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="HIV exposure and infection"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JLN-zX-9Kd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T0h-oW-6VM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1437" y="514"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qx2-28-DFH">
+            <objects>
+                <viewController id="lRf-cL-QU2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fLo-cF-SiA"/>
+                        <viewControllerLayoutGuide type="bottom" id="39a-XS-Mvh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gnE-Ff-nzS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upM-Wp-4jY">
+                                <rect key="frame" x="0.0" y="64" width="320" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RS7-iV-U37">
+                                <rect key="frame" x="0.0" y="238" width="324" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgf-m3-VdM">
+                                <rect key="frame" x="0.0" y="372" width="324" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hON-6e-5Y7">
+                                <rect key="frame" x="20" y="93" width="284" height="129"/>
+                                <string key="text">If the child is on the initial visit
+Ask: 
+• Is the child able to drink or breastfeed?
+• Does the child vomit everything?
+• Has the child had convulsions?
+Look:
+• See if child is lethargic or unconscious
+• Is the child convulsing now?
+if yes treat immediately</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THq-su-wJi">
+                                <rect key="frame" x="0.0" y="267" width="324" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Does the child have cough or difficult breathing?"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1HD-Bg-Dok">
+                                <rect key="frame" x="0.0" y="291" width="324" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Does the child have diarrhoea?"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ql5-ea-ucs">
+                                <rect key="frame" x="0.0" y="317" width="324" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Does the child have a fever?"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUh-lQ-SuX">
+                                <rect key="frame" x="0.0" y="343" width="324" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Does the child have an ear problem?"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pax-Br-pIy">
+                                <rect key="frame" x="0.0" y="419" width="324" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Check for anaemia"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJ3-7U-AC6">
+                                <rect key="frame" x="0.0" y="447" width="324" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Check for HIV exposure and infection"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Dc4-lv-Loo">
+                                <rect key="frame" x="0.0" y="475" width="324" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Check for child's immunization, Vitamin A &amp; deworming status"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLk-Cw-3jn">
+                                <rect key="frame" x="0.0" y="394" width="324" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Check for malnutrition"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPf-6h-z9o">
+                                <rect key="frame" x="0.0" y="518" width="324" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Assess for other problems that the child may have"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AbV-vo-Og1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hU8-sF-FWq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1074.6666666666667" y="514.03999999999996"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oHv-oj-n5N">
+            <objects>
+                <viewController id="XjE-ju-8kA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rVd-xT-ytC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nqy-QS-c33"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iJq-Vh-PAq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fq7-eA-Sdl">
+                                <rect key="frame" x="20" y="173" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Age up to 2 months">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Rgo-2z-obq" kind="push" id="mt4-w2-fKG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FqV-sY-I4j">
+                                <rect key="frame" x="20" y="249" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Age 2 months up to 5 years">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fP7-e2-Kq0" kind="push" id="U1a-TM-fy9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please select the age of the infant/ child to treat" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AqM-tM-nUf">
+                                <rect key="frame" x="20" y="64" width="280" height="81"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pQS-t3-kol"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yZM-VJ-TPg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92" y="-233"/>
         </scene>
     </scenes>
 </document>
