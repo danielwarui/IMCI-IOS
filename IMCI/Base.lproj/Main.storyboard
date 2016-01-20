@@ -887,6 +887,9 @@
                                 <color key="backgroundColor" red="0.97647058823529409" green="0.95686274509803915" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Teach the Mother to treat breast or nipple problems"/>
+                                <connections>
+                                    <segue destination="abZ-iq-Kxb" kind="push" id="AZO-Cv-fdH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9eN-1k-6AB">
                                 <rect key="frame" x="31" y="188" width="257" height="42"/>
@@ -954,7 +957,45 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lQr-h8-JXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1015" y="1815"/>
+            <point key="canvasLocation" x="-984" y="1991"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6a8-hu-D7T">
+            <objects>
+                <viewController id="abZ-iq-Kxb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Ev-Gr-dKZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ilw-7d-fUh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n02-B9-HaR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teach the mother to treat breast or nipple problems" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fy-yV-sZK">
+                                <rect key="frame" x="20" y="64" width="280" height="40"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qda-aA-O64">
+                                <rect key="frame" x="20" y="112" width="280" height="295"/>
+                                <mutableString key="text">• If the nipple is flat or inverted, evert the nipple several times with fingers before each feed and put the baby on the breast.
+• If the nipple is sore, apply breast milk for soothing effect and ensure correct positioning and attachment of the baby. If mother continues feeling discomfort feed expressed breast milk with cup.
+• If breasts are engorrged, let the baby to continue to suck if possible. If the baby cannot suckle effectively, help the mother to express the milk and then put the young infant to the breast. Putting warm compress on the breast may help.
+• If breast abscess, advise the mother to feed from the other breast then refer to hospital.If the young infant wants more milk give appropriate formula milk using a cup.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OSp-xy-HF5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Sj-tc-cvb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-625" y="1991"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jXA-PE-x5G">
