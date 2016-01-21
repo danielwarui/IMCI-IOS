@@ -40,7 +40,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G4c-jG-1lT">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G4c-jG-1lT">
                                 <rect key="frame" x="0.0" y="64" width="320" height="626"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Key elements of IMCI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWK-sZ-wed">
@@ -164,11 +164,7 @@
                         <color key="backgroundColor" red="0.95686274509803915" green="0.91764705882352937" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="bdU-B7-hf3" secondAttribute="trailing" constant="21" id="9JF-ad-yps"/>
-                            <constraint firstAttribute="trailing" secondItem="G4c-jG-1lT" secondAttribute="trailing" id="GvU-Uk-WeU"/>
                             <constraint firstAttribute="bottom" secondItem="bdU-B7-hf3" secondAttribute="bottom" constant="212" id="SFH-TF-ink"/>
-                            <constraint firstItem="G4c-jG-1lT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fJI-Da-H4p"/>
-                            <constraint firstAttribute="bottom" secondItem="G4c-jG-1lT" secondAttribute="bottom" constant="-122" id="iKu-LZ-XCP"/>
-                            <constraint firstItem="G4c-jG-1lT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="xbx-o3-9Rq"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mOL-80-POI"/>
@@ -226,6 +222,9 @@
                                 <state key="normal" title="HIV CARE FOR CHILDREN">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Jbb-UZ-o92" kind="push" id="WOl-3t-1pt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3oS-Hw-Io2">
                                 <rect key="frame" x="32" y="271" width="177" height="81"/>
@@ -368,7 +367,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9vg-lH-D1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-898" y="548"/>
+            <point key="canvasLocation" x="-802" y="548"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vMI-I0-x55">
@@ -382,8 +381,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="otq-Ao-nZ2">
-                                <rect key="frame" x="0.0" y="64" width="320" height="511"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="otq-Ao-nZ2">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dI9-Mr-cib">
                                         <rect key="frame" x="8" y="112" width="305" height="30"/>
@@ -494,6 +493,7 @@
                                     </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="R8p-Mk-YgP" secondAttribute="bottom" constant="-63" id="0Q6-Fk-Uwu"/>
                                     <constraint firstItem="6SB-yb-uAm" firstAttribute="top" secondItem="BxJ-0n-7v9" secondAttribute="bottom" constant="32" id="3Ug-Xi-0zj"/>
                                     <constraint firstItem="orT-Of-MlY" firstAttribute="trailing" secondItem="YlE-xg-aLg" secondAttribute="trailing" id="4zK-Ph-c1a"/>
                                     <constraint firstItem="9gm-az-Ywl" firstAttribute="top" secondItem="q8H-F3-xy6" secondAttribute="bottom" constant="3" id="63H-8b-gbI"/>
@@ -541,15 +541,15 @@
                         <constraints>
                             <constraint firstItem="otq-Ao-nZ2" firstAttribute="top" secondItem="qpm-DN-Dhc" secondAttribute="bottom" id="Bfa-fx-IJ3"/>
                             <constraint firstAttribute="bottomMargin" secondItem="otq-Ao-nZ2" secondAttribute="bottom" constant="-69" id="Pvf-V1-85R"/>
-                            <constraint firstItem="otq-Ao-nZ2" firstAttribute="leading" secondItem="M8P-a0-ge5" secondAttribute="leading" id="hup-EX-48T"/>
-                            <constraint firstAttribute="trailing" secondItem="otq-Ao-nZ2" secondAttribute="trailing" id="qLy-id-Yh0"/>
+                            <constraint firstItem="otq-Ao-nZ2" firstAttribute="leading" secondItem="M8P-a0-ge5" secondAttribute="leading" id="WGD-tz-jX5"/>
+                            <constraint firstAttribute="trailing" secondItem="otq-Ao-nZ2" secondAttribute="trailing" id="pnd-0a-oAJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="C1V-8M-Rcv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SWm-o4-Qpc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-462" y="548"/>
+            <point key="canvasLocation" x="-471" y="548"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fbM-lg-9og">
@@ -596,7 +596,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOX-Vx-zEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="79" y="-209"/>
+            <point key="canvasLocation" x="263" y="-141"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cy4-e6-3uu">
@@ -796,7 +796,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ljf-QC-RW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="586" y="537"/>
+            <point key="canvasLocation" x="1122" y="597"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Lot-Iw-kXh">
@@ -859,7 +859,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b5L-U0-ZIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-34" y="525"/>
+            <point key="canvasLocation" x="686" y="597"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="e5w-XE-fX2">
@@ -896,12 +896,18 @@
                                 <color key="backgroundColor" red="0.97647058823529409" green="0.95686274509803915" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Counsel the HIV positive mother who has chosen not to breastfeed"/>
+                                <connections>
+                                    <segue destination="5Cp-MN-VvS" kind="push" id="ntd-bs-g6U"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="UOu-GO-g9G">
                                 <rect key="frame" x="31" y="238" width="257" height="54"/>
                                 <color key="backgroundColor" red="0.97647058823529409" green="0.95686274509803915" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Teach the mother to keep infant wth low weight or low body temperature warm at home"/>
+                                <connections>
+                                    <segue destination="2hK-nU-K0u" kind="push" id="M1g-cC-sJJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -910,7 +916,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IgB-ca-M9K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-760" y="1252"/>
+            <point key="canvasLocation" x="32" y="1729"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BRU-zQ-SNh">
@@ -926,7 +932,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAe-62-F1U">
                                 <rect key="frame" x="20" y="110" width="280" height="458"/>
-                                <mutableString key="text">• Show the mother how to hold her infant.
+                                <string key="text">• Show the mother how to hold her infant.
 	-with the infant's head and body her straight.
 	-facing her breast, with infant's nose opposite her nipple.
 	-with infant's body close to her body.
@@ -939,7 +945,7 @@
 • If still not suckling effectively, ask the mother to express breat milk and feed with cup in the clinic.
 • If able to feed with a cup adise mother to continue breastfeeding the infant and at the end of each feed express breast milk and feed a cup.
 • If not able to feed with a cup, Admit or Refer to hospital.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -957,7 +963,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lQr-h8-JXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-984" y="1991"/>
+            <point key="canvasLocation" x="-866" y="2837"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6a8-hu-D7T">
@@ -979,11 +985,11 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qda-aA-O64">
                                 <rect key="frame" x="20" y="112" width="280" height="295"/>
-                                <mutableString key="text">• If the nipple is flat or inverted, evert the nipple several times with fingers before each feed and put the baby on the breast.
+                                <string key="text">• If the nipple is flat or inverted, evert the nipple several times with fingers before each feed and put the baby on the breast.
 • If the nipple is sore, apply breast milk for soothing effect and ensure correct positioning and attachment of the baby. If mother continues feeling discomfort feed expressed breast milk with cup.
 • If breasts are engorrged, let the baby to continue to suck if possible. If the baby cannot suckle effectively, help the mother to express the milk and then put the young infant to the breast. Putting warm compress on the breast may help.
 • If breast abscess, advise the mother to feed from the other breast then refer to hospital.If the young infant wants more milk give appropriate formula milk using a cup.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -995,7 +1001,91 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Sj-tc-cvb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-625" y="1991"/>
+            <point key="canvasLocation" x="-516" y="2837"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VJq-BA-5Rg">
+            <objects>
+                <viewController id="5Cp-MN-VvS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QSI-M9-lID"/>
+                        <viewControllerLayoutGuide type="bottom" id="EMz-mc-Cij"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vwu-B5-a0m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDw-Fd-fWE">
+                                <rect key="frame" x="20" y="72" width="280" height="341"/>
+                                <mutableString key="text">The mother/caregiver should have received full counselling before making the decision not to breastfeed.
+
+• Give information on replacement feeding and the risk of mixed feeding.
+• Give information on safe preparation, storage and appropriate feeding techniques for chosen artificial feeds.
+• Demonstrate on how to prepare and feed the infant.
+• Counsel on care of the breast to avid engorgement.
+• Provide reliable family planning.
+• For low birth weight(1.5kg) and pre-term babies advise on special infant formula.
+• Adhere to the code of marketing of breast milk substitutes.
+• HIV-exposed infants not breastfeeding should be given ART prophylaxis for 6 weeks only.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HWU-qA-tqx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y0B-6G-wJ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-160" y="2837"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Bh6-9T-yEo">
+            <objects>
+                <viewController id="2hK-nU-K0u" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SA1-OF-lGw"/>
+                        <viewControllerLayoutGuide type="bottom" id="lcZ-Ch-DuS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jXO-Zf-ymv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teach the mother how to keep the young infant with low weight or low body temperature warm at home:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6J-sQ-LnO">
+                                <rect key="frame" x="20" y="72" width="280" height="58"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVG-8i-Iua">
+                                <rect key="frame" x="20" y="130" width="285" height="314"/>
+                                <mutableString key="text">• Do not bathe young infant with low weight or body temperature; instead sponge with lukewarm water to clear (in a warm room).
+• Provide skin to skin contact (Kangaroo mother care) as much as possible, day and night.
+• When not in skin contact or if this is not possible.
+	- warm the room (&gt;25˚C) with a home heater.
+	- Clothe the young infant in 3-4 layers of warm clothes, cover the head with a cap(include gloves and socks) and wrap him/her in a soft dry cloth and cover with warm blanket or shawl.
+	- Let the baby and mother lie together on a soft, thick bedding.
+	- Change clothes(e.g. napkins) whenever they are wet.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FEEL THE FEET OF THE BABY PERIODICALLY --BABY'S FEET SHOULD BE ALWAYS WARM TO TOUCH." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eR9-4L-gU5">
+                                <rect key="frame" x="20" y="427" width="280" height="58"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mPO-xN-nFV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sbT-E2-Cug" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="195" y="2837"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jXA-PE-x5G">
@@ -1053,7 +1143,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kBJ-7t-FCq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-324" y="1289"/>
+            <point key="canvasLocation" x="384" y="1729"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ahj-XK-quo">
@@ -1181,7 +1271,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SFi-Yj-ZUg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="1289"/>
+            <point key="canvasLocation" x="733" y="1729"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hQr-ZA-dxJ">
@@ -1552,7 +1642,7 @@ Also follow the instructions listed with each drug's dosage table.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OP8-DA-4bc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1637" y="-777"/>
+            <point key="canvasLocation" x="-1641" y="-677"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xfO-EU-NJt">
@@ -1814,6 +1904,75 @@ if yes treat immediately</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yZM-VJ-TPg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="148" y="-1073"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vqU-Px-Am9">
+            <objects>
+                <viewController id="Jbb-UZ-o92" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="047-Re-wIA"/>
+                        <viewControllerLayoutGuide type="bottom" id="hsZ-vg-YGl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4TZ-UO-AYp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6C-fJ-HCI">
+                                <rect key="frame" x="20" y="72" width="280" height="140"/>
+                                <string key="text">• Care for the child who returns for follow up visit using all the boxes that match the child's previous classifications.
+• If the child has any new problem, Assess Classify &amp; Identify Treatment fully and treat as on the ASSESS CLASSIFY &amp; IDENTIFY TREATMENT tab on the Main Menu.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Lut-pb-Pid">
+                                <rect key="frame" x="20" y="220" width="280" height="45"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Algorithm for Early diagnosis of HIV in Children(2009)">
+                                    <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ylP-oC-yGE">
+                                <rect key="frame" x="20" y="267" width="280" height="45"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Guidelines on Nevirapine prophylaxis for HIV exposed infants">
+                                    <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="LCF-rX-EVc">
+                                <rect key="frame" x="20" y="315" width="280" height="45"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Nevirapine prophylaxis dosage for HIV exposed infants">
+                                    <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="o9x-xm-QyB">
+                                <rect key="frame" x="20" y="363" width="280" height="45"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Dose of prophylactic cotrimoxazole">
+                                    <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ijD-Mn-64r">
+                                <rect key="frame" x="20" y="411" width="280" height="45"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                                <state key="normal" title="Paediatric ARV dosage (October 2014)">
+                                    <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mDW-ja-u5M"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r9c-yA-fqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2009" y="386"/>
         </scene>
     </scenes>
 </document>
