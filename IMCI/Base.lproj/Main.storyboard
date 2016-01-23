@@ -1017,7 +1017,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDw-Fd-fWE">
                                 <rect key="frame" x="20" y="72" width="280" height="341"/>
-                                <mutableString key="text">The mother/caregiver should have received full counselling before making the decision not to breastfeed.
+                                <string key="text">The mother/caregiver should have received full counselling before making the decision not to breastfeed.
 
 • Give information on replacement feeding and the risk of mixed feeding.
 • Give information on safe preparation, storage and appropriate feeding techniques for chosen artificial feeds.
@@ -1026,7 +1026,7 @@
 • Provide reliable family planning.
 • For low birth weight(1.5kg) and pre-term babies advise on special infant formula.
 • Adhere to the code of marketing of breast milk substitutes.
-• HIV-exposed infants not breastfeeding should be given ART prophylaxis for 6 weeks only.</mutableString>
+• HIV-exposed infants not breastfeeding should be given ART prophylaxis for 6 weeks only.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -1060,14 +1060,14 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVG-8i-Iua">
                                 <rect key="frame" x="20" y="130" width="285" height="314"/>
-                                <mutableString key="text">• Do not bathe young infant with low weight or body temperature; instead sponge with lukewarm water to clear (in a warm room).
+                                <string key="text">• Do not bathe young infant with low weight or body temperature; instead sponge with lukewarm water to clear (in a warm room).
 • Provide skin to skin contact (Kangaroo mother care) as much as possible, day and night.
 • When not in skin contact or if this is not possible.
 	- warm the room (&gt;25˚C) with a home heater.
 	- Clothe the young infant in 3-4 layers of warm clothes, cover the head with a cap(include gloves and socks) and wrap him/her in a soft dry cloth and cover with warm blanket or shawl.
 	- Let the baby and mother lie together on a soft, thick bedding.
 	- Change clothes(e.g. napkins) whenever they are wet.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -1932,6 +1932,9 @@ if yes treat immediately</string>
                                 <state key="normal" title="Algorithm for Early diagnosis of HIV in Children(2009)">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZlR-Y0-toj" kind="push" id="0IU-d9-4jW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ylP-oC-yGE">
                                 <rect key="frame" x="20" y="267" width="280" height="45"/>
@@ -1973,6 +1976,25 @@ if yes treat immediately</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r9c-yA-fqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2009" y="386"/>
+        </scene>
+        <!--Scroll View Controller-->
+        <scene sceneID="ilz-8X-Am6">
+            <objects>
+                <viewController id="ZlR-Y0-toj" customClass="ScrollViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lZs-KH-oLW"/>
+                        <viewControllerLayoutGuide type="bottom" id="TI5-LA-wVo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gd9-YE-v16">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pcm-xt-gqX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nby-E9-KEP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2641" y="731"/>
         </scene>
     </scenes>
 </document>

@@ -14,6 +14,7 @@
 		3F692F311C4CA1B900B0542E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F692F2F1C4CA1B900B0542E /* LaunchScreen.storyboard */; };
 		3F692F3C1C4CA1B900B0542E /* IMCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F692F3B1C4CA1B900B0542E /* IMCITests.swift */; };
 		3F692F471C4CF39400B0542E /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F692F461C4CF39400B0542E /* ContentViewController.swift */; };
+		3FF006B11C525AF5003F2D52 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF006B01C525AF5003F2D52 /* ScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3F692F3B1C4CA1B900B0542E /* IMCITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCITests.swift; sourceTree = "<group>"; };
 		3F692F3D1C4CA1B900B0542E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F692F461C4CF39400B0542E /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		3FF006B01C525AF5003F2D52 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				3F692F281C4CA1B900B0542E /* ViewController.swift */,
 				3F692F2A1C4CA1B900B0542E /* Main.storyboard */,
 				3F692F461C4CF39400B0542E /* ContentViewController.swift */,
+				3FF006B01C525AF5003F2D52 /* ScrollViewController.swift */,
 				3F692F2D1C4CA1B900B0542E /* Assets.xcassets */,
 				3F692F2F1C4CA1B900B0542E /* LaunchScreen.storyboard */,
 				3F692F321C4CA1B900B0542E /* Info.plist */,
@@ -205,6 +208,7 @@
 				3F692F291C4CA1B900B0542E /* ViewController.swift in Sources */,
 				3F692F471C4CF39400B0542E /* ContentViewController.swift in Sources */,
 				3F692F271C4CA1B900B0542E /* AppDelegate.swift in Sources */,
+				3FF006B11C525AF5003F2D52 /* ScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +398,7 @@
 				3F692F421C4CA1B900B0542E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F692F431C4CA1B900B0542E /* Build configuration list for PBXNativeTarget "IMCITests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +407,7 @@
 				3F692F451C4CA1B900B0542E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
