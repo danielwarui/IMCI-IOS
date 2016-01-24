@@ -1980,7 +1980,7 @@ if yes treat immediately</string>
         <!--Scroll View Controller-->
         <scene sceneID="ilz-8X-Am6">
             <objects>
-                <viewController id="ZlR-Y0-toj" customClass="ScrollViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZlR-Y0-toj" customClass="ScrollViewController" customModule="IMCI" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lZs-KH-oLW"/>
                         <viewControllerLayoutGuide type="bottom" id="TI5-LA-wVo"/>
@@ -1988,6 +1988,11 @@ if yes treat immediately</string>
                     <view key="view" contentMode="scaleToFill" id="Gd9-YE-v16">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gNF-vT-xWi">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="pcm-xt-gqX"/>
