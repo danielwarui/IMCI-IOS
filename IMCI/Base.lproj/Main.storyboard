@@ -33,17 +33,17 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdU-B7-hf3">
-                                <rect key="frame" x="559" y="388" width="0.0" height="0.0"/>
+                                <rect key="frame" x="559" y="638" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G4c-jG-1lT">
-                                <rect key="frame" x="20" y="-250" width="560" height="768"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G4c-jG-1lT">
+                                <rect key="frame" x="20" y="80" width="560" height="750"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Assessment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocv-Mq-umS">
                                         <rect key="frame" x="8" y="29" width="544" height="18"/>
@@ -276,8 +276,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="mOL-80-POI"/>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="568"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="850"/>
                     <connections>
-                        <outlet property="scrollController" destination="G4c-jG-1lT" id="wvD-UV-9zP"/>
+                        <outlet property="scroller" destination="G4c-jG-1lT" id="B28-0v-qSc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -350,6 +352,8 @@
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="yGw-ZV-QN8"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4E-aS-LaO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1376,10 +1380,10 @@ Look for jaundice
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zx7-Hp-WOe">
                                 <rect key="frame" x="20" y="72" width="560" height="131"/>
-                                <mutableString key="text">• If Chest undraping or a general danger sign, give a dose of second-line antibiotic or intramuscular chloramphenicol. Then admit or refer URGENTLY to hospital.
+                                <string key="text">• If Chest undraping or a general danger sign, give a dose of second-line antibiotic or intramuscular chloramphenicol. Then admit or refer URGENTLY to hospital.
 • If breathing rate, fever and eating have not improved, changed to the second-line antibiotic and advise the mother to return in 2 days or refer. (If this child had measles within the last 3 months or is known or suspected to have symptomatic HIV infections, refer.)
 • If breathing slower, less fever, or eating better, complete the 5 days of antibiotic.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -1413,7 +1417,7 @@ Look for jaundice
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWD-aw-jgS">
                                 <rect key="frame" x="20" y="72" width="560" height="205"/>
-                                <mutableString key="text">• If the child is dehydrated, treat dehydration according to classification.
+                                <string key="text">• If the child is dehydrated, treat dehydration according to classification.
 • If number of stools,amount of blood in stools, fever, abdominal pain, or eating is worse: Admit or refer to hospital.
 • If the condition is the same: add metronidazole to the treatment.
 Give it for 5 days. Advise the mother to continue ciproflaxin and zinc and to return in 2 days. Exceptions if the child
@@ -1421,7 +1425,7 @@ Give it for 5 days. Advise the mother to continue ciproflaxin and zinc and to re
 	2. Was dehydrated on the first visit
 	3. Had measles within the last 3 months
 	For the three Admit or refer urgently to hospital.
-• If fewer stools, less blood in the stools, less fever, less abdominal pain, and eating better, continue giving ciproflaxin and zinc until finished.</mutableString>
+• If fewer stools, less blood in the stools, less fever, less abdominal pain, and eating better, continue giving ciproflaxin and zinc until finished.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -1514,9 +1518,9 @@ Ask:
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWI-g5-iUQ">
                                 <rect key="frame" x="20" y="72" width="560" height="132"/>
-                                <mutableString key="text">• If the diarrhoea has not stopped(child is still having 3 more loose stools per day), do a full reassessment of the child. Give any treatment needed. Then refer to hospital.
+                                <string key="text">• If the diarrhoea has not stopped(child is still having 3 more loose stools per day), do a full reassessment of the child. Give any treatment needed. Then refer to hospital.
 • If the diarrhoea has stopped(child having &lt; 3 loose stools per day), tell the mother to follow the usual feeding recommendations for the child’s age, but give one extra meal every day 1months. Ask her to continue giving zinc for total of 10 days.
-• NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.</mutableString>
+• NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
