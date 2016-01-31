@@ -12,7 +12,6 @@
 		3F692F2C1C4CA1B900B0542E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F692F2A1C4CA1B900B0542E /* Main.storyboard */; };
 		3F692F311C4CA1B900B0542E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F692F2F1C4CA1B900B0542E /* LaunchScreen.storyboard */; };
 		3F692F3C1C4CA1B900B0542E /* IMCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F692F3B1C4CA1B900B0542E /* IMCITests.swift */; };
-		3F692F471C4CF39400B0542E /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F692F461C4CF39400B0542E /* ContentViewController.swift */; };
 		3FF006B11C525AF5003F2D52 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF006B01C525AF5003F2D52 /* ScrollViewController.swift */; };
 		3FF006B31C539069003F2D52 /* algorithm_for_early_diagnosis_hiv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF006B21C539069003F2D52 /* algorithm_for_early_diagnosis_hiv.png */; };
 /* End PBXBuildFile section */
@@ -37,7 +36,6 @@
 		3F692F371C4CA1B900B0542E /* IMCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F692F3B1C4CA1B900B0542E /* IMCITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCITests.swift; sourceTree = "<group>"; };
 		3F692F3D1C4CA1B900B0542E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F692F461C4CF39400B0542E /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		3FF006B01C525AF5003F2D52 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		3FF006B21C539069003F2D52 /* algorithm_for_early_diagnosis_hiv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = algorithm_for_early_diagnosis_hiv.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,7 +83,6 @@
 				3F692F261C4CA1B900B0542E /* AppDelegate.swift */,
 				3F692F281C4CA1B900B0542E /* ViewController.swift */,
 				3F692F2A1C4CA1B900B0542E /* Main.storyboard */,
-				3F692F461C4CF39400B0542E /* ContentViewController.swift */,
 				3FF006B01C525AF5003F2D52 /* ScrollViewController.swift */,
 				3F692F2F1C4CA1B900B0542E /* LaunchScreen.storyboard */,
 				3F692F321C4CA1B900B0542E /* Info.plist */,
@@ -206,7 +203,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F692F291C4CA1B900B0542E /* ViewController.swift in Sources */,
-				3F692F471C4CF39400B0542E /* ContentViewController.swift in Sources */,
 				3F692F271C4CA1B900B0542E /* AppDelegate.swift in Sources */,
 				3FF006B11C525AF5003F2D52 /* ScrollViewController.swift in Sources */,
 			);
