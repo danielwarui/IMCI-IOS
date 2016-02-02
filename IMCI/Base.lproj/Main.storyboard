@@ -2963,7 +2963,7 @@ Also follow the instructions listed with each drug's dosage table.
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Qy-R0-XJ6">
                                         <rect key="frame" x="0.0" y="238" width="600" height="72"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <string key="text">• Give first dose of Benzylpenicillin &amp; Gentamicin.
+                                        <string key="text">	• Give first dose of Benzylpenicillin &amp; Gentamicin.
 	• Apply first dose of Tetracycline.
 	• Treat to prevent low blood sugar.
 	• Admit or refer URGENTLY to hospital.
@@ -2980,23 +2980,24 @@ Also follow the instructions listed with each drug's dosage table.
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SiK-ug-C9H">
-                                        <rect key="frame" x="0.0" y="342" width="600" height="42"/>
+                                        <rect key="frame" x="0.0" y="342" width="600" height="47"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <string key="text">• No yellow palms and soles AND
-• Jaundice appearing between 24 hours and 14 days of age.</string>
+                                        <string key="text">	• Teach mother how to treat eye infection at home.
+	• Advise the mother to give home care.
+	• Follow up in 2 days.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Congenital Condition or Eye Infection Unlikely" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4p-oQ-rVa">
-                                        <rect key="frame" x="0.0" y="385" width="600" height="42"/>
+                                        <rect key="frame" x="0.0" y="388" width="600" height="42"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No signs to classify as severe jaundice or jaundice." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TuG-Bp-JcO">
-                                        <rect key="frame" x="0.0" y="425" width="600" height="43"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Advise the mother to give home care for the child." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TuG-Bp-JcO">
+                                        <rect key="frame" x="0.0" y="428" width="600" height="43"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -3013,6 +3014,9 @@ Also follow the instructions listed with each drug's dosage table.
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="N4h-If-a8t"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="850"/>
+                    <connections>
+                        <outlet property="scroller" destination="daP-to-fBm" id="Izu-Lf-LYl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kqo-gy-vHK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3132,6 +3136,26 @@ CLASSIFY</string>
                     <view key="view" contentMode="scaleToFill" id="kH4-Vm-Qs1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bd-cy-e7s">
+                                <rect key="frame" x="20" y="72" width="560" height="187"/>
+                                <string key="text">Eye discharge,
+• Crossed eyes
+• Excessive tearing
+• Fear of light
+• Clouding of the cornea
+• Squeezing of the eyes.
+• Red eyes
+• Whiteness in the pupil.
+• Eye discharge, if yes for how long?
+• Eyes draining pus.
+• Swollen eyes.
+CLASSIFY</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Assess" id="aqD-1G-dG7"/>
