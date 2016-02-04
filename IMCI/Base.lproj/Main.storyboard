@@ -1381,7 +1381,7 @@ Look for jaundice
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOX-Vx-zEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-301" y="-207"/>
+            <point key="canvasLocation" x="-215" y="-207"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cy4-e6-3uu">
