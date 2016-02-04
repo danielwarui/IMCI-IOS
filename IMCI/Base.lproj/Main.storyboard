@@ -3177,49 +3177,96 @@ CLASSIFY</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LR7-fo-CNF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11177" y="2702"/>
+            <point key="canvasLocation" x="-11177" y="3034"/>
         </scene>
         <!--Assess-->
         <scene sceneID="ED8-IT-RdR">
             <objects>
-                <viewController id="3xd-q6-mbb" sceneMemberID="viewController">
+                <viewController id="3xd-q6-mbb" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oDP-hG-5Vf"/>
                         <viewControllerLayoutGuide type="bottom" id="T07-RP-u8U"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZId-jC-39q">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jd9-Pf-tON">
-                                <rect key="frame" x="20" y="72" width="560" height="335"/>
-                                <mutableString key="text">ASK 
-• Ask for mother’s HIV status to establish child’s HIV exposure. Is It:
-	- Reactive
-	- Non reactive.
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CtP-aT-ZX1">
+                                <rect key="frame" x="20" y="72" width="580" height="1071"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51o-e8-kX9">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="931"/>
+                                        <mutableString key="text">ASK:
+• Is the infant breastfed?
+
+IF YES:
+- How many times during the day?
+- How many times during the night?
+- How many times in 24 hours?
+IF NO, why?
+• Does the infant usually receive any other foods or drinks?
+• How do you prepare the feeds?
+• What do you use to feed the infant?
+
+LOOK, LISTEN, FEEL:
+Determine weight for age.
+• Look for ulcers or white patches in the mouth(thrush)
+• Determine mother’s HIV status:
+	- Reactive.
+	- Non Reactive.
 	- Unknown.
-• Ask if child has had TB contact.
+• Determine HIV exposed infant’s HIV status:
+	- Positive.
+	- Negative.
+	- Unknown.
 
-LOOK, FEEL AND DIAGNOSE:
-Child ≤ 18 months
-• If Mother's HIV status is unknown,conduct an antibody test(rapid test) on mother or child to determine HIV exposure.
-• If mother's or child's antibody test is POSITIVE the child is HIV exposed. Take DBS for DNA PCR test at six weeks or earliest contact thereafter
+If the infant has no indications for urgent referral to hospital from previous assessment:
+• Discuss infant feeding options with the mother.
+• FOR A MOTHER WHO HAS DECIDED TO BREASTFEED:
 
-PRESUMPTIVE SYMPTOMATIC DIAGNOSIS OF HIV INFECTION IN CHILDREN &lt; 18 MONTHS
+ASSESS BREASTFEEDING:
+• Has the infant breastfed in the previous hour?
+• If the infant has not fed in the previous hour, ask the mother to put her infant to the breast. Observe the breastfeed for 4 minutes.
+• (If the infant was fed during the last hours, ask the mother if she can wait and tell you when the infant is willing to feed again.)
 
-LOOK AND FEEL:
-• Pneumonia***
-• Oral Candidiasis / thrush
-• Severe sepsis.
-• Other Aids defining conditions**</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+TO CHECK CORRECT POSITIONING, LOOK FOR:
+- Infant’s head and body straight. 
+- Infant facing the mother’s breast with nose opposite the nipple.
+- Infant’s body close to the mother’s body
+- Mother supporting infant’s whole body.
+Is the child well positioned?
+• Well positioned
+• Not well positioned
+
+TO CHECK ATTACHMENT, LOOK FOR:
+	- Chin touching breast.
+	- Mouth wide open.
+	- Lower lip turned outward.
+	- More areola visible above than below the mouth.
+ (All of these signs should be present if the attachment is good)
+• is the infant able to attach?
+	- not well attached.
+	- good attachment.
+• Is the infant sucking effectively (that is, slow deep sucks, sometimes pausing)?
+	- not sucking effectively.
+	- sucking effectively.
+• Clear a blocked nose if it interferes with breastfeeding.
+• Look for ulcers or white patches in the mouth(Thrush).</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Assess" id="spG-tr-Wol"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="1200"/>
+                    <connections>
+                        <outlet property="scroller" destination="CtP-aT-ZX1" id="PCo-p2-XSl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nhR-3L-g79" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3668,7 +3715,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aeu-9c-foI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11177" y="3358"/>
+            <point key="canvasLocation" x="-11177" y="3677"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="mKc-Hh-MkU">
