@@ -3163,17 +3163,123 @@ CLASSIFY</string>
         <!--Classify-->
         <scene sceneID="pav-7u-boo">
             <objects>
-                <viewController id="TgY-cf-Dxm" sceneMemberID="viewController">
+                <viewController id="TgY-cf-Dxm" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6et-os-JhO"/>
                         <viewControllerLayoutGuide type="bottom" id="gD5-TI-F3R"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="H3q-f6-kWN">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yID-Ga-uLK">
+                                <rect key="frame" x="0.0" y="64" width="600" height="729"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feeding Problem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJe-MU-klN">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFH-E2-lkE">
+                                        <rect key="frame" x="0.0" y="34" width="600" height="30"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">	Feeding Problem or Low Birth Weight</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2q-A1-eb3">
+                                        <rect key="frame" x="8" y="67" width="584" height="109"/>
+                                        <string key="text">	• Not well attached to breast or.
+	• Not sucking effectively.
+	• Breastfeeds less than 8 times in 24 hours or.
+	• Receives other foods or drinks or.
+	• Low weight for age or
+	• Thrush (white patches in mouth) or
+	• Mouth ulcers.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="No Feeding Problem or Low Birth Weight" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EvV-7c-D1k">
+                                        <rect key="frame" x="0.0" y="184" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Not low weight for age and no other signs of inadequate feeding." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEj-vZ-fJT">
+                                        <rect key="frame" x="8" y="226" width="584" height="37"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Baby less than one week" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svt-uw-cQF">
+                                        <rect key="frame" x="0.0" y="264" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Low birth weight" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SKQ-G0-454">
+                                        <rect key="frame" x="0.0" y="380" width="600" height="30"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Weight less than 2 kg" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wrl-eE-vw2">
+                                        <rect key="frame" x="8" y="335" width="584" height="37"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Normal birth weight" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8i-8w-GlL">
+                                        <rect key="frame" x="0.0" y="463" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Weight between 2 kg and 2.5 kg" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CL9-kG-etN">
+                                        <rect key="frame" x="8" y="418" width="584" height="37"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Weight 2.5 kg or more." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35J-IA-sNR">
+                                        <rect key="frame" x="8" y="505" width="584" height="37"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Very low birth weight" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hM-h8-GM7">
+                                        <rect key="frame" x="0.0" y="296" width="600" height="31"/>
+                                        <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5hM-h8-GM7" firstAttribute="height" secondItem="EvV-7c-D1k" secondAttribute="height" id="6Py-HL-mZW"/>
+                                    <constraint firstItem="C8i-8w-GlL" firstAttribute="height" secondItem="SKQ-G0-454" secondAttribute="height" id="DQq-4v-Qer"/>
+                                    <constraint firstItem="IFH-E2-lkE" firstAttribute="height" secondItem="EvV-7c-D1k" secondAttribute="height" id="RgW-9t-LPC"/>
+                                    <constraint firstItem="IFH-E2-lkE" firstAttribute="width" secondItem="EvV-7c-D1k" secondAttribute="width" id="U9Y-Ah-C6g"/>
+                                    <constraint firstItem="SKQ-G0-454" firstAttribute="height" secondItem="5hM-h8-GM7" secondAttribute="height" id="wdG-Uu-ufX"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Classify" id="Po7-hd-PfG"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="850"/>
+                    <connections>
+                        <outlet property="scroller" destination="yID-Ga-uLK" id="9ce-pf-Qhx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LR7-fo-CNF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3196,7 +3302,7 @@ CLASSIFY</string>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51o-e8-kX9">
                                         <rect key="frame" x="0.0" y="0.0" width="560" height="931"/>
-                                        <mutableString key="text">ASK:
+                                        <string key="text">ASK:
 • Is the infant breastfed?
 
 IF YES:
@@ -3251,7 +3357,7 @@ TO CHECK ATTACHMENT, LOOK FOR:
 	- not sucking effectively.
 	- sucking effectively.
 • Clear a blocked nose if it interferes with breastfeeding.
-• Look for ulcers or white patches in the mouth(Thrush).</mutableString>
+• Look for ulcers or white patches in the mouth(Thrush).</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -3265,7 +3371,7 @@ TO CHECK ATTACHMENT, LOOK FOR:
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="1200"/>
                     <connections>
-                        <outlet property="scroller" destination="CtP-aT-ZX1" id="PCo-p2-XSl"/>
+                        <outlet property="scroller" destination="CtP-aT-ZX1" id="Obl-T8-a5c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nhR-3L-g79" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3701,21 +3807,139 @@ Does it go back:
         <!--Identify Treatment-->
         <scene sceneID="exH-M0-Ekr">
             <objects>
-                <viewController id="Zhi-rs-can" sceneMemberID="viewController">
+                <viewController id="Zhi-rs-can" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="C7Z-ee-5KK"/>
                         <viewControllerLayoutGuide type="bottom" id="4Ka-02-qzA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wO5-8X-nM7">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXs-NW-8vx">
+                                <rect key="frame" x="0.0" y="64" width="600" height="879"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtv-z3-lwp">
+                                        <rect key="frame" x="0.0" y="34" width="600" height="30"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">	Feeding Problem or Low Birth Weight</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpT-DA-ejM">
+                                        <rect key="frame" x="8" y="67" width="584" height="261"/>
+                                        <mutableString key="text">	• Advise the mother to breastfeed as often and for as long as the infant wants, day and night.
+	• If not well attached or suckling effectively, teach and show correct positioning and attachment.
+	• If breastfeeding less than 8 times in 24 hours, advise to increase frequency of feeding. 
+	• If receiving other foods or drinks, counsel mother about breastfeeding more, reducing other foods or drinks, and using a cup.
+	•  If not breastfeeding at all:
+	- Refer for breastfeeding counselling and possible relaxation.
+	• Advise about correctly preparing breastmilk substitutes and using a cup.
+	• If a HIV positive mother has chosen not to breastfeed, give feeding advice. Give vitamin A.
+	• Check for HIV infection.
+	• Advise mother to give home care for young infant.
+	• Follow any feeding problem, thrush or mouth ulcers in 2 days.
+	• Follow up low weight for age in 14 days.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feeding Problem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJP-kL-YFZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhA-Oq-bWL">
+                                        <rect key="frame" x="8" y="375" width="584" height="32"/>
+                                        <string key="text">	• Advise mother to give home care for the young infant.
+	• Praise the mother for feeding the infant well.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Baby less than one week" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCC-HJ-dZR">
+                                        <rect key="frame" x="0.0" y="415" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Very low birth weight" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hyg-2w-xfY">
+                                        <rect key="frame" x="0.0" y="449" width="600" height="31"/>
+                                        <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Low birth weight" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UcV-F7-OqE">
+                                        <rect key="frame" x="0.0" y="559" width="600" height="30"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIf-pR-gOM">
+                                        <rect key="frame" x="8" y="488" width="584" height="63"/>
+                                        <string key="text">	• Treat to prevent low blood sugar.
+	• Keep baby warm.
+	• Advise mother to keep the young infant warm on the way to hospital.
+	• Admit or refer urgently to hospital.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R35-fg-R7T">
+                                        <rect key="frame" x="8" y="597" width="584" height="47"/>
+                                        <string key="text">	• Manage as for FEEDING PROBLEM OR LOW WEIGHT.
+	• Advice mother to keep the young infant warm.
+	• Follow up in 14 days.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Feeding Problem or Low Birth Weight" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mb4-o3-Dox">
+                                        <rect key="frame" x="0.0" y="336" width="600" height="31"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Normal birth weight" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPz-yn-vLk">
+                                        <rect key="frame" x="0.0" y="652" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSL-Wj-DBT">
+                                        <rect key="frame" x="8" y="694" width="584" height="37"/>
+                                        <string key="text">	• Advise mother to give home care to the young infant.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="UcV-F7-OqE" firstAttribute="height" secondItem="Hyg-2w-xfY" secondAttribute="height" id="90l-DB-mrY"/>
+                                    <constraint firstItem="gPz-yn-vLk" firstAttribute="height" secondItem="UcV-F7-OqE" secondAttribute="height" id="a43-5s-5l9"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="0RZ-jk-K41"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="1000"/>
+                    <connections>
+                        <outlet property="scroller" destination="CXs-NW-8vx" id="Ibj-8V-GxA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aeu-9c-foI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11177" y="3677"/>
+            <point key="canvasLocation" x="-11177" y="3962"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="mKc-Hh-MkU">
@@ -3736,26 +3960,7 @@ Does it go back:
             </objects>
             <point key="canvasLocation" x="-12439" y="1414"/>
         </scene>
-        <!--Classify-->
-        <scene sceneID="0ar-lj-Zbj">
-            <objects>
-                <viewController id="pMR-Fi-T4U" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ciR-1f-igE"/>
-                        <viewControllerLayoutGuide type="bottom" id="XLE-XC-4s2"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="OjP-BH-9zK">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Classify" id="5zE-O9-Mj5"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jb6-lW-2el" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-10550" y="2702"/>
-        </scene>
-        <!--Assess-->
+        <!--Immunization Status-->
         <scene sceneID="MSk-kW-Eg9">
             <objects>
                 <viewController id="qBO-5Z-JRc" sceneMemberID="viewController">
@@ -3766,32 +3971,25 @@ Does it go back:
                     <view key="view" contentMode="scaleToFill" id="chC-Jy-c94">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJG-uZ-Pg1">
+                                <rect key="frame" x="20" y="72" width="560" height="90"/>
+                                <string key="text">Give all missed doses on this visit.
+• Include sick babies and those with no records (mother child health booklet) or evidence.
+• If infant has no booklet, issue a new one today.
+• Advise the mother when to return for the next vaccination.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Assess" id="N7h-tG-M5P"/>
+                    <tabBarItem key="tabBarItem" title="Immunization Status" id="N7h-tG-M5P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iRH-5g-2fK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-10550" y="2050"/>
-        </scene>
-        <!--Identify Treatment-->
-        <scene sceneID="1bU-sg-kZf">
-            <objects>
-                <viewController id="Kmp-PN-4rv" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="TGD-CZ-X8z"/>
-                        <viewControllerLayoutGuide type="bottom" id="GfV-8h-ktx"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="OLU-eE-GCB">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Identify Treatment" id="JPe-Bd-Aoq"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wD1-Ey-7pi" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-10550" y="3358"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="wIS-VQ-IkZ">
@@ -3842,8 +4040,6 @@ Does it go back:
                     </tabBar>
                     <connections>
                         <segue destination="qBO-5Z-JRc" kind="relationship" relationship="viewControllers" id="BVh-79-kEz"/>
-                        <segue destination="pMR-Fi-T4U" kind="relationship" relationship="viewControllers" id="PXG-rk-6T0"/>
-                        <segue destination="Kmp-PN-4rv" kind="relationship" relationship="viewControllers" id="wQs-mv-Jhq"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l4a-Ie-292" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4361,7 +4557,7 @@ OR 	- An AIDS defining condition</string>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jtt-3x-0Ve">
                                 <rect key="frame" x="20" y="72" width="560" height="335"/>
-                                <mutableString key="text">ASK 
+                                <string key="text">ASK 
 • Ask for mother’s HIV status to establish child’s HIV exposure. Is It:
 	- Reactive
 	- Non reactive.
@@ -4379,7 +4575,7 @@ LOOK AND FEEL:
 • Pneumonia***
 • Oral Candidiasis / thrush
 • Severe sepsis.
-• Other Aids defining conditions**</mutableString>
+• Other Aids defining conditions**</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
