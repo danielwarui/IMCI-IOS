@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CF0A71AB78D6AF9E3CCA55209AC6E5AF5CA12907",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AEEE2690CE2BAED39EFE72A57FECDBAB08169C2F" : 0,
+    "CF0A71AB78D6AF9E3CCA55209AC6E5AF5CA12907" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "74C21C3C-8317-4253-A4F5-05294C5524BD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AEEE2690CE2BAED39EFE72A57FECDBAB08169C2F" : "..\/..\/StudioProjects\/IMCI",
+    "CF0A71AB78D6AF9E3CCA55209AC6E5AF5CA12907" : "IMCI\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IMCI",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "IMCI.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/danielwarui\/IMCI-App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AEEE2690CE2BAED39EFE72A57FECDBAB08169C2F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/danielwarui\/IMCI-IOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CF0A71AB78D6AF9E3CCA55209AC6E5AF5CA12907"
+    }
+  ]
+}

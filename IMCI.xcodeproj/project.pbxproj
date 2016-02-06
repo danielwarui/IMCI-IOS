@@ -7,13 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0C47D61C663686009F126A /* algorithm_for_early_diagnosis_hiv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47A21C663686009F126A /* algorithm_for_early_diagnosis_hiv.png */; };
+		3F0C47D71C663686009F126A /* artesunateforsevere_malaria.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47A31C663686009F126A /* artesunateforsevere_malaria.PNG */; };
+		3F0C47D81C663686009F126A /* breastfeeding_upto_six_months_one.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47A41C663686009F126A /* breastfeeding_upto_six_months_one.PNG */; };
+		3F0C47D91C663686009F126A /* breastfeeding_upto_six_months.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47A51C663686009F126A /* breastfeeding_upto_six_months.PNG */; };
+		3F0C47DA1C663686009F126A /* breastfeeding_upto_six_to_twelve_months_one.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47A61C663686009F126A /* breastfeeding_upto_six_to_twelve_months_one.PNG */; };
+		3F0C47DB1C663686009F126A /* breastfeeding_upto_six_to_twelve_months.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47A71C663686009F126A /* breastfeeding_upto_six_to_twelve_months.PNG */; };
+		3F0C47DC1C663686009F126A /* breastfeeding_upto_twelve_to_two_years_one.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47A81C663686009F126A /* breastfeeding_upto_twelve_to_two_years_one.PNG */; };
+		3F0C47DD1C663686009F126A /* breastfeeding_upto_twelve_to_two_years.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47A91C663686009F126A /* breastfeeding_upto_twelve_to_two_years.PNG */; };
+		3F0C47DE1C663686009F126A /* breastfeeding_upto_two_years_and_older_one.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47AA1C663686009F126A /* breastfeeding_upto_two_years_and_older_one.PNG */; };
+		3F0C47DF1C663686009F126A /* breastfeeding_upto_two_years_and_older.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47AB1C663686009F126A /* breastfeeding_upto_two_years_and_older.PNG */; };
+		3F0C47E01C663686009F126A /* care_for_development_0_4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47AC1C663686009F126A /* care_for_development_0_4.PNG */; };
+		3F0C47E11C663686009F126A /* care_for_development_4_6.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47AD1C663686009F126A /* care_for_development_4_6.PNG */; };
+		3F0C47E21C663686009F126A /* care_for_development.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47AE1C663686009F126A /* care_for_development.PNG */; };
+		3F0C47E31C663686009F126A /* counsel_follow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47AF1C663686009F126A /* counsel_follow_up.png */; };
+		3F0C47E41C663686009F126A /* counsel_when_to_return.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47B01C663686009F126A /* counsel_when_to_return.png */; };
+		3F0C47E51C663686009F126A /* dose_of_cotrimoxazole.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47B11C663686009F126A /* dose_of_cotrimoxazole.PNG */; };
+		3F0C47E61C663686009F126A /* drug_antibiotic_pneumonia.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47B21C663686009F126A /* drug_antibiotic_pneumonia.png */; };
+		3F0C47E71C663686009F126A /* drug_antibioticfor_shigella.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47B31C663686009F126A /* drug_antibioticfor_shigella.PNG */; };
+		3F0C47E81C663686009F126A /* drug_oral_ironfolate.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47B41C663686009F126A /* drug_oral_ironfolate.PNG */; };
+		3F0C47E91C663686009F126A /* drug_oralantimalarial.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47B51C663686009F126A /* drug_oralantimalarial.png */; };
+		3F0C47EA1C663686009F126A /* drug_oralparacetamolfever.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47B61C663686009F126A /* drug_oralparacetamolfever.PNG */; };
+		3F0C47EB1C663686009F126A /* drug_oralsalbutamol.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47B71C663686009F126A /* drug_oralsalbutamol.PNG */; };
+		3F0C47EC1C663686009F126A /* drug_oralvitamin_a.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47B81C663686009F126A /* drug_oralvitamin_a.PNG */; };
+		3F0C47ED1C663686009F126A /* drug_oralzincsulphate.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47B91C663686009F126A /* drug_oralzincsulphate.PNG */; };
+		3F0C47EE1C663686009F126A /* drug_rapid_actingbrochodilator.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47BA1C663686009F126A /* drug_rapid_actingbrochodilator.PNG */; };
+		3F0C47EF1C663686009F126A /* drug_secondline_antimalarial.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47BB1C663686009F126A /* drug_secondline_antimalarial.PNG */; };
+		3F0C47F01C663686009F126A /* first_dose_of_intramuscular_antibiotics.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47BC1C663686009F126A /* first_dose_of_intramuscular_antibiotics.PNG */; };
+		3F0C47F11C663686009F126A /* guidlines_on_nevirapine.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47BD1C663686009F126A /* guidlines_on_nevirapine.PNG */; };
+		3F0C47F21C663686009F126A /* home_care_followup.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47BE1C663686009F126A /* home_care_followup.png */; };
+		3F0C47F31C663686009F126A /* home_care_when_to_return.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47BF1C663686009F126A /* home_care_when_to_return.png */; };
+		3F0C47F41C663686009F126A /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47C01C663686009F126A /* ic_launcher.png */; };
+		3F0C47F51C663686009F126A /* immunization_status_infant.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47C11C663686009F126A /* immunization_status_infant.PNG */; };
+		3F0C47F61C663686009F126A /* immunization_table.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47C21C663686009F126A /* immunization_table.PNG */; };
+		3F0C47F71C663686009F126A /* intramuscular_antibiotic.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47C31C663686009F126A /* intramuscular_antibiotic.PNG */; };
+		3F0C47F81C663686009F126A /* mebendazole.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47C41C663686009F126A /* mebendazole.PNG */; };
+		3F0C47F91C663686009F126A /* medicationmetronidazole_dysentry.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47C51C663686009F126A /* medicationmetronidazole_dysentry.PNG */; };
+		3F0C47FA1C663686009F126A /* nvp_dosage_for_infants.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47C61C663686009F126A /* nvp_dosage_for_infants.PNG */; };
+		3F0C47FB1C663686009F126A /* oraldrugscholera.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47C71C663686009F126A /* oraldrugscholera.PNG */; };
+		3F0C47FC1C663686009F126A /* paeds_chart.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47C81C663686009F126A /* paeds_chart.PNG */; };
+		3F0C47FD1C663686009F126A /* plan_b_ors_age.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47C91C663686009F126A /* plan_b_ors_age.png */; };
+		3F0C47FE1C663686009F126A /* plan_b_rehydrationsome.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47CA1C663686009F126A /* plan_b_rehydrationsome.PNG */; };
+		3F0C47FF1C663686009F126A /* quinine_table.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47CB1C663686009F126A /* quinine_table.png */; };
+		3F0C48001C663686009F126A /* rehydration_child_severe_dehydration.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47CC1C663686009F126A /* rehydration_child_severe_dehydration.PNG */; };
+		3F0C48011C663686009F126A /* rehydration_for_child_severe_dehydration.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47CD1C663686009F126A /* rehydration_for_child_severe_dehydration.PNG */; };
+		3F0C48021C663686009F126A /* rehydration_therapy_and_feeding.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47CE1C663686009F126A /* rehydration_therapy_and_feeding.PNG */; };
+		3F0C48031C663686009F126A /* rehydration_therapy_child_and_feeding.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47CF1C663686009F126A /* rehydration_therapy_child_and_feeding.PNG */; };
+		3F0C48041C663686009F126A /* supplement_multivitamin.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47D01C663686009F126A /* supplement_multivitamin.PNG */; };
+		3F0C48051C663686009F126A /* treat_wheezing.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47D11C663686009F126A /* treat_wheezing.PNG */; };
+		3F0C48061C663686009F126A /* vitamin_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47D21C663686009F126A /* vitamin_a.png */; };
+		3F0C48071C663686009F126A /* young_appropriate_oral_antibiotic.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47D31C663686009F126A /* young_appropriate_oral_antibiotic.PNG */; };
+		3F0C48081C663686009F126A /* young_give_zinc_sulphate.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47D41C663686009F126A /* young_give_zinc_sulphate.PNG */; };
+		3F0C48091C663686009F126A /* young_immunization_status.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47D51C663686009F126A /* young_immunization_status.png */; };
 		3F692F271C4CA1B900B0542E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F692F261C4CA1B900B0542E /* AppDelegate.swift */; };
 		3F692F291C4CA1B900B0542E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F692F281C4CA1B900B0542E /* ViewController.swift */; };
 		3F692F2C1C4CA1B900B0542E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F692F2A1C4CA1B900B0542E /* Main.storyboard */; };
 		3F692F311C4CA1B900B0542E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F692F2F1C4CA1B900B0542E /* LaunchScreen.storyboard */; };
 		3F692F3C1C4CA1B900B0542E /* IMCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F692F3B1C4CA1B900B0542E /* IMCITests.swift */; };
-		3FF006B11C525AF5003F2D52 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF006B01C525AF5003F2D52 /* ScrollViewController.swift */; };
-		3FF006B31C539069003F2D52 /* algorithm_for_early_diagnosis_hiv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF006B21C539069003F2D52 /* algorithm_for_early_diagnosis_hiv.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +77,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0C47A21C663686009F126A /* algorithm_for_early_diagnosis_hiv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = algorithm_for_early_diagnosis_hiv.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/algorithm_for_early_diagnosis_hiv.png"; sourceTree = "<group>"; };
+		3F0C47A31C663686009F126A /* artesunateforsevere_malaria.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = artesunateforsevere_malaria.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/artesunateforsevere_malaria.PNG"; sourceTree = "<group>"; };
+		3F0C47A41C663686009F126A /* breastfeeding_upto_six_months_one.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breastfeeding_upto_six_months_one.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/breastfeeding_upto_six_months_one.PNG"; sourceTree = "<group>"; };
+		3F0C47A51C663686009F126A /* breastfeeding_upto_six_months.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breastfeeding_upto_six_months.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/breastfeeding_upto_six_months.PNG"; sourceTree = "<group>"; };
+		3F0C47A61C663686009F126A /* breastfeeding_upto_six_to_twelve_months_one.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breastfeeding_upto_six_to_twelve_months_one.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/breastfeeding_upto_six_to_twelve_months_one.PNG"; sourceTree = "<group>"; };
+		3F0C47A71C663686009F126A /* breastfeeding_upto_six_to_twelve_months.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breastfeeding_upto_six_to_twelve_months.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/breastfeeding_upto_six_to_twelve_months.PNG"; sourceTree = "<group>"; };
+		3F0C47A81C663686009F126A /* breastfeeding_upto_twelve_to_two_years_one.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breastfeeding_upto_twelve_to_two_years_one.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/breastfeeding_upto_twelve_to_two_years_one.PNG"; sourceTree = "<group>"; };
+		3F0C47A91C663686009F126A /* breastfeeding_upto_twelve_to_two_years.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breastfeeding_upto_twelve_to_two_years.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/breastfeeding_upto_twelve_to_two_years.PNG"; sourceTree = "<group>"; };
+		3F0C47AA1C663686009F126A /* breastfeeding_upto_two_years_and_older_one.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breastfeeding_upto_two_years_and_older_one.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/breastfeeding_upto_two_years_and_older_one.PNG"; sourceTree = "<group>"; };
+		3F0C47AB1C663686009F126A /* breastfeeding_upto_two_years_and_older.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = breastfeeding_upto_two_years_and_older.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/breastfeeding_upto_two_years_and_older.PNG"; sourceTree = "<group>"; };
+		3F0C47AC1C663686009F126A /* care_for_development_0_4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = care_for_development_0_4.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/care_for_development_0_4.PNG"; sourceTree = "<group>"; };
+		3F0C47AD1C663686009F126A /* care_for_development_4_6.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = care_for_development_4_6.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/care_for_development_4_6.PNG"; sourceTree = "<group>"; };
+		3F0C47AE1C663686009F126A /* care_for_development.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = care_for_development.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/care_for_development.PNG"; sourceTree = "<group>"; };
+		3F0C47AF1C663686009F126A /* counsel_follow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = counsel_follow_up.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/counsel_follow_up.png"; sourceTree = "<group>"; };
+		3F0C47B01C663686009F126A /* counsel_when_to_return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = counsel_when_to_return.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/counsel_when_to_return.png"; sourceTree = "<group>"; };
+		3F0C47B11C663686009F126A /* dose_of_cotrimoxazole.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dose_of_cotrimoxazole.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/dose_of_cotrimoxazole.PNG"; sourceTree = "<group>"; };
+		3F0C47B21C663686009F126A /* drug_antibiotic_pneumonia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drug_antibiotic_pneumonia.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/drug_antibiotic_pneumonia.png"; sourceTree = "<group>"; };
+		3F0C47B31C663686009F126A /* drug_antibioticfor_shigella.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drug_antibioticfor_shigella.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/drug_antibioticfor_shigella.PNG"; sourceTree = "<group>"; };
+		3F0C47B41C663686009F126A /* drug_oral_ironfolate.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drug_oral_ironfolate.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/drug_oral_ironfolate.PNG"; sourceTree = "<group>"; };
+		3F0C47B51C663686009F126A /* drug_oralantimalarial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drug_oralantimalarial.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/drug_oralantimalarial.png"; sourceTree = "<group>"; };
+		3F0C47B61C663686009F126A /* drug_oralparacetamolfever.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drug_oralparacetamolfever.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/drug_oralparacetamolfever.PNG"; sourceTree = "<group>"; };
+		3F0C47B71C663686009F126A /* drug_oralsalbutamol.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drug_oralsalbutamol.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/drug_oralsalbutamol.PNG"; sourceTree = "<group>"; };
+		3F0C47B81C663686009F126A /* drug_oralvitamin_a.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drug_oralvitamin_a.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/drug_oralvitamin_a.PNG"; sourceTree = "<group>"; };
+		3F0C47B91C663686009F126A /* drug_oralzincsulphate.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drug_oralzincsulphate.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/drug_oralzincsulphate.PNG"; sourceTree = "<group>"; };
+		3F0C47BA1C663686009F126A /* drug_rapid_actingbrochodilator.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drug_rapid_actingbrochodilator.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/drug_rapid_actingbrochodilator.PNG"; sourceTree = "<group>"; };
+		3F0C47BB1C663686009F126A /* drug_secondline_antimalarial.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drug_secondline_antimalarial.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/drug_secondline_antimalarial.PNG"; sourceTree = "<group>"; };
+		3F0C47BC1C663686009F126A /* first_dose_of_intramuscular_antibiotics.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first_dose_of_intramuscular_antibiotics.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/first_dose_of_intramuscular_antibiotics.PNG"; sourceTree = "<group>"; };
+		3F0C47BD1C663686009F126A /* guidlines_on_nevirapine.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guidlines_on_nevirapine.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/guidlines_on_nevirapine.PNG"; sourceTree = "<group>"; };
+		3F0C47BE1C663686009F126A /* home_care_followup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_care_followup.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/home_care_followup.png"; sourceTree = "<group>"; };
+		3F0C47BF1C663686009F126A /* home_care_when_to_return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_care_when_to_return.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/home_care_when_to_return.png"; sourceTree = "<group>"; };
+		3F0C47C01C663686009F126A /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_launcher.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/ic_launcher.png"; sourceTree = "<group>"; };
+		3F0C47C11C663686009F126A /* immunization_status_infant.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = immunization_status_infant.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/immunization_status_infant.PNG"; sourceTree = "<group>"; };
+		3F0C47C21C663686009F126A /* immunization_table.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = immunization_table.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/immunization_table.PNG"; sourceTree = "<group>"; };
+		3F0C47C31C663686009F126A /* intramuscular_antibiotic.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intramuscular_antibiotic.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/intramuscular_antibiotic.PNG"; sourceTree = "<group>"; };
+		3F0C47C41C663686009F126A /* mebendazole.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mebendazole.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/mebendazole.PNG"; sourceTree = "<group>"; };
+		3F0C47C51C663686009F126A /* medicationmetronidazole_dysentry.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medicationmetronidazole_dysentry.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/medicationmetronidazole_dysentry.PNG"; sourceTree = "<group>"; };
+		3F0C47C61C663686009F126A /* nvp_dosage_for_infants.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nvp_dosage_for_infants.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/nvp_dosage_for_infants.PNG"; sourceTree = "<group>"; };
+		3F0C47C71C663686009F126A /* oraldrugscholera.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oraldrugscholera.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/oraldrugscholera.PNG"; sourceTree = "<group>"; };
+		3F0C47C81C663686009F126A /* paeds_chart.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paeds_chart.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/paeds_chart.PNG"; sourceTree = "<group>"; };
+		3F0C47C91C663686009F126A /* plan_b_ors_age.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plan_b_ors_age.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/plan_b_ors_age.png"; sourceTree = "<group>"; };
+		3F0C47CA1C663686009F126A /* plan_b_rehydrationsome.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plan_b_rehydrationsome.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/plan_b_rehydrationsome.PNG"; sourceTree = "<group>"; };
+		3F0C47CB1C663686009F126A /* quinine_table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quinine_table.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/quinine_table.png"; sourceTree = "<group>"; };
+		3F0C47CC1C663686009F126A /* rehydration_child_severe_dehydration.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rehydration_child_severe_dehydration.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/rehydration_child_severe_dehydration.PNG"; sourceTree = "<group>"; };
+		3F0C47CD1C663686009F126A /* rehydration_for_child_severe_dehydration.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rehydration_for_child_severe_dehydration.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/rehydration_for_child_severe_dehydration.PNG"; sourceTree = "<group>"; };
+		3F0C47CE1C663686009F126A /* rehydration_therapy_and_feeding.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rehydration_therapy_and_feeding.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/rehydration_therapy_and_feeding.PNG"; sourceTree = "<group>"; };
+		3F0C47CF1C663686009F126A /* rehydration_therapy_child_and_feeding.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rehydration_therapy_child_and_feeding.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/rehydration_therapy_child_and_feeding.PNG"; sourceTree = "<group>"; };
+		3F0C47D01C663686009F126A /* supplement_multivitamin.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = supplement_multivitamin.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/supplement_multivitamin.PNG"; sourceTree = "<group>"; };
+		3F0C47D11C663686009F126A /* treat_wheezing.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = treat_wheezing.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/treat_wheezing.PNG"; sourceTree = "<group>"; };
+		3F0C47D21C663686009F126A /* vitamin_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vitamin_a.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/vitamin_a.png"; sourceTree = "<group>"; };
+		3F0C47D31C663686009F126A /* young_appropriate_oral_antibiotic.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = young_appropriate_oral_antibiotic.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/young_appropriate_oral_antibiotic.PNG"; sourceTree = "<group>"; };
+		3F0C47D41C663686009F126A /* young_give_zinc_sulphate.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = young_give_zinc_sulphate.PNG; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/young_give_zinc_sulphate.PNG"; sourceTree = "<group>"; };
+		3F0C47D51C663686009F126A /* young_immunization_status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = young_immunization_status.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/young_immunization_status.png"; sourceTree = "<group>"; };
 		3F692F231C4CA1B800B0542E /* IMCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F692F261C4CA1B900B0542E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F692F281C4CA1B900B0542E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,8 +138,6 @@
 		3F692F371C4CA1B900B0542E /* IMCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F692F3B1C4CA1B900B0542E /* IMCITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCITests.swift; sourceTree = "<group>"; };
 		3F692F3D1C4CA1B900B0542E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FF006B01C525AF5003F2D52 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
-		3FF006B21C539069003F2D52 /* algorithm_for_early_diagnosis_hiv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = algorithm_for_early_diagnosis_hiv.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +158,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F0C479F1C6634FA009F126A /* Images.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+				3F0C47A21C663686009F126A /* algorithm_for_early_diagnosis_hiv.png */,
+				3F0C47A31C663686009F126A /* artesunateforsevere_malaria.PNG */,
+				3F0C47A41C663686009F126A /* breastfeeding_upto_six_months_one.PNG */,
+				3F0C47A51C663686009F126A /* breastfeeding_upto_six_months.PNG */,
+				3F0C47A61C663686009F126A /* breastfeeding_upto_six_to_twelve_months_one.PNG */,
+				3F0C47A71C663686009F126A /* breastfeeding_upto_six_to_twelve_months.PNG */,
+				3F0C47A81C663686009F126A /* breastfeeding_upto_twelve_to_two_years_one.PNG */,
+				3F0C47A91C663686009F126A /* breastfeeding_upto_twelve_to_two_years.PNG */,
+				3F0C47AA1C663686009F126A /* breastfeeding_upto_two_years_and_older_one.PNG */,
+				3F0C47AB1C663686009F126A /* breastfeeding_upto_two_years_and_older.PNG */,
+				3F0C47AC1C663686009F126A /* care_for_development_0_4.PNG */,
+				3F0C47AD1C663686009F126A /* care_for_development_4_6.PNG */,
+				3F0C47AE1C663686009F126A /* care_for_development.PNG */,
+				3F0C47AF1C663686009F126A /* counsel_follow_up.png */,
+				3F0C47B01C663686009F126A /* counsel_when_to_return.png */,
+				3F0C47B11C663686009F126A /* dose_of_cotrimoxazole.PNG */,
+				3F0C47B21C663686009F126A /* drug_antibiotic_pneumonia.png */,
+				3F0C47B31C663686009F126A /* drug_antibioticfor_shigella.PNG */,
+				3F0C47B41C663686009F126A /* drug_oral_ironfolate.PNG */,
+				3F0C47B51C663686009F126A /* drug_oralantimalarial.png */,
+				3F0C47B61C663686009F126A /* drug_oralparacetamolfever.PNG */,
+				3F0C47B71C663686009F126A /* drug_oralsalbutamol.PNG */,
+				3F0C47B81C663686009F126A /* drug_oralvitamin_a.PNG */,
+				3F0C47B91C663686009F126A /* drug_oralzincsulphate.PNG */,
+				3F0C47BA1C663686009F126A /* drug_rapid_actingbrochodilator.PNG */,
+				3F0C47BB1C663686009F126A /* drug_secondline_antimalarial.PNG */,
+				3F0C47BC1C663686009F126A /* first_dose_of_intramuscular_antibiotics.PNG */,
+				3F0C47BD1C663686009F126A /* guidlines_on_nevirapine.PNG */,
+				3F0C47BE1C663686009F126A /* home_care_followup.png */,
+				3F0C47BF1C663686009F126A /* home_care_when_to_return.png */,
+				3F0C47C01C663686009F126A /* ic_launcher.png */,
+				3F0C47C11C663686009F126A /* immunization_status_infant.PNG */,
+				3F0C47C21C663686009F126A /* immunization_table.PNG */,
+				3F0C47C31C663686009F126A /* intramuscular_antibiotic.PNG */,
+				3F0C47C41C663686009F126A /* mebendazole.PNG */,
+				3F0C47C51C663686009F126A /* medicationmetronidazole_dysentry.PNG */,
+				3F0C47C61C663686009F126A /* nvp_dosage_for_infants.PNG */,
+				3F0C47C71C663686009F126A /* oraldrugscholera.PNG */,
+				3F0C47C81C663686009F126A /* paeds_chart.PNG */,
+				3F0C47C91C663686009F126A /* plan_b_ors_age.png */,
+				3F0C47CA1C663686009F126A /* plan_b_rehydrationsome.PNG */,
+				3F0C47CB1C663686009F126A /* quinine_table.png */,
+				3F0C47CC1C663686009F126A /* rehydration_child_severe_dehydration.PNG */,
+				3F0C47CD1C663686009F126A /* rehydration_for_child_severe_dehydration.PNG */,
+				3F0C47CE1C663686009F126A /* rehydration_therapy_and_feeding.PNG */,
+				3F0C47CF1C663686009F126A /* rehydration_therapy_child_and_feeding.PNG */,
+				3F0C47D01C663686009F126A /* supplement_multivitamin.PNG */,
+				3F0C47D11C663686009F126A /* treat_wheezing.PNG */,
+				3F0C47D21C663686009F126A /* vitamin_a.png */,
+				3F0C47D31C663686009F126A /* young_appropriate_oral_antibiotic.PNG */,
+				3F0C47D41C663686009F126A /* young_give_zinc_sulphate.PNG */,
+				3F0C47D51C663686009F126A /* young_immunization_status.png */,
+			);
+			name = Images.xcassets;
+			sourceTree = "<group>";
+		};
 		3F692F1A1C4CA1B800B0542E = {
 			isa = PBXGroup;
 			children = (
@@ -79,11 +238,10 @@
 		3F692F251C4CA1B900B0542E /* IMCI */ = {
 			isa = PBXGroup;
 			children = (
-				3FF006B21C539069003F2D52 /* algorithm_for_early_diagnosis_hiv.png */,
+				3F0C479F1C6634FA009F126A /* Images.xcassets */,
 				3F692F261C4CA1B900B0542E /* AppDelegate.swift */,
 				3F692F281C4CA1B900B0542E /* ViewController.swift */,
 				3F692F2A1C4CA1B900B0542E /* Main.storyboard */,
-				3FF006B01C525AF5003F2D52 /* ScrollViewController.swift */,
 				3F692F2F1C4CA1B900B0542E /* LaunchScreen.storyboard */,
 				3F692F321C4CA1B900B0542E /* Info.plist */,
 			);
@@ -183,8 +341,59 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F692F311C4CA1B900B0542E /* LaunchScreen.storyboard in Resources */,
+				3F0C47E61C663686009F126A /* drug_antibiotic_pneumonia.png in Resources */,
+				3F0C48091C663686009F126A /* young_immunization_status.png in Resources */,
+				3F0C47DC1C663686009F126A /* breastfeeding_upto_twelve_to_two_years_one.PNG in Resources */,
+				3F0C48061C663686009F126A /* vitamin_a.png in Resources */,
+				3F0C47E11C663686009F126A /* care_for_development_4_6.PNG in Resources */,
+				3F0C47FD1C663686009F126A /* plan_b_ors_age.png in Resources */,
+				3F0C48071C663686009F126A /* young_appropriate_oral_antibiotic.PNG in Resources */,
+				3F0C47F31C663686009F126A /* home_care_when_to_return.png in Resources */,
+				3F0C47FC1C663686009F126A /* paeds_chart.PNG in Resources */,
+				3F0C47E71C663686009F126A /* drug_antibioticfor_shigella.PNG in Resources */,
+				3F0C47ED1C663686009F126A /* drug_oralzincsulphate.PNG in Resources */,
+				3F0C47FA1C663686009F126A /* nvp_dosage_for_infants.PNG in Resources */,
+				3F0C48081C663686009F126A /* young_give_zinc_sulphate.PNG in Resources */,
+				3F0C47F41C663686009F126A /* ic_launcher.png in Resources */,
+				3F0C47D71C663686009F126A /* artesunateforsevere_malaria.PNG in Resources */,
+				3F0C48011C663686009F126A /* rehydration_for_child_severe_dehydration.PNG in Resources */,
+				3F0C47FF1C663686009F126A /* quinine_table.png in Resources */,
+				3F0C47E51C663686009F126A /* dose_of_cotrimoxazole.PNG in Resources */,
+				3F0C47EF1C663686009F126A /* drug_secondline_antimalarial.PNG in Resources */,
+				3F0C47E81C663686009F126A /* drug_oral_ironfolate.PNG in Resources */,
+				3F0C48041C663686009F126A /* supplement_multivitamin.PNG in Resources */,
+				3F0C48021C663686009F126A /* rehydration_therapy_and_feeding.PNG in Resources */,
+				3F0C47F21C663686009F126A /* home_care_followup.png in Resources */,
+				3F0C47E21C663686009F126A /* care_for_development.PNG in Resources */,
 				3F692F2C1C4CA1B900B0542E /* Main.storyboard in Resources */,
-				3FF006B31C539069003F2D52 /* algorithm_for_early_diagnosis_hiv.png in Resources */,
+				3F0C47DB1C663686009F126A /* breastfeeding_upto_six_to_twelve_months.PNG in Resources */,
+				3F0C47E31C663686009F126A /* counsel_follow_up.png in Resources */,
+				3F0C48031C663686009F126A /* rehydration_therapy_child_and_feeding.PNG in Resources */,
+				3F0C47D91C663686009F126A /* breastfeeding_upto_six_months.PNG in Resources */,
+				3F0C47FE1C663686009F126A /* plan_b_rehydrationsome.PNG in Resources */,
+				3F0C47F71C663686009F126A /* intramuscular_antibiotic.PNG in Resources */,
+				3F0C47EB1C663686009F126A /* drug_oralsalbutamol.PNG in Resources */,
+				3F0C47DE1C663686009F126A /* breastfeeding_upto_two_years_and_older_one.PNG in Resources */,
+				3F0C47D81C663686009F126A /* breastfeeding_upto_six_months_one.PNG in Resources */,
+				3F0C47F11C663686009F126A /* guidlines_on_nevirapine.PNG in Resources */,
+				3F0C47EA1C663686009F126A /* drug_oralparacetamolfever.PNG in Resources */,
+				3F0C47F01C663686009F126A /* first_dose_of_intramuscular_antibiotics.PNG in Resources */,
+				3F0C47F81C663686009F126A /* mebendazole.PNG in Resources */,
+				3F0C47E41C663686009F126A /* counsel_when_to_return.png in Resources */,
+				3F0C47D61C663686009F126A /* algorithm_for_early_diagnosis_hiv.png in Resources */,
+				3F0C48051C663686009F126A /* treat_wheezing.PNG in Resources */,
+				3F0C47F91C663686009F126A /* medicationmetronidazole_dysentry.PNG in Resources */,
+				3F0C47EE1C663686009F126A /* drug_rapid_actingbrochodilator.PNG in Resources */,
+				3F0C47DA1C663686009F126A /* breastfeeding_upto_six_to_twelve_months_one.PNG in Resources */,
+				3F0C47FB1C663686009F126A /* oraldrugscholera.PNG in Resources */,
+				3F0C48001C663686009F126A /* rehydration_child_severe_dehydration.PNG in Resources */,
+				3F0C47E91C663686009F126A /* drug_oralantimalarial.png in Resources */,
+				3F0C47EC1C663686009F126A /* drug_oralvitamin_a.PNG in Resources */,
+				3F0C47DF1C663686009F126A /* breastfeeding_upto_two_years_and_older.PNG in Resources */,
+				3F0C47F61C663686009F126A /* immunization_table.PNG in Resources */,
+				3F0C47F51C663686009F126A /* immunization_status_infant.PNG in Resources */,
+				3F0C47DD1C663686009F126A /* breastfeeding_upto_twelve_to_two_years.PNG in Resources */,
+				3F0C47E01C663686009F126A /* care_for_development_0_4.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +413,6 @@
 			files = (
 				3F692F291C4CA1B900B0542E /* ViewController.swift in Sources */,
 				3F692F271C4CA1B900B0542E /* AppDelegate.swift in Sources */,
-				3FF006B11C525AF5003F2D52 /* ScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
