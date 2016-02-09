@@ -745,6 +745,9 @@
                                 <state key="normal" title="Feeding problem">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="KT1-CU-zAP" kind="show" id="3Mu-3z-wF4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="YgV-6I-hVw">
                                 <rect key="frame" x="10" y="262" width="580" height="30"/>
@@ -753,6 +756,9 @@
                                 <state key="normal" title="Low weight or low birth weight">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Mlh-b7-iDx" kind="show" id="boD-t2-An7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GGJ-ee-Zv0">
                                 <rect key="frame" x="10" y="300" width="580" height="30"/>
@@ -761,6 +767,9 @@
                                 <state key="normal" title="Thrush or mouth ulcers">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZWO-v2-xFW" kind="show" id="nm5-o7-oLq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -912,9 +921,9 @@ Look for jaundice
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bwS-Rq-jH2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2166" y="2221"/>
+            <point key="canvasLocation" x="-2158" y="2252"/>
         </scene>
-        <!--Item 2-->
+        <!--Treatment-->
         <scene sceneID="A3G-0k-MpJ">
             <objects>
                 <viewController id="EJ3-m0-IL4" sceneMemberID="viewController">
@@ -937,13 +946,13 @@ Look for jaundice
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="HOP-Ea-mGP"/>
+                    <tabBarItem key="tabBarItem" title="Treatment" id="HOP-Ea-mGP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HyX-Pg-EHq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1541" y="3530"/>
         </scene>
-        <!--Item 1-->
+        <!--Assess-->
         <scene sceneID="Cak-St-AmE">
             <objects>
                 <viewController id="PnB-5W-D9q" sceneMemberID="viewController">
@@ -966,7 +975,7 @@ Look for jaundice
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="igm-2U-eb8"/>
+                    <tabBarItem key="tabBarItem" title="Assess" id="igm-2U-eb8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B0k-4C-RDF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -989,6 +998,174 @@ Look for jaundice
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A8N-1K-hFb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1541" y="2221"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="yPI-T0-GFg">
+            <objects>
+                <viewController id="IhC-kK-p5U" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XAm-Rv-tGt"/>
+                        <viewControllerLayoutGuide type="bottom" id="kpB-ex-85Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kQJ-Ve-7T0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="9Fb-ys-zCU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yax-BK-rkP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-898" y="3557"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="L4A-SZ-xV3">
+            <objects>
+                <viewController id="axf-vs-4Uz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g5c-he-ni9"/>
+                        <viewControllerLayoutGuide type="bottom" id="qfF-3y-67S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gs5-1I-ayA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="bla-2X-ia3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iu9-9V-SeO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-286" y="3547"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="s8G-sL-DQo">
+            <objects>
+                <viewController id="VeL-g8-koa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7v7-Gc-9VJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="K2L-BN-E8M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pR4-yW-8NI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="uxP-oh-QTz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hs9-vW-Xdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-286" y="2887"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="c0t-Xk-Nvm">
+            <objects>
+                <tabBarController id="Mlh-b7-iDx" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="xu7-B5-jSA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="VeL-g8-koa" kind="relationship" relationship="viewControllers" id="38r-AH-RTP"/>
+                        <segue destination="axf-vs-4Uz" kind="relationship" relationship="viewControllers" id="gfr-bU-L6b"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vVw-GB-Hnr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-286" y="2252"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="hgF-37-POu">
+            <objects>
+                <viewController id="dLL-6j-dOo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="djM-On-MCq"/>
+                        <viewControllerLayoutGuide type="bottom" id="TDx-re-pdK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c12-LR-KfL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="FwK-JB-8I2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hFY-2Z-Xi5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-906" y="2897"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="Wmt-Fz-X0W">
+            <objects>
+                <viewController id="Wes-S0-6JG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n1X-Sh-YYJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="qnQ-Ra-1Q0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MNT-mm-Jya">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="wPK-Bh-kZj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hWZ-h2-D8c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="337" y="3732"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="tav-hp-KIf">
+            <objects>
+                <viewController id="gWu-uh-erW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ci6-0r-FjZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wDp-Ot-O6X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZAh-Aq-VrR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="rc4-Rv-E2T"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hhN-dp-Q1z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="353" y="3045"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="thg-fK-KRg">
+            <objects>
+                <tabBarController id="ZWO-v2-xFW" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="swa-Rr-Hah">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gWu-uh-erW" kind="relationship" relationship="viewControllers" id="LJB-WP-ARH"/>
+                        <segue destination="Wes-S0-6JG" kind="relationship" relationship="viewControllers" id="jYB-0u-K3K"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v6J-RV-S5a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="317" y="2319"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="HBj-Rv-VDh">
+            <objects>
+                <tabBarController id="KT1-CU-zAP" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="bjQ-Fa-ieX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="dLL-6j-dOo" kind="relationship" relationship="viewControllers" id="xoF-c9-bvO"/>
+                        <segue destination="IhC-kK-p5U" kind="relationship" relationship="viewControllers" id="zW9-s7-QrI"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CTC-8j-9Gc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-898" y="2226"/>
         </scene>
         <!--Advice-->
         <scene sceneID="d8d-kQ-Z7a">
@@ -1628,7 +1805,7 @@ Look for jaundice
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ljf-QC-RW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2103" y="630"/>
+            <point key="canvasLocation" x="2855" y="638"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Lot-Iw-kXh">
@@ -2593,7 +2770,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qrk-ug-cc2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="328" y="-2447"/>
+            <point key="canvasLocation" x="1355" y="-2463"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iPc-jR-sS4">
@@ -2607,15 +2784,12 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rxP-Rh-Vjz">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rxP-Rh-Vjz">
                                 <rect key="frame" x="0.0" y="64" width="600" height="778"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zi-C7-YoU">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zi-C7-YoU">
                                         <rect key="frame" x="20" y="8" width="560" height="191"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="560" id="UP3-od-0Cq"/>
-                                        </constraints>
-                                        <mutableString key="text">Follow the instructions below for every oral drug to be given at home. Also follow the instructions listed with each drug’s dosage table.
+                                        <string key="text">Follow the instructions below for every oral drug to be given at home. Also follow the instructions listed with each drug’s dosage table.
 • Determine the appropriate drugs and dosage for the child’s weight and age.
 • Tell the mother the reason for giving the drug to the child.
 • Demonstrate how to measure a dose.
@@ -2624,76 +2798,102 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
 • Explain carefully how to give the drug, then label and package the drug.
 • If more than one drug will be given, collect ,count and package each drug separately.
 • Explain that all the oral drug tablets or syrups must be used to finish the course of treatment,even if the child gets better.
-• Check the mother’s understanding before she leaves the clinic.</mutableString>
+• Check the mother’s understanding before she leaves the clinic.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hP-ND-OFg">
                                         <rect key="frame" x="20" y="207" width="560" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="RL8-XE-9Ka"/>
-                                        </constraints>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Give an appropriate oral antibiotic"/>
+                                        <connections>
+                                            <segue destination="hUg-v9-LZm" kind="show" id="zA6-fB-vih"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svy-cg-3uz">
                                         <rect key="frame" x="20" y="245" width="560" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="re1-pw-2Wg"/>
-                                        </constraints>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Give Metronidazole"/>
+                                        <connections>
+                                            <segue destination="Ojn-nd-Pa5" kind="show" id="0yq-N5-H6S"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLv-5k-g5S">
                                         <rect key="frame" x="20" y="283" width="560" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="j5Q-pz-HYg"/>
-                                        </constraints>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Give an Oral Antimalarial"/>
+                                        <connections>
+                                            <segue destination="fRo-Ra-NcB" kind="show" id="urE-63-rWY"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2K-aJ-wTq">
                                         <rect key="frame" x="20" y="321" width="560" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="Iyp-VY-kkn"/>
-                                        </constraints>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Give Vitamin A"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ptg-9p-ShW">
-                                        <rect key="frame" x="20" y="359" width="560" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="AN4-PY-fRY"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <state key="normal" title="Give Iron and Folate"/>
+                                        <connections>
+                                            <segue destination="Hy6-rM-fXF" kind="show" id="2LU-zY-jaV"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tht-Eo-5DL">
                                         <rect key="frame" x="20" y="397" width="560" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="uWw-41-qgZ"/>
-                                        </constraints>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Give Zinc Sulphate"/>
+                                        <connections>
+                                            <segue destination="WC8-N3-LoQ" kind="show" id="o4S-Am-fPs"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKX-28-LZu">
                                         <rect key="frame" x="20" y="435" width="560" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="2ui-F7-ICh"/>
-                                        </constraints>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Give paracetamol for fever or ear pain"/>
+                                        <connections>
+                                            <segue destination="s6x-Xw-nOK" kind="show" id="3T1-W4-X67"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-RJ-dh9">
                                         <rect key="frame" x="20" y="473" width="560" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="kGl-b8-gmc"/>
-                                        </constraints>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Give Mebendazole or Albendazole"/>
+                                        <connections>
+                                            <segue destination="ZpU-Jj-bG4" kind="show" id="6Hf-GN-8Ul"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ptg-9p-ShW">
+                                        <rect key="frame" x="20" y="359" width="560" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="Give Iron and Folate"/>
+                                        <connections>
+                                            <segue destination="AVI-wW-a0J" kind="show" id="v6n-bZ-ZSc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="tht-Eo-5DL" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="5hV-Zh-sqs"/>
+                                    <constraint firstAttribute="trailing" secondItem="F2K-aJ-wTq" secondAttribute="trailing" constant="20" id="8LH-HT-QsH"/>
+                                    <constraint firstItem="F2K-aJ-wTq" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="8dN-bd-abb"/>
+                                    <constraint firstItem="SKX-28-LZu" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="9tv-Vt-W2o"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ptg-9p-ShW" secondAttribute="trailing" constant="20" id="FJU-9l-KzC"/>
+                                    <constraint firstItem="fLv-5k-g5S" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="FNg-Yn-O8B"/>
+                                    <constraint firstItem="5hP-ND-OFg" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="LT6-tC-lP3"/>
+                                    <constraint firstAttribute="trailing" secondItem="SKX-28-LZu" secondAttribute="trailing" constant="20" id="PLG-Gp-EJ8"/>
+                                    <constraint firstAttribute="trailing" secondItem="svy-cg-3uz" secondAttribute="trailing" constant="20" id="PnQ-y7-6PJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="tht-Eo-5DL" secondAttribute="trailing" constant="20" id="Rl8-5O-4Iq"/>
+                                    <constraint firstItem="NZ5-RJ-dh9" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="YLj-79-7wN"/>
+                                    <constraint firstItem="Ptg-9p-ShW" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="ZYe-Jf-pNL"/>
+                                    <constraint firstItem="svy-cg-3uz" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="i2r-lO-hZp"/>
+                                    <constraint firstAttribute="trailing" secondItem="5hP-ND-OFg" secondAttribute="trailing" constant="20" id="u80-wa-3aA"/>
+                                    <constraint firstAttribute="trailing" secondItem="fLv-5k-g5S" secondAttribute="trailing" constant="20" id="ugc-1h-MBn"/>
+                                    <constraint firstAttribute="trailing" secondItem="NZ5-RJ-dh9" secondAttribute="trailing" constant="20" id="zTO-xp-Cjw"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -2706,7 +2906,30 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3DT-XE-2mZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1150" y="-1201"/>
+            <point key="canvasLocation" x="3814" y="-33"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NIo-Tn-Bf7">
+            <objects>
+                <viewController id="ZpU-Jj-bG4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="thF-oc-lFK"/>
+                        <viewControllerLayoutGuide type="bottom" id="PUa-ly-pCP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IHZ-p4-dSd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mebendazole.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="hNC-D3-qwE">
+                                <rect key="frame" x="0.0" y="64" width="600" height="112"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1c7-ml-0Ym" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4910" y="2159"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IpZ-gO-M6f">
@@ -2740,43 +2963,63 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="diz-Jc-WJh">
                                         <rect key="frame" x="20" y="174" width="560" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="C85-dQ-1l0"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Treat Eye Infection with Tetracycline Ointment"/>
+                                        <connections>
+                                            <segue destination="Iqm-6z-lmc" kind="show" id="bte-GS-28L"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsp-uB-59B">
                                         <rect key="frame" x="20" y="212" width="560" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="Szn-TQ-FXj"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Dry the Ear by Wicking"/>
+                                        <connections>
+                                            <segue destination="R0B-CQ-FQf" kind="show" id="Tpk-mf-gtW"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6K2-Jq-tq6">
                                         <rect key="frame" x="20" y="250" width="560" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="f1h-B2-n3K"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Treat Mouth Ulcers with Gentian Violet"/>
+                                        <connections>
+                                            <segue destination="dYq-1S-PKk" kind="show" id="c8J-Zs-BHr"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UE0-ed-lvJ">
                                         <rect key="frame" x="20" y="288" width="560" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="HAt-kk-X6H"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Treat for Oral Thrush with Nystatin or GV"/>
+                                        <connections>
+                                            <segue destination="7gL-vJ-Wlk" kind="show" id="Ssb-xI-0Sa"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4d-na-LwR">
                                         <rect key="frame" x="20" y="326" width="560" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="6dS-xe-FPb"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Soothe the Throat, Releive the Cough wit Safe Remedy"/>
+                                        <connections>
+                                            <segue destination="6VS-4y-bbd" kind="show" id="gTs-Gx-Lnv"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -2788,7 +3031,314 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JFt-eJ-DCr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1780" y="-1201"/>
+            <point key="canvasLocation" x="4444" y="-108"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GXw-Yk-cay">
+            <objects>
+                <viewController id="Iqm-6z-lmc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jhx-LX-cVX"/>
+                        <viewControllerLayoutGuide type="bottom" id="o4i-GA-HVy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0hz-H6-YHU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6w-mn-3XR">
+                                <rect key="frame" x="20" y="72" width="560" height="158"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="9Wt-OB-2aY"/>
+                                </constraints>
+                                <string key="text">• Clean both eyes 3 times daily:
+	• Wash hands
+	• Ask child to close the eye.
+	• Use clean cloth and water to gentle wipe away pus form inside out.
+• Then apply tetracycline eye ointment on the inside of the lower lid.
+	• Ask the child to look up.
+	• Squirt a small amount of ointment on the inside of the lower lid.
+	• Wash hands again.
+• Treat until redness is gone.
+• Do not use other eye ointments or drops, or put anything else in the eye.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="x6w-mn-3XR" secondAttribute="leading" id="A7A-3u-Xzw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="x6w-mn-3XR" secondAttribute="trailing" id="H2k-jV-AXo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aP2-2Z-nRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4608" y="680"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="W4B-sn-P2W">
+            <objects>
+                <viewController id="R0B-CQ-FQf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fjE-DS-tVT"/>
+                        <viewControllerLayoutGuide type="bottom" id="YLb-Xz-0gh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1GO-9h-Zpa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97y-Xb-hQi">
+                                <rect key="frame" x="20" y="72" width="560" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="xCF-Hl-8kG"/>
+                                </constraints>
+                                <string key="text">• Dry the ear at least three times daily.
+	• Roll clean absorbent cloth or soft, strong tissue paper into a wick.
+	• Place the wick in child’s ear.
+	• Remove the wick when wet.
+	• Replace the wick with a clean one and repeat these steps until ear is dry.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uGf-9V-j9i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4904" y="862"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CMo-JO-akD">
+            <objects>
+                <viewController id="7gL-vJ-Wlk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hgn-o8-pcn"/>
+                        <viewControllerLayoutGuide type="bottom" id="HUn-qS-QHb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FVm-pe-EXv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nef-WR-2gS">
+                                <rect key="frame" x="20" y="72" width="560" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="MEP-Fu-FHG"/>
+                                </constraints>
+                                <string key="text">• Treat the mouth ulcers twice daily:
+	• Wash hands.
+	• Wash the child’s mouth with can soft cloth wrapped around the finger and wet with salt and water.
+	• Paint the mouth with half-strength gentian-violet.
+	• Wash hands again.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1uV-Ng-WUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5450" y="1238"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UHL-Ni-JMN">
+            <objects>
+                <viewController id="dYq-1S-PKk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Stn-3r-hqA"/>
+                        <viewControllerLayoutGuide type="bottom" id="M2x-hW-YuY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hgv-hz-wJr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7S-Vg-HvS">
+                                <rect key="frame" x="20" y="72" width="560" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="w1E-32-5gM"/>
+                                </constraints>
+                                <string key="text">• Dry the ear at least three times daily.
+	• Roll clean absorbent cloth or soft, strong tissue paper into a wick.
+	• Place the wick in child’s ear.
+	• Remove the wick when wet.
+	• Replace the wick with a clean one and repeat these steps until ear is dry.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Rh-nj-4jy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5195" y="1037"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lZk-L7-JXg">
+            <objects>
+                <viewController id="Ojn-nd-Pa5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Leg-2v-a0B"/>
+                        <viewControllerLayoutGuide type="bottom" id="S0A-2c-UUi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aBJ-s6-j19">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="medicationmetronidazole_dysentry.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="5EM-Af-xWs">
+                                <rect key="frame" x="0.0" y="64" width="600" height="269"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bX7-mo-fkR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3876" y="1025"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cOe-4l-FHR">
+            <objects>
+                <viewController id="fRo-Ra-NcB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lAf-j6-2qK"/>
+                        <viewControllerLayoutGuide type="bottom" id="WCe-Pv-OZU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GTR-h4-s8q">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drug_oralantimalarial.png" translatesAutoresizingMaskIntoConstraints="NO" id="ghX-Hr-8bO">
+                                <rect key="frame" x="0.0" y="64" width="600" height="436"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="96L-i3-hWi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4066" y="1197"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="29S-i3-nmP">
+            <objects>
+                <viewController id="hUg-v9-LZm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OlD-lO-FTH"/>
+                        <viewControllerLayoutGuide type="bottom" id="vSH-b3-0wl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yzs-O2-1u2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drug_antibiotic_pneumonia.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xns-gj-Su7">
+                                <rect key="frame" x="0.0" y="64" width="600" height="778"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dU5-sK-Gua" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3698" y="853"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="usB-yt-JKH">
+            <objects>
+                <viewController id="AVI-wW-a0J" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qiu-Md-avY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yhn-cb-XZy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A3a-6k-zf4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drug_oral_ironfolate.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="cCL-oR-nFU">
+                                <rect key="frame" x="0.0" y="64" width="600" height="302"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8M-Y6-KSY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4522" y="1667"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5AK-8O-iR9">
+            <objects>
+                <viewController id="WC8-N3-LoQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ayf-N0-UmT"/>
+                        <viewControllerLayoutGuide type="bottom" id="c7L-ZY-dNh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VYp-Tq-h7Y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drug_oralzincsulphate.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="hDQ-nH-K6m">
+                                <rect key="frame" x="0.0" y="72" width="600" height="165"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jwb-Oc-ONr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4743" y="1845"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Kff-Os-kfM">
+            <objects>
+                <viewController id="s6x-Xw-nOK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8mp-Yb-0nJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="DkU-3V-ooX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hht-ZQ-GhB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drug_oralparacetamolfever.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="IZx-BH-BdB">
+                                <rect key="frame" x="0.0" y="64" width="600" height="220"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aWm-dO-27x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5178" y="2319"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cB5-XR-7Oy">
+            <objects>
+                <viewController id="Hy6-rM-fXF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F4v-aR-UNf"/>
+                        <viewControllerLayoutGuide type="bottom" id="1aD-xd-C8L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ds9-cj-Vvb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drug_oralvitamin_a.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="WbY-uX-Amw">
+                                <rect key="frame" x="0.0" y="64" width="600" height="242"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gtl-vl-ujl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4272" y="1489"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6pR-dN-RKJ">
@@ -2899,37 +3449,42 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zxU-2E-0Vh">
-                                <rect key="frame" x="20" y="156" width="560" height="30"/>
+                                <rect key="frame" x="20" y="156" width="560" height="41"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="F8q-FZ-vwX"/>
+                                    <constraint firstAttribute="height" constant="41" id="UsX-3G-QSs"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Give an intramuscular antibiotic"/>
+                                <connections>
+                                    <segue destination="Efu-7F-THG" kind="show" id="w50-rw-8df"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="KUv-iT-hdw">
-                                <rect key="frame" x="20" y="194" width="560" height="66"/>
+                                <rect key="frame" x="20" y="220" width="560" height="41"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="66" id="7sY-oR-pKm"/>
+                                    <constraint firstAttribute="height" constant="41" id="pYu-sm-LsJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Treat the young infant to prevent low blood sugar"/>
+                                <connections>
+                                    <segue destination="8cV-dg-BnQ" kind="show" id="RLA-Rf-kob"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="9wo-Rf-MDZ" secondAttribute="trailing" id="4gP-f4-slP"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="zxU-2E-0Vh" secondAttribute="trailing" id="6mD-Vb-NEX"/>
-                            <constraint firstItem="b9E-wp-b7W" firstAttribute="top" secondItem="KUv-iT-hdw" secondAttribute="bottom" constant="340" id="D54-pD-BTo"/>
-                            <constraint firstItem="zxU-2E-0Vh" firstAttribute="centerX" secondItem="EIR-7d-QZv" secondAttribute="centerX" id="KyM-EI-DkQ"/>
-                            <constraint firstItem="KUv-iT-hdw" firstAttribute="centerX" secondItem="EIR-7d-QZv" secondAttribute="centerX" id="MTD-L7-zbr"/>
-                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="centerX" secondItem="EIR-7d-QZv" secondAttribute="centerX" id="OWr-Ib-ftR"/>
-                            <constraint firstItem="zxU-2E-0Vh" firstAttribute="top" secondItem="9wo-Rf-MDZ" secondAttribute="bottom" constant="8" id="PAp-Wy-swQ"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="zxU-2E-0Vh" secondAttribute="leading" id="Yvd-vb-El3"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="KUv-iT-hdw" secondAttribute="trailing" id="ZIj-eU-fxF"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="9wo-Rf-MDZ" secondAttribute="leading" id="cJ6-Wf-RhW"/>
-                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="top" secondItem="IjC-ef-vCN" secondAttribute="bottom" constant="1" id="jOo-u9-zeR"/>
-                            <constraint firstItem="KUv-iT-hdw" firstAttribute="top" secondItem="zxU-2E-0Vh" secondAttribute="bottom" constant="8" id="nc3-DY-yYl"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="KUv-iT-hdw" secondAttribute="leading" id="vSA-4V-0un"/>
+                            <constraint firstItem="zxU-2E-0Vh" firstAttribute="leading" secondItem="EIR-7d-QZv" secondAttribute="leadingMargin" id="6Qf-OV-74y"/>
+                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="leading" secondItem="zxU-2E-0Vh" secondAttribute="leading" id="6un-eX-SdW"/>
+                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="trailing" secondItem="EIR-7d-QZv" secondAttribute="trailingMargin" id="Brx-ZJ-Hor"/>
+                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="trailing" secondItem="zxU-2E-0Vh" secondAttribute="trailing" id="PDd-Td-P31"/>
+                            <constraint firstItem="KUv-iT-hdw" firstAttribute="trailing" secondItem="zxU-2E-0Vh" secondAttribute="trailing" id="R1D-ca-7oB"/>
+                            <constraint firstItem="zxU-2E-0Vh" firstAttribute="top" secondItem="9wo-Rf-MDZ" secondAttribute="bottom" constant="8" id="cV4-uD-yox"/>
+                            <constraint firstItem="KUv-iT-hdw" firstAttribute="leading" secondItem="zxU-2E-0Vh" secondAttribute="leading" id="fbZ-qb-Gyk"/>
+                            <constraint firstItem="KUv-iT-hdw" firstAttribute="top" secondItem="zxU-2E-0Vh" secondAttribute="bottom" constant="23" id="uVE-Ph-uxj"/>
+                            <constraint firstItem="b9E-wp-b7W" firstAttribute="top" secondItem="KUv-iT-hdw" secondAttribute="bottom" constant="339" id="ulv-1g-amv"/>
+                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="top" secondItem="IjC-ef-vCN" secondAttribute="bottom" constant="1" id="xYq-Jc-GYg"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ap1-aM-mij"/>
@@ -2937,6 +3492,153 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DcU-gR-Yeu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2398" y="-2868"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hz5-43-Kix">
+            <objects>
+                <viewController id="8cV-dg-BnQ" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OaX-P8-B1p"/>
+                        <viewControllerLayoutGuide type="bottom" id="eQX-8w-qmo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jSX-lb-hnA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="900"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ff-aW-1pk">
+                                <rect key="frame" x="0.0" y="64" width="600" height="828"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xuu-DO-yGy">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="42"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">	If the child is able to breastfeed:</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7S-sr-eNL">
+                                        <rect key="frame" x="0.0" y="88" width="600" height="42"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">	If the child is not able to breastfeed but is able to swallow:</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cc-3B-u6Q">
+                                        <rect key="frame" x="0.0" y="184" width="600" height="53"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">	To make sugar water: Dissolve 4 level teaspoons of sugar (20 grams) in a 200 ml cup of clean water.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0S-gr-x79">
+                                        <rect key="frame" x="0.0" y="238" width="600" height="36"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">	If the child is not able to swallow</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgc-6c-BKT">
+                                        <rect key="frame" x="0.0" y="328" width="600" height="36"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">	If low blood sugar* is suspected</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ask the mother to breatfeed the infant." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucw-nf-CSb">
+                                        <rect key="frame" x="20" y="45" width="560" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="hTH-hJ-Psa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Give 20-50 ml(10ml/kg) expressed breast milk and if not available, give 20-50ml (10ml/kg) sugar water before referral" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfO-YF-4gm">
+                                        <rect key="frame" x="20" y="132" width="565" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="qdL-me-oai"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Give 20-50 ml(10ml/kg) expressed breast milk or sugar water by nasogastric tube (NG tube)." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bR3-Ac-Uxq">
+                                        <rect key="frame" x="20" y="276" width="565" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="agS-MP-otC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUx-rR-nrk">
+                                        <rect key="frame" x="20" y="366" width="565" height="55"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="9GI-LK-gHT"/>
+                                        </constraints>
+                                        <string key="text">Give 10% glucose 10ml/kg by nasogastric tube give same amount slowly intravenously. (To make 10% glucose mix one part of 50% glucose with 4 parts water for injection)</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RkR-1T-RGO">
+                                        <rect key="frame" x="20" y="429" width="553" height="73"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="97" id="X1h-pB-N4i"/>
+                                        </constraints>
+                                        <string key="text">* Low blood sugar(hypoglycaemia) may be suspected in any infant or child who is convulsing or has low of consciousness for which is no obvious cause; has a rectal temperature of below 35.5˚C is drowsy or sweating, is lethargic, floppy or jittery.</string>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="900"/>
+                    <connections>
+                        <outlet property="scroller" destination="7ff-aW-1pk" id="Kmc-mB-bTh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fb0-ai-rja" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2410" y="-1415"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jWu-cd-fO9">
+            <objects>
+                <viewController id="Efu-7F-THG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Kb-9T-LTu"/>
+                        <viewControllerLayoutGuide type="bottom" id="b1O-Ow-B1R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kTZ-DB-HgG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Give first dose of benzylpenicillin and gentamicin intramuscular." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AF9-51-4CV">
+                                <rect key="frame" x="20" y="72" width="565" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="first_dose_of_intramuscular_antibiotics.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="VEl-Js-3Hc">
+                                <rect key="frame" x="0.0" y="127" width="600" height="281"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z9g-uB-UsF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2398" y="-2232"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OGn-8b-Tkh">
@@ -2970,28 +3672,36 @@ Also follow the instructions listed with each drug's dosage table.
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SvL-wG-UT6">
                                 <rect key="frame" x="20" y="270" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="57t-yv-3zz"/>
                                 </constraints>
                                 <state key="normal" title="Give an Appropriate Oral Antibiotic"/>
+                                <connections>
+                                    <segue destination="tIa-gf-fu8" kind="show" id="IrN-31-8g1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1F-Yq-nID">
-                                <rect key="frame" x="20" y="301" width="560" height="30"/>
+                                <rect key="frame" x="20" y="322" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="jCU-pA-SeT"/>
                                 </constraints>
                                 <state key="normal" title="Give Zinc Sulphate"/>
+                                <connections>
+                                    <segue destination="HMh-Q6-syr" kind="show" id="UiE-s7-8Pd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="SvL-wG-UT6" firstAttribute="top" secondItem="Ut6-5d-0LC" secondAttribute="bottom" constant="8" id="418-yv-L90"/>
                             <constraint firstAttribute="trailingMargin" secondItem="O1F-Yq-nID" secondAttribute="trailing" id="DrR-CW-KWM"/>
-                            <constraint firstItem="O1F-Yq-nID" firstAttribute="top" secondItem="SvL-wG-UT6" secondAttribute="bottom" constant="1" id="E2T-9U-bS5"/>
+                            <constraint firstItem="O1F-Yq-nID" firstAttribute="top" secondItem="SvL-wG-UT6" secondAttribute="bottom" constant="22" id="E2T-9U-bS5"/>
                             <constraint firstItem="O1F-Yq-nID" firstAttribute="centerX" secondItem="VfF-NY-Eoh" secondAttribute="centerX" id="Kdo-7t-s8W"/>
                             <constraint firstAttribute="leadingMargin" secondItem="O1F-Yq-nID" secondAttribute="leading" id="KuH-Gy-Uhf"/>
                             <constraint firstItem="Ut6-5d-0LC" firstAttribute="top" secondItem="LlZ-qI-iA6" secondAttribute="bottom" constant="8" symbolic="YES" id="OdF-Of-BRx"/>
-                            <constraint firstItem="br9-31-C3m" firstAttribute="top" secondItem="O1F-Yq-nID" secondAttribute="bottom" constant="269" id="WjD-2I-xL1"/>
+                            <constraint firstItem="br9-31-C3m" firstAttribute="top" secondItem="O1F-Yq-nID" secondAttribute="bottom" constant="248" id="WjD-2I-xL1"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Ut6-5d-0LC" secondAttribute="leading" id="dfn-f5-qzx"/>
                             <constraint firstAttribute="leadingMargin" secondItem="SvL-wG-UT6" secondAttribute="leading" id="juk-cH-6Rs"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ut6-5d-0LC" secondAttribute="trailing" id="ni4-7I-4II"/>
@@ -3007,6 +3717,65 @@ Also follow the instructions listed with each drug's dosage table.
             <point key="canvasLocation" x="3034" y="-2868"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="f7p-HT-yTS">
+            <objects>
+                <viewController id="tIa-gf-fu8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ecK-5S-hgF"/>
+                        <viewControllerLayoutGuide type="bottom" id="WVm-8E-qJ2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hY9-WT-R5d">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="young_appropriate_oral_antibiotic.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="flD-pd-G4c">
+                                <rect key="frame" x="0.0" y="64" width="600" height="294"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DnI-bP-8Pb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3034" y="-2232"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fLV-bG-Fdg">
+            <objects>
+                <viewController id="qaI-lg-Goh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v7j-EA-KQc"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hzh-VU-mgH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e61-pg-jKl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNE-tH-nbj">
+                                <rect key="frame" x="20" y="72" width="560" height="144"/>
+                                <string key="text">Treat eye infection with Tetracycline Eye Ointment
+• Clean both eyes 3 times daily.
+	* Wash hand.
+	* use clean clot and water to gently wipe away pus.
+• Then apply tetracycline eye ointment in both eyes times daily.
+ 	• Open the eyes of the young infant.
+	• Squirt a small amount of ointment on the inside of the lower lid.
+	• Wash hands again.
+• Treat until redness is gone.
+• Do not use other eye ointments or drops, or put  anything else in the eye.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eyd-Ue-dXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3671" y="-2216"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="FPy-qa-dAv">
             <objects>
                 <viewController id="rM2-Tc-EL7" sceneMemberID="viewController">
@@ -3019,7 +3788,7 @@ Also follow the instructions listed with each drug's dosage table.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5r-qw-cgx">
-                                <rect key="frame" x="20" y="72" width="280" height="142"/>
+                                <rect key="frame" x="20" y="72" width="280" height="110"/>
                                 <string key="text">* Explain how the treatment is given.
 * Watch her as she does the treatment in the clinic.
 * She should return to the clininc if the infection worsens.
@@ -3029,28 +3798,52 @@ Also follow the instructions listed with each drug's dosage table.
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Cua-kO-vb3">
-                                <rect key="frame" x="20" y="237" width="280" height="55"/>
+                                <rect key="frame" x="20" y="190" width="280" height="55"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="To Treat Skin Pustules or Umbilical Infection"/>
+                                <connections>
+                                    <segue destination="GR9-9s-Ux4" kind="show" id="zfj-2A-jM0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jJb-wY-0pG">
-                                <rect key="frame" x="20" y="280" width="280" height="44"/>
+                                <rect key="frame" x="20" y="253" width="280" height="44"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="To Treat Thrush (white patches in mouth) or Mouth Ulcers"/>
+                                <connections>
+                                    <segue destination="tvr-l2-9bG" kind="show" id="lEM-7V-HtK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="BGa-js-QfX">
-                                <rect key="frame" x="20" y="324" width="280" height="39"/>
+                                <rect key="frame" x="20" y="305" width="280" height="48"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Treat Eye Infection with Tetracycline Eye Ointment"/>
+                                <connections>
+                                    <segue destination="qaI-lg-Goh" kind="show" id="9Xg-lb-faE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3Qu-By-ZM1">
-                                <rect key="frame" x="20" y="375" width="280" height="30"/>
+                                <rect key="frame" x="20" y="361" width="280" height="47"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Immunize Every Sick Young Infant as Needed"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="qeO-O1-YSU">
-                                <rect key="frame" x="20" y="443" width="280" height="50"/>
-                                <state key="normal" title="Counsel the mother about care for development problems"/>
+                                <connections>
+                                    <segue destination="99s-aQ-DzV" kind="show" id="Sjb-qZ-zLi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CIi-st-Xkb">
-                                <rect key="frame" x="20" y="413" width="280" height="30"/>
+                                <rect key="frame" x="20" y="416" width="280" height="44"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Treat Diarrhoea"/>
+                                <connections>
+                                    <segue destination="fP7-e2-Kq0" kind="show" id="U4h-Ti-1hQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="qeO-O1-YSU">
+                                <rect key="frame" x="20" y="468" width="280" height="50"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Counsel the mother about care for development problems"/>
+                                <connections>
+                                    <segue destination="1Ud-S5-qsS" kind="show" id="lRC-OK-6dg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -3060,6 +3853,61 @@ Also follow the instructions listed with each drug's dosage table.
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4HP-fB-rTu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3671" y="-2859"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uKS-fY-onG">
+            <objects>
+                <viewController id="HMh-Q6-syr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EJD-bo-QGa"/>
+                        <viewControllerLayoutGuide type="bottom" id="E20-gm-4Iz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NfN-kH-A5O">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="young_give_zinc_sulphate.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="WGp-tV-vem">
+                                <rect key="frame" x="0.0" y="64" width="600" height="294"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UXk-Tg-ilj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3034" y="-1571"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="J7l-rH-62a">
+            <objects>
+                <viewController id="tvr-l2-9bG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hlV-Ce-lNS"/>
+                        <viewControllerLayoutGuide type="bottom" id="1RG-ZW-Sd9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GOW-pJ-oDQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJG-LO-coX">
+                                <rect key="frame" x="20" y="72" width="560" height="126"/>
+                                <string key="text">To Treat Thrush (white patched in mouth) or Mouth Ulcers
+The mother should:
+	• Wash hands.
+	• Wash mouth with clean soft cloth wrapped around the finger and wet with salt water.
+	• Paint the mouth with half-strength gentian violet or infill Nystatin.
+	• Wash hands. If breastfed ,advise the mother to wash her breast after feeds and apply the same medicine on the areola.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="58M-CS-igM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3671" y="-1571"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6Hp-og-99W">
@@ -3123,7 +3971,7 @@ Also follow the instructions listed with each drug's dosage table.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OP8-DA-4bc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6605" y="-384"/>
+            <point key="canvasLocation" x="-1637" y="-2216"/>
         </scene>
         <!--Classify-->
         <scene sceneID="w8N-K9-o9h">
@@ -5543,7 +6391,7 @@ IF CHILD IS:
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eg4-cY-csl">
                                 <rect key="frame" x="20" y="72" width="560" height="444"/>
-                                <mutableString key="text">ASK
+                                <string key="text">ASK
 • Ask for mother’s HIV status to establish child’s HIV exposure*.
 Is it:
 	-Reactive
@@ -5567,7 +6415,7 @@ LOOK and FEEL
 •   Other AIDS defining conditions**
 
 Presumptive HIV diagnosis should be confirmed at the earliest opportunity.
-Classify HIV status</mutableString>
+Classify HIV status</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -5848,7 +6696,7 @@ Classify HIV status</mutableString>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tol-FI-HM2">
                                 <rect key="frame" x="20" y="72" width="560" height="361"/>
-                                <mutableString key="text">ASK:  Is there history of TB contact?
+                                <string key="text">ASK:  Is there history of TB contact?
 LOOK, LISTEN, FEEL
 • Take the child’s weight and plot it against mother/child health booklet to determine the z-score
 • Take the child’s length/height for age and plot on mother/child health booklet to determine the z_score.
@@ -5865,7 +6713,7 @@ Determine Z score for the same:
 • &lt; -3
 • -3 to &lt; -2 
 • -2 to &lt; -1
-• -1 to +2</mutableString>
+• -1 to +2</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -6166,7 +7014,7 @@ if yes treat immediately</string>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raz-0I-LSI">
                                         <rect key="frame" x="0.0" y="8" width="560" height="575"/>
-                                        <mutableString key="text">(by history or feels hot or temperature 37.5°C* or above)
+                                        <string key="text">(by history or feels hot or temperature 37.5°C* or above)
 
 Has the child travelled to a high risk Malaria area in the last one month?
 Decide Malaria Risk: high, low or no risk.
@@ -6202,7 +7050,7 @@ No Malaria Risk: Do a malaria test if no obvious cause of fever
 
 NOTE: if you can’t test, don’t withhold treatment
 
-Classify Fever</mutableString>
+Classify Fever</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -7894,24 +8742,6 @@ LOOK:
             <point key="canvasLocation" x="3530" y="-3814"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="tMz-sy-prY">
-            <objects>
-                <viewController id="qxA-oL-7rQ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0ag-Ys-kUl"/>
-                        <viewControllerLayoutGuide type="bottom" id="Oa7-j6-XYF"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="s37-fj-QWT">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z5p-jm-3sp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2113" y="-3557"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="uhl-xP-z6v">
             <objects>
                 <viewController id="Fb1-SD-JR9" sceneMemberID="viewController">
@@ -8124,12 +8954,574 @@ LOOK:
                     <view key="view" contentMode="scaleToFill" id="wp2-Gk-59f">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xD-ez-ZyS">
+                                <rect key="frame" x="20" y="72" width="560" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="F4F-Ok-8bF"/>
+                                </constraints>
+                                <string key="text">• Explain to the mother why the drug is given.
+• Determine the appropriate dose for the child weight(or age).
+• Use a sterile needle and sterile syringe. Measure the dose accurately.
+• Give the drug as an intramuscular injection.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJp-PE-iWQ">
+                                <rect key="frame" x="20" y="160" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RAq-xR-9Hr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Give an Intramuscular Antibiotic"/>
+                                <connections>
+                                    <segue destination="xU8-B3-4Mc" kind="show" id="Y5E-DT-zac"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3H-mn-Mn7">
+                                <rect key="frame" x="20" y="198" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7qT-D4-pgu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Treat for Convulsing now"/>
+                                <connections>
+                                    <segue destination="j5F-kL-AxO" kind="show" id="uRS-PP-FVA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMu-AD-icX">
+                                <rect key="frame" x="20" y="236" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="qOU-RO-oTX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Treatment of Severe Malaria"/>
+                                <connections>
+                                    <segue destination="Mao-yK-p8W" kind="show" id="XBP-zV-anj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyg-JK-sl6">
+                                <rect key="frame" x="20" y="274" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Flg-nk-jU2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Treat Wheezing"/>
+                                <connections>
+                                    <segue destination="Hjz-K7-Zvq" kind="show" id="no2-YL-oSe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXW-lU-nAr">
+                                <rect key="frame" x="20" y="312" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="jjx-HY-XT8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Treat the Child for Low Blood Sugar"/>
+                                <connections>
+                                    <segue destination="QJm-oh-Cbc" kind="show" id="vWq-OX-unH"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C0W-s1-mEA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2409" y="-1201"/>
+            <point key="canvasLocation" x="5096" y="-138"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Cm-Qb-5ZR">
+            <objects>
+                <viewController id="QJm-oh-Cbc" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iMM-IO-vz1"/>
+                        <viewControllerLayoutGuide type="bottom" id="QF5-WW-CCb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kw8-lp-4zo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5UW-T5-rOW">
+                                <rect key="frame" x="0.0" y="64" width="600" height="778"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="If the child is able to breastfeed" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vua-oL-IfC">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="3Vi-4U-o0j"/>
+                                            <constraint firstAttribute="height" constant="39" id="OW6-Bp-86M"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="OW6-Bp-86M"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kj5-ln-e8Q">
+                                        <rect key="frame" x="13" y="37" width="574" height="36"/>
+                                        <string key="text">	Ask the mother to breastfeed the child.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="If the child is not able to breastfeed but is able to swallow:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3x-wD-UzN">
+                                        <rect key="frame" x="0.0" y="81" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="GfZ-l4-20H"/>
+                                            <constraint firstAttribute="height" constant="29" id="XzT-Ye-VDT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="GfZ-l4-20H"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhT-Yw-8g3">
+                                        <rect key="frame" x="13" y="118" width="574" height="45"/>
+                                        <string key="text">Give expressed breastmilk or a breast milk substitute. If neither of these is available, give sugar water. Give 30-50 ml of milk sugar water before departure.
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="To make sugar water: Dissolve 4 level teaspoons of sugar (20 grams) in a 200 ml cup of clean water" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2l-vs-rhH">
+                                        <rect key="frame" x="0.0" y="171" width="600" height="45"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="NxP-NN-snW"/>
+                                            <constraint firstAttribute="height" constant="29" id="oJH-Uk-O7q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="NxP-NN-snW"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="If the child is not able to swallow:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUI-4M-MVR">
+                                        <rect key="frame" x="0.0" y="218" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="Vay-AO-Mmh"/>
+                                            <constraint firstAttribute="height" constant="39" id="gb5-SP-xQo"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="gb5-SP-xQo"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Give 50 ml of milk or sugar by nasogastric tube." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sD8-dX-tb8">
+                                        <rect key="frame" x="13" y="255" width="574" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="For suspected low blood sugar*" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fn3-vK-VOv">
+                                        <rect key="frame" x="0.0" y="295" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="LHp-HV-NEm"/>
+                                            <constraint firstAttribute="height" constant="39" id="uCC-sw-HE3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="uCC-sw-HE3"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Give 10% glucose 5ml/kg by nasogastric tube OR Give the same amount slowly intravenously if a line is available. Keep warm." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pu0-DA-IUg">
+                                        <rect key="frame" x="13" y="332" width="574" height="57"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Admit or refer urgently to hospital" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yO6-09-7Kv">
+                                        <rect key="frame" x="0.0" y="397" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="MhB-7g-Jyr"/>
+                                            <constraint firstAttribute="height" constant="39" id="s1T-xI-Zy7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="s1T-xI-Zy7"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Note better" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GY6-jc-f4y">
+                                        <rect key="frame" x="0.0" y="429" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="o4w-0C-Sdb"/>
+                                            <constraint firstAttribute="height" constant="29" id="ofn-ep-Fh9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="o4w-0C-Sdb"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aW-hr-kNH">
+                                        <rect key="frame" x="13" y="466" width="574" height="109"/>
+                                        <string key="text">* Low blood sugar (hypoglycaemia) may be suspected in any infant or child who is convulsing or has loss of consciousness for which there is no obvious cause; has sweating, is lethargic, floppy or jittery - particularly when less than 2 months old.
+
+** To constitute 10% glucose from 50% glucose: Mix I part of 50% glucose with 4 parts of water for injection.</string>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="850"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="caY-Bk-SBQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7028" y="1435"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5wd-Wt-OWC">
+            <objects>
+                <viewController id="Hjz-K7-Zvq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LAl-GN-v9b"/>
+                        <viewControllerLayoutGuide type="bottom" id="xYg-FN-LBV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fit-TQ-R7x">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tiT-Pn-je2">
+                                <rect key="frame" x="0.0" y="64" width="600" height="778"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="treat_wheezing.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="9BG-1l-UAJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="850"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="asK-rK-GNc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6684" y="1197"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fqU-BQ-F0q">
+            <objects>
+                <viewController id="Mao-yK-p8W" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ji1-gL-YHj"/>
+                        <viewControllerLayoutGuide type="bottom" id="HOd-E6-F0b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3ij-Oz-yQP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fjv-ty-5Rk">
+                                <rect key="frame" x="0.0" y="64" width="600" height="778"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="1. Artesunate for Severe Malaria" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9O-Ro-UBz">
+                                        <rect key="frame" x="0.0" y="35" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="6c0-cR-lpl"/>
+                                            <constraint firstAttribute="height" constant="29" id="NdU-qF-bPu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="6c0-cR-lpl"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The recommended treatment for severe malaria is parenteral artesunate, quinine or artemether" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwo-6a-lYk">
+                                        <rect key="frame" x="13" y="0.0" width="574" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDo-w0-Uci">
+                                        <rect key="frame" x="13" y="72" width="574" height="108"/>
+                                        <string key="text">• Dissolve artesunic powder with 5% sodium bicarbonate solution(provided with vial). Dilute resultant solution with 5ml of 5% dextrose
+• Administer 2.4mg/kg stat by slow IV injection then 1.2mg/kg at 12 hrs and 24 hrs then 1.2 mg/kg daily until the patient is able to tolerate oral medications.
+• Artesunate can be given IM at the same dosage and intervals.
+• Thereafter a complete course of artemether lumefantrine (AL) is given.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="2. Quinine for Severe Malaria" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KnE-Gh-BcO">
+                                        <rect key="frame" x="0.0" y="188" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="06c-bt-SkT"/>
+                                            <constraint firstAttribute="height" constant="39" id="3MA-bl-2WL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="3MA-bl-2WL"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJI-ha-I7a">
+                                        <rect key="frame" x="13" y="225" width="574" height="163"/>
+                                        <mutableString key="text">FOR CHILDREN BEING REFERRED WITH VERY SEVERE FEBRILE DISEASE:
+• Give first dose of intramuscular quinine (20mg/kg-loading dose) and refer child urgently to hospital. IF REFERRAL IS NOT POSSIBLE:
+• Give first dose of IM quinine (20mg/kg-loading dose).The child should remain lying down for one hour.
+• Treat to prevent hypoglycaemia.
+• Repeat the quinine injection every 8 hours(maintenance dose at 10mg/kg) until the child is able to take an oral antimalarial. Do not continue quinine injections for more than 1 week.
+• If low risk of malaria, do not give quinine to a child less than 4 months of age.
+• Give vitamin A.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Quinine Dosage Table" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQL-41-8e8">
+                                        <rect key="frame" x="0.0" y="396" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="BOC-Jh-dta"/>
+                                            <constraint firstAttribute="height" constant="29" id="lOr-uD-Upr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="BOC-Jh-dta"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Quinine Dilution" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LzM-xs-zQl">
+                                        <rect key="frame" x="0.0" y="457" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="JJv-Fc-rrF"/>
+                                            <constraint firstAttribute="height" constant="29" id="mdT-ap-mab"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="JJv-Fc-rrF"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXv-qT-dYF">
+                                        <rect key="frame" x="20" y="426" width="560" height="30"/>
+                                        <state key="normal" title="Quinine Dosage Table"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lW8-NE-Mgh">
+                                        <rect key="frame" x="13" y="494" width="574" height="65"/>
+                                        <string key="text">• To dilute injection 50mg/ml, draw 5 ml of water for injection into a syringe and then draw 1 ml of quinine injection 300mg/ml into the same syringe or 3 ml of water for injection and 1 ml of quinine 200 mg/ml. Shake gently to mix.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="3. Artemether for Severe Malaria" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGC-38-59h">
+                                        <rect key="frame" x="0.0" y="567" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="WMw-d0-iZ1"/>
+                                            <constraint firstAttribute="height" constant="29" id="nYf-Gi-LRa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="WMw-d0-iZ1"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Tr-9h-6VD">
+                                        <rect key="frame" x="13" y="604" width="574" height="145"/>
+                                        <string key="text">• Administer a loading dose of 3.2mg/kg IM stat then 1.6mg/kg daily until the patient is able to tolerate oral medications.
+• Thereafter a complete course of AL is given.
+• Admit or refer patients with the following:
+	• Severe anaemia(Hb level of below 5 g/dl or haematocrit of below 15%).
+	• Two or more convulsions within a 24-hr period.
+	• Hyperparasitaemia and are stable. These patients can be treated with AL, DHA-PPQ or oral quinine where ACT is not available. However, they need to be closely monitored.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="850"/>
+                    <connections>
+                        <outlet property="scroller" destination="Fjv-ty-5Rk" id="m71-za-jfi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sRp-SG-6ws" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6349" y="1140"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2yT-tG-VrE">
+            <objects>
+                <viewController id="xU8-B3-4Mc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5CV-zu-Sbf"/>
+                        <viewControllerLayoutGuide type="bottom" id="M4d-6Z-y6n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ARk-Ig-1ah">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Saz-9A-Dmc">
+                                <rect key="frame" x="20" y="72" width="560" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="l4F-oH-TVl"/>
+                                </constraints>
+                                <string key="text">FOR CHILDREN BEING REFERRED URGENTLY.
+• Give first dose of intramuscular chloramphenicol and refer child to hospital
+
+IF REFERRAL IS NOT POSSIBLE
+• Treat to prevent hypoglycaemia.
+• Repeat the chloramphenicol injection every 12 hours for 5 days.
+• Then change to an appropriate oral antibiotic to complete 10 days of treatment.
+• Give oral chloramphenicol as oral antibiotic if meningitis is highly suspected.
+• Give vitamin A.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5O-bw-gJB">
+                                <rect key="frame" x="113" y="209" width="375" height="30"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="q5O-bw-gJB" secondAttribute="height" multiplier="487:39" id="Pqr-A2-oad"/>
+                                </constraints>
+                                <state key="normal" title="Assess Chloramphenicol Dose Table">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="q5O-bw-gJB" firstAttribute="width" secondItem="q5O-bw-gJB" secondAttribute="height" multiplier="487:39" id="6cc-K6-tfE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="26d-7e-fZl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5699" y="630"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WYY-ts-jYe">
+            <objects>
+                <viewController id="j5F-kL-AxO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SBy-TU-yfF"/>
+                        <viewControllerLayoutGuide type="bottom" id="dAS-f3-5sa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VNL-xk-cDJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bp-LU-dkA">
+                                <rect key="frame" x="20" y="72" width="560" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="tci-mv-Ik1"/>
+                                </constraints>
+                                <string key="text">• Turn he child to the side and clear the airway.
+• Avoid putting things in his/her mouth while he/she is convulsing.
+• Give 0.5 mg/kg diazepam injection solution per rectum using syringe without needle or using a catheter.
+• Check the blood sugar level if possible/treat for low blood sugar.
+• Repeat diazepam 10 minutes later if still convulsing.
+• Give oxygen if available and refer.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qPj-V3-LYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6079" y="821"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Oy4-7S-qEQ">
+            <objects>
+                <viewController id="6VS-4y-bbd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UOh-vW-bo6"/>
+                        <viewControllerLayoutGuide type="bottom" id="3pI-Gq-pc9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SFL-hT-6SP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWe-Qr-EhS">
+                                <rect key="frame" x="20" y="72" width="560" height="108"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="1Ef-Gf-hoT"/>
+                                </constraints>
+                                <string key="text">• Safe remedies to recommend: 
+	- Breastmilk for breastfeeding children.
+	- Warm water with lemon and honey (children &gt; 6 months)
+• Harmful remedies to discourage:
+	- Codeine and ephedrine containing cough mixtures.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="clz-dy-O2c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5613" y="1458"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PmF-ep-USH">
@@ -8147,17 +9539,66 @@ LOOK:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iuW-lk-aXP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3034" y="-1201"/>
+            <point key="canvasLocation" x="5722" y="-128"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jXI-u8-wSV">
+            <objects>
+                <viewController id="GR9-9s-Ux4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="blB-qe-fab"/>
+                        <viewControllerLayoutGuide type="bottom" id="cWW-Hl-2IM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rhx-vc-VsD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRZ-hB-q8h">
+                                <rect key="frame" x="20" y="72" width="560" height="126"/>
+                                <string key="text">To Treat Skin Pustules or Umbilical Infection
+Apply Gentian Violet twice daily.
+The mother should:
+• Wash hands.
+• Gently wash off pus and crusts with soap and water
+• Dry the area.
+• Paint with gentian violet
+• Wash hands</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nY0-EO-Kue" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3671" y="-911"/>
         </scene>
     </scenes>
     <resources>
         <image name="algorithm_for_early_diagnosis_hiv.png" width="623" height="619"/>
         <image name="dose_of_cotrimoxazole.PNG" width="937" height="369"/>
+        <image name="drug_antibiotic_pneumonia.png" width="604" height="703"/>
+        <image name="drug_oral_ironfolate.PNG" width="561" height="231"/>
+        <image name="drug_oralantimalarial.png" width="682" height="516"/>
+        <image name="drug_oralparacetamolfever.PNG" width="585" height="195"/>
+        <image name="drug_oralvitamin_a.PNG" width="564" height="218"/>
+        <image name="drug_oralzincsulphate.PNG" width="567" height="144"/>
+        <image name="first_dose_of_intramuscular_antibiotics.PNG" width="1237" height="642"/>
         <image name="guidlines_on_nevirapine.PNG" width="1193" height="278"/>
+        <image name="mebendazole.PNG" width="554" height="87"/>
+        <image name="medicationmetronidazole_dysentry.PNG" width="571" height="229"/>
         <image name="nvp_dosage_for_infants.PNG" width="1192" height="565"/>
         <image name="paeds_chart.PNG" width="1273" height="627"/>
+        <image name="treat_wheezing.PNG" width="720" height="643"/>
+        <image name="young_appropriate_oral_antibiotic.PNG" width="1122" height="639"/>
+        <image name="young_give_zinc_sulphate.PNG" width="1166" height="541"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="k6P-u2-BGJ"/>
         <segue reference="VfE-ci-uQk"/>
+        <segue reference="lRC-OK-6dg"/>
+        <segue reference="U4h-Ti-1hQ"/>
     </inferredMetricsTieBreakers>
 </document>
