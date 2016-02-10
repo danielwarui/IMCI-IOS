@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rd5-jK-qDc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rd5-jK-qDc">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -614,6 +614,87 @@
             </objects>
             <point key="canvasLocation" x="-1292" y="-3766"/>
         </scene>
+        <!--Treatment-->
+        <scene sceneID="4SC-HB-82Q">
+            <objects>
+                <viewController title="Treatment" id="R4s-9e-MeR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jcj-5S-o0V"/>
+                        <viewControllerLayoutGuide type="bottom" id="OAC-I2-xGM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wOB-kE-Gup">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFE-R1-4OI">
+                                <rect key="frame" x="20" y="72" width="560" height="84"/>
+                                <string key="text">After 14 days:
+• Give Iron folate. Advise mother to return in 14 days for more Iron and Folate.
+• Continue giving Iron and Folate every 14 days for 2 months.
+• If the child has palmar pallor after 2 month, refer for assessment.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Fvt-h9-BIJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YVt-x4-twa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1696" y="4866"/>
+        </scene>
+        <!--Advice-->
+        <scene sceneID="eAI-lp-6PL">
+            <objects>
+                <viewController title="Advice" id="KEb-Ds-728" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IzU-g4-48T"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZwM-nW-bBA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f9y-DO-PN1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Vj-Uh-Y5n">
+                                <rect key="frame" x="20" y="72" width="560" height="77"/>
+                                <string key="text">After 14 days:
+• Give Iron folate. Advise mother to return in 14 days for more Iron and Folate.
+• Continue giving Iron and Folate every 14 days for 2 months.
+• If the child has palmar pallor after 2 month, refer for assessment.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Advice" id="dEu-ex-vjr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oaY-G4-c6Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1696" y="4225"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="mgL-lC-zqI">
+            <objects>
+                <tabBarController id="dRW-6b-uxy" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="nVi-Rx-LSQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="KEb-Ds-728" kind="relationship" relationship="viewControllers" id="7Ph-mp-JPx"/>
+                        <segue destination="R4s-9e-MeR" kind="relationship" relationship="viewControllers" id="v87-ga-oMy"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mfn-yp-vYM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1696" y="3586"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="kar-Nm-LUr">
             <objects>
@@ -832,7 +913,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RCB-3r-w5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3409" y="3530"/>
+            <point key="canvasLocation" x="-3565" y="2829"/>
         </scene>
         <!--Treatment-->
         <scene sceneID="8rO-5e-y9K">
@@ -867,12 +948,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z2Z-40-W9c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2166" y="3525"/>
+            <point key="canvasLocation" x="-2348" y="2829"/>
         </scene>
         <!--Advice-->
         <scene sceneID="9MP-iZ-O7y">
             <objects>
-                <viewController id="OgM-HV-Sj2" sceneMemberID="viewController">
+                <viewController title="Advice" id="OgM-HV-Sj2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fB5-KQ-QfM"/>
                         <viewControllerLayoutGuide type="bottom" id="goU-CB-Zqc"/>
@@ -903,7 +984,7 @@ Look for jaundice
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oH1-FB-Gc8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2166" y="2872"/>
+            <point key="canvasLocation" x="-2348" y="2194"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="5jr-gx-6ss">
@@ -921,7 +1002,7 @@ Look for jaundice
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bwS-Rq-jH2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2158" y="2252"/>
+            <point key="canvasLocation" x="-2348" y="1552"/>
         </scene>
         <!--Treatment-->
         <scene sceneID="A3G-0k-MpJ">
@@ -950,12 +1031,12 @@ Look for jaundice
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HyX-Pg-EHq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1541" y="3530"/>
+            <point key="canvasLocation" x="-1740" y="2829"/>
         </scene>
-        <!--Assess-->
+        <!--Advice-->
         <scene sceneID="Cak-St-AmE">
             <objects>
-                <viewController id="PnB-5W-D9q" sceneMemberID="viewController">
+                <viewController title="Advice" id="PnB-5W-D9q" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nfw-8q-qbO"/>
                         <viewControllerLayoutGuide type="bottom" id="S0y-UF-JIN"/>
@@ -975,11 +1056,11 @@ Look for jaundice
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Assess" id="igm-2U-eb8"/>
+                    <tabBarItem key="tabBarItem" title="Advice" id="igm-2U-eb8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B0k-4C-RDF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1541" y="2880"/>
+            <point key="canvasLocation" x="-1740" y="2194"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="NUK-1T-xpg">
@@ -997,12 +1078,12 @@ Look for jaundice
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A8N-1K-hFb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1541" y="2221"/>
+            <point key="canvasLocation" x="-1740" y="1552"/>
         </scene>
-        <!--Item 2-->
+        <!--Treatment-->
         <scene sceneID="yPI-T0-GFg">
             <objects>
-                <viewController id="IhC-kK-p5U" sceneMemberID="viewController">
+                <viewController title="Treatment" id="IhC-kK-p5U" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XAm-Rv-tGt"/>
                         <viewControllerLayoutGuide type="bottom" id="kpB-ex-85Y"/>
@@ -1010,18 +1091,30 @@ Look for jaundice
                     <view key="view" contentMode="scaleToFill" id="kQJ-Ve-7T0">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmw-XN-aXv">
+                                <rect key="frame" x="20" y="72" width="560" height="141"/>
+                                <string key="text">	• Counsel the mother about any new or continuing feeding problem. If you counsel the mother to make significant changes in feeding, ask her to bring the young infant back after 2 days.
+	• If the young infant is low weight for age, ask the mother to return 14 days after the initial visit to measure the young infant’s weight gain.
+	Exception:
+	If you do not think that feeding will improve, or if the young infant has lost weight, admit or refer the child.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="9Fb-ys-zCU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yax-BK-rkP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-898" y="3557"/>
+            <point key="canvasLocation" x="-1133" y="2829"/>
         </scene>
-        <!--Item 2-->
+        <!--Treatment-->
         <scene sceneID="L4A-SZ-xV3">
             <objects>
-                <viewController id="axf-vs-4Uz" sceneMemberID="viewController">
+                <viewController title="Treatment" id="axf-vs-4Uz" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g5c-he-ni9"/>
                         <viewControllerLayoutGuide type="bottom" id="qfF-3y-67S"/>
@@ -1029,18 +1122,32 @@ Look for jaundice
                     <view key="view" contentMode="scaleToFill" id="gs5-1I-ayA">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Za5-8d-MEI">
+                                <rect key="frame" x="20" y="80" width="560" height="225"/>
+                                <mutableString key="text">	Reassess feeding.
+		• If the infant is no longer low weight for age, praise the mother and encourage her to continue, until normal weight is attained.
+		• If the young infant is still low weight for age, but is feeding well, praise the mother. Ask her to have her infant weighed again within a month or when she returns for immunisation.
+		• If the infant is still low weight for age and still has a feeding problem, counsel the mother about the feeding problem. Ask the mother to return again in 14 days (or when she returns for immunisation, if this is within 2 weeks). Continue to see the young infant every 2 weeks until the infant is feeding well and gaining weight regularly or is no longer low weight for age.
+	Exception:
+	If you do not think that feeding will improve, or if the young infant has lost weight, admit or refer to hospital.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="bla-2X-ia3"/>
+                    <tabBarItem key="tabBarItem" title="Treatment" id="bla-2X-ia3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iu9-9V-SeO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-286" y="3547"/>
+            <point key="canvasLocation" x="-524" y="2835"/>
         </scene>
-        <!--Item 1-->
+        <!--Advice-->
         <scene sceneID="s8G-sL-DQo">
             <objects>
-                <viewController id="VeL-g8-koa" sceneMemberID="viewController">
+                <viewController title="Advice" id="VeL-g8-koa" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7v7-Gc-9VJ"/>
                         <viewControllerLayoutGuide type="bottom" id="K2L-BN-E8M"/>
@@ -1048,13 +1155,23 @@ Look for jaundice
                     <view key="view" contentMode="scaleToFill" id="pR4-yW-8NI">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDr-Pl-Gov">
+                                <rect key="frame" x="20" y="72" width="560" height="75"/>
+                                <string key="text">	After 2 Days:
+	• Weigh the young infant and determine if the infant is still low weight for age.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="uxP-oh-QTz"/>
+                    <tabBarItem key="tabBarItem" title="Advice" id="uxP-oh-QTz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hs9-vW-Xdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-286" y="2887"/>
+            <point key="canvasLocation" x="-524" y="2194"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="c0t-Xk-Nvm">
@@ -1072,9 +1189,9 @@ Look for jaundice
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vVw-GB-Hnr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-286" y="2252"/>
+            <point key="canvasLocation" x="-524" y="1552"/>
         </scene>
-        <!--Item 1-->
+        <!--Advice-->
         <scene sceneID="hgF-37-POu">
             <objects>
                 <viewController id="dLL-6j-dOo" sceneMemberID="viewController">
@@ -1085,15 +1202,26 @@ Look for jaundice
                     <view key="view" contentMode="scaleToFill" id="c12-LR-KfL">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3x-Tk-o7a">
+                                <rect key="frame" x="20" y="72" width="560" height="75"/>
+                                <string key="text">	After 2 Days:
+	Reassess feeding
+	• Ask about any feeding problem found on the initial visit.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="FwK-JB-8I2"/>
+                    <tabBarItem key="tabBarItem" title="Advice" id="FwK-JB-8I2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hFY-2Z-Xi5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-906" y="2897"/>
+            <point key="canvasLocation" x="-1133" y="2194"/>
         </scene>
-        <!--Item 2-->
+        <!--Treatment-->
         <scene sceneID="Wmt-Fz-X0W">
             <objects>
                 <viewController id="Wes-S0-6JG" sceneMemberID="viewController">
@@ -1104,15 +1232,39 @@ Look for jaundice
                     <view key="view" contentMode="scaleToFill" id="MNT-mm-Jya">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Et8-mS-OHS">
+                                <rect key="frame" x="20" y="72" width="560" height="75"/>
+                                <string key="text">After 2 Days:
+	• Ask if the diarrhoea stopped?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wo4-rG-8SU">
+                                <rect key="frame" x="20" y="72" width="560" height="111"/>
+                                <string key="text">	Reassess feeding.
+	• If thrush or mouth ulcers are worse or infant has problems with attachment or sucking, admit or refer to hospital.
+	• If thrush or mouth ulcers are the same or better, and the baby is feeding well continue with Gentian Violet or Nystatin for a total of 5 days.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Et8-mS-OHS"/>
+                            </mask>
+                        </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="wPK-Bh-kZj"/>
+                    <tabBarItem key="tabBarItem" title="Treatment" id="wPK-Bh-kZj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hWZ-h2-D8c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="337" y="3732"/>
+            <point key="canvasLocation" x="85" y="2835"/>
         </scene>
-        <!--Item 1-->
+        <!--Assess-->
         <scene sceneID="tav-hp-KIf">
             <objects>
                 <viewController id="gWu-uh-erW" sceneMemberID="viewController">
@@ -1123,13 +1275,23 @@ Look for jaundice
                     <view key="view" contentMode="scaleToFill" id="ZAh-Aq-VrR">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJZ-qw-X9f">
+                                <rect key="frame" x="20" y="72" width="560" height="75"/>
+                                <string key="text">	After 2 Days
+	• Look for ulcers or white patches in the mouth (thrush).</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="rc4-Rv-E2T"/>
+                    <tabBarItem key="tabBarItem" title="Assess" id="rc4-Rv-E2T"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hhN-dp-Q1z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="353" y="3045"/>
+            <point key="canvasLocation" x="85" y="2194"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="thg-fK-KRg">
@@ -1147,7 +1309,7 @@ Look for jaundice
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v6J-RV-S5a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="317" y="2319"/>
+            <point key="canvasLocation" x="85" y="1552"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="HBj-Rv-VDh">
@@ -1165,7 +1327,7 @@ Look for jaundice
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CTC-8j-9Gc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-898" y="2226"/>
+            <point key="canvasLocation" x="-1133" y="1552"/>
         </scene>
         <!--Advice-->
         <scene sceneID="d8d-kQ-Z7a">
@@ -1203,7 +1365,7 @@ Look for jaundice
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UF0-da-833" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3409" y="2880"/>
+            <point key="canvasLocation" x="-3565" y="2194"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="og4-wP-1J8">
@@ -1221,7 +1383,7 @@ Look for jaundice
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cz0-Yw-GKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3409" y="2215"/>
+            <point key="canvasLocation" x="-3565" y="1552"/>
         </scene>
         <!--Treatment-->
         <scene sceneID="AmN-Nd-Jho">
@@ -1260,7 +1422,7 @@ Look for jaundice
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wef-BA-n3d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2785" y="3525"/>
+            <point key="canvasLocation" x="-2957" y="2829"/>
         </scene>
         <!--Advice-->
         <scene sceneID="Cs0-Q2-Y8S">
@@ -1296,7 +1458,7 @@ Look for jaundice
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2BX-1d-g7l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2785" y="2872"/>
+            <point key="canvasLocation" x="-2957" y="2194"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tr6-7e-tNn">
@@ -1314,7 +1476,7 @@ Look for jaundice
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qVr-on-cVi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2785" y="2221"/>
+            <point key="canvasLocation" x="-2957" y="1552"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vMI-I0-x55">
@@ -1357,6 +1519,9 @@ Look for jaundice
                                 <state key="normal" title="Wheezing">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="S3B-LZ-TnB" kind="show" id="JFk-gH-EQn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ldc-dQ-KzH">
                                 <rect key="frame" x="8" y="316" width="585" height="30"/>
@@ -1365,6 +1530,9 @@ Look for jaundice
                                 <state key="normal" title="Malaria(High or Low Malaria Risk)">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="dA5-wI-mqI" kind="show" id="5oP-eb-DFv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZEv-Gq-YHK">
                                 <rect key="frame" x="8" y="349" width="585" height="30"/>
@@ -1373,6 +1541,9 @@ Look for jaundice
                                 <state key="normal" title="Fever - No Malaria(Low or No Risk)">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="7OM-Ys-3eR" kind="show" id="hhx-DE-b5p"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2MZ-4q-X9e">
                                 <rect key="frame" x="8" y="381" width="585" height="30"/>
@@ -1381,6 +1552,9 @@ Look for jaundice
                                 <state key="normal" title="Eye or Mouth Complications of Measles">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="aPF-bF-jik" kind="show" id="Twm-y5-fjo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="SeC-w9-OO8">
                                 <rect key="frame" x="8" y="413" width="585" height="30"/>
@@ -1389,6 +1563,9 @@ Look for jaundice
                                 <state key="normal" title="Ear Infection">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vjx-uZ-zDQ" kind="show" id="8IG-0F-9Da"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="JbF-1R-bBd">
                                 <rect key="frame" x="8" y="446" width="585" height="30"/>
@@ -1397,6 +1574,9 @@ Look for jaundice
                                 <state key="normal" title="HIV Exposed and Infected Children">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="7Ec-wJ-jZa" kind="show" id="CbV-ef-VOI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opl-Hy-vhM">
                                 <rect key="frame" x="8" y="72" width="585" height="113"/>
@@ -1416,6 +1596,9 @@ Look for jaundice
                                 <state key="normal" title="Feeding Problem">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="7iz-u7-nxI" kind="show" id="zCb-Bf-sKl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="90p-F9-aez">
                                 <rect key="frame" x="8" y="512" width="585" height="30"/>
@@ -1424,6 +1607,9 @@ Look for jaundice
                                 <state key="normal" title="Pallor">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="dRW-6b-uxy" kind="show" id="YVu-LB-dbq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="xjS-yc-YtH">
                                 <rect key="frame" x="8" y="545" width="585" height="30"/>
@@ -1432,6 +1618,9 @@ Look for jaundice
                                 <state key="normal" title="Very Low Weight(At risk of malnutrition)">
                                     <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="sn9-ii-YFS" kind="show" id="xk7-nO-px4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="xh5-UV-L6t">
                                 <rect key="frame" x="8" y="250" width="585" height="30"/>
@@ -1495,7 +1684,424 @@ Look for jaundice
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SWm-o4-Qpc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-884" y="578"/>
+            <point key="canvasLocation" x="-896" y="578"/>
+        </scene>
+        <!--Treatment-->
+        <scene sceneID="NFZ-RQ-wXz">
+            <objects>
+                <viewController title="Treatment" id="FQD-op-NyF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pdS-Pr-8Jg"/>
+                        <viewControllerLayoutGuide type="bottom" id="3ZT-Wd-Miz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZBe-YY-OHo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RwW-C8-6Mq">
+                                <rect key="frame" x="20" y="72" width="560" height="187"/>
+                                <mutableString key="text">• If there is a tender swelling behind the ear or high fever (38.5˚C or above), admit or refer URGENTLY to hospital.
+• Acute ear infection: If ear pain continues or discharges persists, treat with 5 more days of the same antibiotic, continue wicking to dry the ear. Follow up in 5 days.
+• Chronic ear infection: Check that the mother is wicking the ear correctly. Encourage her to continue.
+Review in 2 weeks.
+• If ear discharge continues for more than 2 months: Admit or refer to hospital.
+• If no ear pain or discharge, praise the mother for her careful treatment. If she has not yet finished the 5 days of antibiotic, tell her to use it till treatment is completed.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Treatment" id="UXl-AK-udC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JM5-op-hra" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-127" y="4866"/>
+        </scene>
+        <!--Advice-->
+        <scene sceneID="fdh-cx-9MS">
+            <objects>
+                <viewController title="Advice" id="u5f-UV-uAH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gYK-PM-NsJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="L2L-Mw-HTj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NHX-DQ-ZLb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POl-o4-nYK">
+                                <rect key="frame" x="20" y="72" width="560" height="86"/>
+                                <string key="text">After 5 days
+• Reassess for ear problem. &gt; See ASSESS &amp; CLASSIFY chart.
+• Measure the child’s temperature.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Advice" id="NvF-0t-DIB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SMM-fA-0HO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-127" y="4225"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="wa7-dx-zmK">
+            <objects>
+                <tabBarController id="vjx-uZ-zDQ" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="8nw-NS-TB1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="u5f-UV-uAH" kind="relationship" relationship="viewControllers" id="RKT-0h-0UR"/>
+                        <segue destination="FQD-op-NyF" kind="relationship" relationship="viewControllers" id="P8l-5N-8BM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Vg-Eg-hfa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-127" y="3586"/>
+        </scene>
+        <!--Treatment-->
+        <scene sceneID="Fhy-Jk-Ac8">
+            <objects>
+                <viewController id="OkS-0c-xVN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wuD-tj-Q04"/>
+                        <viewControllerLayoutGuide type="bottom" id="tXp-zc-pwa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J3d-5q-TbZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBO-XI-H66">
+                                <rect key="frame" x="20" y="72" width="560" height="229"/>
+                                <mutableString key="text">• If pus is draining from the eye, ask the mother to describe how she has treated the eye infection.
+	- If treatment has been correct, admit or refer to hospital.
+	- If treatment has not been correct, teach mother correct treatment.
+• If the pus is gone but redness remains, continue the treatment.
+• If no pus or redness, stop the treatment.
+
+Treatment for mouth ulcers:
+• If mouth ulcers are worse, or there is a very foul smell from the mouth, admit or refer to hospital.
+• If mouth ulcers or thrush are the same or better, continue using half-strength gentian violet or Nystatin for a total of 5 days.
+• If thrush is no better or is worse consider symptomatic HIV infection.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Treatment" id="zZS-60-4ye"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6hc-Mj-wck" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-736" y="4866"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="0Z8-C2-UhV">
+            <objects>
+                <viewController id="fI2-qQ-FaF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NLS-SC-TdS"/>
+                        <viewControllerLayoutGuide type="bottom" id="wwu-Dn-gm0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e41-Q5-hfu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjD-oo-JbY">
+                                <rect key="frame" x="20" y="72" width="560" height="86"/>
+                                <string key="text">After 2 days:
+Look for the red eyes and pus draining from the eyes.
+Look at mouth ulcers.
+Smell the mouth.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="Kfa-m6-8D6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aqf-GM-mac" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-736" y="4225"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yvG-wY-hAj">
+            <objects>
+                <tabBarController id="aPF-bF-jik" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="vT6-up-Ahc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="fI2-qQ-FaF" kind="relationship" relationship="viewControllers" id="OQ5-Dh-TZf"/>
+                        <segue destination="OkS-0c-xVN" kind="relationship" relationship="viewControllers" id="M2d-hb-7AB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eta-4k-od6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-736" y="3586"/>
+        </scene>
+        <!--Treatment-->
+        <scene sceneID="ExO-kd-3pt">
+            <objects>
+                <viewController id="Dq4-Et-FSz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qps-gm-e66"/>
+                        <viewControllerLayoutGuide type="bottom" id="j6b-ij-KLc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6OK-mo-Suq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUi-2Y-COG">
+                                <rect key="frame" x="20" y="72" width="560" height="146"/>
+                                <string key="text">• If the child has any general danger sign or stiff neck, treat as VERY SEVERE FEBRILE DISEASE.
+• If the child has any cause of fever other than malaria, provide treatment.
+• If malaria is the only apparent cause of fever:
+	- Treat with the first-line oral antimalarial. Give paracetamol. Advise the mother to return again in 2 days if the fever persists.
+	- If fever has been present every days for 7 days, refer for assessment.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Treatment" id="K0k-eu-yJ0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hcc-ai-XLS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1346" y="4866"/>
+        </scene>
+        <!--Advice-->
+        <scene sceneID="GgZ-CQ-cTs">
+            <objects>
+                <viewController id="3pI-Ld-JfM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="drk-KD-At8"/>
+                        <viewControllerLayoutGuide type="bottom" id="OTS-jM-9rq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qWy-GY-J7g">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Mr-QB-oyr">
+                                <rect key="frame" x="20" y="72" width="560" height="86"/>
+                                <string key="text">If fever persists after 2 days :
+
+• Do a full reassessment of the child. see ASSESS &amp; CLASSIFY chart.
+Assess for other causes of fever.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Advice" id="uaF-n2-hwA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hyy-9D-DTT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1346" y="4225"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="KdW-Zh-gG9">
+            <objects>
+                <tabBarController id="7OM-Ys-3eR" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="ZQv-Bo-sVW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3pI-Ld-JfM" kind="relationship" relationship="viewControllers" id="p1A-Wi-fDm"/>
+                        <segue destination="Dq4-Et-FSz" kind="relationship" relationship="viewControllers" id="yqS-di-NbR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T87-zB-JAy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1346" y="3586"/>
+        </scene>
+        <!--Treatment-->
+        <scene sceneID="aBQ-5P-sRF">
+            <objects>
+                <viewController title="Treatment" id="zcZ-ag-evb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h9s-NA-h19"/>
+                        <viewControllerLayoutGuide type="bottom" id="UzS-Pl-vOr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KcK-bX-QEc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Csu-9A-c8c">
+                                <rect key="frame" x="20" y="72" width="560" height="146"/>
+                                <string key="text">• If the child has any general danger sign or stiff neck, treat as VERY SEVERE FEBRILE DISEASE.
+• If the child has any cause of fever other than malaria, provide treatment.
+• If malaria is the only apparent cause of fever: Give Oral DIHYDROARTEMISININ-PIPERRAQUINE(DHA- PPQ). Give paracetamol. If child is under 5 kg and was given DHA-PPQ assess further.
+• Advice mother to return again in 2 days if the fever persists.
+	- if the fever has been present every day 7 days, refer for assessment.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Treatment" id="XEz-L5-3IS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i8F-6C-e5h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1953" y="4866"/>
+        </scene>
+        <!--Advice-->
+        <scene sceneID="mhM-Ab-I0I">
+            <objects>
+                <viewController title="Advice" id="GCP-Ud-BlY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q7N-WK-5D1"/>
+                        <viewControllerLayoutGuide type="bottom" id="egw-IY-Ed3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z4a-HD-Kip">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFI-u9-bSN">
+                                <rect key="frame" x="20" y="72" width="560" height="83"/>
+                                <string key="text">• If fever persists after 2 days, or recurs within 14 days:
+• Do a full reassessment of the child. see ASSESS &amp; CLASSIFY chart.
+Assess for other causes of fever.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Advice" id="JHV-ht-oXp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wyy-sf-2Wb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1953" y="4225"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="n5a-aW-yCA">
+            <objects>
+                <tabBarController id="dA5-wI-mqI" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="l6Y-NZ-Or5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="GCP-Ud-BlY" kind="relationship" relationship="viewControllers" id="tDr-9N-wsr"/>
+                        <segue destination="zcZ-ag-evb" kind="relationship" relationship="viewControllers" id="Wif-zD-EoK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jYf-aL-gCR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1953" y="3586"/>
+        </scene>
+        <!--Treatment-->
+        <scene sceneID="Clg-fD-uFD">
+            <objects>
+                <viewController title="Treatment" id="zOO-h2-yPz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HRo-V7-Qc0"/>
+                        <viewControllerLayoutGuide type="bottom" id="xaZ-oe-JMr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ris-7v-WLf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0w7-8f-Ot6">
+                                <rect key="frame" x="20" y="72" width="560" height="193"/>
+                                <mutableString key="text">Child under 1 year
+• If chest in-drawing or a danger sign, fast breathing, poor feeding or wheeze: Give intramuscular antibiotic. Then admit or refer URGENTLY to hospital.
+• If breathing slower, no wheezing and eating better continue the treatment for 5 days.
+Child one year and over
+• If chest in-drawing or general danger sign give intramuscular antibiotic. Then admit or refer urgently to Hospital.
+• If breathing rate and eating have not improved, change to second-line antibiotic, and if still wheezing continue oral bronchodilator. Advise the mother to return in 2 days.
+• If breathing slower, now wheezing and eating better continue the treatment for 5 days.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="0w7-8f-Ot6" firstAttribute="centerX" secondItem="ris-7v-WLf" secondAttribute="centerX" id="GCw-Dc-Kr0"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Treatment" id="4xz-sd-6GV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wXd-1r-N82" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2562" y="4866"/>
+        </scene>
+        <!--Advice-->
+        <scene sceneID="m7O-ki-Ofb">
+            <objects>
+                <viewController title="Advice" id="oK7-TE-TQE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tla-dw-mgW"/>
+                        <viewControllerLayoutGuide type="bottom" id="rGV-Oy-VKS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4IA-mP-kSV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xa1-fe-1Kf">
+                                <rect key="frame" x="20" y="72" width="560" height="130"/>
+                                <string key="text">After 2 days
+Check the child for general danger signs or chest in-drawing
+Assess the child for cough or difficult breathing.
+Ask:
+- Is the child breathing slower?
+- Is the child still wheezing?
+- Is the child eating better?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="MGB-rT-bbh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ddy-AG-21c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2562" y="4225"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="y6b-p7-h6k">
+            <objects>
+                <tabBarController id="S3B-LZ-TnB" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="ugz-4F-tss">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oK7-TE-TQE" kind="relationship" relationship="viewControllers" id="Egx-hq-IMI"/>
+                        <segue destination="zOO-h2-yPz" kind="relationship" relationship="viewControllers" id="4H7-cf-T4d"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="knZ-mC-0hO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2562" y="3586"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fbM-lg-9og">
@@ -1559,6 +2165,255 @@ Look for jaundice
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOX-Vx-zEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-215" y="-207"/>
+        </scene>
+        <!--Treatment-->
+        <scene sceneID="W0Y-pq-tKY">
+            <objects>
+                <viewController title="Treatment" id="8Xc-4C-EAG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xm1-ER-3Bx"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Ho-Rq-oZE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pPY-ZU-nPQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cX-7o-6oI">
+                                <rect key="frame" x="20" y="72" width="560" height="172"/>
+                                <mutableString key="text">• If the child is no longer having a very low weight for age, praise the mother and encourage her to continue with the feeding until catch up growth is realised.
+• If child is still very low weight for age but gaining weight, encourage the mother to continue with feeding. Counsel the mother about any feeding problem found. Ask  the mother to return again in 14 days. Continue to see the child every one month until the child is normal weight for age.
+• Admit or refer if
+ The child has lost weight or is not gaining weight. You do not think that feeding will improve or the child continues to lose weight.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Treatment" id="pCp-RD-0Jg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GSs-Ac-XR5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2302" y="4866"/>
+        </scene>
+        <!--Treatment-->
+        <scene sceneID="qy3-Nh-cXR">
+            <objects>
+                <viewController title="Treatment" id="Y61-ZI-2YR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NXP-Yk-sMx"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q4i-t2-Vbs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FS7-lm-Wgf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5x-MY-uD1">
+                                <rect key="frame" x="20" y="72" width="560" height="95"/>
+                                <string key="text">• Counsel the mother about any new or continuing feeding problems. If you counsel the mother to make significant changes in feeding, ask her to bring the child back after 5 days.
+• If the child is very low weight for age, ask the mother to return 14 days after the initial visit to measure the child’s weight gain.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Treatment" id="scM-co-Krg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q6s-nB-Qcu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1088" y="4866"/>
+        </scene>
+        <!--Advice-->
+        <scene sceneID="ixK-Zq-s7x">
+            <objects>
+                <viewController title="Advice" id="ULa-gY-DaI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4uo-WG-lsM"/>
+                        <viewControllerLayoutGuide type="bottom" id="LiG-Gp-Dlw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sJF-qC-LAA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ip0-d6-7hm">
+                                <rect key="frame" x="20" y="72" width="560" height="69"/>
+                                <string key="text">After 5 days:
+Reassess feeding: See questions at the top of COUNSEL THE MOTHER. Ask about any feeding problems found on the initial visit.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Advice" id="5nH-pk-0ul"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4me-V8-j0m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1088" y="4225"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="nlR-wO-kXC">
+            <objects>
+                <tabBarController id="7iz-u7-nxI" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="2V5-KC-0eS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ULa-gY-DaI" kind="relationship" relationship="viewControllers" id="1a8-59-942"/>
+                        <segue destination="Y61-ZI-2YR" kind="relationship" relationship="viewControllers" id="34T-2G-t9M"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tdM-f0-e5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1088" y="3586"/>
+        </scene>
+        <!--Advice-->
+        <scene sceneID="dFR-9W-TEP">
+            <objects>
+                <viewController title="Advice" id="tJz-Fj-KRe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NQS-Ey-QvW"/>
+                        <viewControllerLayoutGuide type="bottom" id="bF9-bm-l1Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V9V-ZU-PsY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRj-9u-XFz">
+                                <rect key="frame" x="20" y="72" width="560" height="77"/>
+                                <string key="text">After 14 days:
+•Weight the child and determine if the child is still very low weight for age.
+Reassess feeding.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Advice" id="rtt-gJ-vSN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4W0-dU-FKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2302" y="4225"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Fvh-Mi-5F3">
+            <objects>
+                <tabBarController id="sn9-ii-YFS" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="8XZ-Jq-4N2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="tJz-Fj-KRe" kind="relationship" relationship="viewControllers" id="DS0-SS-nZ2"/>
+                        <segue destination="8Xc-4C-EAG" kind="relationship" relationship="viewControllers" id="jgC-x9-wWc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Dc-ZR-gP7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2302" y="3586"/>
+        </scene>
+        <!--Treatment-->
+        <scene sceneID="aTz-OY-2Mt">
+            <objects>
+                <viewController title="Treatment" id="oMI-z5-HCW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fom-2l-5tD"/>
+                        <viewControllerLayoutGuide type="bottom" id="HHH-VR-OzX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LL0-Pt-yuA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kk-2a-u76">
+                                <rect key="frame" x="20" y="72" width="560" height="252"/>
+                                <mutableString key="text">HIV EXPOSED CHILD (&lt;18 months) :For children tested DNA PCR negative.
+After 1 months:
+• Assess the child’s general condition. Do a full reassessment.
+• Ask for any feeding problems or poor appetite, counsel the mother or continue feeding problems.
+• Treat the child for any condition found.
+• Start or continue with nevi rapine prophylaxis.
+• Continue with routine follow up for growth and development, nutrition, immunisation, vitamin A, deworming.
+• Screen for TB.
+• Follow up schedule of HIV Exposed infant: 6 weeks, 10 weeks, 14 weeks, 6 months, 9 months,12 months, 15 months, 18 months.
+• Refer to Early Infant Diagnosis (EID) algorithm for confirmation of HIV status.
+• Refer to the HIV exposed infant follow up card and register for further follow up instructions.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="HIV EXPOSED CHILD (&lt;18 months)" id="RUV-JW-FY6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dbV-lD-ZbN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480" y="4866"/>
+        </scene>
+        <!--Advice-->
+        <scene sceneID="LVr-0l-lGW">
+            <objects>
+                <viewController title="Advice" id="gn0-3o-yd6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xIN-qG-nAW"/>
+                        <viewControllerLayoutGuide type="bottom" id="uen-b7-dhz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wXf-Jy-01u">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBl-eN-xmS">
+                                <rect key="frame" x="20" y="72" width="560" height="244"/>
+                                <mutableString key="text">HIV INFECTED CHILD
+After 1 month:
+• Assess the child’s general condition. Do a full reassessment.
+• Treat the child for any condition found.
+• Ask for any feeding problems, counsel the mother about any new or continuing feeding problems.
+• Advise mother to bring the child back if any new illness develops or she is worried.
+• Counsel the mother or any other problems and ensure community support is given. Refer for further counselling if necessary.
+• Continue with routine follow up for growth and development, nutrition, immunisation, vitamin A, deworming.
+• Assess adherence to ART and Cotrimoxazole and advice accordingly.
+• Offer or refer child for comprehensive HIV management and care (including ART) as per the national ART guidelines.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="HIV INFECTED CHILD" id="LD9-f3-aN6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lxA-rO-qWO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480" y="4225"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="kAh-fq-ZMz">
+            <objects>
+                <tabBarController id="7Ec-wJ-jZa" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="ShL-jy-yI8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gn0-3o-yd6" kind="relationship" relationship="viewControllers" id="Abm-gV-g8f"/>
+                        <segue destination="oMI-z5-HCW" kind="relationship" relationship="viewControllers" id="sAb-WC-dwt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GpA-oC-VRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480" y="3586"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cy4-e6-3uu">
@@ -1896,7 +2751,7 @@ Look for jaundice
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b5L-U0-ZIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1286" y="630"/>
+            <point key="canvasLocation" x="2430" y="1518"/>
         </scene>
         <!--Treatment-->
         <scene sceneID="B6Z-te-UgC">
@@ -1933,7 +2788,7 @@ Look for jaundice
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQt-yw-J2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2166" y="5520"/>
+            <point key="canvasLocation" x="-4420" y="4875"/>
         </scene>
         <!--Treatment-->
         <scene sceneID="a1W-kK-BxB">
@@ -1975,7 +2830,7 @@ Give it for 5 days. Advise the mother to continue ciproflaxin and zinc and to re
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YSf-Yr-cCM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3409" y="5520"/>
+            <point key="canvasLocation" x="-3173" y="4866"/>
         </scene>
         <!--Advice-->
         <scene sceneID="PIk-2P-zkU">
@@ -1990,7 +2845,7 @@ Give it for 5 days. Advise the mother to continue ciproflaxin and zinc and to re
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nP-fx-veX">
-                                <rect key="frame" x="20" y="82" width="560" height="96"/>
+                                <rect key="frame" x="20" y="82" width="560" height="130"/>
                                 <string key="text">After 2 days
 Assess the child for diarrhoea
 Ask:
@@ -2009,14 +2864,14 @@ Ask:
                             <constraint firstAttribute="trailingMargin" secondItem="8nP-fx-veX" secondAttribute="trailing" id="8Oj-BD-dZq"/>
                             <constraint firstAttribute="leadingMargin" secondItem="8nP-fx-veX" secondAttribute="leading" id="HU4-HC-wIl"/>
                             <constraint firstItem="8nP-fx-veX" firstAttribute="top" secondItem="Gsl-Sv-ywh" secondAttribute="bottom" constant="18" id="hAy-zs-f09"/>
-                            <constraint firstItem="xNw-xl-Vav" firstAttribute="top" secondItem="8nP-fx-veX" secondAttribute="bottom" constant="373" id="iNa-TQ-aD2"/>
+                            <constraint firstItem="xNw-xl-Vav" firstAttribute="top" secondItem="8nP-fx-veX" secondAttribute="bottom" constant="339" id="iNa-TQ-aD2"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Advice" id="T3M-dd-4Ku"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FR8-lc-eV0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3409" y="4851"/>
+            <point key="canvasLocation" x="-3173" y="4225"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="xN4-xG-IQM">
@@ -2034,7 +2889,7 @@ Ask:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yTN-Re-eN3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3409" y="4194"/>
+            <point key="canvasLocation" x="-3173" y="3586"/>
         </scene>
         <!--Treatment-->
         <scene sceneID="fu3-i2-bqS">
@@ -2050,9 +2905,9 @@ Ask:
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWI-g5-iUQ">
                                 <rect key="frame" x="20" y="72" width="560" height="132"/>
-                                <string key="text">• If the diarrhoea has not stopped(child is still having 3 more loose stools per day), do a full reassessment of the child. Give any treatment needed. Then refer to hospital.
+                                <mutableString key="text">• If the diarrhoea has not stopped (child is still having 3 more loose stools per day), do a full reassessment of the child. Give any treatment needed. Then refer to hospital.
 • If the diarrhoea has stopped(child having &lt; 3 loose stools per day), tell the mother to follow the usual feeding recommendations for the child’s age, but give one extra meal every day 1months. Ask her to continue giving zinc for total of 10 days.
-• NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.</string>
+• NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2070,7 +2925,7 @@ Ask:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4OR-G8-GGC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2785" y="5520"/>
+            <point key="canvasLocation" x="-3797" y="4875"/>
         </scene>
         <!--Advice-->
         <scene sceneID="uJg-MW-J4I">
@@ -2108,7 +2963,7 @@ Ask:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h6O-ip-S3o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2785" y="4851"/>
+            <point key="canvasLocation" x="-3797" y="4234"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tLW-gX-5Hk">
@@ -2126,7 +2981,7 @@ Ask:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Be-4i-Iem" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2785" y="4194"/>
+            <point key="canvasLocation" x="-3797" y="3595"/>
         </scene>
         <!--Advice-->
         <scene sceneID="4bS-2G-rgI">
@@ -2167,7 +3022,7 @@ Ask:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HIC-64-Xin" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2166" y="4851"/>
+            <point key="canvasLocation" x="-4420" y="4234"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="dqK-fY-bTx">
@@ -2185,7 +3040,7 @@ Ask:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2wD-Bb-gpy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2166" y="4194"/>
+            <point key="canvasLocation" x="-4420" y="3596"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="e5w-XE-fX2">
@@ -2242,7 +3097,7 @@ Ask:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IgB-ca-M9K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="172" y="1682"/>
+            <point key="canvasLocation" x="1780" y="2658"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BRU-zQ-SNh">
@@ -2289,7 +3144,7 @@ Ask:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lQr-h8-JXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-715" y="5460"/>
+            <point key="canvasLocation" x="-437" y="5676"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6a8-hu-D7T">
@@ -2327,7 +3182,7 @@ Ask:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Sj-tc-cvb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-64" y="5420"/>
+            <point key="canvasLocation" x="170" y="5676"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VJq-BA-5Rg">
@@ -2364,7 +3219,7 @@ Ask:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y0B-6G-wJ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="549" y="5428"/>
+            <point key="canvasLocation" x="781" y="5676"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Bh6-9T-yEo">
@@ -2411,7 +3266,7 @@ Ask:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sbT-E2-Cug" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1189" y="5444"/>
+            <point key="canvasLocation" x="1390" y="5676"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jXA-PE-x5G">
@@ -2469,7 +3324,7 @@ Ask:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kBJ-7t-FCq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="816" y="1682"/>
+            <point key="canvasLocation" x="2488" y="2634"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ahj-XK-quo">
@@ -2628,7 +3483,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SFi-Yj-ZUg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1446" y="1682"/>
+            <point key="canvasLocation" x="3094" y="2642"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hQr-ZA-dxJ">
@@ -6184,7 +7039,7 @@ LOOK AND FEEL:
                         <viewControllerLayoutGuide type="bottom" id="aSv-sv-1Ca"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wVZ-mV-nY5">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Risk of Bacterial Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNL-XU-OII">
@@ -6233,7 +7088,7 @@ LOOK AND FEEL:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zR-LC-Xll" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7923" y="2736"/>
+            <point key="canvasLocation" x="-7935" y="3194"/>
         </scene>
         <!--Assess-->
         <scene sceneID="c9T-bz-UDe">
@@ -6244,11 +7099,11 @@ LOOK AND FEEL:
                         <viewControllerLayoutGuide type="bottom" id="yOx-R8-WkN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NAe-bo-elp">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa6-l0-JKe">
-                                <rect key="frame" x="20" y="72" width="560" height="238"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa6-l0-JKe">
+                                <rect key="frame" x="20" y="72" width="560" height="1638"/>
                                 <string key="text">If Yes ask
 
 For how long?
@@ -6280,7 +7135,7 @@ IF CHILD IS:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nis-Pc-eS0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7935" y="2070"/>
+            <point key="canvasLocation" x="-7935" y="2294"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="tgp-IT-nkd">
@@ -6291,7 +7146,7 @@ IF CHILD IS:
                         <viewControllerLayoutGuide type="bottom" id="Uyf-lC-Xy9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="piR-wa-zsU">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6299,7 +7154,7 @@ IF CHILD IS:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VI5-Tx-mcy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7923" y="3426"/>
+            <point key="canvasLocation" x="-7935" y="4100"/>
         </scene>
         <!--Vitamin A & Deworming-->
         <scene sceneID="Oqh-Mn-JPq">
@@ -6310,7 +7165,7 @@ IF CHILD IS:
                         <viewControllerLayoutGuide type="bottom" id="0Is-hp-7Ub"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="whY-hn-NRq">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6318,7 +7173,7 @@ IF CHILD IS:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0q-pj-fnS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6264" y="5880"/>
+            <point key="canvasLocation" x="-6064" y="7868"/>
         </scene>
         <!--Classify-->
         <scene sceneID="fNZ-ZG-oWI">
@@ -6329,7 +7184,7 @@ IF CHILD IS:
                         <viewControllerLayoutGuide type="bottom" id="HsL-gQ-A93"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="IeG-So-N1M">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6337,7 +7192,7 @@ IF CHILD IS:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oLJ-ny-oS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7521" y="5880"/>
+            <point key="canvasLocation" x="-7321" y="7528"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="qh5-YA-IDR">
@@ -6348,7 +7203,7 @@ IF CHILD IS:
                         <viewControllerLayoutGuide type="bottom" id="nrO-Am-o0t"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PRc-sz-8Th">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6356,7 +7211,7 @@ IF CHILD IS:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ijt-FG-0Vu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6891" y="6562"/>
+            <point key="canvasLocation" x="-6693" y="8626"/>
         </scene>
         <!--Classify-->
         <scene sceneID="KS7-8q-5Ex">
@@ -6367,7 +7222,7 @@ IF CHILD IS:
                         <viewControllerLayoutGuide type="bottom" id="Ngs-sh-9lv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8xc-63-wPj">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6375,7 +7230,7 @@ IF CHILD IS:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="crC-dH-0yv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6891" y="5880"/>
+            <point key="canvasLocation" x="-6691" y="7728"/>
         </scene>
         <!--Assess-->
         <scene sceneID="P3Y-HR-35z">
@@ -6386,11 +7241,11 @@ IF CHILD IS:
                         <viewControllerLayoutGuide type="bottom" id="a7g-3K-5j5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZAJ-eF-leT">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eg4-cY-csl">
-                                <rect key="frame" x="20" y="72" width="560" height="444"/>
+                                <rect key="frame" x="20" y="72" width="560" height="447"/>
                                 <string key="text">ASK
 • Ask for mother’s HIV status to establish child’s HIV exposure*.
 Is it:
@@ -6425,7 +7280,7 @@ Classify HIV status</string>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="Eg4-cY-csl" secondAttribute="trailing" id="9hv-KV-lAd"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Eg4-cY-csl" secondAttribute="leading" id="IQN-dN-72n"/>
-                            <constraint firstItem="a7g-3K-5j5" firstAttribute="top" secondItem="Eg4-cY-csl" secondAttribute="bottom" constant="35" id="czD-gl-dIr"/>
+                            <constraint firstItem="a7g-3K-5j5" firstAttribute="top" secondItem="Eg4-cY-csl" secondAttribute="bottom" constant="282" id="czD-gl-dIr"/>
                             <constraint firstItem="Eg4-cY-csl" firstAttribute="centerX" secondItem="ZAJ-eF-leT" secondAttribute="centerX" id="ekg-8w-XMJ"/>
                             <constraint firstItem="Eg4-cY-csl" firstAttribute="top" secondItem="CpQ-3U-bEl" secondAttribute="bottom" constant="8" symbolic="YES" id="hcC-Qt-0ji"/>
                         </constraints>
@@ -6434,7 +7289,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W8G-T9-dKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6891" y="5190"/>
+            <point key="canvasLocation" x="-6691" y="6838"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="PSa-Fl-cAc">
@@ -6453,7 +7308,7 @@ Classify HIV status</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q8K-t7-i7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6891" y="4488"/>
+            <point key="canvasLocation" x="-6691" y="6136"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="sUq-jZ-R5h">
@@ -6464,7 +7319,7 @@ Classify HIV status</string>
                         <viewControllerLayoutGuide type="bottom" id="C3c-P4-dDB"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="J5F-i4-cly">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6472,7 +7327,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D3D-Qc-46Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7521" y="6562"/>
+            <point key="canvasLocation" x="-7321" y="8426"/>
         </scene>
         <!--Assess-->
         <scene sceneID="ti0-Fm-NBf">
@@ -6483,11 +7338,11 @@ Classify HIV status</string>
                         <viewControllerLayoutGuide type="bottom" id="etr-Qq-Fyt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="XT4-si-ye7">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dpa-Ma-Q6G">
-                                <rect key="frame" x="20" y="72" width="560" height="85"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dpa-Ma-Q6G">
+                                <rect key="frame" x="20" y="72" width="560" height="1485"/>
                                 <string key="text">Look for palmar pallor, is it:
 • Severe palmar pallor?
 • Some palmar pallor?
@@ -6511,7 +7366,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wwi-Pb-fGE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7521" y="5190"/>
+            <point key="canvasLocation" x="-7321" y="6838"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="566-hG-hzM">
@@ -6530,7 +7385,7 @@ Classify HIV status</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wvg-nM-Iiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7521" y="4488"/>
+            <point key="canvasLocation" x="-7321" y="6136"/>
         </scene>
         <!--Immunization-->
         <scene sceneID="ZLu-Mp-COg">
@@ -6541,11 +7396,11 @@ Classify HIV status</string>
                         <viewControllerLayoutGuide type="bottom" id="0pd-7G-3hu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Nft-mL-Jwc">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxo-ur-QJh">
-                                <rect key="frame" x="20" y="169" width="560" height="97"/>
+                                <rect key="frame" x="20" y="419" width="560" height="97"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="97" id="mj8-bX-q8f"/>
                                 </constraints>
@@ -6559,7 +7414,7 @@ Classify HIV status</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lN5-Nm-f6M">
-                                <rect key="frame" x="113" y="112" width="375" height="30"/>
+                                <rect key="frame" x="113" y="362" width="375" height="30"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="lN5-Nm-f6M" secondAttribute="height" multiplier="487:39" id="WBJ-Qy-oiZ"/>
@@ -6586,7 +7441,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GPY-2N-7UE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6264" y="5190"/>
+            <point key="canvasLocation" x="-6064" y="6968"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JUv-37-Pwu">
@@ -6604,7 +7459,7 @@ Classify HIV status</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="294-WC-EL3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6264" y="4488"/>
+            <point key="canvasLocation" x="-6064" y="6072"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="NS3-Cu-MqM">
@@ -6615,7 +7470,7 @@ Classify HIV status</string>
                         <viewControllerLayoutGuide type="bottom" id="Pfy-a8-lky"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jmb-AZ-Jp6">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6623,7 +7478,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hrq-7a-92P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7307" y="3448"/>
+            <point key="canvasLocation" x="-7321" y="3962"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="lP7-Yn-Nmd">
@@ -6634,7 +7489,7 @@ Classify HIV status</string>
                         <viewControllerLayoutGuide type="bottom" id="8dK-AK-ZpN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bPQ-xT-D9x">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6642,7 +7497,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k9w-HK-Eub" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6693" y="3509"/>
+            <point key="canvasLocation" x="-6701" y="3982"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="21W-OT-g80">
@@ -6672,7 +7527,7 @@ Classify HIV status</string>
                         <viewControllerLayoutGuide type="bottom" id="uPS-97-cal"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hkw-w9-Ck0">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6680,7 +7535,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x8B-Zd-6da" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8145" y="5880"/>
+            <point key="canvasLocation" x="-7945" y="7528"/>
         </scene>
         <!--Assess-->
         <scene sceneID="4Nn-JT-tAe">
@@ -6691,11 +7546,11 @@ Classify HIV status</string>
                         <viewControllerLayoutGuide type="bottom" id="bPK-y8-Npa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="KaI-I9-JSU">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tol-FI-HM2">
-                                <rect key="frame" x="20" y="72" width="560" height="361"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tol-FI-HM2">
+                                <rect key="frame" x="20" y="72" width="560" height="1761"/>
                                 <string key="text">ASK:  Is there history of TB contact?
 LOOK, LISTEN, FEEL
 • Take the child’s weight and plot it against mother/child health booklet to determine the z-score
@@ -6732,7 +7587,7 @@ Determine Z score for the same:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OT0-Nb-KNl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8145" y="5190"/>
+            <point key="canvasLocation" x="-7945" y="6838"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="8cV-2R-upr">
@@ -6743,7 +7598,7 @@ Determine Z score for the same:
                         <viewControllerLayoutGuide type="bottom" id="PwN-6g-sJY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4x4-30-YQ7">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6751,7 +7606,7 @@ Determine Z score for the same:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dUt-uD-vii" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8145" y="6562"/>
+            <point key="canvasLocation" x="-7945" y="8442"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="CPQ-ll-teF">
@@ -6770,7 +7625,7 @@ Determine Z score for the same:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rEn-Xb-ywa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8145" y="4488"/>
+            <point key="canvasLocation" x="-7945" y="6136"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="c1E-fX-WQ0">
@@ -6781,7 +7636,7 @@ Determine Z score for the same:
                         <viewControllerLayoutGuide type="bottom" id="ok2-bM-dhD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hdE-Ds-2cO">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6789,47 +7644,50 @@ Determine Z score for the same:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HVs-89-tn2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6070" y="3440"/>
+            <point key="canvasLocation" x="-6076" y="3864"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qx2-28-DFH">
             <objects>
-                <viewController id="lRf-cL-QU2" sceneMemberID="viewController">
+                <viewController id="lRf-cL-QU2" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fLo-cF-SiA"/>
                         <viewControllerLayoutGuide type="bottom" id="39a-XS-Mvh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gnE-Ff-nzS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upM-Wp-4jY">
-                                <rect key="frame" x="0.0" y="64" width="600" height="21"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RS7-iV-U37">
-                                <rect key="frame" x="0.0" y="238" width="600" height="21"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgf-m3-VdM">
-                                <rect key="frame" x="0.0" y="372" width="600" height="21"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hON-6e-5Y7">
-                                <rect key="frame" x="20" y="93" width="284" height="129"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="284" id="feC-y3-oiE"/>
-                                </constraints>
-                                <string key="text">If the child is on the initial visit
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jDu-6z-BZT">
+                                <rect key="frame" x="0.0" y="64" width="600" height="803"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQb-Ld-pv2">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="21"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fa7-gB-3nv">
+                                        <rect key="frame" x="0.0" y="174" width="600" height="21"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXH-MN-6Pn">
+                                        <rect key="frame" x="0.0" y="351" width="600" height="21"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v43-Mz-cjj">
+                                        <rect key="frame" x="20" y="29" width="560" height="129"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="560" id="Skc-PC-1Cq"/>
+                                        </constraints>
+                                        <string key="text">If the child is on the initial visit
 Ask: 
 • Is the child able to drink or breastfeed?
 • Does the child vomit everything?
@@ -6838,145 +7696,166 @@ Look:
 • See if child is lethargic or unconscious
 • Is the child convulsing now?
 if yes treat immediately</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THq-su-wJi">
-                                <rect key="frame" x="0.0" y="267" width="600" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7Y-H1-2FQ">
+                                        <rect key="frame" x="0.0" y="203" width="600" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="2hx-62-adH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Does the child have cough or difficult breathing?"/>
+                                        <connections>
+                                            <segue destination="vuI-5e-wn3" kind="show" id="cHt-Bh-NFC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pND-cg-Xeo">
+                                        <rect key="frame" x="0.0" y="241" width="600" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Does the child have diarrhoea?"/>
+                                        <connections>
+                                            <segue destination="69j-1l-flY" kind="show" id="ae3-Tc-faq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMK-Cq-4Ld">
+                                        <rect key="frame" x="0.0" y="279" width="600" height="28"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Does the child have a fever?"/>
+                                        <connections>
+                                            <segue destination="v6S-0v-mID" kind="show" id="gMp-Cj-NHK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA0-HS-UKS">
+                                        <rect key="frame" x="0.0" y="315" width="600" height="28"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="XXQ-kJ-DFA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Does the child have an ear problem?"/>
+                                        <connections>
+                                            <segue destination="cJf-cY-YSQ" kind="show" id="tjX-lR-gYX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ib3-Vm-LoD">
+                                        <rect key="frame" x="0.0" y="492" width="600" height="35"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Check for child's immunization, Vitamin A &amp; deworming status"/>
+                                        <connections>
+                                            <segue destination="KAV-uM-QUt" kind="show" id="Te2-CE-KE8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0r-nr-wn8">
+                                        <rect key="frame" x="0.0" y="380" width="600" height="28"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Check for malnutrition"/>
+                                        <connections>
+                                            <segue destination="1Ja-AZ-aXs" kind="show" id="865-GP-FTk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPv-4l-7Wu">
+                                        <rect key="frame" x="0.0" y="454" width="600" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="cG3-oX-Vfl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Check for HIV exposure and infection"/>
+                                        <connections>
+                                            <segue destination="UNb-IF-UKI" kind="show" id="M95-10-ygq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5f-72-tkO">
+                                        <rect key="frame" x="0.0" y="535" width="600" height="36"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Assess for other problems that the child may have"/>
+                                        <connections>
+                                            <segue destination="9hG-LZ-EXG" kind="show" id="bSd-6y-OtF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njv-0b-KnN">
+                                        <rect key="frame" x="0.0" y="416" width="600" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="dZb-iN-plJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Check for anaemia"/>
+                                        <connections>
+                                            <segue destination="rRY-Qv-bEy" kind="show" id="JVU-CE-NO8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="ZOh-WV-ZZE"/>
+                                    <constraint firstItem="fa7-gB-3nv" firstAttribute="top" secondItem="v43-Mz-cjj" secondAttribute="bottom" constant="16" id="1yo-LM-in3"/>
+                                    <constraint firstItem="P7Y-H1-2FQ" firstAttribute="top" secondItem="fa7-gB-3nv" secondAttribute="bottom" constant="8" symbolic="YES" id="4N3-jF-FmM"/>
+                                    <constraint firstItem="v43-Mz-cjj" firstAttribute="top" secondItem="fQb-Ld-pv2" secondAttribute="bottom" constant="8" symbolic="YES" id="Ihw-WT-YNz"/>
+                                    <constraint firstItem="Ib3-Vm-LoD" firstAttribute="top" secondItem="njv-0b-KnN" secondAttribute="bottom" constant="26" id="JVp-aQ-Eic"/>
+                                    <constraint firstItem="njv-0b-KnN" firstAttribute="top" secondItem="IXH-MN-6Pn" secondAttribute="bottom" constant="26" id="OuZ-mP-FcP"/>
+                                    <constraint firstItem="iMK-Cq-4Ld" firstAttribute="top" secondItem="P7Y-H1-2FQ" secondAttribute="bottom" constant="20" id="Qsv-tF-JBf"/>
+                                    <constraint firstItem="IXH-MN-6Pn" firstAttribute="top" secondItem="iMK-Cq-4Ld" secondAttribute="bottom" constant="27" id="RyW-ZO-XUv"/>
+                                    <constraint firstItem="fa7-gB-3nv" firstAttribute="leading" secondItem="fQb-Ld-pv2" secondAttribute="leading" id="VFW-Vr-xUk"/>
+                                    <constraint firstItem="pND-cg-Xeo" firstAttribute="top" secondItem="fa7-gB-3nv" secondAttribute="bottom" constant="32" id="VUc-Hu-ouJ"/>
+                                    <constraint firstItem="ZA0-HS-UKS" firstAttribute="top" secondItem="pND-cg-Xeo" secondAttribute="bottom" constant="22" id="ZKj-FZ-V4b"/>
+                                    <constraint firstItem="E0r-nr-wn8" firstAttribute="top" secondItem="IXH-MN-6Pn" secondAttribute="bottom" constant="1" id="aBJ-Rf-9LX"/>
+                                    <constraint firstItem="l5f-72-tkO" firstAttribute="top" secondItem="JPv-4l-7Wu" secondAttribute="bottom" constant="41" id="bqB-Ti-4Q8"/>
+                                    <constraint firstItem="l5f-72-tkO" firstAttribute="top" secondItem="Ib3-Vm-LoD" secondAttribute="bottom" constant="8" symbolic="YES" id="dwb-Tu-hXa"/>
+                                    <constraint firstItem="JPv-4l-7Wu" firstAttribute="top" secondItem="E0r-nr-wn8" secondAttribute="bottom" constant="25" id="jB5-ya-J6M"/>
+                                    <constraint firstItem="IXH-MN-6Pn" firstAttribute="leading" secondItem="ZA0-HS-UKS" secondAttribute="leading" id="jKK-2R-D6x"/>
+                                    <constraint firstItem="IXH-MN-6Pn" firstAttribute="top" secondItem="ZA0-HS-UKS" secondAttribute="bottom" constant="1" id="uFc-LL-fEa"/>
+                                    <constraint firstItem="P7Y-H1-2FQ" firstAttribute="leading" secondItem="fa7-gB-3nv" secondAttribute="leading" id="uxX-LG-FNM"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Does the child have cough or difficult breathing?"/>
-                                <connections>
-                                    <segue destination="vuI-5e-wn3" kind="show" id="2QG-gm-ZV5"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1HD-Bg-Dok">
-                                <rect key="frame" x="0.0" y="291" width="600" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Does the child have diarrhoea?"/>
-                                <connections>
-                                    <segue destination="69j-1l-flY" kind="show" id="cxy-JW-GXG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ql5-ea-ucs">
-                                <rect key="frame" x="0.0" y="317" width="600" height="28"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Does the child have a fever?"/>
-                                <connections>
-                                    <segue destination="v6S-0v-mID" kind="show" id="THJ-L5-m96"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUh-lQ-SuX">
-                                <rect key="frame" x="0.0" y="343" width="600" height="28"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="as5-pg-6bW"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Does the child have an ear problem?"/>
-                                <connections>
-                                    <segue destination="cJf-cY-YSQ" kind="show" id="YM4-ld-nfv"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pax-Br-pIy">
-                                <rect key="frame" x="0.0" y="419" width="600" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="4CY-6v-ULn"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Check for anaemia"/>
-                                <connections>
-                                    <segue destination="rRY-Qv-bEy" kind="show" id="aTG-sD-8BO"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Dc4-lv-Loo">
-                                <rect key="frame" x="0.0" y="475" width="600" height="35"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Check for child's immunization, Vitamin A &amp; deworming status"/>
-                                <connections>
-                                    <segue destination="KAV-uM-QUt" kind="show" id="JDh-C5-UZX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLk-Cw-3jn">
-                                <rect key="frame" x="0.0" y="394" width="600" height="28"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Check for malnutrition"/>
-                                <connections>
-                                    <segue destination="1Ja-AZ-aXs" kind="show" id="6Ry-Xo-cSc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJ3-7U-AC6">
-                                <rect key="frame" x="0.0" y="447" width="600" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="pbv-lO-6vt"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Check for HIV exposure and infection"/>
-                                <connections>
-                                    <segue destination="UNb-IF-UKI" kind="show" id="O47-qJ-2Q0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPf-6h-z9o">
-                                <rect key="frame" x="0.0" y="518" width="600" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Assess for other problems that the child may have"/>
-                                <connections>
-                                    <segue destination="PVZ-Ob-5cv" kind="show" id="aN2-pl-zNV"/>
-                                </connections>
-                            </button>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="CUh-lQ-SuX" firstAttribute="width" secondItem="gnE-Ff-nzS" secondAttribute="width" id="0Xb-hq-cWL"/>
-                            <constraint firstItem="RS7-iV-U37" firstAttribute="width" secondItem="gnE-Ff-nzS" secondAttribute="width" id="2s9-oY-yK8"/>
-                            <constraint firstItem="Dc4-lv-Loo" firstAttribute="top" secondItem="pax-Br-pIy" secondAttribute="bottom" constant="26" id="5TN-dG-0Il"/>
-                            <constraint firstItem="gJ3-7U-AC6" firstAttribute="centerX" secondItem="gnE-Ff-nzS" secondAttribute="centerX" id="6BW-zS-T9s"/>
-                            <constraint firstItem="RS7-iV-U37" firstAttribute="top" secondItem="hON-6e-5Y7" secondAttribute="bottom" constant="16" id="6XR-OY-VXR"/>
-                            <constraint firstItem="Dc4-lv-Loo" firstAttribute="centerX" secondItem="gnE-Ff-nzS" secondAttribute="centerX" id="7C7-GS-vO4"/>
-                            <constraint firstItem="pLk-Cw-3jn" firstAttribute="centerX" secondItem="gnE-Ff-nzS" secondAttribute="centerX" id="9hc-Rg-q4r"/>
-                            <constraint firstItem="pLk-Cw-3jn" firstAttribute="top" secondItem="xgf-m3-VdM" secondAttribute="bottom" constant="1" id="JKU-0W-0lD"/>
-                            <constraint firstItem="oPf-6h-z9o" firstAttribute="width" secondItem="gnE-Ff-nzS" secondAttribute="width" id="Lpl-1B-PqV"/>
-                            <constraint firstItem="THq-su-wJi" firstAttribute="leading" secondItem="RS7-iV-U37" secondAttribute="leading" id="NC4-qV-AlL"/>
-                            <constraint firstItem="upM-Wp-4jY" firstAttribute="top" secondItem="fLo-cF-SiA" secondAttribute="bottom" id="NzI-oD-GBM"/>
-                            <constraint firstItem="hON-6e-5Y7" firstAttribute="leading" secondItem="gnE-Ff-nzS" secondAttribute="leadingMargin" id="OBd-6V-KRp"/>
-                            <constraint firstItem="xgf-m3-VdM" firstAttribute="width" secondItem="gnE-Ff-nzS" secondAttribute="width" id="ORg-hv-f7C"/>
-                            <constraint firstItem="oPf-6h-z9o" firstAttribute="top" secondItem="Dc4-lv-Loo" secondAttribute="bottom" constant="8" symbolic="YES" id="OS2-BX-E2S"/>
-                            <constraint firstItem="1HD-Bg-Dok" firstAttribute="width" secondItem="gnE-Ff-nzS" secondAttribute="width" id="RUs-8A-PUv"/>
-                            <constraint firstItem="oPf-6h-z9o" firstAttribute="centerX" secondItem="gnE-Ff-nzS" secondAttribute="centerX" id="SP8-P8-tpR"/>
-                            <constraint firstItem="gJ3-7U-AC6" firstAttribute="top" secondItem="pLk-Cw-3jn" secondAttribute="bottom" constant="25" id="SPh-Cx-3RO"/>
-                            <constraint firstItem="1HD-Bg-Dok" firstAttribute="centerX" secondItem="gnE-Ff-nzS" secondAttribute="centerX" id="SvS-bP-c7q"/>
-                            <constraint firstItem="CUh-lQ-SuX" firstAttribute="centerX" secondItem="gnE-Ff-nzS" secondAttribute="centerX" id="THh-S5-kWO"/>
-                            <constraint firstItem="THq-su-wJi" firstAttribute="width" secondItem="gnE-Ff-nzS" secondAttribute="width" id="TTF-lI-wVF"/>
-                            <constraint firstItem="pax-Br-pIy" firstAttribute="width" secondItem="gnE-Ff-nzS" secondAttribute="width" id="VOi-gy-s8g"/>
-                            <constraint firstItem="39a-XS-Mvh" firstAttribute="top" secondItem="oPf-6h-z9o" secondAttribute="bottom" constant="52" id="Vlj-p7-Vpq"/>
-                            <constraint firstItem="Ql5-ea-ucs" firstAttribute="centerX" secondItem="gnE-Ff-nzS" secondAttribute="centerX" id="ZKI-OH-EeX"/>
-                            <constraint firstItem="gJ3-7U-AC6" firstAttribute="width" secondItem="gnE-Ff-nzS" secondAttribute="width" id="cGD-zS-4Hh"/>
-                            <constraint firstItem="pLk-Cw-3jn" firstAttribute="width" secondItem="gnE-Ff-nzS" secondAttribute="width" id="cOT-zt-dBb"/>
-                            <constraint firstItem="pax-Br-pIy" firstAttribute="top" secondItem="xgf-m3-VdM" secondAttribute="bottom" constant="26" id="dZ3-HV-3ni"/>
-                            <constraint firstItem="THq-su-wJi" firstAttribute="top" secondItem="RS7-iV-U37" secondAttribute="bottom" constant="8" symbolic="YES" id="eRK-Lp-BXK"/>
-                            <constraint firstItem="Ql5-ea-ucs" firstAttribute="width" secondItem="gnE-Ff-nzS" secondAttribute="width" id="ew2-3t-Qo2"/>
-                            <constraint firstItem="Dc4-lv-Loo" firstAttribute="width" secondItem="gnE-Ff-nzS" secondAttribute="width" id="fLy-5j-PTd"/>
-                            <constraint firstItem="xgf-m3-VdM" firstAttribute="top" secondItem="CUh-lQ-SuX" secondAttribute="bottom" constant="1" id="hUl-3s-eHj"/>
-                            <constraint firstItem="CUh-lQ-SuX" firstAttribute="top" secondItem="1HD-Bg-Dok" secondAttribute="bottom" constant="22" id="hjU-5u-WPJ"/>
-                            <constraint firstItem="xgf-m3-VdM" firstAttribute="leading" secondItem="CUh-lQ-SuX" secondAttribute="leading" id="jd0-d0-YNz"/>
-                            <constraint firstItem="Ql5-ea-ucs" firstAttribute="top" secondItem="THq-su-wJi" secondAttribute="bottom" constant="20" id="m7j-Ne-T71"/>
-                            <constraint firstItem="RS7-iV-U37" firstAttribute="leading" secondItem="upM-Wp-4jY" secondAttribute="leading" id="pQS-Q7-hkq"/>
-                            <constraint firstItem="upM-Wp-4jY" firstAttribute="width" secondItem="gnE-Ff-nzS" secondAttribute="width" id="piL-9g-ulf"/>
-                            <constraint firstItem="xgf-m3-VdM" firstAttribute="top" secondItem="Ql5-ea-ucs" secondAttribute="bottom" constant="27" id="raP-Iu-AvH"/>
-                            <constraint firstItem="1HD-Bg-Dok" firstAttribute="top" secondItem="RS7-iV-U37" secondAttribute="bottom" constant="32" id="tsa-LT-rrL"/>
-                            <constraint firstItem="pax-Br-pIy" firstAttribute="centerX" secondItem="gnE-Ff-nzS" secondAttribute="centerX" id="wgH-AQ-us3"/>
-                            <constraint firstItem="hON-6e-5Y7" firstAttribute="top" secondItem="upM-Wp-4jY" secondAttribute="bottom" constant="8" symbolic="YES" id="wpc-3o-plf"/>
-                            <constraint firstItem="THq-su-wJi" firstAttribute="centerX" secondItem="gnE-Ff-nzS" secondAttribute="centerX" id="ymf-ah-tak"/>
-                            <constraint firstItem="oPf-6h-z9o" firstAttribute="top" secondItem="gJ3-7U-AC6" secondAttribute="bottom" constant="41" id="zjB-3s-wTr"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="AbV-vo-Og1"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="850"/>
+                    <connections>
+                        <outlet property="scroller" destination="jDu-6z-BZT" id="5Ny-zG-KJc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hU8-sF-FWq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5190" y="630"/>
+            <point key="canvasLocation" x="-6965" y="-108"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bFX-p7-z44">
+            <objects>
+                <viewController id="9hG-LZ-EXG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AxP-J4-Hv2"/>
+                        <viewControllerLayoutGuide type="bottom" id="Woq-WO-aei"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NgG-BS-Lf7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94g-Tc-HN5">
+                                <rect key="frame" x="20" y="72" width="560" height="102"/>
+                                <string key="text">MAKE SURE A CHILD WITH ANY GENERAL DANGER SIGN IS REFERRED:
+- After first dose of an appropriate antibiotic and other urgent treatments.
+- Exception: Rehydration of child according to Plan C may resolve danger signs so that referral is no longer needed.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aZy-xm-sEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5441" y="6873"/>
         </scene>
         <!--Classify-->
         <scene sceneID="rQJ-4a-986">
@@ -6987,7 +7866,7 @@ if yes treat immediately</string>
                         <viewControllerLayoutGuide type="bottom" id="weg-Xl-rmI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gim-Yc-YtJ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -6995,7 +7874,7 @@ if yes treat immediately</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y0O-q7-DzH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6693" y="2865"/>
+            <point key="canvasLocation" x="-6701" y="3092"/>
         </scene>
         <!--Assess-->
         <scene sceneID="0Se-lP-HEY">
@@ -7082,7 +7961,7 @@ Classify Fever</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UWu-aw-oME" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6693" y="2070"/>
+            <point key="canvasLocation" x="-6701" y="2202"/>
         </scene>
         <!--Classify-->
         <scene sceneID="dl9-Pg-sV5">
@@ -7093,7 +7972,7 @@ Classify Fever</string>
                         <viewControllerLayoutGuide type="bottom" id="7vG-zq-sxu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2od-YN-u1k">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -7101,7 +7980,7 @@ Classify Fever</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KKC-9w-320" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6070" y="2766"/>
+            <point key="canvasLocation" x="-6076" y="2966"/>
         </scene>
         <!--Assess-->
         <scene sceneID="mTa-aT-AKx">
@@ -7112,11 +7991,11 @@ Classify Fever</string>
                         <viewControllerLayoutGuide type="bottom" id="wTg-Og-RIy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8Zd-xK-Wcs">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8h-uX-h8x">
-                                <rect key="frame" x="20" y="72" width="560" height="145"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8h-uX-h8x">
+                                <rect key="frame" x="20" y="72" width="560" height="1545"/>
                                 <string key="text">IF YES ASK
 Is there ear pain?
 Is there ear discharge? If yes, how long?
@@ -7164,45 +8043,6 @@ Classify EAR PROBLEM</string>
             </objects>
             <point key="canvasLocation" x="-6076" y="1424"/>
         </scene>
-        <!--Assess-->
-        <scene sceneID="wFt-rs-O4d">
-            <objects>
-                <viewController id="PVZ-Ob-5cv" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="DGw-wb-IEm"/>
-                        <viewControllerLayoutGuide type="bottom" id="TVc-Xw-sVi"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Si2-bK-yDp">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esE-CZ-Knz">
-                                <rect key="frame" x="20" y="72" width="560" height="101"/>
-                                <string key="text">Assess for other problems that the child may have.
-MAKE SURE A CHILD WITH ANY GENERAL DANGER SIGN IS REFERRED:
-- After first dose of an appropriate antibiotic and other urgent treatments.
-- Exception: Rehydration of child according to Plan C may resolve danger signs so that referral is no longer needed.
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="esE-CZ-Knz" secondAttribute="trailing" id="6Of-U3-uKK"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="esE-CZ-Knz" secondAttribute="leading" id="Shx-H0-XOb"/>
-                            <constraint firstItem="esE-CZ-Knz" firstAttribute="top" secondItem="DGw-wb-IEm" secondAttribute="bottom" constant="8" id="Xb7-F8-zmm"/>
-                            <constraint firstItem="esE-CZ-Knz" firstAttribute="centerX" secondItem="Si2-bK-yDp" secondAttribute="centerX" id="avj-sV-Smi"/>
-                            <constraint firstItem="TVc-Xw-sVi" firstAttribute="top" secondItem="esE-CZ-Knz" secondAttribute="bottom" constant="427" id="jfy-Bq-hlF"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Assess" id="wqw-cC-xVL"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DZj-im-aah" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-5651" y="5190"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rf4-SE-dQa">
             <objects>
@@ -7231,7 +8071,7 @@ MAKE SURE A CHILD WITH ANY GENERAL DANGER SIGN IS REFERRED:
                         <viewControllerLayoutGuide type="bottom" id="Kb3-5o-kV8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jZc-0j-a1B">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -7239,7 +8079,7 @@ MAKE SURE A CHILD WITH ANY GENERAL DANGER SIGN IS REFERRED:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6x9-7L-Jh0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7313" y="2756"/>
+            <point key="canvasLocation" x="-7321" y="3068"/>
         </scene>
         <!--Assess-->
         <scene sceneID="yIY-DS-0KK">
@@ -7250,13 +8090,13 @@ MAKE SURE A CHILD WITH ANY GENERAL DANGER SIGN IS REFERRED:
                         <viewControllerLayoutGuide type="bottom" id="lF3-b9-Pri"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hcl-jO-0BR">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJJ-se-8XG">
-                                <rect key="frame" x="20" y="72" width="560" height="328"/>
+                                <rect key="frame" x="20" y="72" width="560" height="359"/>
                                 <string key="text">
-IF YES AKS
+IF YES ASK
 	For how long?
 	Is there blood in the stool?
 
@@ -7283,7 +8123,7 @@ Classify Diarrhoea</string>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="lF3-b9-Pri" firstAttribute="top" secondItem="uJJ-se-8XG" secondAttribute="bottom" constant="151" id="Gn7-Rv-Dme"/>
+                            <constraint firstItem="lF3-b9-Pri" firstAttribute="top" secondItem="uJJ-se-8XG" secondAttribute="bottom" constant="370" id="Gn7-Rv-Dme"/>
                             <constraint firstItem="uJJ-se-8XG" firstAttribute="centerX" secondItem="hcl-jO-0BR" secondAttribute="centerX" id="JKb-mY-WIN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="uJJ-se-8XG" secondAttribute="trailing" id="pE1-aO-x9w"/>
                             <constraint firstItem="uJJ-se-8XG" firstAttribute="top" secondItem="Qld-07-XYQ" secondAttribute="bottom" constant="8" symbolic="YES" id="vnn-uA-bKp"/>
@@ -7294,7 +8134,7 @@ Classify Diarrhoea</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AlG-zH-Dng" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7313" y="2070"/>
+            <point key="canvasLocation" x="-7323" y="2181"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="LYi-yY-nfo">
@@ -7313,7 +8153,7 @@ Classify Diarrhoea</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uEx-He-HtO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7313" y="1414"/>
+            <point key="canvasLocation" x="-7323" y="1288"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oHv-oj-n5N">
@@ -9306,13 +10146,13 @@ LOOK:
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJI-ha-I7a">
                                         <rect key="frame" x="13" y="225" width="574" height="163"/>
-                                        <mutableString key="text">FOR CHILDREN BEING REFERRED WITH VERY SEVERE FEBRILE DISEASE:
+                                        <string key="text">FOR CHILDREN BEING REFERRED WITH VERY SEVERE FEBRILE DISEASE:
 • Give first dose of intramuscular quinine (20mg/kg-loading dose) and refer child urgently to hospital. IF REFERRAL IS NOT POSSIBLE:
 • Give first dose of IM quinine (20mg/kg-loading dose).The child should remain lying down for one hour.
 • Treat to prevent hypoglycaemia.
 • Repeat the quinine injection every 8 hours(maintenance dose at 10mg/kg) until the child is able to take an oral antimalarial. Do not continue quinine injections for more than 1 week.
 • If low risk of malaria, do not give quinine to a child less than 4 months of age.
-• Give vitamin A.</mutableString>
+• Give vitamin A.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
