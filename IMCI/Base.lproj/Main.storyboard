@@ -7167,7 +7167,18 @@ IF CHILD IS:
                     <view key="view" contentMode="scaleToFill" id="whY-hn-NRq">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vitamin_a.png" translatesAutoresizingMaskIntoConstraints="NO" id="x6a-zf-N0R">
+                                <rect key="frame" x="0.0" y="72" width="600" height="593"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="x6a-zf-N0R" firstAttribute="centerX" secondItem="whY-hn-NRq" secondAttribute="centerX" id="FQ3-Dt-Hw3"/>
+                            <constraint firstItem="x6a-zf-N0R" firstAttribute="width" secondItem="whY-hn-NRq" secondAttribute="width" id="Iqc-iX-5Cy"/>
+                            <constraint firstItem="x6a-zf-N0R" firstAttribute="top" secondItem="Tw6-wd-TCB" secondAttribute="bottom" constant="8" symbolic="YES" id="fRn-wV-Co2"/>
+                            <constraint firstItem="0Is-hp-7Ub" firstAttribute="top" secondItem="x6a-zf-N0R" secondAttribute="bottom" constant="136" id="qrf-BX-3Da"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Vitamin A &amp; Deworming" id="WRK-bV-JN4"/>
                 </viewController>
@@ -7205,6 +7216,98 @@ IF CHILD IS:
                     <view key="view" contentMode="scaleToFill" id="PRc-sz-8Th">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a63-c0-PIo">
+                                <rect key="frame" x="0.0" y="64" width="605" height="729"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Confirmed HIV Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f38-rw-dCr">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HIV Exposed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5M-4d-VQJ">
+                                        <rect key="frame" x="0.0" y="219" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbp-yg-C7K">
+                                        <rect key="frame" x="0.0" y="32" width="600" height="185"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">• Treat ,counsel and follow up existing infection
+• Initiate or continue with Cotrimoxazole prophylaxis
+• Give vitamin A
+• Assess child’s feeding and provide appropriate counselling to mother
+• For children with positive TB contact, screen for TB and manage accordingly or refer to appropriate unit
+• Follow up after on month
+• Offer comprehensive management of HIV or refer to appropriate unit.
+
+* Follow the national ART guidelines for comprehensive HIV care of the child.
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vzz-8C-aMV">
+                                        <rect key="frame" x="0.0" y="252" width="600" height="213"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <mutableString key="text">• Treat, counsel and follow up existing infection.
+• Initiate or continue with Cotrimoxazole prophylaxis
+• Give and continue with Nevirapine prophylaxis as per the national PMTCT guidelines
+• Give vitamin A
+• Assess child’s feeding and provide appropriate counselling to mother
+• Offer routine follow up for growth and development, nutrition, immunisation.
+• Follow up after one month
+• Repeat HIV antibody test at 9 months, if negative, repeat test again at 18 months and continue with normal under fiver clinic
+• If antibody test at 9 months is positive, collect DBS sample for confirmatory DNA PCR test
+
+*Refer to national ART guidelines/ job aids for comprehensive details on HIV care of the child</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Suspected Symptomatic HIV Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pp7-GK-tca">
+                                        <rect key="frame" x="2" y="463" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gl-mP-qQi">
+                                        <rect key="frame" x="2" y="494" width="600" height="109"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">• Treat, counsel and follow up existing infections.
+• Initiate or continue with Cotrimoxazole prophylaxis.
+• Give vitamin A.
+• Test to confirm HIV infection.
+• Follow up after one month.
+• Offer comprehensive management of HIV or refer to appropriate unit. Follow the national ART guidelines for comprehensive HIV care for child.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HIV Infection Unlikely" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHt-xQ-pMh">
+                                        <rect key="frame" x="2" y="605" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3p-re-2z6">
+                                        <rect key="frame" x="2" y="638" width="600" height="50"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">• Manage presenting conditions according to IMCI and other recommeded national guidelines.
+• Advise the mother about feeding and about her own health.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="jq2-zI-IrO"/>
@@ -7224,6 +7327,88 @@ IF CHILD IS:
                     <view key="view" contentMode="scaleToFill" id="8xc-63-wPj">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B2k-rx-rrI">
+                                <rect key="frame" x="0.0" y="64" width="600" height="679"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Confirmed HIV Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5w-TV-GAv">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HIV Exposed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xay-jK-hHZ">
+                                        <rect key="frame" x="0.0" y="88" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RE0-3H-05Z">
+                                        <rect key="frame" x="0.0" y="32" width="600" height="54"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">• Child &lt; 18 months and DNA PCR test POSITIVE 
+• Child above 18 months and antibody test POSITIVE.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPq-r6-Tza">
+                                        <rect key="frame" x="0.0" y="121" width="600" height="113"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">Children &lt; 18 months
+• If mother’ HIV status is POSITIVE and no result for child.
+OR
+• If child antibody test POSITIVE.
+OR
+• If DNA PCR test is NEGATIVE.
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Suspected Symptomatic HIV Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pum-Lm-cK1">
+                                        <rect key="frame" x="0.0" y="237" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c83-nM-Gad">
+                                        <rect key="frame" x="0.0" y="268" width="600" height="109"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">• No test results for child or mother.
+• 2 or more of the following conditions:
+	- Severe Pneumonia
+	- Oral Candidiasis/thrush
+	- Severe Sepsis
+OR
+	- An AIDS defining condition.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HIV Infection Unlikely" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OIn-Zp-Ps9">
+                                        <rect key="frame" x="0.0" y="379" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njD-GX-Nsr">
+                                        <rect key="frame" x="0.0" y="412" width="600" height="48"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">• If child is &lt; 18 months with UNKNOWN mother’s HIV status and tests antibody NEGATIVE
+• If child is above 18 months and tests antibody NEGATIVE.
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Classify" id="dER-st-SNI"/>
@@ -7400,7 +7585,7 @@ Classify HIV status</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxo-ur-QJh">
-                                <rect key="frame" x="20" y="419" width="560" height="97"/>
+                                <rect key="frame" x="20" y="129" width="560" height="97"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="97" id="mj8-bX-q8f"/>
                                 </constraints>
@@ -7414,7 +7599,7 @@ Classify HIV status</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lN5-Nm-f6M">
-                                <rect key="frame" x="113" y="362" width="375" height="30"/>
+                                <rect key="frame" x="113" y="72" width="375" height="30"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="lN5-Nm-f6M" secondAttribute="height" multiplier="487:39" id="WBJ-Qy-oiZ"/>
@@ -7433,7 +7618,8 @@ Classify HIV status</string>
                             <constraint firstItem="lN5-Nm-f6M" firstAttribute="leading" secondItem="Nft-mL-Jwc" secondAttribute="leadingMargin" constant="93" id="QLl-6u-0MO"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Vxo-ur-QJh" secondAttribute="leading" id="UOv-1g-PFP"/>
                             <constraint firstItem="lN5-Nm-f6M" firstAttribute="centerX" secondItem="Nft-mL-Jwc" secondAttribute="centerX" id="Z1v-cG-JXm"/>
-                            <constraint firstItem="0pd-7G-3hu" firstAttribute="top" secondItem="Vxo-ur-QJh" secondAttribute="bottom" constant="285" id="dKC-Hy-7RU"/>
+                            <constraint firstItem="0pd-7G-3hu" firstAttribute="top" secondItem="Vxo-ur-QJh" secondAttribute="bottom" constant="575" id="dKC-Hy-7RU"/>
+                            <constraint firstItem="lN5-Nm-f6M" firstAttribute="top" secondItem="yL3-uS-zBD" secondAttribute="bottom" constant="8" id="hd2-vA-CsM"/>
                             <constraint firstItem="lN5-Nm-f6M" firstAttribute="width" secondItem="lN5-Nm-f6M" secondAttribute="height" multiplier="487:39" id="zjd-sH-2dH"/>
                         </constraints>
                     </view>
@@ -10432,6 +10618,7 @@ The mother should:
         <image name="nvp_dosage_for_infants.PNG" width="1192" height="565"/>
         <image name="paeds_chart.PNG" width="1273" height="627"/>
         <image name="treat_wheezing.PNG" width="720" height="643"/>
+        <image name="vitamin_a.png" width="456" height="465"/>
         <image name="young_appropriate_oral_antibiotic.PNG" width="1122" height="639"/>
         <image name="young_give_zinc_sulphate.PNG" width="1166" height="541"/>
     </resources>
