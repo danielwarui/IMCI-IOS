@@ -7208,17 +7208,17 @@ IF CHILD IS:
         <!--Identify Treatment-->
         <scene sceneID="qh5-YA-IDR">
             <objects>
-                <viewController id="GOg-18-fNQ" sceneMemberID="viewController">
+                <viewController id="GOg-18-fNQ" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Ip-ct-ia8"/>
                         <viewControllerLayoutGuide type="bottom" id="nrO-Am-o0t"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PRc-sz-8Th">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a63-c0-PIo">
-                                <rect key="frame" x="0.0" y="64" width="605" height="729"/>
+                                <rect key="frame" x="0.0" y="64" width="605" height="779"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Confirmed HIV Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f38-rw-dCr">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
@@ -7277,30 +7277,31 @@ IF CHILD IS:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gl-mP-qQi">
-                                        <rect key="frame" x="2" y="494" width="600" height="109"/>
+                                        <rect key="frame" x="2" y="494" width="600" height="145"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">• Treat, counsel and follow up existing infections.
-• Initiate or continue with Cotrimoxazole prophylaxis.
-• Give vitamin A.
-• Test to confirm HIV infection.
-• Follow up after one month.
-• Offer comprehensive management of HIV or refer to appropriate unit. Follow the national ART guidelines for comprehensive HIV care for child.</string>
+• Initiate Cotrimoxazole prophylaxis.
+• Give vitamin A
+Assess child’s feeding and provide appropriate counselling to mother.
+• Test to confirm HIV infection
+• Follow up after one month
+• Offer comprehensive management of HIV or refer to appropriate unit. Follow the national ART guidelines for comprehensive HIV care of child.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HIV Infection Unlikely" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHt-xQ-pMh">
-                                        <rect key="frame" x="2" y="605" width="600" height="34"/>
+                                        <rect key="frame" x="2" y="641" width="600" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3p-re-2z6">
-                                        <rect key="frame" x="2" y="638" width="600" height="50"/>
+                                        <rect key="frame" x="2" y="674" width="600" height="50"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
-                                        <string key="text">• Manage presenting conditions according to IMCI and other recommeded national guidelines.
-• Advise the mother about feeding and about her own health.</string>
+                                        <string key="text">• Manage presenting conditions according to IMCI and other recommended National guidelines.
+• Advise the mother about feeding and about her health.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -7311,6 +7312,11 @@ IF CHILD IS:
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="jq2-zI-IrO"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="900"/>
+                    <connections>
+                        <outlet property="scroller" destination="a63-c0-PIo" id="JIx-qL-2a1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ijt-FG-0Vu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -7319,7 +7325,7 @@ IF CHILD IS:
         <!--Classify-->
         <scene sceneID="KS7-8q-5Ex">
             <objects>
-                <viewController id="Pb1-eo-q8J" sceneMemberID="viewController">
+                <viewController id="Pb1-eo-q8J" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6M9-Vo-ufL"/>
                         <viewControllerLayoutGuide type="bottom" id="Ngs-sh-9lv"/>
@@ -7412,6 +7418,9 @@ OR
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Classify" id="dER-st-SNI"/>
+                    <connections>
+                        <outlet property="scroller" destination="B2k-rx-rrI" id="RvJ-Bx-0kc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="crC-dH-0yv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
