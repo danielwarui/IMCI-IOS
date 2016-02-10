@@ -7192,7 +7192,7 @@ IF CHILD IS:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oLJ-ny-oS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7321" y="7528"/>
+            <point key="canvasLocation" x="-7323" y="7742"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="qh5-YA-IDR">
@@ -7211,7 +7211,7 @@ IF CHILD IS:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ijt-FG-0Vu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6693" y="8626"/>
+            <point key="canvasLocation" x="-6691" y="8634"/>
         </scene>
         <!--Classify-->
         <scene sceneID="KS7-8q-5Ex">
@@ -7230,7 +7230,7 @@ IF CHILD IS:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="crC-dH-0yv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6691" y="7728"/>
+            <point key="canvasLocation" x="-6689" y="7736"/>
         </scene>
         <!--Assess-->
         <scene sceneID="P3Y-HR-35z">
@@ -7327,7 +7327,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D3D-Qc-46Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7321" y="8426"/>
+            <point key="canvasLocation" x="-7323" y="8640"/>
         </scene>
         <!--Assess-->
         <scene sceneID="ti0-Fm-NBf">
@@ -7341,8 +7341,8 @@ Classify HIV status</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dpa-Ma-Q6G">
-                                <rect key="frame" x="20" y="72" width="560" height="1485"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dpa-Ma-Q6G">
+                                <rect key="frame" x="20" y="72" width="560" height="101"/>
                                 <string key="text">Look for palmar pallor, is it:
 • Severe palmar pallor?
 • Some palmar pallor?
@@ -7358,7 +7358,7 @@ Classify HIV status</string>
                             <constraint firstItem="Dpa-Ma-Q6G" firstAttribute="centerX" secondItem="XT4-si-ye7" secondAttribute="centerX" id="Bff-5Q-bvq"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Dpa-Ma-Q6G" secondAttribute="leading" id="IA6-1a-5on"/>
                             <constraint firstItem="Dpa-Ma-Q6G" firstAttribute="top" secondItem="OPm-P1-dlI" secondAttribute="bottom" constant="8" symbolic="YES" id="LoP-7j-T3W"/>
-                            <constraint firstItem="etr-Qq-Fyt" firstAttribute="top" secondItem="Dpa-Ma-Q6G" secondAttribute="bottom" constant="394" id="RxQ-8O-eSw"/>
+                            <constraint firstItem="etr-Qq-Fyt" firstAttribute="top" secondItem="Dpa-Ma-Q6G" secondAttribute="bottom" constant="628" id="RxQ-8O-eSw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Dpa-Ma-Q6G" secondAttribute="trailing" id="bmI-PU-bvX"/>
                         </constraints>
                     </view>
@@ -7535,7 +7535,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x8B-Zd-6da" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7945" y="7528"/>
+            <point key="canvasLocation" x="-7945" y="7736"/>
         </scene>
         <!--Assess-->
         <scene sceneID="4Nn-JT-tAe">
@@ -7549,8 +7549,8 @@ Classify HIV status</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tol-FI-HM2">
-                                <rect key="frame" x="20" y="72" width="560" height="1761"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tol-FI-HM2">
+                                <rect key="frame" x="20" y="72" width="560" height="348"/>
                                 <string key="text">ASK:  Is there history of TB contact?
 LOOK, LISTEN, FEEL
 • Take the child’s weight and plot it against mother/child health booklet to determine the z-score
@@ -7576,7 +7576,7 @@ Determine Z score for the same:
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="bPK-y8-Npa" firstAttribute="top" secondItem="Tol-FI-HM2" secondAttribute="bottom" constant="118" id="C6C-TS-Cnp"/>
+                            <constraint firstItem="bPK-y8-Npa" firstAttribute="top" secondItem="Tol-FI-HM2" secondAttribute="bottom" constant="381" id="C6C-TS-Cnp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Tol-FI-HM2" secondAttribute="trailing" id="Pqm-rE-tT2"/>
                             <constraint firstItem="Tol-FI-HM2" firstAttribute="centerX" secondItem="KaI-I9-JSU" secondAttribute="centerX" id="R1e-o9-Us5"/>
                             <constraint firstItem="Tol-FI-HM2" firstAttribute="top" secondItem="5i6-PL-gIR" secondAttribute="bottom" constant="8" symbolic="YES" id="uSX-Ev-Q6f"/>
@@ -7606,7 +7606,7 @@ Determine Z score for the same:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dUt-uD-vii" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7945" y="8442"/>
+            <point key="canvasLocation" x="-7945" y="8634"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="CPQ-ll-teF">
