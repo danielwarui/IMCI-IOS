@@ -1125,12 +1125,12 @@ Look for jaundice
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Za5-8d-MEI">
                                 <rect key="frame" x="20" y="80" width="560" height="225"/>
-                                <mutableString key="text">	Reassess feeding.
+                                <string key="text">	Reassess feeding.
 		• If the infant is no longer low weight for age, praise the mother and encourage her to continue, until normal weight is attained.
 		• If the young infant is still low weight for age, but is feeding well, praise the mother. Ask her to have her infant weighed again within a month or when she returns for immunisation.
 		• If the infant is still low weight for age and still has a feeding problem, counsel the mother about the feeding problem. Ask the mother to return again in 14 days (or when she returns for immunisation, if this is within 2 weeks). Continue to see the young infant every 2 weeks until the infant is feeding well and gaining weight regularly or is no longer low weight for age.
 	Exception:
-	If you do not think that feeding will improve, or if the young infant has lost weight, admit or refer to hospital.</mutableString>
+	If you do not think that feeding will improve, or if the young infant has lost weight, admit or refer to hospital.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1700,12 +1700,12 @@ Look for jaundice
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RwW-C8-6Mq">
                                 <rect key="frame" x="20" y="72" width="560" height="187"/>
-                                <mutableString key="text">• If there is a tender swelling behind the ear or high fever (38.5˚C or above), admit or refer URGENTLY to hospital.
+                                <string key="text">• If there is a tender swelling behind the ear or high fever (38.5˚C or above), admit or refer URGENTLY to hospital.
 • Acute ear infection: If ear pain continues or discharges persists, treat with 5 more days of the same antibiotic, continue wicking to dry the ear. Follow up in 5 days.
 • Chronic ear infection: Check that the mother is wicking the ear correctly. Encourage her to continue.
 Review in 2 weeks.
 • If ear discharge continues for more than 2 months: Admit or refer to hospital.
-• If no ear pain or discharge, praise the mother for her careful treatment. If she has not yet finished the 5 days of antibiotic, tell her to use it till treatment is completed.</mutableString>
+• If no ear pain or discharge, praise the mother for her careful treatment. If she has not yet finished the 5 days of antibiotic, tell her to use it till treatment is completed.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1781,7 +1781,7 @@ Review in 2 weeks.
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBO-XI-H66">
                                 <rect key="frame" x="20" y="72" width="560" height="229"/>
-                                <mutableString key="text">• If pus is draining from the eye, ask the mother to describe how she has treated the eye infection.
+                                <string key="text">• If pus is draining from the eye, ask the mother to describe how she has treated the eye infection.
 	- If treatment has been correct, admit or refer to hospital.
 	- If treatment has not been correct, teach mother correct treatment.
 • If the pus is gone but redness remains, continue the treatment.
@@ -1790,7 +1790,7 @@ Review in 2 weeks.
 Treatment for mouth ulcers:
 • If mouth ulcers are worse, or there is a very foul smell from the mouth, admit or refer to hospital.
 • If mouth ulcers or thrush are the same or better, continue using half-strength gentian violet or Nystatin for a total of 5 days.
-• If thrush is no better or is worse consider symptomatic HIV infection.</mutableString>
+• If thrush is no better or is worse consider symptomatic HIV infection.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2028,13 +2028,13 @@ Assess for other causes of fever.</string>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0w7-8f-Ot6">
                                 <rect key="frame" x="20" y="72" width="560" height="193"/>
-                                <mutableString key="text">Child under 1 year
+                                <string key="text">Child under 1 year
 • If chest in-drawing or a danger sign, fast breathing, poor feeding or wheeze: Give intramuscular antibiotic. Then admit or refer URGENTLY to hospital.
 • If breathing slower, no wheezing and eating better continue the treatment for 5 days.
 Child one year and over
 • If chest in-drawing or general danger sign give intramuscular antibiotic. Then admit or refer urgently to Hospital.
 • If breathing rate and eating have not improved, change to second-line antibiotic, and if still wheezing continue oral bronchodilator. Advise the mother to return in 2 days.
-• If breathing slower, now wheezing and eating better continue the treatment for 5 days.</mutableString>
+• If breathing slower, now wheezing and eating better continue the treatment for 5 days.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2180,11 +2180,11 @@ Ask:
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cX-7o-6oI">
                                 <rect key="frame" x="20" y="72" width="560" height="172"/>
-                                <mutableString key="text">• If the child is no longer having a very low weight for age, praise the mother and encourage her to continue with the feeding until catch up growth is realised.
+                                <string key="text">• If the child is no longer having a very low weight for age, praise the mother and encourage her to continue with the feeding until catch up growth is realised.
 • If child is still very low weight for age but gaining weight, encourage the mother to continue with feeding. Counsel the mother about any feeding problem found. Ask  the mother to return again in 14 days. Continue to see the child every one month until the child is normal weight for age.
 • Admit or refer if
  The child has lost weight or is not gaining weight. You do not think that feeding will improve or the child continues to lose weight.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2336,7 +2336,7 @@ Reassess feeding.</string>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kk-2a-u76">
                                 <rect key="frame" x="20" y="72" width="560" height="252"/>
-                                <mutableString key="text">HIV EXPOSED CHILD (&lt;18 months) :For children tested DNA PCR negative.
+                                <string key="text">HIV EXPOSED CHILD (&lt;18 months) :For children tested DNA PCR negative.
 After 1 months:
 • Assess the child’s general condition. Do a full reassessment.
 • Ask for any feeding problems or poor appetite, counsel the mother or continue feeding problems.
@@ -2346,7 +2346,7 @@ After 1 months:
 • Screen for TB.
 • Follow up schedule of HIV Exposed infant: 6 weeks, 10 weeks, 14 weeks, 6 months, 9 months,12 months, 15 months, 18 months.
 • Refer to Early Infant Diagnosis (EID) algorithm for confirmation of HIV status.
-• Refer to the HIV exposed infant follow up card and register for further follow up instructions.</mutableString>
+• Refer to the HIV exposed infant follow up card and register for further follow up instructions.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2374,7 +2374,7 @@ After 1 months:
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBl-eN-xmS">
                                 <rect key="frame" x="20" y="72" width="560" height="244"/>
-                                <mutableString key="text">HIV INFECTED CHILD
+                                <string key="text">HIV INFECTED CHILD
 After 1 month:
 • Assess the child’s general condition. Do a full reassessment.
 • Treat the child for any condition found.
@@ -2383,7 +2383,7 @@ After 1 month:
 • Counsel the mother or any other problems and ensure community support is given. Refer for further counselling if necessary.
 • Continue with routine follow up for growth and development, nutrition, immunisation, vitamin A, deworming.
 • Assess adherence to ART and Cotrimoxazole and advice accordingly.
-• Offer or refer child for comprehensive HIV management and care (including ART) as per the national ART guidelines.</mutableString>
+• Offer or refer child for comprehensive HIV management and care (including ART) as per the national ART guidelines.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2905,9 +2905,9 @@ Ask:
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWI-g5-iUQ">
                                 <rect key="frame" x="20" y="72" width="560" height="132"/>
-                                <mutableString key="text">• If the diarrhoea has not stopped (child is still having 3 more loose stools per day), do a full reassessment of the child. Give any treatment needed. Then refer to hospital.
+                                <string key="text">• If the diarrhoea has not stopped (child is still having 3 more loose stools per day), do a full reassessment of the child. Give any treatment needed. Then refer to hospital.
 • If the diarrhoea has stopped(child having &lt; 3 loose stools per day), tell the mother to follow the usual feeding recommendations for the child’s age, but give one extra meal every day 1months. Ask her to continue giving zinc for total of 10 days.
-• NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.</mutableString>
+• NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -4950,7 +4950,7 @@ The mother should:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ju0-fq-PQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13075" y="2940"/>
+            <point key="canvasLocation" x="-13931" y="2044"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="TSu-g6-qZA">
@@ -5076,7 +5076,7 @@ The mother should:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kqo-gy-vHK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13067" y="3843"/>
+            <point key="canvasLocation" x="-13923" y="2947"/>
         </scene>
         <!--Assess-->
         <scene sceneID="h3F-EY-1hp">
@@ -5122,7 +5122,7 @@ CLASSIFY</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ia6-oP-vi7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13075" y="2064"/>
+            <point key="canvasLocation" x="-13931" y="1168"/>
         </scene>
         <!--Classify-->
         <scene sceneID="pav-7u-boo">
@@ -5247,7 +5247,7 @@ CLASSIFY</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LR7-fo-CNF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11177" y="3034"/>
+            <point key="canvasLocation" x="-12033" y="2138"/>
         </scene>
         <!--Assess-->
         <scene sceneID="ED8-IT-RdR">
@@ -5340,7 +5340,7 @@ TO CHECK ATTACHMENT, LOOK FOR:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nhR-3L-g79" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11177" y="2056"/>
+            <point key="canvasLocation" x="-12033" y="1160"/>
         </scene>
         <!--Classify-->
         <scene sceneID="HC5-ca-AKI">
@@ -5472,7 +5472,7 @@ TO CHECK ATTACHMENT, LOOK FOR:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1hr-KR-w2Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12439" y="2927"/>
+            <point key="canvasLocation" x="-13295" y="2031"/>
         </scene>
         <!--Assess-->
         <scene sceneID="m5u-nw-dsk">
@@ -5515,7 +5515,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tWN-Nn-Y4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12433" y="2064"/>
+            <point key="canvasLocation" x="-13289" y="1168"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="sIW-Ff-IU0">
@@ -5657,7 +5657,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jf7-t9-EKj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12439" y="3994"/>
+            <point key="canvasLocation" x="-13295" y="3098"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="Bgw-T2-SE2">
@@ -5766,7 +5766,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y94-Ax-4vm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11798" y="3616"/>
+            <point key="canvasLocation" x="-12654" y="2720"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="exH-M0-Ekr">
@@ -6214,7 +6214,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aeu-9c-foI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11177" y="3962"/>
+            <point key="canvasLocation" x="-12033" y="3066"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="mKc-Hh-MkU">
@@ -6233,7 +6233,7 @@ Does it go back:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0aO-e8-KY8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12439" y="1414"/>
+            <point key="canvasLocation" x="-13295" y="518"/>
         </scene>
         <!--Immunization Status-->
         <scene sceneID="MSk-kW-Eg9">
@@ -6264,7 +6264,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iRH-5g-2fK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10550" y="2050"/>
+            <point key="canvasLocation" x="-11406" y="1154"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="0zE-7F-KU8">
@@ -6368,7 +6368,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jdo-kU-Jr0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9295" y="3478"/>
+            <point key="canvasLocation" x="-10151" y="2582"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="trt-uo-W1P">
@@ -6385,7 +6385,7 @@ Does it go back:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l4a-Ie-292" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10550" y="1402"/>
+            <point key="canvasLocation" x="-11406" y="506"/>
         </scene>
         <!--Classify-->
         <scene sceneID="015-p6-wa8">
@@ -6470,7 +6470,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T9I-IU-Keq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9295" y="2702"/>
+            <point key="canvasLocation" x="-10151" y="1806"/>
         </scene>
         <!--Assess-->
         <scene sceneID="fL1-Gd-jnm">
@@ -6508,7 +6508,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWV-vZ-hCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9295" y="2056"/>
+            <point key="canvasLocation" x="-10151" y="1160"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="42p-P1-NXc">
@@ -6527,7 +6527,7 @@ Does it go back:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aZb-5C-RpL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9295" y="1402"/>
+            <point key="canvasLocation" x="-10151" y="506"/>
         </scene>
         <!--Care for Development-->
         <scene sceneID="UFb-I6-lsF">
@@ -6563,7 +6563,7 @@ Compare the mother answers to the recommendation for care and development</strin
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kA4-jF-JNj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9925" y="2056"/>
+            <point key="canvasLocation" x="-10781" y="1160"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="08R-7K-Ngb">
@@ -6580,7 +6580,7 @@ Compare the mother answers to the recommendation for care and development</strin
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NQk-mQ-7JN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9920" y="1402"/>
+            <point key="canvasLocation" x="-10776" y="506"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="oUz-kZ-Kgl">
@@ -6599,7 +6599,7 @@ Compare the mother answers to the recommendation for care and development</strin
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hWT-d3-1jh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11177" y="1402"/>
+            <point key="canvasLocation" x="-12033" y="506"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="she-Fg-KwJ">
@@ -6619,7 +6619,7 @@ Compare the mother answers to the recommendation for care and development</strin
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZh-mw-obD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13075" y="1414"/>
+            <point key="canvasLocation" x="-13931" y="518"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xfO-EU-NJt">
@@ -6690,6 +6690,9 @@ If it is an initial visit, assess the young infant as follows:</string>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Rescuscitate the young infant"/>
+                                <connections>
+                                    <segue destination="eZ9-wR-S09" kind="show" id="MJV-hr-kk4"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helping Babies Breathe:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxs-He-mXJ">
                                 <rect key="frame" x="0.0" y="453" width="600" height="17"/>
@@ -6789,6 +6792,9 @@ If it is an initial visit, assess the young infant as follows:</string>
                                 <rect key="frame" x="0.0" y="529" width="600" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Keep the young infant warm"/>
+                                <connections>
+                                    <segue destination="H5C-jk-Yr0" kind="show" id="q3H-uP-OGS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -6864,6 +6870,156 @@ If it is an initial visit, assess the young infant as follows:</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0h-oW-6VM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-11509" y="-617"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6fQ-bL-LXr">
+            <objects>
+                <viewController id="eZ9-wR-S09" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YDj-X8-lcf"/>
+                        <viewControllerLayoutGuide type="bottom" id="IXW-Fq-CGK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D3C-jB-isv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GwK-Q1-t3C">
+                                <rect key="frame" x="0.0" y="64" width="600" height="778"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuX-Ni-IRb">
+                                        <rect key="frame" x="8" y="8" width="584" height="702"/>
+                                        <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="66" id="Nd6-9U-UCq"/>
+                                        </constraints>
+                                        <mutableString key="text"> Evaluate the baby’s breathing after stimulation:
+• A baby who is gasping or not breathing at all will require resuscitation.
+ Keep the baby warm
+• Place the baby onto a firm, clean and warm surface.
+• Inform the mother that the baby has difficult breathing and that you will help the baby breathe.
+• Keep the baby wrapped and under a radiant heater if possible.
+ Open the airway
+• Position the head so that it is slightly extended.
+• Suction the mouth and then the nose.
+• Introduce the suction tube into the newborn’s mouth 5cm form lips and suck while withdrawing until no mucus.
+• Repeat each suction if necessary but no more than twice and no more than 20 seconds in total.
+if still no breathing, ventilate
+• Place mask to cover chin, mouth and nose.
+• From seal.
+• Squeeze bag attached to the mask with 2 fingers or whole hand, according to bag size, 2 or 3 times
+• Observe rise of chest. If chest not rising:
+	• Reposition head.
+	• Check mask heal.
+	• Squeeze bag harder.
+• Once good seal and chest rising, ventilate at 40 squeezes per minute until baby starts breathing spontaneously. 
+If breathing or crying, stop ventilating
+• Look at the chest for in-drawing.
+• Count breathes per minute.
+• If breathing more than 30 breathes per minute and no severe chest drawing:
+	• Do not ventilate any more.
+	• Put the baby in skin skin contact on mother’s chest and continue care.
+	• Monitor every 15 minutes for breathing and warmth.
+	• Tell the mother that the baby will probably be well.
+DO NOT LEAVE THE BABY ALONE
+
+If breathing less than 30 breaths per minute or severe chest in-drawing:
+• Continue ventilating.
+• Arrange for immediate referral.
+• Explain to the mother what has happened, what are you doing and why?
+• Ventilate during referral.
+• Record the event on the referral form.
+If no breathing or gasping at all after 20 minutes ventilation
+• Stop ventilating, the baby is dead.
+• Explain to the mother and give supportive care.
+• Record the event.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="850"/>
+                    <connections>
+                        <outlet property="scroller" destination="GwK-Q1-t3C" id="Pqo-Ue-cVg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8dA-pf-aWz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9531" y="643"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PLv-2P-7oU">
+            <objects>
+                <viewController id="H5C-jk-Yr0" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iZa-nZ-OpK"/>
+                        <viewControllerLayoutGuide type="bottom" id="dde-Bi-z8k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nvl-zl-Q3V">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Yp-hM-KkD">
+                                <rect key="frame" x="0.0" y="64" width="600" height="778"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIP-eJ-MAs">
+                                        <rect key="frame" x="8" y="8" width="584" height="638"/>
+                                        <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="66" id="oKT-Sw-dPF"/>
+                                        </constraints>
+                                        <mutableString key="text">• Warm the young infant using skin to skin contact: Kangaroo Mother Care
+- Provide privacy to the mother. If mother is not available, skin to skin contact can be provided by the father or any other adult.
+- Request the mother to sit or recline comfortably. 
+- Undress the baby gently, except for cap, nappy and socks.
+- Ask the mother to wear light, loose clothing that is comfortable in the ambient temperature, and can accommodate the young infant.
+- Place the young infant on the mother’s chest prone in an upright and extended posture, between her breasts in skin contact; turn the baby’s head in a slightly extended position.
+- Ensure that the young infant’s feet and elbows are flexed into a frog-like position and the head and chest are on the mother’s chest, with the head in a slightly extended position.
+- Cover the infant with mother’s clothes; wrap the mother- baby duo with an added blanket or shawl.
+- After positioning the young infant, allow mother to rest with the young infant.
+- Breast feed the young infant frequently.
+- If possible, warm the room above 25˚C with a heating device.
+
+• If skin to skin contact is not possible:
+- If radiant warmer is available use it warm the young infant or.
+-Warm the room 25˚C with heating device and clothe the young infant in 3-4 layers of warm clothes, cover the head with a cap (include gloves and socks) and cover with a blanket or shawl.
+• Reassess after 1 hour:
+- Assess for signs of Very Severe Disease.
+- Measure axillary temperature by placing the thermometer in the axillary for 5 minutes (or feel for low body temperature)
+• If any signs of very severe disease or temperature still 36.5˚C
+- Admit  or refer URGENTLY to hospital after giving pre-referral treatment for Very Severe Disease.
+• If no signs of very severe disease or temperature still 36.5˚C
+- Advise how to keep the young infant warm at home.
+- Advise mother to give home care.
+- Advise mother when to return immediately.
+
+Teach the mother how to keep the young infant warm on the way to the hospital
+• Provide skin to skin contact OR
+• Keep the infant clothed or covered as much as possible all the time. Dress the young infant in 3-4 layers of clothes (including hat, gloves, socks) and wrap him/her in a soft dry cloth and cover with shawl or blanket. Hold the baby close to your body.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="850"/>
+                    <connections>
+                        <outlet property="scroller" destination="3Yp-hM-KkD" id="J6h-DF-85k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1cL-Jm-PB1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8919" y="643"/>
         </scene>
         <!--Classify-->
         <scene sceneID="Pkr-p7-KFo">
@@ -6963,7 +7119,7 @@ OR 	- An AIDS defining condition</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RbF-90-B9Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11803" y="2708"/>
+            <point key="canvasLocation" x="-12659" y="1812"/>
         </scene>
         <!--Assess-->
         <scene sceneID="Dcq-JW-jlf">
@@ -7009,7 +7165,7 @@ LOOK AND FEEL:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LFE-Se-6yg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11803" y="2022"/>
+            <point key="canvasLocation" x="-12659" y="1126"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="LBZ-Vz-QhK">
@@ -7028,7 +7184,7 @@ LOOK AND FEEL:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Oo-Uh-FDi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11803" y="1414"/>
+            <point key="canvasLocation" x="-12659" y="518"/>
         </scene>
         <!--Classify-->
         <scene sceneID="FgO-Yc-uSY">
@@ -7088,7 +7244,7 @@ LOOK AND FEEL:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zR-LC-Xll" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7935" y="3194"/>
+            <point key="canvasLocation" x="-7935" y="3204"/>
         </scene>
         <!--Assess-->
         <scene sceneID="c9T-bz-UDe">
@@ -7102,8 +7258,8 @@ LOOK AND FEEL:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa6-l0-JKe">
-                                <rect key="frame" x="20" y="72" width="560" height="1638"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa6-l0-JKe">
+                                <rect key="frame" x="20" y="72" width="560" height="249"/>
                                 <string key="text">If Yes ask
 
 For how long?
@@ -7127,7 +7283,7 @@ IF CHILD IS:
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="Pa6-l0-JKe" secondAttribute="trailing" id="Mfm-6b-Sy1"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Pa6-l0-JKe" secondAttribute="leading" id="TrR-Zs-PYG"/>
-                            <constraint firstItem="yOx-R8-WkN" firstAttribute="top" secondItem="Pa6-l0-JKe" secondAttribute="bottom" constant="241" id="UnP-uF-xd6"/>
+                            <constraint firstItem="yOx-R8-WkN" firstAttribute="top" secondItem="Pa6-l0-JKe" secondAttribute="bottom" constant="480" id="UnP-uF-xd6"/>
                             <constraint firstItem="Pa6-l0-JKe" firstAttribute="top" secondItem="m3y-c6-13c" secondAttribute="bottom" constant="8" symbolic="YES" id="zgY-KW-v2I"/>
                         </constraints>
                     </view>
@@ -7254,7 +7410,7 @@ IF CHILD IS:
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vzz-8C-aMV">
                                         <rect key="frame" x="0.0" y="252" width="600" height="213"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <mutableString key="text">• Treat, counsel and follow up existing infection.
+                                        <string key="text">• Treat, counsel and follow up existing infection.
 • Initiate or continue with Cotrimoxazole prophylaxis
 • Give and continue with Nevirapine prophylaxis as per the national PMTCT guidelines
 • Give vitamin A
@@ -7264,7 +7420,7 @@ IF CHILD IS:
 • Repeat HIV antibody test at 9 months, if negative, repeat test again at 18 months and continue with normal under fiver clinic
 • If antibody test at 9 months is positive, collect DBS sample for confirmatory DNA PCR test
 
-*Refer to national ART guidelines/ job aids for comprehensive details on HIV care of the child</mutableString>
+*Refer to national ART guidelines/ job aids for comprehensive details on HIV care of the child</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -8189,8 +8345,8 @@ Classify Fever</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8h-uX-h8x">
-                                <rect key="frame" x="20" y="72" width="560" height="1545"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8h-uX-h8x">
+                                <rect key="frame" x="20" y="72" width="560" height="145"/>
                                 <string key="text">IF YES ASK
 Is there ear pain?
 Is there ear discharge? If yes, how long?
@@ -8210,7 +8366,7 @@ Classify EAR PROBLEM</string>
                             <constraint firstAttribute="trailingMargin" secondItem="Q8h-uX-h8x" secondAttribute="trailing" id="Rdb-kE-JE1"/>
                             <constraint firstItem="Q8h-uX-h8x" firstAttribute="centerX" secondItem="8Zd-xK-Wcs" secondAttribute="centerX" id="WVV-QM-zxk"/>
                             <constraint firstAttribute="leadingMargin" secondItem="Q8h-uX-h8x" secondAttribute="leading" id="YDl-A9-dQX"/>
-                            <constraint firstItem="wTg-Og-RIy" firstAttribute="top" secondItem="Q8h-uX-h8x" secondAttribute="bottom" constant="334" id="aU2-iw-9ox"/>
+                            <constraint firstItem="wTg-Og-RIy" firstAttribute="top" secondItem="Q8h-uX-h8x" secondAttribute="bottom" constant="584" id="aU2-iw-9ox"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Assess" id="cTP-IQ-Ag0"/>
@@ -8472,7 +8628,7 @@ LOOK, LISTEN, FEEL
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XGu-0P-OpK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14325" y="2070"/>
+            <point key="canvasLocation" x="-15181" y="1174"/>
         </scene>
         <!--Classify-->
         <scene sceneID="AoE-iq-nQG">
@@ -9157,7 +9313,7 @@ LOOK, LISTEN, FEEL
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8tf-ND-8iv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14374" y="2940"/>
+            <point key="canvasLocation" x="-15181" y="1916"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="VfV-VZ-Hg9">
@@ -9469,7 +9625,7 @@ LOOK, LISTEN, FEEL
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p53-aM-S8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14374" y="3837"/>
+            <point key="canvasLocation" x="-15181" y="2813"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="A95-2w-11T">
@@ -9489,7 +9645,7 @@ LOOK, LISTEN, FEEL
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RvQ-7u-30Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14325" y="1414"/>
+            <point key="canvasLocation" x="-15181" y="518"/>
         </scene>
         <!--Classify-->
         <scene sceneID="tcW-Ql-npJ">
@@ -9576,7 +9732,7 @@ LOOK, LISTEN, FEEL
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y2c-rS-iJI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13698" y="2940"/>
+            <point key="canvasLocation" x="-14554" y="1980"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="H3m-H7-Io4">
@@ -9656,7 +9812,7 @@ LOOK, LISTEN, FEEL
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9de-yc-h5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13740" y="3870"/>
+            <point key="canvasLocation" x="-14596" y="2910"/>
         </scene>
         <!--Assess-->
         <scene sceneID="DV3-1l-YP1">
@@ -9707,7 +9863,7 @@ LOOK:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="byW-HV-LMM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13698" y="2064"/>
+            <point key="canvasLocation" x="-14554" y="1168"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cw2-9g-Q8a">
@@ -9728,7 +9884,7 @@ LOOK:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YCx-Kl-ggh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13698" y="1414"/>
+            <point key="canvasLocation" x="-14554" y="518"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tIb-v8-Jru">
