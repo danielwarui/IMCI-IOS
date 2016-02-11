@@ -6892,7 +6892,7 @@ If it is an initial visit, assess the young infant as follows:</string>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="66" id="Nd6-9U-UCq"/>
                                         </constraints>
-                                        <mutableString key="text"> Evaluate the baby’s breathing after stimulation:
+                                        <string key="text"> Evaluate the baby’s breathing after stimulation:
 • A baby who is gasping or not breathing at all will require resuscitation.
  Keep the baby warm
 • Place the baby onto a firm, clean and warm surface.
@@ -6931,7 +6931,7 @@ If breathing less than 30 breaths per minute or severe chest in-drawing:
 If no breathing or gasping at all after 20 minutes ventilation
 • Stop ventilating, the baby is dead.
 • Explain to the mother and give supportive care.
-• Record the event.</mutableString>
+• Record the event.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -6973,7 +6973,7 @@ If no breathing or gasping at all after 20 minutes ventilation
                                         <constraints>
                                             <constraint firstAttribute="height" constant="66" id="oKT-Sw-dPF"/>
                                         </constraints>
-                                        <mutableString key="text">• Warm the young infant using skin to skin contact: Kangaroo Mother Care
+                                        <string key="text">• Warm the young infant using skin to skin contact: Kangaroo Mother Care
 - Provide privacy to the mother. If mother is not available, skin to skin contact can be provided by the father or any other adult.
 - Request the mother to sit or recline comfortably. 
 - Undress the baby gently, except for cap, nappy and socks.
@@ -7000,7 +7000,7 @@ If no breathing or gasping at all after 20 minutes ventilation
 
 Teach the mother how to keep the young infant warm on the way to the hospital
 • Provide skin to skin contact OR
-• Keep the infant clothed or covered as much as possible all the time. Dress the young infant in 3-4 layers of clothes (including hat, gloves, socks) and wrap him/her in a soft dry cloth and cover with shawl or blanket. Hold the baby close to your body.</mutableString>
+• Keep the infant clothed or covered as much as possible all the time. Dress the young infant in 3-4 layers of clothes (including hat, gloves, socks) and wrap him/her in a soft dry cloth and cover with shawl or blanket. Hold the baby close to your body.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -7987,7 +7987,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GPY-2N-7UE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6064" y="6968"/>
+            <point key="canvasLocation" x="-6064" y="6970"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JUv-37-Pwu">
@@ -8447,7 +8447,7 @@ If child has no severe classification:
         <!--Classify-->
         <scene sceneID="zna-hj-0fT">
             <objects>
-                <viewController id="gds-Fw-r0O" sceneMemberID="viewController">
+                <viewController id="gds-Fw-r0O" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vp4-z8-3T1"/>
                         <viewControllerLayoutGuide type="bottom" id="uPS-97-cal"/>
@@ -8455,9 +8455,102 @@ If child has no severe classification:
                     <view key="view" contentMode="scaleToFill" id="hkw-w9-Ck0">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A6Y-7D-jlp">
+                                <rect key="frame" x="0.0" y="64" width="600" height="729"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Severe Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SqS-8l-eN1">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="ZPJ-1f-WJG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kyp-l9-1M8">
+                                        <rect key="frame" x="0.0" y="32" width="600" height="110"/>
+                                        <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">For all children:
+	• With visible severe wasting.
+	• Oedema of both feet.
+	• &lt; -3 Z-score (weight for age or weight for height/ length)
+
+FOR CHILDREN 6 MONTHS UP TO 59 MONTHS: MUAC &lt; 11.5 cm</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Moderate Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Y4-2e-IWB">
+                                        <rect key="frame" x="0.0" y="142" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="XmV-3W-fq2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6R-kj-9Gt">
+                                        <rect key="frame" x="0.0" y="176" width="600" height="80"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">	For all age groups:
+	• Static weight or losing weight.
+	• -3 to &lt; -2 Z-score
+IF AGE 6 MONTHS UP TO 59 MONTHS MUAC 11.5 TO 12.5 cm</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="At Risk of Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTp-vZ-EU4">
+                                        <rect key="frame" x="0.0" y="258" width="600" height="36"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="m4o-Zp-GPJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqn-oT-JFU">
+                                        <rect key="frame" x="0.0" y="294" width="600" height="87"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">For all age groups:
+	• Static weight or losing weight.
+	• -2 to &lt; -1 Z-score
+IF AGE 6 MONTHS UP TO 59 MONTHS MUAC 11.5 TO 12.5 cm</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="No Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Fb-ie-vS6">
+                                        <rect key="frame" x="0.0" y="381" width="600" height="36"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="MAD-kc-0Bn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwe-1a-qu2">
+                                        <rect key="frame" x="0.0" y="415" width="600" height="31"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">	• weight -1 to +2</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Classify" id="91c-d8-N9G"/>
+                    <connections>
+                        <outlet property="scroller" destination="A6Y-7D-jlp" id="8Yr-H8-bye"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x8B-Zd-6da" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -8518,7 +8611,7 @@ Determine Z score for the same:
         <!--Identify Treatment-->
         <scene sceneID="8cV-2R-upr">
             <objects>
-                <viewController id="ORt-3N-F85" sceneMemberID="viewController">
+                <viewController id="ORt-3N-F85" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wMW-ZG-llD"/>
                         <viewControllerLayoutGuide type="bottom" id="PwN-6g-sJY"/>
@@ -8526,6 +8619,102 @@ Determine Z score for the same:
                     <view key="view" contentMode="scaleToFill" id="4x4-30-YQ7">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bIO-XC-qDp">
+                                <rect key="frame" x="0.0" y="64" width="600" height="729"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Severe Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnE-0Y-evr">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="PWb-2z-XPU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFV-so-c3f">
+                                        <rect key="frame" x="0.0" y="32" width="600" height="110"/>
+                                        <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">	• Give vitamin A
+	• Treat for and to prevent low blood sugar
+	• Keep he child warm
+	• Admit or refer URGENTLY to hospital. 
+- if the child has no other complications (Danger signs, Diarrhoea, Pneumonia, Fever, no appetite e.t.c.)</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Moderate Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbI-5o-Hzb">
+                                        <rect key="frame" x="0.0" y="142" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="yoe-eO-eqe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqQ-gD-lyG">
+                                        <rect key="frame" x="0.0" y="176" width="600" height="146"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">	• Assess the child’s feeding and counsel the mother on feeding
+	• If growth is faltering for 2 consecutive months, assess further or refer to the hospital
+	• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months
+	• If T.B. contact positive assess further or refer.
+	• Check HIV infection
+	• Advise mother when to return immediately 
+	• Follow-up in 5 days</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="At Risk of Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfB-yK-G0D">
+                                        <rect key="frame" x="0.0" y="324" width="600" height="36"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="Ggp-9K-Pm3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxq-Wx-ZXm">
+                                        <rect key="frame" x="0.0" y="360" width="600" height="141"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">	• If child is less than 2 years old, and has growth faltering, assess the child’s feeding and counsel the mother on feeding according to FOOD box on the COUNSEL THE MOTHER tab.
+	• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in there last 6 months.
+	• If T.B. contact positive assess further or refer.
+	• Check for HIV infection
+	• Advise mother when to return immediately
+	• Follow up in 14 days
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="No Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZp-oW-VML">
+                                        <rect key="frame" x="0.0" y="500" width="600" height="36"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="f54-wA-03o"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSz-PX-uHW">
+                                        <rect key="frame" x="0.0" y="534" width="600" height="84"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">	• Counsel the mother on feeding according to the FOOD  box on the COUNSEL THE MOTHER tab.
+	• Give mebendazole or albendazole if child is 1 year or older and has not had a dose in the previous 6 months.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="1IR-25-ua9"/>
