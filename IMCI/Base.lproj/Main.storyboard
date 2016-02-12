@@ -2416,6 +2416,121 @@ After 1 month:
             <point key="canvasLocation" x="480" y="3586"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="nO9-Lr-IhM">
+            <objects>
+                <viewController id="0bm-PK-A5t" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EjX-0O-tCc"/>
+                        <viewControllerLayoutGuide type="bottom" id="p3U-rn-c9O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zl6-XH-RRs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="care_for_development_0_4.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="cQv-Cc-R2W">
+                                <rect key="frame" x="0.0" y="64" width="359" height="469"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="opB-DX-DPz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3034" y="4942"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rfR-wR-R06">
+            <objects>
+                <viewController id="Ioo-hi-iKw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="STg-Z2-CvR"/>
+                        <viewControllerLayoutGuide type="bottom" id="W3t-QE-hxQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ju6-ds-R2a">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breastfeeding_upto_six_to_twelve_months_one.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="q9T-g7-ghH">
+                                <rect key="frame" x="0.0" y="64" width="600" height="277"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EaG-Nq-KGy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3487" y="5471"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Lzr-ow-yoB">
+            <objects>
+                <viewController id="lL3-8O-Bfz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wfv-LZ-qYz"/>
+                        <viewControllerLayoutGuide type="bottom" id="w8z-3A-NV5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2bl-wV-E7f">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breastfeeding_upto_twelve_to_two_years_one.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="KSz-vw-bKm">
+                                <rect key="frame" x="0.0" y="64" width="600" height="286"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gNx-3E-f7I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3775" y="5777"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4XI-4H-Yiv">
+            <objects>
+                <viewController id="hue-7X-BgK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mor-Yf-lfc"/>
+                        <viewControllerLayoutGuide type="bottom" id="0MJ-82-eTC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mod-rf-IvT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breastfeeding_upto_two_years_and_older_one.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="GVp-lB-RwH">
+                                <rect key="frame" x="0.0" y="64" width="600" height="306"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mbf-HF-pDK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4061" y="6117"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IWz-GV-iY2">
+            <objects>
+                <viewController id="sxO-WB-lGw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d3S-pg-Teu"/>
+                        <viewControllerLayoutGuide type="bottom" id="iEg-yY-ZGo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oKC-2T-xDV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="care_for_development_4_6.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="HQE-6z-nks">
+                                <rect key="frame" x="0.0" y="64" width="354" height="473"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DQ0-7b-6DT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3238" y="5182"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="Cy4-e6-3uu">
             <objects>
                 <viewController id="1Ud-S5-qsS" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
@@ -2449,18 +2564,30 @@ After 1 month:
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOv-B7-P1q">
                                         <rect key="frame" x="0.0" y="96" width="600" height="30"/>
                                         <state key="normal" title="Up to 6 months of age"/>
+                                        <connections>
+                                            <segue destination="7oZ-av-BDD" kind="show" id="p4O-7u-UEa"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aF-ma-NKc">
                                         <rect key="frame" x="0.0" y="127" width="600" height="30"/>
                                         <state key="normal" title="6 months up to 12 months"/>
+                                        <connections>
+                                            <segue destination="JSg-Tq-ReZ" kind="show" id="wSy-ke-lJH"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uQ-1C-MJf">
                                         <rect key="frame" x="0.0" y="158" width="600" height="30"/>
                                         <state key="normal" title="12 months up to 2 years"/>
+                                        <connections>
+                                            <segue destination="jPY-GH-ALC" kind="show" id="e9n-nk-op7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oD7-dV-oNF">
                                         <rect key="frame" x="0.0" y="191" width="600" height="30"/>
                                         <state key="normal" title="2 years and older"/>
+                                        <connections>
+                                            <segue destination="Veo-ih-Roa" kind="show" id="uWY-hs-AB7"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommendations for care for development" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2A-jH-PBl">
                                         <rect key="frame" x="0.0" y="219" width="600" height="29"/>
@@ -2472,22 +2599,37 @@ After 1 month:
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2A-z0-vNm">
                                         <rect key="frame" x="0.0" y="251" width="600" height="30"/>
                                         <state key="normal" title="Age up to 4 months"/>
+                                        <connections>
+                                            <segue destination="0bm-PK-A5t" kind="show" id="Zax-cm-FGK"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3C-vT-vGb">
                                         <rect key="frame" x="0.0" y="279" width="600" height="30"/>
                                         <state key="normal" title="Age 4 months up to 6 months"/>
+                                        <connections>
+                                            <segue destination="sxO-WB-lGw" kind="show" id="89t-mS-VMr"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6J-Bz-Y6A">
                                         <rect key="frame" x="0.0" y="307" width="600" height="30"/>
                                         <state key="normal" title="6 months up to 12 months"/>
+                                        <connections>
+                                            <segue destination="Ioo-hi-iKw" kind="show" id="yq6-qA-esv"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYw-B1-qZD">
                                         <rect key="frame" x="0.0" y="338" width="600" height="30"/>
                                         <state key="normal" title="12 months up to 2 years"/>
+                                        <connections>
+                                            <segue destination="lL3-8O-Bfz" kind="show" id="Fk8-01-ugI"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1KR-FN-5l0">
                                         <rect key="frame" x="0.0" y="368" width="600" height="30"/>
                                         <state key="normal" title="2 years and older"/>
+                                        <connections>
+                                            <segue destination="hue-7X-BgK" kind="show" id="IaX-IW-Y2T"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Feeding Options: HIV Exposed and Infected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Acq-v2-4UV">
                                         <rect key="frame" x="0.0" y="395" width="600" height="29"/>
@@ -2516,14 +2658,23 @@ After 1 month:
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IY1-G6-paN">
                                         <rect key="frame" x="0.0" y="424" width="600" height="30"/>
                                         <state key="normal" title="Counsel mother on infant feeding"/>
+                                        <connections>
+                                            <segue destination="SNP-Of-TAl" kind="show" id="JcI-XD-nmN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="XNW-tO-AXs">
                                         <rect key="frame" x="0.0" y="444" width="600" height="30"/>
                                         <state key="normal" title="Feeding advice for a child of a HIV positive mother who has chosen to breastfeed"/>
+                                        <connections>
+                                            <segue destination="FHC-xy-l89" kind="show" id="Moe-At-cD0"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="4x9-DV-mlx">
                                         <rect key="frame" x="0.0" y="482" width="600" height="30"/>
                                         <state key="normal" title="Feeding advice for a child of a HIV positive mother who has chosen not to breastfeed or child who cannot be breastfed"/>
+                                        <connections>
+                                            <segue destination="qmF-2e-Bc5" kind="show" id="MQj-CX-LA1"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Counsel the mother on fluids and when to return" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITL-WU-Jcu">
                                         <rect key="frame" x="0.0" y="639" width="600" height="17"/>
@@ -2542,14 +2693,23 @@ After 1 month:
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUJ-lT-tgs">
                                         <rect key="frame" x="0.0" y="550" width="600" height="30"/>
                                         <state key="normal" title="follow for feeding problems"/>
+                                        <connections>
+                                            <segue destination="QJm-oh-Cbc" kind="show" id="Ozu-iA-Cut"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgA-3i-Fx5">
                                         <rect key="frame" x="0.0" y="610" width="600" height="30"/>
                                         <state key="normal" title="care for development problems"/>
+                                        <connections>
+                                            <segue destination="QJm-oh-Cbc" kind="show" id="H7q-pR-rRW"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EzT-YA-9Tr">
                                         <rect key="frame" x="0.0" y="659" width="600" height="30"/>
                                         <state key="normal" title="counsel on fluids and when to return"/>
+                                        <connections>
+                                            <segue destination="QJm-oh-Cbc" kind="show" id="6Vg-Vy-CgM"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT4-R2-avw">
                                         <rect key="frame" x="0.0" y="714" width="600" height="30"/>
@@ -2660,7 +2820,240 @@ After 1 month:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ljf-QC-RW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2855" y="638"/>
+            <point key="canvasLocation" x="3487" y="3803"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fxv-3b-0lv">
+            <objects>
+                <viewController id="jPY-GH-ALC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K5u-BR-ybq"/>
+                        <viewControllerLayoutGuide type="bottom" id="c67-70-7su"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1WT-Jw-1LP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breastfeeding_upto_twelve_to_two_years.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="Mx7-V2-57V">
+                                <rect key="frame" x="0.0" y="64" width="458" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EMw-Ie-3RN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4998" y="5425"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KBU-aH-8Lc">
+            <objects>
+                <viewController id="Veo-ih-Roa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kpj-Qu-1MT"/>
+                        <viewControllerLayoutGuide type="bottom" id="3gz-re-yMC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gXO-fv-srC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breastfeeding_upto_two_years_and_older.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="Scp-62-ItS">
+                                <rect key="frame" x="0.0" y="64" width="447" height="523"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Acv-iU-jFu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5211" y="5968"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="O1n-2X-QPv">
+            <objects>
+                <viewController id="7oZ-av-BDD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="42E-J9-0tr"/>
+                        <viewControllerLayoutGuide type="bottom" id="lTS-br-8LB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mRS-zW-huE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breastfeeding_upto_six_months.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="pY5-nF-sh3">
+                                <rect key="frame" x="0.0" y="64" width="458" height="505"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v9l-Oz-VIC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4321" y="4554"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="szV-Ks-sYr">
+            <objects>
+                <viewController id="JSg-Tq-ReZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yuF-80-GPL"/>
+                        <viewControllerLayoutGuide type="bottom" id="vJI-sV-8B9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zog-7g-uKU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breastfeeding_upto_six_to_twelve_months.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="0YN-C9-ZqC">
+                                <rect key="frame" x="0.0" y="64" width="470" height="516"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="svN-88-lxz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4690" y="4942"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Iin-Zb-uuJ">
+            <objects>
+                <viewController id="SNP-Of-TAl" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rvz-WO-QrJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="j2P-cA-qQf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gY9-sA-omP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="63D-uV-K46">
+                                <rect key="frame" x="0.0" y="64" width="600" height="878"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPp-d7-Tg7">
+                                        <rect key="frame" x="20" y="0.0" width="560" height="244"/>
+                                        <mutableString key="text">		• Exclusive breastfeeding, giving breast milk only, for 6 months is the best way to feed baby whether she is HIV positive or not.
+		• Exclusive breastfeeding is recommended for HIV positive mothers unless formula is AFASS(Affordable, Feasible, Acceptable, Sustainable and Safe).
+		• If mother chooses to breastfeed, she will be provided with medication to reduce the chance of infecting her infant during breastfeeding period.
+		• Mixed feeding (giving breastmilk and other milks, water and foods before six months increases the risk of transmitting HIV to her infant and the risk of diarrhoea and other illnesses)
+		• At 6 months her child needs nutritions locally available family foods in addition to breast milk.
+		Infant Feeding Options
+	Inform the mother of the two main recommended infant feeding options for HIV-exposed infants.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Exclusive breastfeeding with ARVs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHJ-zJ-UGb">
+                                        <rect key="frame" x="0.0" y="252" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rjs-TC-en0">
+                                        <rect key="frame" x="20" y="283" width="560" height="90"/>
+                                        <string key="text">	Exclusive breastfeeding is recommended of HIV-positive women for the first 6 months of life unless exclusive replacement feeding is acceptable, feasible, affordable, sustainable and safe. After 6 months, appropriate complementary feeds should be introduced and breastfeeding continued for the first year of life of the infant. There after, breastfeeding may be stopped gradually if a nutritionally acceptable and safe diet can be provided.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Exclusive replacement feeding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQG-uV-aK4">
+                                        <rect key="frame" x="0.0" y="381" width="600" height="29"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIl-hG-W1P">
+                                        <rect key="frame" x="20" y="411" width="560" height="63"/>
+                                        <string key="text">	 Exclusive replacement feeding involves giving the baby only commercial milk substitutes. Exclusive replacement if AFASS(Affordable, Feasible, Acceptable, Sustainable and Safe) criteria is met.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lAY-l8-tGS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5770" y="3933"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CQU-MZ-PTw">
+            <objects>
+                <viewController id="FHC-xy-l89" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L5u-sS-hk0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ddt-Wg-3qW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sNP-8m-7qX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQc-vA-QET">
+                                <rect key="frame" x="20" y="72" width="560" height="186"/>
+                                <mutableString key="text">		Make sure the mother or caretaker understands that mixed feeding ()giving breast milk and other milks, water and foods) before 6 months increases the risk of transmitting HIV to the infant and the risk of death from diarrhoea and other illnesses.
+		• Reinforce exclusive breastfeeding for 6 months, initiation of breastfeeding within 1 hour after birth, Emphasise on positioning, attachment care of there breast and management of breast conditions.
+		• Advice the mother to introduce appropriate complementary feeds from age 6 months while continuing to breast feed from up to 12 months or beyond.
+		• Advice mother that breastfeeding should stop once a nutritionally adequate and safe diet without breast milk can be provided.
+		• Emphasise on adherence to ARVs.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yvj-qP-NyN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6389" y="4059"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0Hd-cU-Zp1">
+            <objects>
+                <viewController id="qmF-2e-Bc5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0NB-g2-fdd"/>
+                        <viewControllerLayoutGuide type="bottom" id="KDm-xc-Srj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mRh-2S-fcE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkv-AK-ILc">
+                                <rect key="frame" x="20" y="72" width="560" height="226"/>
+                                <mutableString key="text">		The mother/caregiver should have received full counselling before making the decision not to breastfeed.
+		• Give information on replacement feeding and risk of mixed feeding.
+		• Give information on safe preparation, storage and appropriate feeding techniques for chosen artificial feeds.
+		• Demonstrate on how to prepare and feed the infant.
+		• Counsel on care of the breast to avoid engorgement,
+		• Provide reliable family planning.
+		• For low birth weight babies(1.5 kg) and pre-term babies advise on special infant formula.
+		• Adhere to the code of marketing of breast milk substitutes.
+		• HIV-exposed infants not breastfeeding should be given ART prophylaxis for 6 weeks only.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gvO-XU-MIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7006" y="4180"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="L77-Bh-rkb">
+            <objects>
+                <viewControllerPlaceholder id="JWG-On-VPR" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ho-Is-azy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4048.5" y="3964"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Lot-Iw-kXh">
@@ -2751,7 +3144,7 @@ After 1 month:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b5L-U0-ZIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2430" y="1518"/>
+            <point key="canvasLocation" x="2222" y="1862"/>
         </scene>
         <!--Treatment-->
         <scene sceneID="B6Z-te-UgC">
@@ -3539,16 +3932,25 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Rehydration in children with severe malnutrition"/>
+                                <connections>
+                                    <segue destination="BRi-qZ-X7K" kind="show" id="aqf-cN-NYu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wQ4-gB-2Ct">
                                 <rect key="frame" x="0.0" y="269" width="600" height="47"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Plan B: Treat Diarrhoea at Facility with ORS (Some Dehydration)"/>
+                                <connections>
+                                    <segue destination="L5A-b4-rLW" kind="show" id="uVJ-3L-CtB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2EI-CZ-Jgy">
                                 <rect key="frame" x="0.0" y="307" width="600" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Plan C: Treat Severe Dehydration Quickly"/>
+                                <connections>
+                                    <segue destination="AVV-k2-Ldz" kind="show" id="QsI-Gq-J8k"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Rehydration therapy for dehydration in children with severe malnutrition" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaU-hI-RcJ">
                                 <rect key="frame" x="0.0" y="336" width="600" height="44"/>
@@ -3593,6 +3995,9 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                 <rect key="frame" x="0.0" y="460" width="600" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Persistent Diarrhoea"/>
+                                <connections>
+                                    <segue destination="reJ-oI-rFd" kind="show" id="9kw-lJ-Fdt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -3626,6 +4031,155 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qrk-ug-cc2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1355" y="-2463"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dpN-11-wzL">
+            <objects>
+                <viewController id="reJ-oI-rFd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dMa-n0-DPB"/>
+                        <viewControllerLayoutGuide type="bottom" id="8P2-CX-T9H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PGl-W6-Fz9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="supplement_multivitamin.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="tgg-IN-ngv">
+                                <rect key="frame" x="0.0" y="64" width="600" height="236"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oyT-sr-G0X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8454" y="-223"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kCw-7x-iN6">
+            <objects>
+                <viewController id="AVV-k2-Ldz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iMT-gI-JiO"/>
+                        <viewControllerLayoutGuide type="bottom" id="3j8-zy-ZKS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kau-ri-h4a">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rehydration_therapy_and_feeding.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="AQN-m9-doH">
+                                <rect key="frame" x="0.0" y="64" width="600" height="510"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wta-XY-rPk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6949" y="-147"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4pX-hR-nlN">
+            <objects>
+                <viewController id="tVf-3A-lcm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L9m-G2-iMv"/>
+                        <viewControllerLayoutGuide type="bottom" id="hxm-TE-0aO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gR2-EQ-P9p">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="900"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plan_b_ors_age.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dc1-uE-QvA">
+                                <rect key="frame" x="0.0" y="72" width="600" height="202"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3HO-BJ-d1H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7245" y="656"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="B4l-AN-mSA">
+            <objects>
+                <viewController id="L5A-b4-rLW" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lHT-yu-KsU"/>
+                        <viewControllerLayoutGuide type="bottom" id="N1U-06-HeP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7hy-ux-iVD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="900"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oNh-Wk-EHt">
+                                <rect key="frame" x="0.0" y="64" width="600" height="828"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3kr-ZV-Lru">
+                                        <rect key="frame" x="8" y="8" width="584" height="137"/>
+                                        <string key="text">Give in clinic the recommended amount of ORS over 4-hour period
+1. DETERMINE AMOUNT OF ORS TO GIVE DURING FIRST 4 HOURS.
+• The appropriate amount of ORS required(in ml) should be calculated by multiplying the child’s weight(in kgs) with 75:
+• Use the child’s age only when you do not know the weight.
+• If the child wants more ORS than shown, give more.
+• For infants under 6 months who are not breastfed, also give 100-200 ml clean water during this period.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOl-s9-gVp">
+                                        <rect key="frame" x="20" y="153" width="560" height="30"/>
+                                        <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="4NA-RM-sXo"/>
+                                        </constraints>
+                                        <state key="normal" title="ORS Doasge Table">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="tVf-3A-lcm" kind="show" id="biO-06-Rsl"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T58-uY-HQV">
+                                        <rect key="frame" x="8" y="191" width="584" height="347"/>
+                                        <mutableString key="text">2. SHOW MOTHER HOW TO GIVE ORS SOLUTION.
+• Give frequently small sips from a cup( or a spoon every 1-2 minutes for a child under 2 years).
+• Check from time to time to see if there are any problems. If the child vomits,wait for 10 minutes then continue but more slowly.
+• Continue breastfeeding whenever the child wants.
+• If the child’s eyelids become puffy, stop ORS and give plain water or breast milk. Give ORS according to plan A when puffiness is gone.
+
+3. AFTER 4 HOURS.
+• Reassess the child and classify for dehydration.
+• Select the appropriate plan to continue treatment.
+• Begin feeding the child in the clinic.
+
+4.IF THE MOTHER MUST LEAVE BEFORE COMPLETING TREATMENT:
+• Show her to prepare ORS solution at home.
+• Show her how much ORS to give to finish 4-hour treatment at home.
+• Give her enough ORS ratchets to complete rehydration under this plan. Also give her 4 ORS ratchets to continue with plan A. Explain the four rules of home treatment.
+	- GIVE EXTRA FLUID.
+	- GIVE SINC SULPHATE AND VITAMIN A.
+	- CONTINUE FEEDING.
+	- WHEN TO RETURN.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="900"/>
+                    <connections>
+                        <outlet property="scroller" destination="oNh-Wk-EHt" id="Rr4-t1-Vx4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dOh-bg-Mi3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6335" y="3"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iPc-jR-sS4">
@@ -4465,6 +5019,29 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fb0-ai-rja" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2410" y="-1415"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yHL-2F-8gT">
+            <objects>
+                <viewController id="BRi-qZ-X7K" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SGd-Hb-uZ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Isu-5q-Ni0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="udq-6y-33P">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rehydration_child_severe_dehydration.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="mxr-Oc-paT">
+                                <rect key="frame" x="0.0" y="72" width="393" height="520"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FSR-0o-dGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7746" y="-183"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jWu-cd-fO9">
@@ -11639,7 +12216,7 @@ LOOK:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="caY-Bk-SBQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7028" y="1435"/>
+            <point key="canvasLocation" x="4292" y="3091"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5wd-Wt-OWC">
@@ -11956,16 +12533,61 @@ IF REFERRAL IS NOT POSSIBLE
         <!--View Controller-->
         <scene sceneID="PmF-ep-USH">
             <objects>
-                <viewController id="z9E-Xv-tJC" sceneMemberID="viewController">
+                <viewController id="z9E-Xv-tJC" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YoS-LA-We4"/>
                         <viewControllerLayoutGuide type="bottom" id="7CY-44-Rm6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4nX-x3-nBi">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hdu-jt-31I">
+                                <rect key="frame" x="0.0" y="64" width="600" height="778"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5t-0a-6wF">
+                                        <rect key="frame" x="8" y="8" width="584" height="544"/>
+                                        <mutableString key="text">Counsel the mother on the 4 Rules of Home Treatment:
+
+Give Extra Fluids, Give Zinc Sulphate, Continue Feeding, Advise when to Return
+1. GIVE EXTRA FLUID(Give ORS and other fluids as much as the child will take)
+
+• ADVISE THE MOTHER
+	-Breastfeed frequently and for longer at each feed.
+	-If the child is not exclusively breastfed, give ORS in addition to breastmilk.
+	-If the child is not exclusively breastfed, give one more of the following: ORS solution, food-based fluids( soup,enriched uji and yoghurt drinks e.g. mala), or safe water.
+	-Give fresh fruit juice or mashed bananas to provide potassium.
+	-Advise mothers to continue giving ORS as instructed.
+
+• TEACH THE MOTHER HOW TO MIX AND GIVE ORS. GIVE THE MOTHER 4 PACKETS OF ORS TO USE AT HOME.
+
+• SHOW THE MOTHER HOW MUCH FLUID TO GIVE IN ADDITION TO THE USUAL FLUID INTAKE:
+
+Upton 2 years: 50 to 100 ml after each loose stool. 2 years or more: 100 to 200 ml after loose stool.
+Advise the mother to:
+	- Give frequent small sips from a cup.
+	- If the child commits, wait 10 minutes. Then continue, but more slowly.
+	- Continue giving extra fluids until the diarrhoea stops.
+2. GIVE ZINC SULPHATE AND VITAMIN A
+• TELL THE MOTHER HOW MUCH ZINC SULPHATE TO GIVE:
+	- Up to 6 months: 1/2 tablet per days for 10 days
+	- 6 months or more: 1 tablet per day for 10 days.
+3. CONTINUE FEEDING
+4. WHEN TO RETURN</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="850"/>
+                    <connections>
+                        <outlet property="scroller" destination="Hdu-jt-31I" id="bE9-cV-rpA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iuW-lk-aXP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -12008,6 +12630,15 @@ The mother should:
     </scenes>
     <resources>
         <image name="algorithm_for_early_diagnosis_hiv.png" width="623" height="619"/>
+        <image name="breastfeeding_upto_six_months.PNG" width="556" height="685"/>
+        <image name="breastfeeding_upto_six_to_twelve_months.PNG" width="553" height="686"/>
+        <image name="breastfeeding_upto_six_to_twelve_months_one.PNG" width="552" height="352"/>
+        <image name="breastfeeding_upto_twelve_to_two_years.PNG" width="554" height="686"/>
+        <image name="breastfeeding_upto_twelve_to_two_years_one.PNG" width="553" height="355"/>
+        <image name="breastfeeding_upto_two_years_and_older.PNG" width="553" height="686"/>
+        <image name="breastfeeding_upto_two_years_and_older_one.PNG" width="551" height="354"/>
+        <image name="care_for_development_0_4.PNG" width="427" height="542"/>
+        <image name="care_for_development_4_6.PNG" width="410" height="539"/>
         <image name="dose_of_cotrimoxazole.PNG" width="937" height="369"/>
         <image name="drug_antibiotic_pneumonia.png" width="604" height="703"/>
         <image name="drug_oral_ironfolate.PNG" width="561" height="231"/>
@@ -12021,15 +12652,20 @@ The mother should:
         <image name="medicationmetronidazole_dysentry.PNG" width="571" height="229"/>
         <image name="nvp_dosage_for_infants.PNG" width="1192" height="565"/>
         <image name="paeds_chart.PNG" width="1273" height="627"/>
+        <image name="plan_b_ors_age.png" width="985" height="192"/>
+        <image name="rehydration_child_severe_dehydration.PNG" width="408" height="620"/>
+        <image name="rehydration_therapy_and_feeding.PNG" width="697" height="616"/>
+        <image name="supplement_multivitamin.PNG" width="834" height="318"/>
         <image name="treat_wheezing.PNG" width="720" height="643"/>
         <image name="vitamin_a.png" width="456" height="465"/>
         <image name="young_appropriate_oral_antibiotic.PNG" width="1122" height="639"/>
         <image name="young_give_zinc_sulphate.PNG" width="1166" height="541"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="k6P-u2-BGJ"/>
+        <segue reference="Sjb-qZ-zLi"/>
+        <segue reference="sEj-cc-CVT"/>
+        <segue reference="Ozu-iA-Cut"/>
+        <segue reference="U1a-TM-fy9"/>
         <segue reference="VfE-ci-uQk"/>
-        <segue reference="lRC-OK-6dg"/>
-        <segue reference="U4h-Ti-1hQ"/>
     </inferredMetricsTieBreakers>
 </document>
