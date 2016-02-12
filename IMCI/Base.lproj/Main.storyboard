@@ -11788,7 +11788,7 @@ LOOK:
         <!--View Controller-->
         <scene sceneID="ilz-8X-Am6">
             <objects>
-                <viewController id="ZlR-Y0-toj" sceneMemberID="viewController">
+                <viewController id="ZlR-Y0-toj" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lZs-KH-oLW"/>
                         <viewControllerLayoutGuide type="bottom" id="TI5-LA-wVo"/>
@@ -12521,10 +12521,10 @@ The mother should:
         <image name="young_give_zinc_sulphate.PNG" width="1166" height="541"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Sjb-qZ-zLi"/>
         <segue reference="sEj-cc-CVT"/>
-        <segue reference="Ozu-iA-Cut"/>
+        <segue reference="k6P-u2-BGJ"/>
         <segue reference="U1a-TM-fy9"/>
         <segue reference="VfE-ci-uQk"/>
+        <segue reference="Ozu-iA-Cut"/>
     </inferredMetricsTieBreakers>
 </document>
