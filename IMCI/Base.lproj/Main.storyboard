@@ -23,7 +23,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aPI-Wh-7Ox" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2384" y="-4565"/>
+            <point key="canvasLocation" x="-2808" y="-7633"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -180,13 +180,20 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="Pink: Severe classification needing admission or pre-referral treatment and referral." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccx-Uv-qFk">
+                                        <rect key="frame" x="28" y="164" width="544" height="39"/>
+                                        <color key="backgroundColor" red="1" green="0.41176470588235292" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHv-nJ-rVZ">
-                                        <rect key="frame" x="113" y="713" width="375" height="30"/>
+                                        <rect key="frame" x="54" y="713" width="493" height="30"/>
                                         <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="375" id="46I-Me-eyU"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="493" id="46I-Me-eyU"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="A9R-nZ-iLN"/>
-                                            <constraint firstAttribute="width" constant="375" id="IcN-on-FSs"/>
+                                            <constraint firstAttribute="width" constant="493" id="IcN-on-FSs"/>
                                         </constraints>
                                         <state key="normal" title="Proceed">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -195,13 +202,6 @@
                                             <segue destination="fEK-L3-Ngv" kind="show" id="WcQ-sQ-C3e"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="Pink: Severe classification needing admission or pre-referral treatment and referral." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccx-Uv-qFk">
-                                        <rect key="frame" x="28" y="164" width="544" height="39"/>
-                                        <color key="backgroundColor" red="1" green="0.41176470588235292" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="MrZ-uY-mPr" secondAttribute="trailing" constant="28" id="04o-Hr-g1p"/>
@@ -242,7 +242,7 @@
                                     <constraint firstItem="gtb-Re-V5Q" firstAttribute="leading" secondItem="jnc-md-8D4" secondAttribute="leading" id="LQP-66-VfE"/>
                                     <constraint firstItem="Woh-kL-ylr" firstAttribute="leading" secondItem="ccx-Uv-qFk" secondAttribute="leading" id="MOu-Vv-ImM"/>
                                     <constraint firstAttribute="trailing" secondItem="521-17-1cc" secondAttribute="trailing" constant="28" id="MSQ-mF-jyU"/>
-                                    <constraint firstItem="KHv-nJ-rVZ" firstAttribute="leading" secondItem="G4c-jG-1lT" secondAttribute="leading" constant="113" id="Med-hX-B1b"/>
+                                    <constraint firstItem="KHv-nJ-rVZ" firstAttribute="leading" secondItem="G4c-jG-1lT" secondAttribute="leading" constant="54" id="Med-hX-B1b"/>
                                     <constraint firstItem="fcJ-oA-quI" firstAttribute="leading" secondItem="twG-OI-JRL" secondAttribute="leading" id="N6b-Gl-I00"/>
                                     <constraint firstItem="jja-GE-5a4" firstAttribute="top" secondItem="MrZ-uY-mPr" secondAttribute="bottom" constant="20" id="NBL-0Q-dWv"/>
                                     <constraint firstItem="Woh-kL-ylr" firstAttribute="top" secondItem="xbN-Dg-2rr" secondAttribute="bottom" constant="8" symbolic="YES" id="NEP-si-brn"/>
@@ -372,7 +372,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1292" y="-4553"/>
+            <point key="canvasLocation" x="-1396" y="-7561"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Lhm-jk-xNH">
@@ -471,7 +471,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4E-aS-LaO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1292" y="-3766"/>
+            <point key="canvasLocation" x="-1396" y="-6782"/>
         </scene>
         <!--Treatment-->
         <scene sceneID="4SC-HB-82Q">
@@ -5213,13 +5213,17 @@ The mother should:
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please select the age of the infant/ child to assess" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2A-Vo-2Q7">
-                                <rect key="frame" x="16" y="72" width="564" height="61"/>
+                                <rect key="frame" x="16" y="72" width="564" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="564" id="5WX-rk-86B"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="564" id="yCC-sK-GWh"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qe4-Sv-Anx">
-                                <rect key="frame" x="20" y="150" width="560" height="30"/>
+                                <rect key="frame" x="20" y="117" width="560" height="30"/>
                                 <color key="backgroundColor" red="0.99607843137254903" green="0.69019607843137254" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Czd-G1-eZI"/>
@@ -5232,7 +5236,7 @@ The mother should:
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="D0t-6x-g8k">
-                                <rect key="frame" x="20" y="209" width="560" height="30"/>
+                                <rect key="frame" x="20" y="176" width="560" height="30"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Age 2 months up to 5 years">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -5245,24 +5249,25 @@ The mother should:
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="qe4-Sv-Anx" firstAttribute="height" secondItem="D0t-6x-g8k" secondAttribute="height" id="0R2-jB-Zn1"/>
-                            <constraint firstItem="qe4-Sv-Anx" firstAttribute="top" secondItem="R2A-Vo-2Q7" secondAttribute="bottom" constant="17" id="4K1-YS-0h7"/>
+                            <constraint firstItem="qe4-Sv-Anx" firstAttribute="top" secondItem="R2A-Vo-2Q7" secondAttribute="bottom" constant="8" id="4K1-YS-0h7"/>
                             <constraint firstItem="R2A-Vo-2Q7" firstAttribute="top" secondItem="hNs-fK-OtX" secondAttribute="bottom" constant="8" symbolic="YES" id="7g4-0I-O0x"/>
                             <constraint firstAttribute="leadingMargin" secondItem="qe4-Sv-Anx" secondAttribute="leading" id="9Ft-cI-UFC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="D0t-6x-g8k" secondAttribute="trailing" id="Aor-05-1Cr"/>
                             <constraint firstItem="R2A-Vo-2Q7" firstAttribute="trailing" secondItem="qe4-Sv-Anx" secondAttribute="trailing" id="LgO-qL-pvG"/>
-                            <constraint firstItem="mxE-It-ceD" firstAttribute="top" secondItem="D0t-6x-g8k" secondAttribute="bottom" constant="361" id="Q9F-dW-1qT"/>
+                            <constraint firstItem="mxE-It-ceD" firstAttribute="top" secondItem="D0t-6x-g8k" secondAttribute="bottom" constant="394" id="Q9F-dW-1qT"/>
                             <constraint firstAttribute="leadingMargin" secondItem="D0t-6x-g8k" secondAttribute="leading" id="QJ2-Eu-wWR"/>
                             <constraint firstItem="R2A-Vo-2Q7" firstAttribute="leading" secondItem="nbB-BA-Mqk" secondAttribute="leadingMargin" constant="-4" id="TWt-SB-17J"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qe4-Sv-Anx" secondAttribute="trailing" id="d0E-BF-4Pt"/>
                             <constraint firstItem="qe4-Sv-Anx" firstAttribute="width" secondItem="D0t-6x-g8k" secondAttribute="width" id="fcf-wF-K6f"/>
                             <constraint firstItem="D0t-6x-g8k" firstAttribute="top" secondItem="qe4-Sv-Anx" secondAttribute="bottom" constant="29" id="iDx-aq-lAd"/>
+                            <constraint firstItem="R2A-Vo-2Q7" firstAttribute="leading" secondItem="nbB-BA-Mqk" secondAttribute="leadingMargin" constant="-4" id="zLj-Jg-IfH"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Cky-eX-JY3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OP8-DA-4bc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1637" y="-2216"/>
+            <point key="canvasLocation" x="-5293" y="-5736"/>
         </scene>
         <!--Classify-->
         <scene sceneID="w8N-K9-o9h">
@@ -5386,7 +5391,7 @@ The mother should:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ju0-fq-PQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13931" y="2044"/>
+            <point key="canvasLocation" x="-12187" y="-2316"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="TSu-g6-qZA">
@@ -5512,7 +5517,7 @@ The mother should:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kqo-gy-vHK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13923" y="2947"/>
+            <point key="canvasLocation" x="-12179" y="-1413"/>
         </scene>
         <!--Assess-->
         <scene sceneID="h3F-EY-1hp">
@@ -5558,7 +5563,7 @@ CLASSIFY</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ia6-oP-vi7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13931" y="1168"/>
+            <point key="canvasLocation" x="-12187" y="-3192"/>
         </scene>
         <!--Classify-->
         <scene sceneID="pav-7u-boo">
@@ -5683,7 +5688,7 @@ CLASSIFY</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LR7-fo-CNF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12033" y="2138"/>
+            <point key="canvasLocation" x="-10289" y="-1908"/>
         </scene>
         <!--Assess-->
         <scene sceneID="ED8-IT-RdR">
@@ -5776,7 +5781,7 @@ TO CHECK ATTACHMENT, LOOK FOR:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nhR-3L-g79" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12033" y="1160"/>
+            <point key="canvasLocation" x="-10289" y="-2886"/>
         </scene>
         <!--Classify-->
         <scene sceneID="HC5-ca-AKI">
@@ -5908,7 +5913,7 @@ TO CHECK ATTACHMENT, LOOK FOR:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1hr-KR-w2Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13295" y="2031"/>
+            <point key="canvasLocation" x="-11551" y="-2329"/>
         </scene>
         <!--Assess-->
         <scene sceneID="m5u-nw-dsk">
@@ -5951,7 +5956,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tWN-Nn-Y4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13289" y="1168"/>
+            <point key="canvasLocation" x="-11545" y="-3192"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="sIW-Ff-IU0">
@@ -6093,7 +6098,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jf7-t9-EKj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13295" y="3098"/>
+            <point key="canvasLocation" x="-11551" y="-1262"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="Bgw-T2-SE2">
@@ -6202,7 +6207,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y94-Ax-4vm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12654" y="2720"/>
+            <point key="canvasLocation" x="-10915" y="-1582"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="exH-M0-Ekr">
@@ -6650,7 +6655,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aeu-9c-foI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12033" y="3066"/>
+            <point key="canvasLocation" x="-10289" y="-980"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="mKc-Hh-MkU">
@@ -6669,7 +6674,7 @@ Does it go back:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0aO-e8-KY8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13295" y="518"/>
+            <point key="canvasLocation" x="-11551" y="-3842"/>
         </scene>
         <!--Immunization Status-->
         <scene sceneID="MSk-kW-Eg9">
@@ -6700,7 +6705,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iRH-5g-2fK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11406" y="1154"/>
+            <point key="canvasLocation" x="-9662" y="-3206"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="0zE-7F-KU8">
@@ -6804,7 +6809,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jdo-kU-Jr0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10151" y="2582"/>
+            <point key="canvasLocation" x="-8407" y="-1778"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="trt-uo-W1P">
@@ -6821,7 +6826,7 @@ Does it go back:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l4a-Ie-292" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11406" y="506"/>
+            <point key="canvasLocation" x="-9662" y="-3854"/>
         </scene>
         <!--Classify-->
         <scene sceneID="015-p6-wa8">
@@ -6906,7 +6911,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T9I-IU-Keq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10151" y="1806"/>
+            <point key="canvasLocation" x="-8407" y="-2554"/>
         </scene>
         <!--Assess-->
         <scene sceneID="fL1-Gd-jnm">
@@ -6944,7 +6949,7 @@ Does it go back:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWV-vZ-hCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10151" y="1160"/>
+            <point key="canvasLocation" x="-8407" y="-3200"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="42p-P1-NXc">
@@ -6963,7 +6968,7 @@ Does it go back:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aZb-5C-RpL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10151" y="506"/>
+            <point key="canvasLocation" x="-8407" y="-3854"/>
         </scene>
         <!--Care for Development-->
         <scene sceneID="UFb-I6-lsF">
@@ -6999,7 +7004,7 @@ Compare the mother answers to the recommendation for care and development</strin
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kA4-jF-JNj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10781" y="1160"/>
+            <point key="canvasLocation" x="-9037" y="-3200"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="08R-7K-Ngb">
@@ -7016,7 +7021,7 @@ Compare the mother answers to the recommendation for care and development</strin
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NQk-mQ-7JN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10776" y="506"/>
+            <point key="canvasLocation" x="-9032" y="-3854"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="oUz-kZ-Kgl">
@@ -7035,7 +7040,7 @@ Compare the mother answers to the recommendation for care and development</strin
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hWT-d3-1jh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12033" y="506"/>
+            <point key="canvasLocation" x="-10289" y="-3854"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="she-Fg-KwJ">
@@ -7055,7 +7060,7 @@ Compare the mother answers to the recommendation for care and development</strin
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZh-mw-obD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13931" y="518"/>
+            <point key="canvasLocation" x="-12187" y="-3842"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xfO-EU-NJt">
@@ -7305,7 +7310,7 @@ If it is an initial visit, assess the young infant as follows:</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0h-oW-6VM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11509" y="-617"/>
+            <point key="canvasLocation" x="-9765" y="-4977"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6fQ-bL-LXr">
@@ -7386,7 +7391,7 @@ If no breathing or gasping at all after 20 minutes ventilation
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dA-pf-aWz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9531" y="643"/>
+            <point key="canvasLocation" x="-7787" y="-3717"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PLv-2P-7oU">
@@ -7455,7 +7460,7 @@ Teach the mother how to keep the young infant warm on the way to the hospital
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1cL-Jm-PB1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8919" y="643"/>
+            <point key="canvasLocation" x="-7175" y="-3717"/>
         </scene>
         <!--Classify-->
         <scene sceneID="Pkr-p7-KFo">
@@ -7555,7 +7560,7 @@ OR 	- An AIDS defining condition</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RbF-90-B9Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12659" y="1812"/>
+            <point key="canvasLocation" x="-10920" y="-2490"/>
         </scene>
         <!--Assess-->
         <scene sceneID="Dcq-JW-jlf">
@@ -7601,7 +7606,7 @@ LOOK AND FEEL:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LFE-Se-6yg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12659" y="1126"/>
+            <point key="canvasLocation" x="-10920" y="-3176"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="LBZ-Vz-QhK">
@@ -7620,7 +7625,7 @@ LOOK AND FEEL:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Oo-Uh-FDi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12659" y="518"/>
+            <point key="canvasLocation" x="-10915" y="-3842"/>
         </scene>
         <!--Classify-->
         <scene sceneID="FgO-Yc-uSY">
@@ -7686,7 +7691,7 @@ LOOK AND FEEL:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zR-LC-Xll" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7935" y="3204"/>
+            <point key="canvasLocation" x="-11079" y="2036"/>
         </scene>
         <!--Assess-->
         <scene sceneID="c9T-bz-UDe">
@@ -7700,8 +7705,8 @@ LOOK AND FEEL:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa6-l0-JKe">
-                                <rect key="frame" x="20" y="72" width="560" height="249"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa6-l0-JKe">
+                                <rect key="frame" x="20" y="72" width="560" height="218"/>
                                 <string key="text">If Yes ask
 
 For how long?
@@ -7723,17 +7728,17 @@ IF CHILD IS:
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="Pa6-l0-JKe" secondAttribute="trailing" id="Mfm-6b-Sy1"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="Pa6-l0-JKe" secondAttribute="leading" id="TrR-Zs-PYG"/>
-                            <constraint firstItem="yOx-R8-WkN" firstAttribute="top" secondItem="Pa6-l0-JKe" secondAttribute="bottom" constant="480" id="UnP-uF-xd6"/>
-                            <constraint firstItem="Pa6-l0-JKe" firstAttribute="top" secondItem="m3y-c6-13c" secondAttribute="bottom" constant="8" symbolic="YES" id="zgY-KW-v2I"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pa6-l0-JKe" secondAttribute="trailing" id="BPU-WP-cQl"/>
+                            <constraint firstItem="Pa6-l0-JKe" firstAttribute="top" secondItem="m3y-c6-13c" secondAttribute="bottom" constant="8" id="Trh-ud-nCH"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Pa6-l0-JKe" secondAttribute="leading" id="adx-V1-aH8"/>
+                            <constraint firstItem="Pa6-l0-JKe" firstAttribute="centerX" secondItem="NAe-bo-elp" secondAttribute="centerX" id="ehW-Je-RYM"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Assess" id="w2a-NX-g4j"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nis-Pc-eS0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7935" y="2294"/>
+            <point key="canvasLocation" x="-11079" y="1126"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="tgp-IT-nkd">
@@ -7816,7 +7821,7 @@ IF CHILD IS:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VI5-Tx-mcy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7935" y="4100"/>
+            <point key="canvasLocation" x="-11079" y="2932"/>
         </scene>
         <!--Vitamin A & Deworming-->
         <scene sceneID="Oqh-Mn-JPq">
@@ -7846,7 +7851,7 @@ IF CHILD IS:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0q-pj-fnS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6064" y="7868"/>
+            <point key="canvasLocation" x="-5944" y="2108"/>
         </scene>
         <!--Classify-->
         <scene sceneID="fNZ-ZG-oWI">
@@ -7918,7 +7923,7 @@ IF CHILD IS:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oLJ-ny-oS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7323" y="7742"/>
+            <point key="canvasLocation" x="-7195" y="1918"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="qh5-YA-IDR">
@@ -8035,7 +8040,7 @@ Assess child’s feeding and provide appropriate counselling to mother.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ijt-FG-0Vu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6691" y="8634"/>
+            <point key="canvasLocation" x="-6563" y="2810"/>
         </scene>
         <!--Classify-->
         <scene sceneID="KS7-8q-5Ex">
@@ -8139,7 +8144,7 @@ OR
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="crC-dH-0yv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6689" y="7736"/>
+            <point key="canvasLocation" x="-6561" y="1912"/>
         </scene>
         <!--Assess-->
         <scene sceneID="P3Y-HR-35z">
@@ -8198,7 +8203,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W8G-T9-dKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6691" y="6838"/>
+            <point key="canvasLocation" x="-6563" y="1014"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="PSa-Fl-cAc">
@@ -8217,7 +8222,7 @@ Classify HIV status</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q8K-t7-i7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6691" y="6136"/>
+            <point key="canvasLocation" x="-6563" y="312"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="sUq-jZ-R5h">
@@ -8308,7 +8313,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D3D-Qc-46Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7323" y="8640"/>
+            <point key="canvasLocation" x="-7195" y="2816"/>
         </scene>
         <!--Assess-->
         <scene sceneID="ti0-Fm-NBf">
@@ -8347,7 +8352,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wwi-Pb-fGE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7321" y="6838"/>
+            <point key="canvasLocation" x="-7193" y="1014"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="566-hG-hzM">
@@ -8366,7 +8371,7 @@ Classify HIV status</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wvg-nM-Iiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7321" y="6136"/>
+            <point key="canvasLocation" x="-7193" y="312"/>
         </scene>
         <!--Immunization-->
         <scene sceneID="ZLu-Mp-COg">
@@ -8423,7 +8428,7 @@ Classify HIV status</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GPY-2N-7UE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6064" y="6970"/>
+            <point key="canvasLocation" x="-5944" y="1210"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JUv-37-Pwu">
@@ -8441,7 +8446,7 @@ Classify HIV status</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="294-WC-EL3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6064" y="6072"/>
+            <point key="canvasLocation" x="-5944" y="312"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="NS3-Cu-MqM">
@@ -8619,7 +8624,7 @@ If child has no severe classification:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hrq-7a-92P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7321" y="4310"/>
+            <point key="canvasLocation" x="-10449" y="3270"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="lP7-Yn-Nmd">
@@ -8859,7 +8864,7 @@ If child has no severe classification:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k9w-HK-Eub" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6715" y="4709"/>
+            <point key="canvasLocation" x="-9819" y="3669"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="21W-OT-g80">
@@ -8878,7 +8883,7 @@ If child has no severe classification:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3AE-xD-I0J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7935" y="1402"/>
+            <point key="canvasLocation" x="-11079" y="234"/>
         </scene>
         <!--Classify-->
         <scene sceneID="zna-hj-0fT">
@@ -8990,7 +8995,7 @@ IF AGE 6 MONTHS UP TO 59 MONTHS MUAC 11.5 TO 12.5 cm</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x8B-Zd-6da" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7945" y="7736"/>
+            <point key="canvasLocation" x="-7817" y="1912"/>
         </scene>
         <!--Assess-->
         <scene sceneID="4Nn-JT-tAe">
@@ -9042,7 +9047,7 @@ Determine Z score for the same:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OT0-Nb-KNl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7945" y="6838"/>
+            <point key="canvasLocation" x="-7817" y="1014"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="8cV-2R-upr">
@@ -9157,7 +9162,7 @@ Determine Z score for the same:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dUt-uD-vii" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7945" y="8634"/>
+            <point key="canvasLocation" x="-7817" y="2810"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="CPQ-ll-teF">
@@ -9176,7 +9181,7 @@ Determine Z score for the same:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rEn-Xb-ywa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7945" y="6136"/>
+            <point key="canvasLocation" x="-7817" y="312"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="c1E-fX-WQ0">
@@ -9272,7 +9277,7 @@ Determine Z score for the same:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HVs-89-tn2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6108" y="3962"/>
+            <point key="canvasLocation" x="-9196" y="2932"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qx2-28-DFH">
@@ -9286,35 +9291,32 @@ Determine Z score for the same:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jDu-6z-BZT">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDu-6z-BZT">
                                 <rect key="frame" x="0.0" y="64" width="600" height="803"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQb-Ld-pv2">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQb-Ld-pv2">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="21"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fa7-gB-3nv">
-                                        <rect key="frame" x="0.0" y="174" width="600" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fa7-gB-3nv">
+                                        <rect key="frame" x="0.0" y="238" width="600" height="21"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXH-MN-6Pn">
-                                        <rect key="frame" x="0.0" y="351" width="600" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXH-MN-6Pn">
+                                        <rect key="frame" x="0.0" y="411" width="600" height="21"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v43-Mz-cjj">
-                                        <rect key="frame" x="20" y="29" width="560" height="129"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="560" id="Skc-PC-1Cq"/>
-                                        </constraints>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v43-Mz-cjj">
+                                        <rect key="frame" x="20" y="93" width="560" height="129"/>
                                         <string key="text">If the child is on the initial visit
 Ask: 
 • Is the child able to drink or breastfeed?
@@ -9328,20 +9330,17 @@ if yes treat immediately</string>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7Y-H1-2FQ">
-                                        <rect key="frame" x="0.0" y="203" width="600" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7Y-H1-2FQ">
+                                        <rect key="frame" x="8" y="267" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="2hx-62-adH"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Does the child have cough or difficult breathing?"/>
                                         <connections>
                                             <segue destination="vuI-5e-wn3" kind="show" id="cHt-Bh-NFC"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pND-cg-Xeo">
-                                        <rect key="frame" x="0.0" y="241" width="600" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pND-cg-Xeo">
+                                        <rect key="frame" x="8" y="303" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Does the child have diarrhoea?"/>
@@ -9349,8 +9348,8 @@ if yes treat immediately</string>
                                             <segue destination="69j-1l-flY" kind="show" id="ae3-Tc-faq"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMK-Cq-4Ld">
-                                        <rect key="frame" x="0.0" y="279" width="600" height="28"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMK-Cq-4Ld">
+                                        <rect key="frame" x="8" y="339" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Does the child have a fever?"/>
@@ -9358,20 +9357,17 @@ if yes treat immediately</string>
                                             <segue destination="v6S-0v-mID" kind="show" id="gMp-Cj-NHK"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA0-HS-UKS">
-                                        <rect key="frame" x="0.0" y="315" width="600" height="28"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA0-HS-UKS">
+                                        <rect key="frame" x="8" y="375" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="28" id="XXQ-kJ-DFA"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Does the child have an ear problem?"/>
                                         <connections>
                                             <segue destination="cJf-cY-YSQ" kind="show" id="tjX-lR-gYX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ib3-Vm-LoD">
-                                        <rect key="frame" x="0.0" y="492" width="600" height="35"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ib3-Vm-LoD">
+                                        <rect key="frame" x="8" y="548" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Check for child's immunization, Vitamin A &amp; deworming status"/>
@@ -9379,29 +9375,17 @@ if yes treat immediately</string>
                                             <segue destination="KAV-uM-QUt" kind="show" id="Te2-CE-KE8"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0r-nr-wn8">
-                                        <rect key="frame" x="0.0" y="380" width="600" height="28"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPv-4l-7Wu">
+                                        <rect key="frame" x="8" y="512" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <state key="normal" title="Check for malnutrition"/>
-                                        <connections>
-                                            <segue destination="1Ja-AZ-aXs" kind="show" id="865-GP-FTk"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPv-4l-7Wu">
-                                        <rect key="frame" x="0.0" y="454" width="600" height="30"/>
-                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="cG3-oX-Vfl"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Check for HIV exposure and infection"/>
                                         <connections>
                                             <segue destination="UNb-IF-UKI" kind="show" id="M95-10-ygq"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5f-72-tkO">
-                                        <rect key="frame" x="0.0" y="535" width="600" height="36"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5f-72-tkO">
+                                        <rect key="frame" x="8" y="584" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Assess for other problems that the child may have"/>
@@ -9409,41 +9393,92 @@ if yes treat immediately</string>
                                             <segue destination="9hG-LZ-EXG" kind="show" id="bSd-6y-OtF"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njv-0b-KnN">
-                                        <rect key="frame" x="0.0" y="416" width="600" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njv-0b-KnN">
+                                        <rect key="frame" x="8" y="476" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="dZb-iN-plJ"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Check for anaemia"/>
                                         <connections>
                                             <segue destination="rRY-Qv-bEy" kind="show" id="JVU-CE-NO8"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0r-nr-wn8">
+                                        <rect key="frame" x="8" y="440" width="584" height="28"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Check for malnutrition"/>
+                                        <connections>
+                                            <segue destination="1Ja-AZ-aXs" kind="show" id="865-GP-FTk"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="fa7-gB-3nv" firstAttribute="top" secondItem="v43-Mz-cjj" secondAttribute="bottom" constant="16" id="1yo-LM-in3"/>
-                                    <constraint firstItem="P7Y-H1-2FQ" firstAttribute="top" secondItem="fa7-gB-3nv" secondAttribute="bottom" constant="8" symbolic="YES" id="4N3-jF-FmM"/>
-                                    <constraint firstItem="v43-Mz-cjj" firstAttribute="top" secondItem="fQb-Ld-pv2" secondAttribute="bottom" constant="8" symbolic="YES" id="Ihw-WT-YNz"/>
-                                    <constraint firstItem="Ib3-Vm-LoD" firstAttribute="top" secondItem="njv-0b-KnN" secondAttribute="bottom" constant="26" id="JVp-aQ-Eic"/>
-                                    <constraint firstItem="njv-0b-KnN" firstAttribute="top" secondItem="IXH-MN-6Pn" secondAttribute="bottom" constant="26" id="OuZ-mP-FcP"/>
-                                    <constraint firstItem="iMK-Cq-4Ld" firstAttribute="top" secondItem="P7Y-H1-2FQ" secondAttribute="bottom" constant="20" id="Qsv-tF-JBf"/>
-                                    <constraint firstItem="IXH-MN-6Pn" firstAttribute="top" secondItem="iMK-Cq-4Ld" secondAttribute="bottom" constant="27" id="RyW-ZO-XUv"/>
-                                    <constraint firstItem="fa7-gB-3nv" firstAttribute="leading" secondItem="fQb-Ld-pv2" secondAttribute="leading" id="VFW-Vr-xUk"/>
-                                    <constraint firstItem="pND-cg-Xeo" firstAttribute="top" secondItem="fa7-gB-3nv" secondAttribute="bottom" constant="32" id="VUc-Hu-ouJ"/>
-                                    <constraint firstItem="ZA0-HS-UKS" firstAttribute="top" secondItem="pND-cg-Xeo" secondAttribute="bottom" constant="22" id="ZKj-FZ-V4b"/>
-                                    <constraint firstItem="E0r-nr-wn8" firstAttribute="top" secondItem="IXH-MN-6Pn" secondAttribute="bottom" constant="1" id="aBJ-Rf-9LX"/>
-                                    <constraint firstItem="l5f-72-tkO" firstAttribute="top" secondItem="JPv-4l-7Wu" secondAttribute="bottom" constant="41" id="bqB-Ti-4Q8"/>
-                                    <constraint firstItem="l5f-72-tkO" firstAttribute="top" secondItem="Ib3-Vm-LoD" secondAttribute="bottom" constant="8" symbolic="YES" id="dwb-Tu-hXa"/>
-                                    <constraint firstItem="JPv-4l-7Wu" firstAttribute="top" secondItem="E0r-nr-wn8" secondAttribute="bottom" constant="25" id="jB5-ya-J6M"/>
-                                    <constraint firstItem="IXH-MN-6Pn" firstAttribute="leading" secondItem="ZA0-HS-UKS" secondAttribute="leading" id="jKK-2R-D6x"/>
-                                    <constraint firstItem="IXH-MN-6Pn" firstAttribute="top" secondItem="ZA0-HS-UKS" secondAttribute="bottom" constant="1" id="uFc-LL-fEa"/>
-                                    <constraint firstItem="P7Y-H1-2FQ" firstAttribute="leading" secondItem="fa7-gB-3nv" secondAttribute="leading" id="uxX-LG-FNM"/>
+                                    <constraint firstItem="Ib3-Vm-LoD" firstAttribute="width" secondItem="P7Y-H1-2FQ" secondAttribute="width" id="0EC-BI-CXv"/>
+                                    <constraint firstItem="JPv-4l-7Wu" firstAttribute="trailing" secondItem="E0r-nr-wn8" secondAttribute="trailing" id="0Qj-Fx-ihW"/>
+                                    <constraint firstItem="pND-cg-Xeo" firstAttribute="centerX" secondItem="P7Y-H1-2FQ" secondAttribute="centerX" id="0Yr-pd-ezD"/>
+                                    <constraint firstItem="pND-cg-Xeo" firstAttribute="trailing" secondItem="P7Y-H1-2FQ" secondAttribute="trailing" id="2qK-lu-1ht"/>
+                                    <constraint firstItem="IXH-MN-6Pn" firstAttribute="leading" secondItem="fa7-gB-3nv" secondAttribute="leading" id="4d3-kB-wVY"/>
+                                    <constraint firstItem="pND-cg-Xeo" firstAttribute="height" secondItem="P7Y-H1-2FQ" secondAttribute="height" id="59D-3q-sEx"/>
+                                    <constraint firstItem="fa7-gB-3nv" firstAttribute="top" secondItem="v43-Mz-cjj" secondAttribute="bottom" constant="16" id="5xc-NS-lum"/>
+                                    <constraint firstItem="iMK-Cq-4Ld" firstAttribute="trailing" secondItem="P7Y-H1-2FQ" secondAttribute="trailing" id="7Nd-9B-aT7"/>
+                                    <constraint firstItem="JPv-4l-7Wu" firstAttribute="height" secondItem="P7Y-H1-2FQ" secondAttribute="height" id="7vq-jj-Jkm"/>
+                                    <constraint firstItem="JPv-4l-7Wu" firstAttribute="top" secondItem="njv-0b-KnN" secondAttribute="bottom" constant="8" symbolic="YES" id="A7C-cO-38v"/>
+                                    <constraint firstItem="E0r-nr-wn8" firstAttribute="centerX" secondItem="P7Y-H1-2FQ" secondAttribute="centerX" id="BE5-Qm-KYf"/>
+                                    <constraint firstItem="ZA0-HS-UKS" firstAttribute="centerX" secondItem="IXH-MN-6Pn" secondAttribute="centerX" id="Cgw-ie-vVU"/>
+                                    <constraint firstItem="njv-0b-KnN" firstAttribute="top" secondItem="E0r-nr-wn8" secondAttribute="bottom" constant="8" symbolic="YES" id="De1-OL-Lkx"/>
+                                    <constraint firstItem="fQb-Ld-pv2" firstAttribute="leading" secondItem="jDu-6z-BZT" secondAttribute="leading" id="Fkg-HT-bex"/>
+                                    <constraint firstItem="iMK-Cq-4Ld" firstAttribute="centerX" secondItem="P7Y-H1-2FQ" secondAttribute="centerX" id="Gk4-es-crP"/>
+                                    <constraint firstItem="v43-Mz-cjj" firstAttribute="top" secondItem="fQb-Ld-pv2" secondAttribute="bottom" constant="8" id="H6d-PI-ZPH"/>
+                                    <constraint firstItem="iMK-Cq-4Ld" firstAttribute="height" secondItem="P7Y-H1-2FQ" secondAttribute="height" id="Hzu-wq-YVw"/>
+                                    <constraint firstItem="E0r-nr-wn8" firstAttribute="width" secondItem="P7Y-H1-2FQ" secondAttribute="width" id="IHT-Yl-pA8"/>
+                                    <constraint firstItem="iMK-Cq-4Ld" firstAttribute="top" secondItem="pND-cg-Xeo" secondAttribute="bottom" constant="8" symbolic="YES" id="JeL-cW-CuN"/>
+                                    <constraint firstItem="l5f-72-tkO" firstAttribute="height" secondItem="P7Y-H1-2FQ" secondAttribute="height" id="JwQ-t8-8E8"/>
+                                    <constraint firstItem="l5f-72-tkO" firstAttribute="trailing" secondItem="E0r-nr-wn8" secondAttribute="trailing" id="LaS-rq-z89"/>
+                                    <constraint firstItem="E0r-nr-wn8" firstAttribute="height" secondItem="P7Y-H1-2FQ" secondAttribute="height" id="Okf-Mg-HNA"/>
+                                    <constraint firstItem="ZA0-HS-UKS" firstAttribute="width" secondItem="P7Y-H1-2FQ" secondAttribute="width" id="QWV-cp-FNd"/>
+                                    <constraint firstItem="fa7-gB-3nv" firstAttribute="width" secondItem="jDu-6z-BZT" secondAttribute="width" id="RMS-fE-wKE"/>
+                                    <constraint firstItem="fQb-Ld-pv2" firstAttribute="centerX" secondItem="v43-Mz-cjj" secondAttribute="centerX" id="RnK-DR-t85"/>
+                                    <constraint firstItem="iMK-Cq-4Ld" firstAttribute="width" secondItem="P7Y-H1-2FQ" secondAttribute="width" id="S0F-iW-HzD"/>
+                                    <constraint firstItem="l5f-72-tkO" firstAttribute="width" secondItem="P7Y-H1-2FQ" secondAttribute="width" id="TaS-nn-4Ye"/>
+                                    <constraint firstItem="ZA0-HS-UKS" firstAttribute="top" secondItem="iMK-Cq-4Ld" secondAttribute="bottom" constant="8" symbolic="YES" id="U1m-ip-YLX"/>
+                                    <constraint firstItem="njv-0b-KnN" firstAttribute="trailing" secondItem="E0r-nr-wn8" secondAttribute="trailing" id="U1t-wB-4yj"/>
+                                    <constraint firstItem="ZA0-HS-UKS" firstAttribute="centerX" secondItem="P7Y-H1-2FQ" secondAttribute="centerX" id="WRO-GJ-LUc"/>
+                                    <constraint firstAttribute="trailing" secondItem="v43-Mz-cjj" secondAttribute="trailing" constant="20" id="XXv-w1-DFg"/>
+                                    <constraint firstItem="l5f-72-tkO" firstAttribute="top" secondItem="Ib3-Vm-LoD" secondAttribute="bottom" constant="8" symbolic="YES" id="Xgh-3v-egr"/>
+                                    <constraint firstItem="P7Y-H1-2FQ" firstAttribute="top" secondItem="fa7-gB-3nv" secondAttribute="bottom" constant="8" symbolic="YES" id="Y5b-Xg-mPq"/>
+                                    <constraint firstItem="ZA0-HS-UKS" firstAttribute="height" secondItem="P7Y-H1-2FQ" secondAttribute="height" id="YFK-9H-AhS"/>
+                                    <constraint firstItem="fQb-Ld-pv2" firstAttribute="width" secondItem="jDu-6z-BZT" secondAttribute="width" id="Yx0-1S-Upq"/>
+                                    <constraint firstItem="IXH-MN-6Pn" firstAttribute="top" secondItem="ZA0-HS-UKS" secondAttribute="bottom" constant="8" symbolic="YES" id="a1W-wu-fZh"/>
+                                    <constraint firstItem="njv-0b-KnN" firstAttribute="height" secondItem="P7Y-H1-2FQ" secondAttribute="height" id="aLp-tf-xxF"/>
+                                    <constraint firstItem="v43-Mz-cjj" firstAttribute="leading" secondItem="jDu-6z-BZT" secondAttribute="leading" constant="20" id="asv-ao-c1P"/>
+                                    <constraint firstItem="l5f-72-tkO" firstAttribute="centerX" secondItem="P7Y-H1-2FQ" secondAttribute="centerX" id="bkb-dB-3ap"/>
+                                    <constraint firstItem="ZA0-HS-UKS" firstAttribute="trailing" secondItem="P7Y-H1-2FQ" secondAttribute="trailing" id="c8f-xw-ruO"/>
+                                    <constraint firstItem="fQb-Ld-pv2" firstAttribute="top" secondItem="jDu-6z-BZT" secondAttribute="top" constant="64" id="edE-yQ-w9A"/>
+                                    <constraint firstItem="Ib3-Vm-LoD" firstAttribute="leading" secondItem="jDu-6z-BZT" secondAttribute="leadingMargin" id="eeJ-LZ-jcI"/>
+                                    <constraint firstItem="Ib3-Vm-LoD" firstAttribute="trailing" secondItem="E0r-nr-wn8" secondAttribute="trailing" id="jOT-Ol-Sku"/>
+                                    <constraint firstItem="JPv-4l-7Wu" firstAttribute="width" secondItem="P7Y-H1-2FQ" secondAttribute="width" id="jQM-nG-Joz"/>
+                                    <constraint firstItem="njv-0b-KnN" firstAttribute="width" secondItem="P7Y-H1-2FQ" secondAttribute="width" id="lHG-fX-d7M"/>
+                                    <constraint firstItem="E0r-nr-wn8" firstAttribute="top" secondItem="IXH-MN-6Pn" secondAttribute="bottom" constant="8" symbolic="YES" id="mwO-yR-u5a"/>
+                                    <constraint firstItem="njv-0b-KnN" firstAttribute="centerX" secondItem="P7Y-H1-2FQ" secondAttribute="centerX" id="mxw-bS-Tlw"/>
+                                    <constraint firstItem="pND-cg-Xeo" firstAttribute="top" secondItem="P7Y-H1-2FQ" secondAttribute="bottom" constant="8" symbolic="YES" id="okg-Fc-Hxd"/>
+                                    <constraint firstAttribute="bottom" secondItem="l5f-72-tkO" secondAttribute="bottom" constant="168" id="prv-rG-0jd"/>
+                                    <constraint firstItem="Ib3-Vm-LoD" firstAttribute="centerX" secondItem="P7Y-H1-2FQ" secondAttribute="centerX" id="tL7-7u-qjV"/>
+                                    <constraint firstItem="JPv-4l-7Wu" firstAttribute="centerX" secondItem="P7Y-H1-2FQ" secondAttribute="centerX" id="wwp-R0-xYS"/>
+                                    <constraint firstItem="fa7-gB-3nv" firstAttribute="trailing" secondItem="IXH-MN-6Pn" secondAttribute="trailing" id="xEu-q7-UPU"/>
+                                    <constraint firstItem="Ib3-Vm-LoD" firstAttribute="height" secondItem="P7Y-H1-2FQ" secondAttribute="height" id="xfQ-cH-Fvi"/>
+                                    <constraint firstItem="Ib3-Vm-LoD" firstAttribute="top" secondItem="JPv-4l-7Wu" secondAttribute="bottom" constant="8" symbolic="YES" id="yFW-bJ-rmQ"/>
+                                    <constraint firstItem="pND-cg-Xeo" firstAttribute="width" secondItem="P7Y-H1-2FQ" secondAttribute="width" id="yWp-A3-vGX"/>
+                                    <constraint firstItem="fQb-Ld-pv2" firstAttribute="leading" secondItem="fa7-gB-3nv" secondAttribute="leading" id="zx4-w9-8vA"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jDu-6z-BZT" firstAttribute="top" secondItem="fLo-cF-SiA" secondAttribute="bottom" id="25d-L4-gcc"/>
+                            <constraint firstItem="jDu-6z-BZT" firstAttribute="leading" secondItem="gnE-Ff-nzS" secondAttribute="leading" id="2pY-Hz-ygj"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="jDu-6z-BZT" secondAttribute="bottom" constant="-17" id="TNg-vb-fGr"/>
+                            <constraint firstAttribute="trailing" secondItem="jDu-6z-BZT" secondAttribute="trailing" id="bxE-0j-CmE"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="AbV-vo-Og1"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -9454,7 +9489,7 @@ if yes treat immediately</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hU8-sF-FWq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6965" y="-108"/>
+            <point key="canvasLocation" x="-7677" y="-772"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bFX-p7-z44">
@@ -9483,7 +9518,7 @@ if yes treat immediately</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aZy-xm-sEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5441" y="6873"/>
+            <point key="canvasLocation" x="-5317" y="312"/>
         </scene>
         <!--Classify-->
         <scene sceneID="rQJ-4a-986">
@@ -9700,7 +9735,7 @@ if yes treat immediately</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y0O-q7-DzH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6715" y="3271"/>
+            <point key="canvasLocation" x="-9819" y="2231"/>
         </scene>
         <!--Assess-->
         <scene sceneID="0Se-lP-HEY">
@@ -9787,7 +9822,7 @@ Classify Fever</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UWu-aw-oME" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6715" y="2181"/>
+            <point key="canvasLocation" x="-9819" y="1141"/>
         </scene>
         <!--Classify-->
         <scene sceneID="dl9-Pg-sV5">
@@ -9875,7 +9910,7 @@ Classify Fever</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KKC-9w-320" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6108" y="3071"/>
+            <point key="canvasLocation" x="-9196" y="2041"/>
         </scene>
         <!--Assess-->
         <scene sceneID="mTa-aT-AKx">
@@ -9917,7 +9952,7 @@ Classify EAR PROBLEM</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Nk-HN-znX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6108" y="2181"/>
+            <point key="canvasLocation" x="-9196" y="1151"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="SVB-9h-Lil">
@@ -9936,7 +9971,7 @@ Classify EAR PROBLEM</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="amd-wH-22f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6108" y="1288"/>
+            <point key="canvasLocation" x="-9196" y="258"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rf4-SE-dQa">
@@ -9955,7 +9990,7 @@ Classify EAR PROBLEM</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="82H-8r-CkZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6715" y="1288"/>
+            <point key="canvasLocation" x="-9819" y="248"/>
         </scene>
         <!--Classify-->
         <scene sceneID="IHF-Hm-ke3">
@@ -10105,7 +10140,7 @@ Classify EAR PROBLEM</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6x9-7L-Jh0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7323" y="3120"/>
+            <point key="canvasLocation" x="-10451" y="2080"/>
         </scene>
         <!--Assess-->
         <scene sceneID="yIY-DS-0KK">
@@ -10160,7 +10195,7 @@ Classify Diarrhoea</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AlG-zH-Dng" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7323" y="2181"/>
+            <point key="canvasLocation" x="-10451" y="1141"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="LYi-yY-nfo">
@@ -10179,7 +10214,7 @@ Classify Diarrhoea</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uEx-He-HtO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7323" y="1288"/>
+            <point key="canvasLocation" x="-10451" y="248"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oHv-oj-n5N">
@@ -10303,7 +10338,7 @@ LOOK, LISTEN, FEEL
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XGu-0P-OpK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15181" y="1174"/>
+            <point key="canvasLocation" x="-13437" y="-3186"/>
         </scene>
         <!--Classify-->
         <scene sceneID="AoE-iq-nQG">
@@ -10988,7 +11023,7 @@ LOOK, LISTEN, FEEL
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8tf-ND-8iv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15181" y="1916"/>
+            <point key="canvasLocation" x="-13437" y="-2444"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="VfV-VZ-Hg9">
@@ -11300,7 +11335,7 @@ LOOK, LISTEN, FEEL
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p53-aM-S8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15181" y="2813"/>
+            <point key="canvasLocation" x="-13437" y="-1547"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="A95-2w-11T">
@@ -11320,7 +11355,7 @@ LOOK, LISTEN, FEEL
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RvQ-7u-30Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15181" y="518"/>
+            <point key="canvasLocation" x="-13437" y="-3842"/>
         </scene>
         <!--Classify-->
         <scene sceneID="tcW-Ql-npJ">
@@ -11407,7 +11442,7 @@ LOOK, LISTEN, FEEL
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y2c-rS-iJI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14554" y="1980"/>
+            <point key="canvasLocation" x="-12810" y="-2380"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="H3m-H7-Io4">
@@ -11487,7 +11522,7 @@ LOOK, LISTEN, FEEL
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9de-yc-h5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14596" y="2910"/>
+            <point key="canvasLocation" x="-12852" y="-1450"/>
         </scene>
         <!--Assess-->
         <scene sceneID="DV3-1l-YP1">
@@ -11538,7 +11573,7 @@ LOOK:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="byW-HV-LMM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14554" y="1168"/>
+            <point key="canvasLocation" x="-12810" y="-3192"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cw2-9g-Q8a">
@@ -11559,7 +11594,7 @@ LOOK:
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YCx-Kl-ggh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14554" y="518"/>
+            <point key="canvasLocation" x="-12810" y="-3842"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tIb-v8-Jru">
@@ -12521,10 +12556,10 @@ The mother should:
         <image name="young_give_zinc_sulphate.PNG" width="1166" height="541"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sEj-cc-CVT"/>
-        <segue reference="k6P-u2-BGJ"/>
         <segue reference="U1a-TM-fy9"/>
-        <segue reference="VfE-ci-uQk"/>
+        <segue reference="k6P-u2-BGJ"/>
+        <segue reference="sEj-cc-CVT"/>
         <segue reference="Ozu-iA-Cut"/>
+        <segue reference="ADN-Rt-n5w"/>
     </inferredMetricsTieBreakers>
 </document>
