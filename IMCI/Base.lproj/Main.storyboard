@@ -180,8 +180,8 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="Pink: Severe classification needing admission or pre-referral treatment and referral." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccx-Uv-qFk">
-                                        <rect key="frame" x="28" y="164" width="544" height="39"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Pink: Severe classification needing admission or pre-referral treatment and referral." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccx-Uv-qFk">
+                                        <rect key="frame" x="28" y="163" width="544" height="39"/>
                                         <color key="backgroundColor" red="1" green="0.41176470588235292" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1576,7 +1576,7 @@ Review in 2 weeks.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JM5-op-hra" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-127" y="4866"/>
+            <point key="canvasLocation" x="-127" y="4875"/>
         </scene>
         <!--Advice-->
         <scene sceneID="fdh-cx-9MS">
@@ -1885,8 +1885,8 @@ Assess for other causes of fever.</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0w7-8f-Ot6">
-                                <rect key="frame" x="20" y="72" width="560" height="193"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0w7-8f-Ot6">
+                                <rect key="frame" x="20" y="72" width="560" height="156"/>
                                 <string key="text">Child under 1 year
 • If chest in-drawing or a danger sign, fast breathing, poor feeding or wheeze: Give intramuscular antibiotic. Then admit or refer URGENTLY to hospital.
 • If breathing slower, no wheezing and eating better continue the treatment for 5 days.
@@ -1901,7 +1901,10 @@ Child one year and over
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="0w7-8f-Ot6" firstAttribute="trailing" secondItem="ris-7v-WLf" secondAttribute="trailingMargin" id="3sn-Ro-j19"/>
                             <constraint firstItem="0w7-8f-Ot6" firstAttribute="centerX" secondItem="ris-7v-WLf" secondAttribute="centerX" id="GCw-Dc-Kr0"/>
+                            <constraint firstItem="0w7-8f-Ot6" firstAttribute="leading" secondItem="ris-7v-WLf" secondAttribute="leadingMargin" id="nLW-qM-2vD"/>
+                            <constraint firstItem="0w7-8f-Ot6" firstAttribute="top" secondItem="HRo-V7-Qc0" secondAttribute="bottom" constant="8" id="tXk-7Z-Mgb"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Treatment" id="4xz-sd-6GV"/>
@@ -2785,11 +2788,11 @@ After 1 month:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="63D-uV-K46">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="63D-uV-K46">
                                 <rect key="frame" x="0.0" y="64" width="600" height="878"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPp-d7-Tg7">
-                                        <rect key="frame" x="20" y="0.0" width="560" height="244"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPp-d7-Tg7">
+                                        <rect key="frame" x="20" y="0.0" width="560" height="218"/>
                                         <string key="text">		• Exclusive breastfeeding, giving breast milk only, for 6 months is the best way to feed baby whether she is HIV positive or not.
 		• Exclusive breastfeeding is recommended for HIV positive mothers unless formula is AFASS(Affordable, Feasible, Acceptable, Sustainable and Safe).
 		• If mother chooses to breastfeed, she will be provided with medication to reduce the chance of infecting her infant during breastfeeding period.
@@ -2801,38 +2804,85 @@ After 1 month:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Exclusive breastfeeding with ARVs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHJ-zJ-UGb">
-                                        <rect key="frame" x="0.0" y="252" width="600" height="29"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Exclusive breastfeeding with ARVs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHJ-zJ-UGb">
+                                        <rect key="frame" x="0.0" y="226" width="600" height="17"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rjs-TC-en0">
-                                        <rect key="frame" x="20" y="283" width="560" height="90"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rjs-TC-en0">
+                                        <rect key="frame" x="20" y="245" width="560" height="78"/>
                                         <string key="text">	Exclusive breastfeeding is recommended of HIV-positive women for the first 6 months of life unless exclusive replacement feeding is acceptable, feasible, affordable, sustainable and safe. After 6 months, appropriate complementary feeds should be introduced and breastfeeding continued for the first year of life of the infant. There after, breastfeeding may be stopped gradually if a nutritionally acceptable and safe diet can be provided.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Exclusive replacement feeding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQG-uV-aK4">
-                                        <rect key="frame" x="0.0" y="381" width="600" height="29"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Exclusive replacement feeding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQG-uV-aK4">
+                                        <rect key="frame" x="0.0" y="331" width="600" height="17"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIl-hG-W1P">
-                                        <rect key="frame" x="20" y="411" width="560" height="63"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIl-hG-W1P">
+                                        <rect key="frame" x="20" y="349" width="560" height="47"/>
                                         <string key="text">	 Exclusive replacement feeding involves giving the baby only commercial milk substitutes. Exclusive replacement if AFASS(Affordable, Feasible, Acceptable, Sustainable and Safe) criteria is met.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="mHJ-zJ-UGb" firstAttribute="leading" secondItem="63D-uV-K46" secondAttribute="leading" id="0mw-gp-cwS"/>
+                                    <constraint firstItem="EIl-hG-W1P" firstAttribute="centerX" secondItem="63D-uV-K46" secondAttribute="centerX" id="2PN-GU-gmZ"/>
+                                    <constraint firstItem="EIl-hG-W1P" firstAttribute="top" secondItem="PQG-uV-aK4" secondAttribute="bottom" constant="1" id="3j4-Ap-qkT"/>
+                                    <constraint firstItem="mHJ-zJ-UGb" firstAttribute="centerX" secondItem="VPp-d7-Tg7" secondAttribute="centerX" id="3yk-fI-CKe"/>
+                                    <constraint firstItem="Rjs-TC-en0" firstAttribute="leading" secondItem="63D-uV-K46" secondAttribute="leading" constant="20" id="6ht-bA-tMg"/>
+                                    <constraint firstItem="VPp-d7-Tg7" firstAttribute="leading" secondItem="63D-uV-K46" secondAttribute="leading" constant="20" id="8Rc-BS-kKh"/>
+                                    <constraint firstItem="Rjs-TC-en0" firstAttribute="centerX" secondItem="63D-uV-K46" secondAttribute="centerX" id="8ot-sW-QpV"/>
+                                    <constraint firstItem="EIl-hG-W1P" firstAttribute="centerX" secondItem="VPp-d7-Tg7" secondAttribute="centerX" id="8th-re-nwK"/>
+                                    <constraint firstAttribute="trailing" secondItem="PQG-uV-aK4" secondAttribute="trailing" id="And-TK-iNy"/>
+                                    <constraint firstItem="Rjs-TC-en0" firstAttribute="centerX" secondItem="VPp-d7-Tg7" secondAttribute="centerX" id="B65-G6-G3m"/>
+                                    <constraint firstItem="PQG-uV-aK4" firstAttribute="centerX" secondItem="VPp-d7-Tg7" secondAttribute="centerX" id="Foq-sj-JJa"/>
+                                    <constraint firstAttribute="trailing" secondItem="EIl-hG-W1P" secondAttribute="trailing" constant="20" id="KMF-Dl-ggK"/>
+                                    <constraint firstAttribute="trailing" secondItem="VPp-d7-Tg7" secondAttribute="trailing" constant="20" id="Kov-tw-t03"/>
+                                    <constraint firstItem="Rjs-TC-en0" firstAttribute="leading" secondItem="63D-uV-K46" secondAttribute="leading" constant="20" id="M8W-p3-GcO"/>
+                                    <constraint firstItem="Rjs-TC-en0" firstAttribute="top" secondItem="mHJ-zJ-UGb" secondAttribute="bottom" constant="2" id="NUz-Dx-vae"/>
+                                    <constraint firstItem="mHJ-zJ-UGb" firstAttribute="centerX" secondItem="VPp-d7-Tg7" secondAttribute="centerX" id="Nag-n8-4ve"/>
+                                    <constraint firstItem="EIl-hG-W1P" firstAttribute="centerX" secondItem="VPp-d7-Tg7" secondAttribute="centerX" id="Pjd-U8-XRy"/>
+                                    <constraint firstItem="mHJ-zJ-UGb" firstAttribute="centerX" secondItem="63D-uV-K46" secondAttribute="centerX" id="QLI-dg-rmp"/>
+                                    <constraint firstItem="mHJ-zJ-UGb" firstAttribute="top" secondItem="VPp-d7-Tg7" secondAttribute="bottom" constant="8" id="QUo-Up-Uac"/>
+                                    <constraint firstItem="VPp-d7-Tg7" firstAttribute="top" secondItem="63D-uV-K46" secondAttribute="top" id="Rqp-4P-had"/>
+                                    <constraint firstItem="VPp-d7-Tg7" firstAttribute="centerX" secondItem="63D-uV-K46" secondAttribute="centerX" id="U1O-wk-wtc"/>
+                                    <constraint firstItem="PQG-uV-aK4" firstAttribute="leading" secondItem="63D-uV-K46" secondAttribute="leading" id="UTI-hF-Rvc"/>
+                                    <constraint firstAttribute="trailing" secondItem="VPp-d7-Tg7" secondAttribute="trailing" constant="20" id="UjD-L7-Ppl"/>
+                                    <constraint firstAttribute="trailing" secondItem="PQG-uV-aK4" secondAttribute="trailing" id="V5V-aD-hZj"/>
+                                    <constraint firstItem="PQG-uV-aK4" firstAttribute="leading" secondItem="63D-uV-K46" secondAttribute="leading" id="VLh-L0-pBq"/>
+                                    <constraint firstItem="PQG-uV-aK4" firstAttribute="top" secondItem="Rjs-TC-en0" secondAttribute="bottom" constant="8" id="WcH-1m-XN0"/>
+                                    <constraint firstAttribute="bottom" secondItem="EIl-hG-W1P" secondAttribute="bottom" constant="404" id="YMH-df-QSE"/>
+                                    <constraint firstAttribute="trailing" secondItem="mHJ-zJ-UGb" secondAttribute="trailing" id="ZgQ-X3-mTy"/>
+                                    <constraint firstItem="PQG-uV-aK4" firstAttribute="centerX" secondItem="VPp-d7-Tg7" secondAttribute="centerX" id="aJG-Pc-DeM"/>
+                                    <constraint firstItem="EIl-hG-W1P" firstAttribute="leading" secondItem="63D-uV-K46" secondAttribute="leading" constant="20" id="dwo-F4-Lig"/>
+                                    <constraint firstItem="EIl-hG-W1P" firstAttribute="leading" secondItem="63D-uV-K46" secondAttribute="leading" constant="20" id="gJQ-2v-tB8"/>
+                                    <constraint firstItem="Rjs-TC-en0" firstAttribute="centerX" secondItem="VPp-d7-Tg7" secondAttribute="centerX" id="hZC-ri-nXL"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rjs-TC-en0" secondAttribute="trailing" constant="20" id="jBV-uH-l3R"/>
+                                    <constraint firstItem="PQG-uV-aK4" firstAttribute="centerX" secondItem="63D-uV-K46" secondAttribute="centerX" id="ole-2S-UrK"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rjs-TC-en0" secondAttribute="trailing" constant="20" id="omO-9X-sPH"/>
+                                    <constraint firstItem="VPp-d7-Tg7" firstAttribute="leading" secondItem="63D-uV-K46" secondAttribute="leading" constant="20" id="pLe-rF-Zgp"/>
+                                    <constraint firstAttribute="trailing" secondItem="mHJ-zJ-UGb" secondAttribute="trailing" id="vVR-M0-isQ"/>
+                                    <constraint firstItem="mHJ-zJ-UGb" firstAttribute="leading" secondItem="63D-uV-K46" secondAttribute="leading" id="yAe-X9-Ef1"/>
+                                    <constraint firstAttribute="trailing" secondItem="EIl-hG-W1P" secondAttribute="trailing" constant="20" id="yUv-VN-eKd"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="j2P-cA-qQf" firstAttribute="top" secondItem="63D-uV-K46" secondAttribute="bottom" constant="8" symbolic="YES" id="11t-I0-5kf"/>
+                            <constraint firstItem="63D-uV-K46" firstAttribute="top" secondItem="rvz-WO-QrJ" secondAttribute="bottom" id="Yph-vv-HdG"/>
+                            <constraint firstAttribute="trailing" secondItem="63D-uV-K46" secondAttribute="trailing" id="iTw-RE-6T5"/>
+                            <constraint firstItem="63D-uV-K46" firstAttribute="leading" secondItem="gY9-sA-omP" secondAttribute="leading" id="oXl-rX-f2e"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lAY-l8-tGS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3581,20 +3631,20 @@ Ask:
         <!--View Controller-->
         <scene sceneID="ahj-XK-quo">
             <objects>
-                <viewController id="EoJ-30-5Ca" sceneMemberID="viewController">
+                <viewController id="EoJ-30-5Ca" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5oB-wp-YOV"/>
                         <viewControllerLayoutGuide type="bottom" id="y6a-yM-QUc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5wz-ve-K7n">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1050"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G7l-hz-S11">
-                                <rect key="frame" x="0.0" y="64" width="320" height="528"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G7l-hz-S11">
+                                <rect key="frame" x="20" y="64" width="560" height="978"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="If the mother is sick, provide care for help, or refer for help" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQw-FD-urp">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+                                        <rect key="frame" x="8" y="0.0" width="544" height="48"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="hiH-91-MYj"/>
@@ -3604,7 +3654,7 @@ Ask:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29M-QS-ecl">
-                                        <rect key="frame" x="8" y="56" width="304" height="242"/>
+                                        <rect key="frame" x="8" y="56" width="544" height="166"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="242" id="wOA-f3-obY"/>
                                         </constraints>
@@ -3619,7 +3669,7 @@ Ask:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Make sure she has access to:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ed8-cR-2L6">
-                                        <rect key="frame" x="0.0" y="296" width="320" height="30"/>
+                                        <rect key="frame" x="8" y="230" width="544" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="FCc-jn-Tw4"/>
@@ -3630,7 +3680,7 @@ Ask:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvM-Uo-U33">
-                                        <rect key="frame" x="8" y="334" width="304" height="94"/>
+                                        <rect key="frame" x="8" y="268" width="544" height="94"/>
                                         <string key="text">-Breast examination and Cervical Cancer Screening.
 -Family planning.
 -Counselling on STI and Reproductive Tract Infection (RTI) prevention.</string>
@@ -3639,7 +3689,7 @@ Ask:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDi-Od-bYV">
-                                        <rect key="frame" x="0.0" y="436" width="320" height="21"/>
+                                        <rect key="frame" x="8" y="370" width="544" height="38"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">	If the mother is HIV positive</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -3647,15 +3697,27 @@ Ask:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jB-o3-OW1">
-                                        <rect key="frame" x="0.0" y="677" width="320" height="21"/>
+                                        <rect key="frame" x="-20" y="677" width="320" height="21"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">	If baby is less than 2 months:</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbr-uy-gbF">
+                                        <rect key="frame" x="-12" y="706" width="304" height="171"/>
+                                        <string key="text">- Ask mother about her lochia.
+- Ask about perineal care.
+- Ask about Caeserian section scar where applicable.
+- If PMTCT not done counsel and test.
+- If on ART or other medication counsel on compliance.
+- Remind her of post-parlum schedule(within 48 hrs, 2-4 weeks, 4-6 weeks)</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3y-tk-gzT">
-                                        <rect key="frame" x="8" y="459" width="304" height="235"/>
+                                        <rect key="frame" x="8" y="416" width="304" height="235"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="235" id="ws6-qk-jig"/>
                                         </constraints>
@@ -3664,18 +3726,6 @@ Ask:
 - Refer mother for HIV care and support if services not offerred in facility.
 Encourage parent to seek Voluntary Counselling and Testing (VCT)
 - Re-emphasize the impportance of safe sex and early treatment of STI/RTI and counsel regarding future pregnancies.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbr-uy-gbF">
-                                        <rect key="frame" x="8" y="706" width="304" height="171"/>
-                                        <string key="text">- Ask mother about her lochia.
-- Ask about perineal care.
-- Ask about Caeserian section scar where applicable.
-- If PMTCT not done counsel and test.
-- If on ART or other medication counsel on compliance.
-- Remind her of post-parlum schedule(within 48 hrs, 2-4 weeks, 4-6 weeks)</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -3732,164 +3782,255 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="w0R-WM-rm9"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="1050"/>
+                    <connections>
+                        <outlet property="scroller" destination="G7l-hz-S11" id="v6k-Cs-VLR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SFi-Yj-ZUg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3094" y="2642"/>
+            <point key="canvasLocation" x="3096" y="2821"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hQr-ZA-dxJ">
             <objects>
-                <viewController id="fP7-e2-Kq0" sceneMemberID="viewController">
+                <viewController id="fP7-e2-Kq0" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WuO-Jo-b6i"/>
                         <viewControllerLayoutGuide type="bottom" id="gAI-Ci-Xt7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6eY-fF-zkP">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Teach mother to give oral drugs at home" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xD-Zh-6D8">
-                                <rect key="frame" x="0.0" y="64" width="600" height="21"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Teach mother to trea local infections at home" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCW-p1-4Ei">
-                                <rect key="frame" x="0.0" y="116" width="600" height="21"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Give these treatments in health facility only" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4n-2d-Mac">
-                                <rect key="frame" x="0.0" y="166" width="600" height="21"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Rehydration therapy &amp; feeding for diarrhoea" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7x-n8-sc0">
-                                <rect key="frame" x="0.0" y="222" width="600" height="21"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Give multivitamin/ mineral supplement for persistent diarrhoea" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ykb-do-hRb">
-                                <rect key="frame" x="0.0" y="418" width="600" height="42"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgG-bz-WNj">
-                                <rect key="frame" x="0.0" y="380" width="600" height="30"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZZs-nm-mOU">
+                                <rect key="frame" x="0.0" y="64" width="600" height="778"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teach mother to give oral drugs at home" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJZ-Aa-QbK">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="36"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="8LA-Iu-hsE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teach mother to trea local infections at home" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vb-A7-hLV">
+                                        <rect key="frame" x="0.0" y="146" width="600" height="34"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="fbJ-MR-hq8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Give these treatments in health facility only" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SO-9v-FfY">
+                                        <rect key="frame" x="0.0" y="226" width="600" height="38"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="3Cj-Ze-JOP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rehydration therapy &amp; feeding for diarrhoea" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9GQ-84-ltS">
+                                        <rect key="frame" x="0.0" y="310" width="600" height="39"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="0ZC-Vu-piP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Give multivitamin/ mineral supplement for persistent diarrhoea" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ti-ee-9fD">
+                                        <rect key="frame" x="0.0" y="599" width="600" height="42"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="uOj-eA-idG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4W-7o-cT0">
+                                        <rect key="frame" x="0.0" y="555" width="600" height="36"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="pgu-Z9-2Wq"/>
+                                            <constraint firstAttribute="width" constant="600" id="zWQ-Y6-Ic2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Rehydration in children with severe malnutrition"/>
+                                        <connections>
+                                            <segue destination="BRi-qZ-X7K" kind="show" id="OSJ-dc-S1y"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Y09-VP-ueH">
+                                        <rect key="frame" x="0.0" y="403" width="600" height="41"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="41" id="edz-bF-BMz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Plan B: Treat Diarrhoea at Facility with ORS (Some Dehydration)"/>
+                                        <connections>
+                                            <segue destination="L5A-b4-rLW" kind="show" id="Wto-WV-By1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0i-pF-oIc">
+                                        <rect key="frame" x="0.0" y="452" width="600" height="43"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43" id="cme-Mu-3Op"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Plan C: Treat Severe Dehydration Quickly"/>
+                                        <connections>
+                                            <segue destination="AVV-k2-Ldz" kind="show" id="s3v-0F-edW"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rehydration therapy for dehydration in children with severe malnutrition" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lE6-Se-Shp">
+                                        <rect key="frame" x="0.0" y="503" width="600" height="44"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="Syn-N6-xNT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqs-PZ-pVH">
+                                        <rect key="frame" x="0.0" y="108" width="600" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Ckv-i2-2ga"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Oral drugs at home"/>
+                                        <connections>
+                                            <segue destination="4v9-uX-2My" kind="show" id="QEj-qE-dnX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NpB-Xe-q59">
+                                        <rect key="frame" x="0.0" y="188" width="600" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="HU4-6m-umB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Local infections at home"/>
+                                        <connections>
+                                            <segue destination="RwH-ld-kzv" kind="show" id="yDr-g4-sKI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOb-c9-92U">
+                                        <rect key="frame" x="0.0" y="272" width="600" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Mnm-Z3-Ug0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Treatments in health facility"/>
+                                        <connections>
+                                            <segue destination="aWI-Sd-O9a" kind="show" id="Lcy-pF-9SQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yco-hN-uVP">
+                                        <rect key="frame" x="0.0" y="357" width="600" height="38"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="G7N-ad-mm6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Plan A: Treat Diarrhoea at Home (No Dehydration)"/>
+                                        <connections>
+                                            <segue destination="z9E-Xv-tJC" kind="show" id="lWE-ru-cZy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2N-Zy-SgU">
+                                        <rect key="frame" x="0.0" y="649" width="600" height="39"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="eUg-gB-yeP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Persistent Diarrhoea"/>
+                                        <connections>
+                                            <segue destination="reJ-oI-rFd" kind="show" id="zga-OP-I30"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="600" id="ZVY-uL-jH6"/>
+                                    <constraint firstItem="X2N-Zy-SgU" firstAttribute="top" secondItem="6ti-ee-9fD" secondAttribute="bottom" constant="8" symbolic="YES" id="1zd-Z7-i7s"/>
+                                    <constraint firstItem="6ti-ee-9fD" firstAttribute="top" secondItem="n4W-7o-cT0" secondAttribute="bottom" constant="8" symbolic="YES" id="2TM-sB-vh3"/>
+                                    <constraint firstItem="Y09-VP-ueH" firstAttribute="top" secondItem="yco-hN-uVP" secondAttribute="bottom" constant="8" symbolic="YES" id="4do-fl-eaK"/>
+                                    <constraint firstItem="4SO-9v-FfY" firstAttribute="leading" secondItem="NpB-Xe-q59" secondAttribute="leading" id="7gu-GH-fyg"/>
+                                    <constraint firstItem="lqs-PZ-pVH" firstAttribute="trailing" secondItem="uJZ-Aa-QbK" secondAttribute="trailing" id="87s-m7-Qnf"/>
+                                    <constraint firstItem="X2N-Zy-SgU" firstAttribute="leading" secondItem="ZZs-nm-mOU" secondAttribute="leading" id="8G5-0Y-OEp"/>
+                                    <constraint firstItem="lqs-PZ-pVH" firstAttribute="top" secondItem="uJZ-Aa-QbK" secondAttribute="bottom" constant="8" symbolic="YES" id="EGT-N6-rxL"/>
+                                    <constraint firstItem="lqs-PZ-pVH" firstAttribute="leading" secondItem="uJZ-Aa-QbK" secondAttribute="leading" id="Egl-1u-apt"/>
+                                    <constraint firstItem="2Vb-A7-hLV" firstAttribute="leading" secondItem="lqs-PZ-pVH" secondAttribute="leading" id="GBg-HF-Gco"/>
+                                    <constraint firstItem="6ti-ee-9fD" firstAttribute="leading" secondItem="n4W-7o-cT0" secondAttribute="leading" id="IU1-dx-fL6"/>
+                                    <constraint firstItem="Y09-VP-ueH" firstAttribute="trailing" secondItem="t0i-pF-oIc" secondAttribute="trailing" id="Jm9-BF-uo1"/>
+                                    <constraint firstItem="9GQ-84-ltS" firstAttribute="trailing" secondItem="yco-hN-uVP" secondAttribute="trailing" id="MQM-p7-w15"/>
+                                    <constraint firstItem="n4W-7o-cT0" firstAttribute="top" secondItem="lE6-Se-Shp" secondAttribute="bottom" constant="8" symbolic="YES" id="OC8-Jm-5ag"/>
+                                    <constraint firstItem="lqs-PZ-pVH" firstAttribute="trailing" secondItem="2Vb-A7-hLV" secondAttribute="trailing" id="REr-mZ-JcG"/>
+                                    <constraint firstItem="NpB-Xe-q59" firstAttribute="top" secondItem="2Vb-A7-hLV" secondAttribute="bottom" constant="8" symbolic="YES" id="RlK-0p-ycR"/>
+                                    <constraint firstItem="lE6-Se-Shp" firstAttribute="trailing" secondItem="t0i-pF-oIc" secondAttribute="trailing" id="TcZ-ef-clD"/>
+                                    <constraint firstItem="Y09-VP-ueH" firstAttribute="leading" secondItem="yco-hN-uVP" secondAttribute="leading" id="WBu-gK-nhw"/>
+                                    <constraint firstItem="uJZ-Aa-QbK" firstAttribute="centerX" secondItem="ZZs-nm-mOU" secondAttribute="centerX" id="WK7-gZ-9ug"/>
+                                    <constraint firstItem="Y09-VP-ueH" firstAttribute="leading" secondItem="t0i-pF-oIc" secondAttribute="leading" id="XQU-b1-4yg"/>
+                                    <constraint firstItem="9GQ-84-ltS" firstAttribute="leading" secondItem="yco-hN-uVP" secondAttribute="leading" id="YRC-fv-7Vr"/>
+                                    <constraint firstItem="2Vb-A7-hLV" firstAttribute="top" secondItem="lqs-PZ-pVH" secondAttribute="bottom" constant="8" symbolic="YES" id="YXV-7o-EqQ"/>
+                                    <constraint firstItem="t0i-pF-oIc" firstAttribute="top" secondItem="Y09-VP-ueH" secondAttribute="bottom" constant="8" symbolic="YES" id="aaE-lT-oEp"/>
+                                    <constraint firstItem="4SO-9v-FfY" firstAttribute="trailing" secondItem="NpB-Xe-q59" secondAttribute="trailing" id="cAa-gA-sRo"/>
+                                    <constraint firstItem="n4W-7o-cT0" firstAttribute="trailing" secondItem="6ti-ee-9fD" secondAttribute="trailing" id="dos-6n-J9Y"/>
+                                    <constraint firstItem="lE6-Se-Shp" firstAttribute="trailing" secondItem="n4W-7o-cT0" secondAttribute="trailing" id="eXJ-OC-oFb"/>
+                                    <constraint firstAttribute="trailing" secondItem="6ti-ee-9fD" secondAttribute="trailing" id="fA8-q1-DK4"/>
+                                    <constraint firstItem="9GQ-84-ltS" firstAttribute="top" secondItem="TOb-c9-92U" secondAttribute="bottom" constant="8" symbolic="YES" id="fbs-px-yzb"/>
+                                    <constraint firstItem="9GQ-84-ltS" firstAttribute="trailing" secondItem="TOb-c9-92U" secondAttribute="trailing" id="flg-Ay-8jF"/>
+                                    <constraint firstItem="n4W-7o-cT0" firstAttribute="leading" secondItem="lE6-Se-Shp" secondAttribute="leading" id="fuw-Y5-Akt"/>
+                                    <constraint firstItem="TOb-c9-92U" firstAttribute="top" secondItem="4SO-9v-FfY" secondAttribute="bottom" constant="8" symbolic="YES" id="gVV-qY-9Cl"/>
+                                    <constraint firstItem="4SO-9v-FfY" firstAttribute="trailing" secondItem="TOb-c9-92U" secondAttribute="trailing" id="iRc-5H-w2G"/>
+                                    <constraint firstItem="uJZ-Aa-QbK" firstAttribute="top" secondItem="ZZs-nm-mOU" secondAttribute="top" constant="64" id="jiO-iW-Tnr"/>
+                                    <constraint firstItem="4SO-9v-FfY" firstAttribute="top" secondItem="NpB-Xe-q59" secondAttribute="bottom" constant="8" symbolic="YES" id="jsR-cq-IyR"/>
+                                    <constraint firstItem="9GQ-84-ltS" firstAttribute="leading" secondItem="TOb-c9-92U" secondAttribute="leading" id="kC6-PS-FbO"/>
+                                    <constraint firstItem="X2N-Zy-SgU" firstAttribute="trailing" secondItem="6ti-ee-9fD" secondAttribute="trailing" id="mea-8E-L6f"/>
+                                    <constraint firstItem="t0i-pF-oIc" firstAttribute="leading" secondItem="lE6-Se-Shp" secondAttribute="leading" id="o0M-F6-GmE"/>
+                                    <constraint firstItem="yco-hN-uVP" firstAttribute="top" secondItem="9GQ-84-ltS" secondAttribute="bottom" constant="8" symbolic="YES" id="o4o-7g-P3N"/>
+                                    <constraint firstItem="NpB-Xe-q59" firstAttribute="leading" secondItem="2Vb-A7-hLV" secondAttribute="leading" id="pzG-AV-SSP"/>
+                                    <constraint firstItem="6ti-ee-9fD" firstAttribute="leading" secondItem="X2N-Zy-SgU" secondAttribute="leading" id="qPH-s0-Ksu"/>
+                                    <constraint firstAttribute="bottom" secondItem="X2N-Zy-SgU" secondAttribute="bottom" constant="90" id="r5M-rm-3d9"/>
+                                    <constraint firstItem="yco-hN-uVP" firstAttribute="trailing" secondItem="Y09-VP-ueH" secondAttribute="trailing" id="tzf-ni-QoH"/>
+                                    <constraint firstItem="lE6-Se-Shp" firstAttribute="top" secondItem="t0i-pF-oIc" secondAttribute="bottom" constant="8" symbolic="YES" id="vNo-IS-yip"/>
+                                    <constraint firstItem="2Vb-A7-hLV" firstAttribute="trailing" secondItem="NpB-Xe-q59" secondAttribute="trailing" id="vnD-E4-Q73"/>
+                                    <constraint firstItem="TOb-c9-92U" firstAttribute="leading" secondItem="4SO-9v-FfY" secondAttribute="leading" id="x5N-PB-MGu"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Rehydration in children with severe malnutrition"/>
-                                <connections>
-                                    <segue destination="BRi-qZ-X7K" kind="show" id="aqf-cN-NYu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wQ4-gB-2Ct">
-                                <rect key="frame" x="0.0" y="269" width="600" height="47"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Plan B: Treat Diarrhoea at Facility with ORS (Some Dehydration)"/>
-                                <connections>
-                                    <segue destination="L5A-b4-rLW" kind="show" id="uVJ-3L-CtB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2EI-CZ-Jgy">
-                                <rect key="frame" x="0.0" y="307" width="600" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Plan C: Treat Severe Dehydration Quickly"/>
-                                <connections>
-                                    <segue destination="AVV-k2-Ldz" kind="show" id="QsI-Gq-J8k"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Rehydration therapy for dehydration in children with severe malnutrition" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaU-hI-RcJ">
-                                <rect key="frame" x="0.0" y="336" width="600" height="44"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cQ-5E-7hd">
-                                <rect key="frame" x="0.0" y="86" width="600" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Oral drugs at home"/>
-                                <connections>
-                                    <segue destination="4v9-uX-2My" kind="show" id="bfl-Ti-pWq"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOJ-DN-3Ui">
-                                <rect key="frame" x="0.0" y="137" width="600" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Local infections at home"/>
-                                <connections>
-                                    <segue destination="RwH-ld-kzv" kind="show" id="KHp-DG-SWY"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FsR-Tw-NS1">
-                                <rect key="frame" x="0.0" y="190" width="600" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Treatments in health facility"/>
-                                <connections>
-                                    <segue destination="aWI-Sd-O9a" kind="show" id="fDL-b2-bBn"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2w-6e-ok6">
-                                <rect key="frame" x="0.0" y="244" width="600" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Plan A: Treat Diarrhoea at Home (No Dehydration)"/>
-                                <connections>
-                                    <segue destination="z9E-Xv-tJC" kind="show" id="l0o-xO-Io6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZN-JP-a5p">
-                                <rect key="frame" x="0.0" y="460" width="600" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Persistent Diarrhoea"/>
-                                <connections>
-                                    <segue destination="reJ-oI-rFd" kind="show" id="9kw-lJ-Fdt"/>
-                                </connections>
-                            </button>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Y2w-6e-ok6" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="2DT-GE-Gwq"/>
-                            <constraint firstItem="SgG-bz-WNj" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="6B5-92-vU8"/>
-                            <constraint firstItem="SgG-bz-WNj" firstAttribute="centerX" secondItem="6eY-fF-zkP" secondAttribute="centerX" id="7HQ-R4-mbD"/>
-                            <constraint firstItem="cZN-JP-a5p" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="9E1-8A-iSb"/>
-                            <constraint firstItem="8cQ-5E-7hd" firstAttribute="centerX" secondItem="6eY-fF-zkP" secondAttribute="centerX" id="9l8-qT-Q1l"/>
-                            <constraint firstItem="JCW-p1-4Ei" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="GQG-wB-m4C"/>
-                            <constraint firstItem="2EI-CZ-Jgy" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="IKV-JI-KYd"/>
-                            <constraint firstItem="wQ4-gB-2Ct" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="Icb-E9-x7x"/>
-                            <constraint firstItem="OOJ-DN-3Ui" firstAttribute="centerX" secondItem="6eY-fF-zkP" secondAttribute="centerX" id="KNv-2K-EyG"/>
-                            <constraint firstItem="OOJ-DN-3Ui" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="OxS-zw-Qgz"/>
-                            <constraint firstItem="FsR-Tw-NS1" firstAttribute="centerX" secondItem="6eY-fF-zkP" secondAttribute="centerX" id="Uv5-Iy-esM"/>
-                            <constraint firstItem="8cQ-5E-7hd" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="Z9r-xM-ols"/>
-                            <constraint firstItem="R4n-2d-Mac" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="acP-vA-HVv"/>
-                            <constraint firstItem="cZN-JP-a5p" firstAttribute="centerX" secondItem="6eY-fF-zkP" secondAttribute="centerX" id="cPm-Cw-8Gp"/>
-                            <constraint firstItem="d7x-n8-sc0" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="e12-Qa-vJp"/>
-                            <constraint firstItem="2EI-CZ-Jgy" firstAttribute="centerX" secondItem="6eY-fF-zkP" secondAttribute="centerX" id="g0r-fr-FYb"/>
-                            <constraint firstItem="FsR-Tw-NS1" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="hVG-0P-JlO"/>
-                            <constraint firstItem="9xD-Zh-6D8" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="i9O-5N-ust"/>
-                            <constraint firstItem="oaU-hI-RcJ" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="jKE-GP-YF4"/>
-                            <constraint firstItem="Ykb-do-hRb" firstAttribute="width" secondItem="6eY-fF-zkP" secondAttribute="width" id="tBH-CY-OYE"/>
-                            <constraint firstItem="Y2w-6e-ok6" firstAttribute="centerX" secondItem="6eY-fF-zkP" secondAttribute="centerX" id="w6q-ne-GF2"/>
-                            <constraint firstItem="wQ4-gB-2Ct" firstAttribute="centerX" secondItem="6eY-fF-zkP" secondAttribute="centerX" id="xfc-6N-1lp"/>
+                            <constraint firstAttribute="trailing" secondItem="ZZs-nm-mOU" secondAttribute="trailing" id="23e-et-qO5"/>
+                            <constraint firstItem="ZZs-nm-mOU" firstAttribute="top" secondItem="WuO-Jo-b6i" secondAttribute="bottom" id="7A9-r4-yhX"/>
+                            <constraint firstItem="ZZs-nm-mOU" firstAttribute="leading" secondItem="6eY-fF-zkP" secondAttribute="leading" id="Hlz-7i-Nh0"/>
+                            <constraint firstItem="gAI-Ci-Xt7" firstAttribute="top" secondItem="ZZs-nm-mOU" secondAttribute="bottom" constant="8" symbolic="YES" id="nf9-o3-hOL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="e6z-ed-ehS"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="850"/>
+                    <connections>
+                        <outlet property="scroller" destination="ZZs-nm-mOU" id="Ll5-hz-hAq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qrk-ug-cc2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1355" y="-2463"/>
+            <point key="canvasLocation" x="1355" y="-2302"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dpN-11-wzL">
@@ -3900,7 +4041,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <viewControllerLayoutGuide type="bottom" id="8P2-CX-T9H"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PGl-W6-Fz9">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="supplement_multivitamin.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="tgg-IN-ngv">
@@ -3923,7 +4064,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <viewControllerLayoutGuide type="bottom" id="3j8-zy-ZKS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Kau-ri-h4a">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rehydration_therapy_and_feeding.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="AQN-m9-doH">
@@ -3935,7 +4076,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wta-XY-rPk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6949" y="-147"/>
+            <point key="canvasLocation" x="6957" y="-155"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4pX-hR-nlN">
@@ -3972,11 +4113,16 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <rect key="frame" x="0.0" y="0.0" width="600" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oNh-Wk-EHt">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oNh-Wk-EHt">
                                 <rect key="frame" x="0.0" y="64" width="600" height="828"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3kr-ZV-Lru">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3kr-ZV-Lru">
                                         <rect key="frame" x="8" y="8" width="584" height="137"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="137" id="J4V-Pe-Jlp"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="137" id="ZeA-va-Oga"/>
+                                            <constraint firstAttribute="width" constant="584" id="jz7-ch-1fZ"/>
+                                        </constraints>
                                         <string key="text">Give in clinic the recommended amount of ORS over 4-hour period
 1. DETERMINE AMOUNT OF ORS TO GIVE DURING FIRST 4 HOURS.
 • The appropriate amount of ORS required(in ml) should be calculated by multiplying the child’s weight(in kgs) with 75:
@@ -3987,11 +4133,12 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOl-s9-gVp">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOl-s9-gVp">
                                         <rect key="frame" x="20" y="153" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="4NA-RM-sXo"/>
+                                            <constraint firstAttribute="height" constant="30" id="3Kp-L8-ZRs"/>
+                                            <constraint firstAttribute="width" constant="560" id="yl2-Qb-eww"/>
                                         </constraints>
                                         <state key="normal" title="ORS Doasge Table">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -4000,8 +4147,13 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                             <segue destination="tVf-3A-lcm" kind="show" id="biO-06-Rsl"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T58-uY-HQV">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T58-uY-HQV">
                                         <rect key="frame" x="8" y="191" width="584" height="347"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="347" id="NVf-OH-YHH"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="347" id="eN8-jD-A8k"/>
+                                            <constraint firstAttribute="width" constant="584" id="kXJ-fA-diQ"/>
+                                        </constraints>
                                         <string key="text">2. SHOW MOTHER HOW TO GIVE ORS SOLUTION.
 • Give frequently small sips from a cup( or a spoon every 1-2 minutes for a child under 2 years).
 • Check from time to time to see if there are any problems. If the child vomits,wait for 10 minutes then continue but more slowly.
@@ -4026,9 +4178,29 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="gOl-s9-gVp" firstAttribute="leading" secondItem="oNh-Wk-EHt" secondAttribute="leading" constant="20" id="4qw-Xu-5Jg"/>
+                                    <constraint firstItem="3kr-ZV-Lru" firstAttribute="top" secondItem="oNh-Wk-EHt" secondAttribute="top" constant="8" id="8mk-v9-oR1"/>
+                                    <constraint firstItem="gOl-s9-gVp" firstAttribute="centerX" secondItem="3kr-ZV-Lru" secondAttribute="centerX" id="IM4-YT-fdQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="T58-uY-HQV" secondAttribute="bottom" constant="226" id="NtZ-b7-QGQ"/>
+                                    <constraint firstItem="3kr-ZV-Lru" firstAttribute="leading" secondItem="oNh-Wk-EHt" secondAttribute="leading" constant="8" id="QYa-EI-iMc"/>
+                                    <constraint firstItem="T58-uY-HQV" firstAttribute="leading" secondItem="oNh-Wk-EHt" secondAttribute="leading" constant="8" id="Rb2-F9-90n"/>
+                                    <constraint firstItem="T58-uY-HQV" firstAttribute="centerX" secondItem="3kr-ZV-Lru" secondAttribute="centerX" id="Txa-2r-jB0"/>
+                                    <constraint firstAttribute="trailing" secondItem="T58-uY-HQV" secondAttribute="trailing" constant="8" id="U7Q-eX-m89"/>
+                                    <constraint firstItem="T58-uY-HQV" firstAttribute="top" secondItem="gOl-s9-gVp" secondAttribute="bottom" constant="8" id="YUr-6z-eqh"/>
+                                    <constraint firstItem="gOl-s9-gVp" firstAttribute="top" secondItem="3kr-ZV-Lru" secondAttribute="bottom" constant="8" id="kIc-VI-CoP"/>
+                                    <constraint firstAttribute="trailing" secondItem="3kr-ZV-Lru" secondAttribute="trailing" constant="8" id="lKt-K4-wfH"/>
+                                    <constraint firstAttribute="trailing" secondItem="gOl-s9-gVp" secondAttribute="trailing" constant="20" id="mrz-FQ-LPa"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="oNh-Wk-EHt" firstAttribute="top" secondItem="lHT-yu-KsU" secondAttribute="bottom" id="009-eT-aLP"/>
+                            <constraint firstItem="oNh-Wk-EHt" firstAttribute="leading" secondItem="7hy-ux-iVD" secondAttribute="leading" id="Ug7-dg-dvA"/>
+                            <constraint firstItem="N1U-06-HeP" firstAttribute="top" secondItem="oNh-Wk-EHt" secondAttribute="bottom" constant="8" symbolic="YES" id="YAz-Wc-32Z"/>
+                            <constraint firstAttribute="trailing" secondItem="oNh-Wk-EHt" secondAttribute="trailing" id="oFa-S0-T1F"/>
+                        </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="900"/>
@@ -4038,7 +4210,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOh-bg-Mi3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6335" y="3"/>
+            <point key="canvasLocation" x="6343" y="-108"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iPc-jR-sS4">
@@ -4052,11 +4224,14 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rxP-Rh-Vjz">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rxP-Rh-Vjz">
                                 <rect key="frame" x="0.0" y="64" width="600" height="778"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zi-C7-YoU">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zi-C7-YoU">
                                         <rect key="frame" x="20" y="8" width="560" height="191"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="191" id="3Ry-wU-djw"/>
+                                        </constraints>
                                         <string key="text">Follow the instructions below for every oral drug to be given at home. Also follow the instructions listed with each drug’s dosage table.
 • Determine the appropriate drugs and dosage for the child’s weight and age.
 • Tell the mother the reason for giving the drug to the child.
@@ -4071,16 +4246,19 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hP-ND-OFg">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hP-ND-OFg">
                                         <rect key="frame" x="20" y="207" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="KBE-ej-8ni"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Give an appropriate oral antibiotic"/>
                                         <connections>
                                             <segue destination="hUg-v9-LZm" kind="show" id="zA6-fB-vih"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svy-cg-3uz">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svy-cg-3uz">
                                         <rect key="frame" x="20" y="245" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4089,7 +4267,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                             <segue destination="Ojn-nd-Pa5" kind="show" id="0yq-N5-H6S"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLv-5k-g5S">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLv-5k-g5S">
                                         <rect key="frame" x="20" y="283" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4098,7 +4276,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                             <segue destination="fRo-Ra-NcB" kind="show" id="urE-63-rWY"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2K-aJ-wTq">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2K-aJ-wTq">
                                         <rect key="frame" x="20" y="321" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4107,7 +4285,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                             <segue destination="Hy6-rM-fXF" kind="show" id="2LU-zY-jaV"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tht-Eo-5DL">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tht-Eo-5DL">
                                         <rect key="frame" x="20" y="397" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4116,7 +4294,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                             <segue destination="WC8-N3-LoQ" kind="show" id="o4S-Am-fPs"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKX-28-LZu">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKX-28-LZu">
                                         <rect key="frame" x="20" y="435" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4125,7 +4303,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                             <segue destination="s6x-Xw-nOK" kind="show" id="3T1-W4-X67"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-RJ-dh9">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-RJ-dh9">
                                         <rect key="frame" x="20" y="473" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4134,7 +4312,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                             <segue destination="ZpU-Jj-bG4" kind="show" id="6Hf-GN-8Ul"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ptg-9p-ShW">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ptg-9p-ShW">
                                         <rect key="frame" x="20" y="359" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -4145,26 +4323,83 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                     </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="6zi-C7-YoU" secondAttribute="trailing" constant="20" id="091-dc-jZ2"/>
+                                    <constraint firstItem="NZ5-RJ-dh9" firstAttribute="height" secondItem="5hP-ND-OFg" secondAttribute="height" id="3HX-oh-Q83"/>
+                                    <constraint firstItem="5hP-ND-OFg" firstAttribute="top" secondItem="6zi-C7-YoU" secondAttribute="bottom" constant="8" id="3NN-R3-YpU"/>
+                                    <constraint firstItem="NZ5-RJ-dh9" firstAttribute="width" secondItem="5hP-ND-OFg" secondAttribute="width" id="4oN-2e-vze"/>
+                                    <constraint firstItem="SKX-28-LZu" firstAttribute="top" secondItem="tht-Eo-5DL" secondAttribute="bottom" constant="8" id="5F1-RS-k8S"/>
                                     <constraint firstItem="tht-Eo-5DL" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="5hV-Zh-sqs"/>
+                                    <constraint firstItem="F2K-aJ-wTq" firstAttribute="centerX" secondItem="5hP-ND-OFg" secondAttribute="centerX" id="5pN-2f-azE"/>
                                     <constraint firstAttribute="trailing" secondItem="F2K-aJ-wTq" secondAttribute="trailing" constant="20" id="8LH-HT-QsH"/>
                                     <constraint firstItem="F2K-aJ-wTq" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="8dN-bd-abb"/>
                                     <constraint firstItem="SKX-28-LZu" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="9tv-Vt-W2o"/>
+                                    <constraint firstAttribute="trailing" secondItem="5hP-ND-OFg" secondAttribute="trailing" constant="20" id="B2p-mp-BK2"/>
+                                    <constraint firstItem="svy-cg-3uz" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="BhS-dl-52e"/>
+                                    <constraint firstItem="tht-Eo-5DL" firstAttribute="centerX" secondItem="5hP-ND-OFg" secondAttribute="centerX" id="C29-hR-0n8"/>
+                                    <constraint firstItem="svy-cg-3uz" firstAttribute="top" secondItem="5hP-ND-OFg" secondAttribute="bottom" constant="8" id="C2L-bM-rXs"/>
+                                    <constraint firstAttribute="bottom" secondItem="NZ5-RJ-dh9" secondAttribute="bottom" constant="211" id="DFG-lk-55Y"/>
+                                    <constraint firstItem="SKX-28-LZu" firstAttribute="width" secondItem="5hP-ND-OFg" secondAttribute="width" id="DJk-YM-9Ph"/>
+                                    <constraint firstItem="Ptg-9p-ShW" firstAttribute="height" secondItem="5hP-ND-OFg" secondAttribute="height" id="DuC-zP-npV"/>
+                                    <constraint firstItem="Ptg-9p-ShW" firstAttribute="width" secondItem="5hP-ND-OFg" secondAttribute="width" id="EIT-Pi-FyV"/>
+                                    <constraint firstItem="6zi-C7-YoU" firstAttribute="centerX" secondItem="rxP-Rh-Vjz" secondAttribute="centerX" id="Erq-rF-s4V"/>
+                                    <constraint firstItem="tht-Eo-5DL" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="Ezh-Lj-n4e"/>
+                                    <constraint firstAttribute="trailing" secondItem="tht-Eo-5DL" secondAttribute="trailing" constant="20" id="F03-lt-k8V"/>
                                     <constraint firstAttribute="trailing" secondItem="Ptg-9p-ShW" secondAttribute="trailing" constant="20" id="FJU-9l-KzC"/>
                                     <constraint firstItem="fLv-5k-g5S" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="FNg-Yn-O8B"/>
+                                    <constraint firstItem="NZ5-RJ-dh9" firstAttribute="centerX" secondItem="5hP-ND-OFg" secondAttribute="centerX" id="Fw2-Bw-BTY"/>
+                                    <constraint firstItem="F2K-aJ-wTq" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="H4a-RP-nG1"/>
+                                    <constraint firstItem="fLv-5k-g5S" firstAttribute="top" secondItem="svy-cg-3uz" secondAttribute="bottom" constant="8" id="HCg-to-1Mg"/>
+                                    <constraint firstItem="tht-Eo-5DL" firstAttribute="height" secondItem="5hP-ND-OFg" secondAttribute="height" id="JCn-Zl-XdN"/>
                                     <constraint firstItem="5hP-ND-OFg" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="LT6-tC-lP3"/>
+                                    <constraint firstItem="fLv-5k-g5S" firstAttribute="height" secondItem="5hP-ND-OFg" secondAttribute="height" id="O2x-vq-9Iq"/>
+                                    <constraint firstItem="NZ5-RJ-dh9" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="P23-Do-avh"/>
                                     <constraint firstAttribute="trailing" secondItem="SKX-28-LZu" secondAttribute="trailing" constant="20" id="PLG-Gp-EJ8"/>
                                     <constraint firstAttribute="trailing" secondItem="svy-cg-3uz" secondAttribute="trailing" constant="20" id="PnQ-y7-6PJ"/>
+                                    <constraint firstItem="fLv-5k-g5S" firstAttribute="width" secondItem="5hP-ND-OFg" secondAttribute="width" id="QJu-7R-XUi"/>
+                                    <constraint firstItem="F2K-aJ-wTq" firstAttribute="height" secondItem="5hP-ND-OFg" secondAttribute="height" id="RS8-QL-ZWP"/>
                                     <constraint firstAttribute="trailing" secondItem="tht-Eo-5DL" secondAttribute="trailing" constant="20" id="Rl8-5O-4Iq"/>
+                                    <constraint firstItem="SKX-28-LZu" firstAttribute="centerX" secondItem="5hP-ND-OFg" secondAttribute="centerX" id="T1G-Cj-SYQ"/>
+                                    <constraint firstItem="fLv-5k-g5S" firstAttribute="centerX" secondItem="5hP-ND-OFg" secondAttribute="centerX" id="TmW-wZ-QCa"/>
+                                    <constraint firstItem="tht-Eo-5DL" firstAttribute="top" secondItem="Ptg-9p-ShW" secondAttribute="bottom" constant="8" id="UDF-Us-y1g"/>
+                                    <constraint firstAttribute="trailing" secondItem="svy-cg-3uz" secondAttribute="trailing" constant="20" id="Uj8-Uy-jJY"/>
                                     <constraint firstItem="NZ5-RJ-dh9" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="YLj-79-7wN"/>
+                                    <constraint firstItem="SKX-28-LZu" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="Ygw-ik-A3z"/>
                                     <constraint firstItem="Ptg-9p-ShW" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="ZYe-Jf-pNL"/>
+                                    <constraint firstAttribute="trailing" secondItem="SKX-28-LZu" secondAttribute="trailing" constant="20" id="acJ-yP-DY4"/>
+                                    <constraint firstItem="5hP-ND-OFg" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="bTl-9k-fG5"/>
+                                    <constraint firstAttribute="trailing" secondItem="fLv-5k-g5S" secondAttribute="trailing" constant="20" id="dNT-7e-6nm"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ptg-9p-ShW" secondAttribute="trailing" constant="20" id="dtV-VP-RXX"/>
+                                    <constraint firstItem="Ptg-9p-ShW" firstAttribute="centerX" secondItem="5hP-ND-OFg" secondAttribute="centerX" id="gBJ-cl-lpA"/>
+                                    <constraint firstItem="6zi-C7-YoU" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="gQa-aj-82J"/>
+                                    <constraint firstItem="Ptg-9p-ShW" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="ggx-gS-NDs"/>
+                                    <constraint firstItem="svy-cg-3uz" firstAttribute="centerX" secondItem="5hP-ND-OFg" secondAttribute="centerX" id="h9z-bC-HCj"/>
+                                    <constraint firstItem="tht-Eo-5DL" firstAttribute="width" secondItem="5hP-ND-OFg" secondAttribute="width" id="hXJ-lP-uwj"/>
                                     <constraint firstItem="svy-cg-3uz" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="i2r-lO-hZp"/>
+                                    <constraint firstItem="6zi-C7-YoU" firstAttribute="top" secondItem="rxP-Rh-Vjz" secondAttribute="top" constant="8" id="kld-Lf-OBt"/>
+                                    <constraint firstAttribute="trailing" secondItem="NZ5-RJ-dh9" secondAttribute="trailing" constant="20" id="m5Z-Rd-fL6"/>
+                                    <constraint firstItem="Ptg-9p-ShW" firstAttribute="top" secondItem="F2K-aJ-wTq" secondAttribute="bottom" constant="8" id="ofk-Y1-vYU"/>
+                                    <constraint firstItem="SKX-28-LZu" firstAttribute="height" secondItem="5hP-ND-OFg" secondAttribute="height" id="pw9-AI-lMY"/>
+                                    <constraint firstAttribute="trailing" secondItem="F2K-aJ-wTq" secondAttribute="trailing" constant="20" id="qSG-d0-Vf3"/>
+                                    <constraint firstItem="fLv-5k-g5S" firstAttribute="leading" secondItem="rxP-Rh-Vjz" secondAttribute="leading" constant="20" id="rla-l9-jC4"/>
+                                    <constraint firstItem="F2K-aJ-wTq" firstAttribute="top" secondItem="fLv-5k-g5S" secondAttribute="bottom" constant="8" id="sgX-Lr-yA5"/>
                                     <constraint firstAttribute="trailing" secondItem="5hP-ND-OFg" secondAttribute="trailing" constant="20" id="u80-wa-3aA"/>
                                     <constraint firstAttribute="trailing" secondItem="fLv-5k-g5S" secondAttribute="trailing" constant="20" id="ugc-1h-MBn"/>
+                                    <constraint firstItem="F2K-aJ-wTq" firstAttribute="width" secondItem="5hP-ND-OFg" secondAttribute="width" id="vja-PY-Sgh"/>
+                                    <constraint firstItem="svy-cg-3uz" firstAttribute="width" secondItem="5hP-ND-OFg" secondAttribute="width" id="wRD-XB-V2q"/>
+                                    <constraint firstItem="svy-cg-3uz" firstAttribute="height" secondItem="5hP-ND-OFg" secondAttribute="height" id="wlC-sf-c6u"/>
+                                    <constraint firstItem="NZ5-RJ-dh9" firstAttribute="top" secondItem="SKX-28-LZu" secondAttribute="bottom" constant="8" id="y1n-eM-EY2"/>
                                     <constraint firstAttribute="trailing" secondItem="NZ5-RJ-dh9" secondAttribute="trailing" constant="20" id="zTO-xp-Cjw"/>
+                                    <constraint firstItem="5hP-ND-OFg" firstAttribute="top" secondItem="6zi-C7-YoU" secondAttribute="bottom" constant="8" id="zt4-1b-koI"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="rxP-Rh-Vjz" firstAttribute="top" secondItem="nmG-GH-YG0" secondAttribute="bottom" id="3Fu-m1-RML"/>
+                            <constraint firstAttribute="trailing" secondItem="rxP-Rh-Vjz" secondAttribute="trailing" id="CTL-hp-9EA"/>
+                            <constraint firstItem="rxP-Rh-Vjz" firstAttribute="leading" secondItem="3Yd-es-Jf4" secondAttribute="leading" id="Cep-8S-LfD"/>
+                            <constraint firstItem="Oo0-UF-QTB" firstAttribute="top" secondItem="rxP-Rh-Vjz" secondAttribute="bottom" constant="8" symbolic="YES" id="SAx-lR-MPg"/>
+                        </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="850"/>
@@ -4211,13 +4446,13 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tH2-35-vxa">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tH2-35-vxa">
                                 <rect key="frame" x="0.0" y="64" width="600" height="778"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0v-57-uG8">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0v-57-uG8">
                                         <rect key="frame" x="20" y="8" width="560" height="158"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="560" id="LXb-H9-xDJ"/>
+                                            <constraint firstAttribute="height" constant="158" id="gdl-Pv-GeN"/>
                                         </constraints>
                                         <string key="text">• Explain to the mother what the treatment is and why it should be given.
 • Describe the treatment steps listed in the appropriate box.
@@ -4229,11 +4464,11 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="diz-Jc-WJh">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="diz-Jc-WJh">
                                         <rect key="frame" x="20" y="174" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="C85-dQ-1l0"/>
+                                            <constraint firstAttribute="height" constant="30" id="upR-9M-0l6"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Treat Eye Infection with Tetracycline Ointment"/>
@@ -4241,48 +4476,36 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                             <segue destination="Iqm-6z-lmc" kind="show" id="bte-GS-28L"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsp-uB-59B">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsp-uB-59B">
                                         <rect key="frame" x="20" y="212" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="Szn-TQ-FXj"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Dry the Ear by Wicking"/>
                                         <connections>
                                             <segue destination="R0B-CQ-FQf" kind="show" id="Tpk-mf-gtW"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6K2-Jq-tq6">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6K2-Jq-tq6">
                                         <rect key="frame" x="20" y="250" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="f1h-B2-n3K"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Treat Mouth Ulcers with Gentian Violet"/>
                                         <connections>
                                             <segue destination="dYq-1S-PKk" kind="show" id="c8J-Zs-BHr"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UE0-ed-lvJ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UE0-ed-lvJ">
                                         <rect key="frame" x="20" y="288" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="HAt-kk-X6H"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Treat for Oral Thrush with Nystatin or GV"/>
                                         <connections>
                                             <segue destination="7gL-vJ-Wlk" kind="show" id="Ssb-xI-0Sa"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4d-na-LwR">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4d-na-LwR">
                                         <rect key="frame" x="20" y="326" width="560" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="6dS-xe-FPb"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Soothe the Throat, Releive the Cough wit Safe Remedy"/>
                                         <connections>
@@ -4290,9 +4513,50 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="UE0-ed-lvJ" firstAttribute="height" secondItem="diz-Jc-WJh" secondAttribute="height" id="61c-FH-bxd"/>
+                                    <constraint firstItem="6K2-Jq-tq6" firstAttribute="centerX" secondItem="diz-Jc-WJh" secondAttribute="centerX" id="88E-XC-sqi"/>
+                                    <constraint firstItem="6K2-Jq-tq6" firstAttribute="top" secondItem="jsp-uB-59B" secondAttribute="bottom" constant="8" id="9Cx-WO-bTq"/>
+                                    <constraint firstItem="F4d-na-LwR" firstAttribute="width" secondItem="diz-Jc-WJh" secondAttribute="width" id="AZs-QE-d3b"/>
+                                    <constraint firstItem="diz-Jc-WJh" firstAttribute="top" secondItem="k0v-57-uG8" secondAttribute="bottom" constant="8" id="CPp-Zp-HKU"/>
+                                    <constraint firstItem="F4d-na-LwR" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="CZd-4U-Bak"/>
+                                    <constraint firstItem="jsp-uB-59B" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="D3P-4g-X6P"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="top" secondItem="tH2-35-vxa" secondAttribute="top" constant="8" id="Db9-uR-SQb"/>
+                                    <constraint firstItem="F4d-na-LwR" firstAttribute="height" secondItem="diz-Jc-WJh" secondAttribute="height" id="I2M-bc-Bwu"/>
+                                    <constraint firstItem="F4d-na-LwR" firstAttribute="centerX" secondItem="diz-Jc-WJh" secondAttribute="centerX" id="KyQ-eA-5JP"/>
+                                    <constraint firstAttribute="trailing" secondItem="UE0-ed-lvJ" secondAttribute="trailing" constant="20" id="LFD-J2-rXy"/>
+                                    <constraint firstItem="UE0-ed-lvJ" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="NeG-ay-uWy"/>
+                                    <constraint firstAttribute="trailing" secondItem="k0v-57-uG8" secondAttribute="trailing" constant="20" id="Sca-Ur-sOB"/>
+                                    <constraint firstItem="jsp-uB-59B" firstAttribute="centerX" secondItem="diz-Jc-WJh" secondAttribute="centerX" id="TCo-cd-IF7"/>
+                                    <constraint firstAttribute="trailing" secondItem="jsp-uB-59B" secondAttribute="trailing" constant="20" id="Vx2-Pb-nEq"/>
+                                    <constraint firstItem="6K2-Jq-tq6" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="XQi-zP-HY6"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="centerX" secondItem="tH2-35-vxa" secondAttribute="centerX" id="Xup-Ii-YPx"/>
+                                    <constraint firstAttribute="trailing" secondItem="6K2-Jq-tq6" secondAttribute="trailing" constant="20" id="YTE-b1-yVQ"/>
+                                    <constraint firstItem="6K2-Jq-tq6" firstAttribute="height" secondItem="diz-Jc-WJh" secondAttribute="height" id="ZCD-ne-DUO"/>
+                                    <constraint firstAttribute="trailing" secondItem="diz-Jc-WJh" secondAttribute="trailing" constant="20" id="a7J-hY-DnM"/>
+                                    <constraint firstItem="UE0-ed-lvJ" firstAttribute="width" secondItem="diz-Jc-WJh" secondAttribute="width" id="aSK-mi-WLj"/>
+                                    <constraint firstItem="diz-Jc-WJh" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="f21-lW-2ta"/>
+                                    <constraint firstItem="jsp-uB-59B" firstAttribute="top" secondItem="diz-Jc-WJh" secondAttribute="bottom" constant="8" id="g14-Pc-aGx"/>
+                                    <constraint firstItem="diz-Jc-WJh" firstAttribute="top" secondItem="k0v-57-uG8" secondAttribute="bottom" constant="8" id="hQq-lJ-bv9"/>
+                                    <constraint firstAttribute="trailing" secondItem="F4d-na-LwR" secondAttribute="trailing" constant="20" id="hRC-cB-mD1"/>
+                                    <constraint firstItem="UE0-ed-lvJ" firstAttribute="centerX" secondItem="diz-Jc-WJh" secondAttribute="centerX" id="in8-CH-KFh"/>
+                                    <constraint firstItem="jsp-uB-59B" firstAttribute="width" secondItem="diz-Jc-WJh" secondAttribute="width" id="kBa-SO-hk9"/>
+                                    <constraint firstItem="jsp-uB-59B" firstAttribute="height" secondItem="diz-Jc-WJh" secondAttribute="height" id="m3X-0I-UPf"/>
+                                    <constraint firstItem="UE0-ed-lvJ" firstAttribute="top" secondItem="6K2-Jq-tq6" secondAttribute="bottom" constant="8" id="qtP-ua-gp7"/>
+                                    <constraint firstItem="F4d-na-LwR" firstAttribute="top" secondItem="UE0-ed-lvJ" secondAttribute="bottom" constant="8" id="t4h-Dw-MZn"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="tII-CM-guB"/>
+                                    <constraint firstAttribute="bottom" secondItem="F4d-na-LwR" secondAttribute="bottom" constant="358" id="u1O-Nk-Bc7"/>
+                                    <constraint firstItem="6K2-Jq-tq6" firstAttribute="width" secondItem="diz-Jc-WJh" secondAttribute="width" id="uW5-vc-PBa"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tH2-35-vxa" secondAttribute="trailing" id="Az2-hU-fJc"/>
+                            <constraint firstItem="tH2-35-vxa" firstAttribute="top" secondItem="8tv-vs-UpK" secondAttribute="bottom" id="Czo-pF-OFs"/>
+                            <constraint firstAttribute="bottom" secondItem="tH2-35-vxa" secondAttribute="bottom" constant="-142" id="I2Q-Lk-XBd"/>
+                            <constraint firstItem="tH2-35-vxa" firstAttribute="leading" secondItem="Vbc-9p-XCq" secondAttribute="leading" id="qwk-oL-JCl"/>
+                        </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="700"/>
@@ -4888,7 +5152,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <viewControllerLayoutGuide type="bottom" id="Isu-5q-Ni0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="udq-6y-33P">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rehydration_child_severe_dehydration.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="mxr-Oc-paT">
@@ -4900,7 +5164,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FSR-0o-dGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7746" y="-183"/>
+            <point key="canvasLocation" x="7610" y="-183"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jWu-cd-fO9">
@@ -5282,7 +5546,7 @@ The mother should:
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C6g-1S-7TV">
-                                <rect key="frame" x="0.0" y="64" width="600" height="729"/>
+                                <rect key="frame" x="0.0" y="64" width="594" height="713"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Squint" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Sn-FG-HlX">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
@@ -5379,7 +5643,7 @@ The mother should:
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="729" id="NTa-5T-qoK"/>
+                                    <constraint firstAttribute="height" constant="713" id="NTa-5T-qoK"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -5388,6 +5652,9 @@ The mother should:
                     <tabBarItem key="tabBarItem" title="Classify" id="efB-Db-9ak"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="850"/>
+                    <connections>
+                        <outlet property="scroller" destination="C6g-1S-7TV" id="kKf-y2-gkK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ju0-fq-PQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5967,35 +6234,28 @@ Does it go back:
                         <viewControllerLayoutGuide type="bottom" id="553-9f-THB"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="PAK-hn-LpX">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="1080"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1250"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gwL-zp-XWk">
-                                <rect key="frame" x="0.0" y="72" width="600" height="871"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gwL-zp-XWk">
+                                <rect key="frame" x="0.0" y="64" width="600" height="1129"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="for dehydration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Vm-e4-I8v">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
-                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="if diarrhoea 7 days or more" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoJ-Sl-sWf">
-                                        <rect key="frame" x="0.0" y="499" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="if diarrhoea 7 days or more" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoJ-Sl-sWf">
+                                        <rect key="frame" x="0.0" y="507" width="600" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Severe Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uW-WZ-3qa">
-                                        <rect key="frame" x="0.0" y="33" width="600" height="37"/>
+                                        <rect key="frame" x="0.0" y="41" width="600" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9e-zk-YUW">
-                                        <rect key="frame" x="20" y="71" width="560" height="140"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9e-zk-YUW">
+                                        <rect key="frame" x="20" y="79" width="560" height="140"/>
                                         <string key="text">	I infant also has VERY SEVERE DISEASE:
 	• Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise mother to continue breastfeeding.
 	• Advice mother to keep the young infant warm on the way to the hospital
@@ -6006,8 +6266,8 @@ Does it go back:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pel-Cf-AGh">
-                                        <rect key="frame" x="20" y="259" width="560" height="107"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pel-Cf-AGh">
+                                        <rect key="frame" x="20" y="267" width="560" height="107"/>
                                         <string key="text">	If infant also has VERY SEVERE DISEASE:
 	• Admit or Refer URGENTLY to hospital** with mother giving frequent sips of ORS on the way.
 	• Advise mother to continue breastfeeding.
@@ -6018,36 +6278,36 @@ Does it go back:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Some Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcT-q4-MlT">
-                                        <rect key="frame" x="0.0" y="219" width="600" height="38"/>
+                                        <rect key="frame" x="0.0" y="227" width="600" height="38"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="No Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snd-ua-7cW">
-                                        <rect key="frame" x="0.0" y="374" width="600" height="39"/>
+                                        <rect key="frame" x="0.0" y="382" width="600" height="39"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Severe Prolonged Diarrhoea" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qk0-Qd-bcc">
-                                        <rect key="frame" x="0.0" y="533" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Severe Prolonged Diarrhoea" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qk0-Qd-bcc">
+                                        <rect key="frame" x="0.0" y="541" width="600" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwY-Hb-5vA">
-                                        <rect key="frame" x="20" y="570" width="560" height="64"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwY-Hb-5vA">
+                                        <rect key="frame" x="20" y="578" width="560" height="64"/>
                                         <string key="text">	 • If the young infant is dehydrated, treat dehydration before referral unless the infant has also a VERY SEVERE DISEASE.
 	• Admit or refer to hospital.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dhi-1Y-yTs">
-                                        <rect key="frame" x="20" y="414" width="560" height="77"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dhi-1Y-yTs">
+                                        <rect key="frame" x="20" y="422" width="560" height="77"/>
                                         <string key="text">	• Give fluids to treat diarrhoea at home (Plan A).
 	• Give zinc sulphate.
 	• Advise mother when to return immediately.
@@ -6056,22 +6316,22 @@ Does it go back:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="if blood in the stool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jN3-0t-i17">
-                                        <rect key="frame" x="0.0" y="636" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="if blood in the stool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jN3-0t-i17">
+                                        <rect key="frame" x="0.0" y="644" width="600" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Possible Serious Abdominal Problem" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivS-Fs-gRs">
-                                        <rect key="frame" x="0.0" y="669" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Possible Serious Abdominal Problem" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivS-Fs-gRs">
+                                        <rect key="frame" x="0.0" y="677" width="600" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUj-UA-eef">
-                                        <rect key="frame" x="20" y="707" width="560" height="77"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUj-UA-eef">
+                                        <rect key="frame" x="20" y="715" width="560" height="77"/>
                                         <string key="text">	• Give first dose of Benzylpenicillin &amp; Gentamicin.
 	• Treat the infant/child for or prevent low blood sugar.
 	• Admit or refer URGENTLY to hospital**.
@@ -6080,10 +6340,95 @@ Does it go back:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="for dehydration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Vm-e4-I8v">
+                                        <rect key="frame" x="0.0" y="8" width="600" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="qwY-Hb-5vA" firstAttribute="top" secondItem="qk0-Qd-bcc" secondAttribute="bottom" id="0Um-Pp-y8D"/>
+                                    <constraint firstItem="jN3-0t-i17" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="0nZ-Vf-Dlm"/>
+                                    <constraint firstItem="mUj-UA-eef" firstAttribute="centerX" secondItem="T9e-zk-YUW" secondAttribute="centerX" id="1aw-ez-Zv2"/>
+                                    <constraint firstAttribute="trailing" secondItem="eoJ-Sl-sWf" secondAttribute="trailing" id="2Ww-Iq-CYt"/>
+                                    <constraint firstItem="Dhi-1Y-yTs" firstAttribute="centerX" secondItem="T9e-zk-YUW" secondAttribute="centerX" id="3HD-RV-LaG"/>
+                                    <constraint firstItem="mUj-UA-eef" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="3YE-ul-8rJ"/>
+                                    <constraint firstItem="qwY-Hb-5vA" firstAttribute="centerX" secondItem="T9e-zk-YUW" secondAttribute="centerX" id="3qU-u5-iJy"/>
+                                    <constraint firstItem="qcT-q4-MlT" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" id="4Tr-mn-E67"/>
+                                    <constraint firstAttribute="trailing" secondItem="mUj-UA-eef" secondAttribute="trailing" constant="20" id="4nX-zy-lPi"/>
+                                    <constraint firstItem="qwY-Hb-5vA" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="5Q9-0e-IqS"/>
+                                    <constraint firstItem="6uW-WZ-3qa" firstAttribute="centerX" secondItem="4Vm-e4-I8v" secondAttribute="centerX" id="6df-Za-34v"/>
+                                    <constraint firstItem="6uW-WZ-3qa" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="6rk-1Y-gJT"/>
                                     <constraint firstItem="snd-ua-7cW" firstAttribute="height" secondItem="qcT-q4-MlT" secondAttribute="height" id="90j-0a-RMf"/>
+                                    <constraint firstItem="mUj-UA-eef" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" constant="20" id="C6Y-dc-sLB"/>
+                                    <constraint firstItem="ivS-Fs-gRs" firstAttribute="centerX" secondItem="4Vm-e4-I8v" secondAttribute="centerX" id="CFK-BW-Hxi"/>
+                                    <constraint firstItem="mUj-UA-eef" firstAttribute="centerX" secondItem="4Vm-e4-I8v" secondAttribute="centerX" id="CUu-eE-59T"/>
+                                    <constraint firstAttribute="trailing" secondItem="qwY-Hb-5vA" secondAttribute="trailing" constant="20" id="CXO-eb-ZzI"/>
+                                    <constraint firstItem="pel-Cf-AGh" firstAttribute="centerX" secondItem="4Vm-e4-I8v" secondAttribute="centerX" id="CcW-Sa-uYM"/>
+                                    <constraint firstItem="6uW-WZ-3qa" firstAttribute="top" secondItem="4Vm-e4-I8v" secondAttribute="bottom" constant="-1" id="DiD-uw-e1F"/>
+                                    <constraint firstItem="qcT-q4-MlT" firstAttribute="centerX" secondItem="4Vm-e4-I8v" secondAttribute="centerX" id="Dm9-bA-hl9"/>
+                                    <constraint firstAttribute="trailing" secondItem="pel-Cf-AGh" secondAttribute="trailing" constant="20" id="EFx-wY-gz0"/>
+                                    <constraint firstItem="6uW-WZ-3qa" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" id="Eoq-qU-MCO"/>
+                                    <constraint firstItem="eoJ-Sl-sWf" firstAttribute="centerX" secondItem="4Vm-e4-I8v" secondAttribute="centerX" id="Gng-57-xg2"/>
+                                    <constraint firstItem="T9e-zk-YUW" firstAttribute="centerX" secondItem="4Vm-e4-I8v" secondAttribute="centerX" id="HBh-J6-H1r"/>
+                                    <constraint firstItem="qwY-Hb-5vA" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" constant="20" id="HCy-3P-s1l"/>
+                                    <constraint firstItem="snd-ua-7cW" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="HXc-Yg-Dfe"/>
+                                    <constraint firstItem="Dhi-1Y-yTs" firstAttribute="trailing" secondItem="pel-Cf-AGh" secondAttribute="trailing" id="IWk-oq-7dP"/>
+                                    <constraint firstItem="Dhi-1Y-yTs" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" constant="20" id="If9-BB-a6P"/>
+                                    <constraint firstItem="Dhi-1Y-yTs" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="JJY-8d-d0L"/>
+                                    <constraint firstAttribute="trailing" secondItem="ivS-Fs-gRs" secondAttribute="trailing" id="K6T-jG-DKl"/>
+                                    <constraint firstItem="Dhi-1Y-yTs" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="KNI-P4-xni"/>
+                                    <constraint firstItem="T9e-zk-YUW" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" constant="20" id="KVS-Th-Ziv"/>
+                                    <constraint firstItem="ivS-Fs-gRs" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="KXK-Fq-djd"/>
+                                    <constraint firstItem="4Vm-e4-I8v" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" id="Lwl-2m-xR7"/>
+                                    <constraint firstItem="qk0-Qd-bcc" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="NVG-j7-hFj"/>
+                                    <constraint firstItem="eoJ-Sl-sWf" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" id="Olw-vc-IRI"/>
+                                    <constraint firstItem="qk0-Qd-bcc" firstAttribute="top" secondItem="eoJ-Sl-sWf" secondAttribute="bottom" id="S6C-WD-t9K"/>
+                                    <constraint firstItem="jN3-0t-i17" firstAttribute="top" secondItem="qwY-Hb-5vA" secondAttribute="bottom" id="ScT-1C-sKf"/>
+                                    <constraint firstItem="eoJ-Sl-sWf" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="T0e-H1-aWc"/>
+                                    <constraint firstAttribute="trailing" secondItem="Dhi-1Y-yTs" secondAttribute="trailing" constant="20" id="U6O-1W-8NR"/>
+                                    <constraint firstItem="pel-Cf-AGh" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="Uak-rW-Swr"/>
+                                    <constraint firstItem="qwY-Hb-5vA" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="Vsg-IJ-VNv"/>
+                                    <constraint firstItem="mUj-UA-eef" firstAttribute="trailing" secondItem="pel-Cf-AGh" secondAttribute="trailing" id="Xzf-s6-lhO"/>
+                                    <constraint firstAttribute="trailing" secondItem="mUj-UA-eef" secondAttribute="trailing" constant="20" id="Z6v-T4-vRg"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Vm-e4-I8v" secondAttribute="trailing" id="ZdS-Vm-5ff"/>
+                                    <constraint firstItem="qwY-Hb-5vA" firstAttribute="trailing" secondItem="pel-Cf-AGh" secondAttribute="trailing" id="Zfz-bg-bzJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="T9e-zk-YUW" secondAttribute="trailing" constant="20" id="aJG-jg-WMd"/>
+                                    <constraint firstItem="jN3-0t-i17" firstAttribute="centerX" secondItem="4Vm-e4-I8v" secondAttribute="centerX" id="abz-3i-j32"/>
+                                    <constraint firstItem="Dhi-1Y-yTs" firstAttribute="top" secondItem="snd-ua-7cW" secondAttribute="bottom" id="alI-7F-dDV"/>
+                                    <constraint firstAttribute="trailing" secondItem="jN3-0t-i17" secondAttribute="trailing" id="bGw-jG-g1X"/>
+                                    <constraint firstItem="Dhi-1Y-yTs" firstAttribute="centerX" secondItem="4Vm-e4-I8v" secondAttribute="centerX" id="bVx-Vl-IgN"/>
+                                    <constraint firstItem="snd-ua-7cW" firstAttribute="top" secondItem="pel-Cf-AGh" secondAttribute="bottom" id="c8X-0K-npI"/>
+                                    <constraint firstItem="T9e-zk-YUW" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="dRZ-cj-CnI"/>
+                                    <constraint firstItem="qcT-q4-MlT" firstAttribute="top" secondItem="T9e-zk-YUW" secondAttribute="bottom" id="fCp-Lj-ea4"/>
+                                    <constraint firstItem="snd-ua-7cW" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" id="fdH-SU-keg"/>
                                     <constraint firstItem="qcT-q4-MlT" firstAttribute="height" secondItem="6uW-WZ-3qa" secondAttribute="height" id="fff-Js-izS"/>
+                                    <constraint firstItem="pel-Cf-AGh" firstAttribute="top" secondItem="qcT-q4-MlT" secondAttribute="bottom" id="gd3-hV-4SV"/>
+                                    <constraint firstItem="snd-ua-7cW" firstAttribute="centerX" secondItem="4Vm-e4-I8v" secondAttribute="centerX" id="gqG-F1-cIe"/>
+                                    <constraint firstItem="mUj-UA-eef" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" constant="20" id="ivc-Sd-kz4"/>
+                                    <constraint firstItem="eoJ-Sl-sWf" firstAttribute="top" secondItem="Dhi-1Y-yTs" secondAttribute="bottom" id="jzy-fN-cuL"/>
+                                    <constraint firstItem="ivS-Fs-gRs" firstAttribute="top" secondItem="qwY-Hb-5vA" secondAttribute="bottom" id="kjO-f1-Kuo"/>
+                                    <constraint firstAttribute="trailing" secondItem="qcT-q4-MlT" secondAttribute="trailing" id="lT7-ip-iaa"/>
+                                    <constraint firstItem="pel-Cf-AGh" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" constant="20" id="lmX-9e-lQw"/>
+                                    <constraint firstItem="jN3-0t-i17" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" id="lzJ-fX-HQH"/>
+                                    <constraint firstItem="qk0-Qd-bcc" firstAttribute="centerX" secondItem="4Vm-e4-I8v" secondAttribute="centerX" id="mJM-6v-NQx"/>
+                                    <constraint firstItem="6uW-WZ-3qa" firstAttribute="top" secondItem="gwL-zp-XWk" secondAttribute="top" id="mPQ-mr-ziF"/>
+                                    <constraint firstItem="mUj-UA-eef" firstAttribute="top" secondItem="ivS-Fs-gRs" secondAttribute="bottom" id="mx3-YB-Z00"/>
+                                    <constraint firstItem="qk0-Qd-bcc" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" id="myG-17-6y5"/>
+                                    <constraint firstItem="qcT-q4-MlT" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="oIa-Ww-rwX"/>
+                                    <constraint firstItem="pel-Cf-AGh" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="oyS-m8-hb1"/>
+                                    <constraint firstAttribute="trailing" secondItem="qk0-Qd-bcc" secondAttribute="trailing" id="qBf-bW-qoj"/>
+                                    <constraint firstItem="pel-Cf-AGh" firstAttribute="centerX" secondItem="T9e-zk-YUW" secondAttribute="centerX" id="qOx-Bn-zgm"/>
+                                    <constraint firstAttribute="trailing" secondItem="6uW-WZ-3qa" secondAttribute="trailing" id="rKl-ZL-eew"/>
+                                    <constraint firstItem="mUj-UA-eef" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="sPI-Gs-8MJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="snd-ua-7cW" secondAttribute="trailing" id="tAe-MR-tyY"/>
+                                    <constraint firstItem="T9e-zk-YUW" firstAttribute="top" secondItem="6uW-WZ-3qa" secondAttribute="bottom" id="vxk-Wb-75V"/>
+                                    <constraint firstItem="ivS-Fs-gRs" firstAttribute="leading" secondItem="gwL-zp-XWk" secondAttribute="leading" id="wih-B5-DtZ"/>
+                                    <constraint firstItem="qwY-Hb-5vA" firstAttribute="centerX" secondItem="4Vm-e4-I8v" secondAttribute="centerX" id="xfI-X5-THP"/>
+                                    <constraint firstItem="4Vm-e4-I8v" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="y6w-y2-xrZ"/>
+                                    <constraint firstItem="T9e-zk-YUW" firstAttribute="centerX" secondItem="gwL-zp-XWk" secondAttribute="centerX" id="yCN-gj-ZqZ"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -6091,14 +6436,14 @@ Does it go back:
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="taV-2M-AcM"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="1080"/>
+                    <size key="freeformSize" width="600" height="1250"/>
                     <connections>
                         <outlet property="scroller" destination="gwL-zp-XWk" id="7rs-pc-Krq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jf7-t9-EKj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11551" y="-1262"/>
+            <point key="canvasLocation" x="-11545" y="-1136"/>
         </scene>
         <!--Identify Treatment-->
         <scene sceneID="Bgw-T2-SE2">
@@ -11853,14 +12198,11 @@ LOOK:
                         <viewControllerLayoutGuide type="bottom" id="8P7-lE-pDx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wp2-Gk-59f">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xD-ez-ZyS">
-                                <rect key="frame" x="20" y="72" width="560" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="560" id="F4F-Ok-8bF"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9xD-ez-ZyS">
+                                <rect key="frame" x="20" y="72" width="560" height="58"/>
                                 <string key="text">• Explain to the mother why the drug is given.
 • Determine the appropriate dose for the child weight(or age).
 • Use a sterile needle and sterile syringe. Measure the dose accurately.
@@ -11869,60 +12211,45 @@ LOOK:
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJp-PE-iWQ">
-                                <rect key="frame" x="20" y="160" width="560" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJp-PE-iWQ">
+                                <rect key="frame" x="20" y="138" width="560" height="29"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="RAq-xR-9Hr"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Give an Intramuscular Antibiotic"/>
                                 <connections>
                                     <segue destination="xU8-B3-4Mc" kind="show" id="Y5E-DT-zac"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3H-mn-Mn7">
-                                <rect key="frame" x="20" y="198" width="560" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3H-mn-Mn7">
+                                <rect key="frame" x="20" y="175" width="560" height="29"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="7qT-D4-pgu"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Treat for Convulsing now"/>
                                 <connections>
                                     <segue destination="j5F-kL-AxO" kind="show" id="uRS-PP-FVA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMu-AD-icX">
-                                <rect key="frame" x="20" y="236" width="560" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMu-AD-icX">
+                                <rect key="frame" x="20" y="212" width="560" height="29"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="qOU-RO-oTX"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Treatment of Severe Malaria"/>
                                 <connections>
                                     <segue destination="Mao-yK-p8W" kind="show" id="XBP-zV-anj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyg-JK-sl6">
-                                <rect key="frame" x="20" y="274" width="560" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wyg-JK-sl6">
+                                <rect key="frame" x="20" y="249" width="560" height="29"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Flg-nk-jU2"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Treat Wheezing"/>
                                 <connections>
                                     <segue destination="Hjz-K7-Zvq" kind="show" id="no2-YL-oSe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXW-lU-nAr">
-                                <rect key="frame" x="20" y="312" width="560" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXW-lU-nAr">
+                                <rect key="frame" x="20" y="286" width="560" height="29"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="jjx-HY-XT8"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Treat the Child for Low Blood Sugar"/>
                                 <connections>
@@ -11931,11 +12258,36 @@ LOOK:
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="pJp-PE-iWQ" firstAttribute="leading" secondItem="wp2-Gk-59f" secondAttribute="leadingMargin" id="5EA-eR-16k"/>
+                            <constraint firstItem="QXW-lU-nAr" firstAttribute="leading" secondItem="wp2-Gk-59f" secondAttribute="leadingMargin" id="81V-9U-4Iu"/>
+                            <constraint firstItem="x3H-mn-Mn7" firstAttribute="centerX" secondItem="9xD-ez-ZyS" secondAttribute="centerX" id="ATd-Vi-yR2"/>
+                            <constraint firstItem="x3H-mn-Mn7" firstAttribute="trailing" secondItem="wp2-Gk-59f" secondAttribute="trailingMargin" id="C9P-cF-7Wi"/>
+                            <constraint firstItem="9xD-ez-ZyS" firstAttribute="top" secondItem="eb8-6q-Rwf" secondAttribute="bottom" constant="8" id="HQ3-dT-IU4"/>
+                            <constraint firstItem="BMu-AD-icX" firstAttribute="trailing" secondItem="wp2-Gk-59f" secondAttribute="trailingMargin" id="HvJ-C7-l9m"/>
+                            <constraint firstItem="pJp-PE-iWQ" firstAttribute="top" secondItem="9xD-ez-ZyS" secondAttribute="bottom" constant="8" id="PQk-dY-zq5"/>
+                            <constraint firstItem="Wyg-JK-sl6" firstAttribute="top" secondItem="BMu-AD-icX" secondAttribute="bottom" constant="8" id="QWX-VY-pNP"/>
+                            <constraint firstItem="BMu-AD-icX" firstAttribute="top" secondItem="x3H-mn-Mn7" secondAttribute="bottom" constant="8" id="Tdm-v5-8ej"/>
+                            <constraint firstItem="BMu-AD-icX" firstAttribute="leading" secondItem="wp2-Gk-59f" secondAttribute="leadingMargin" id="X9c-4B-Mg9"/>
+                            <constraint firstItem="Wyg-JK-sl6" firstAttribute="centerX" secondItem="9xD-ez-ZyS" secondAttribute="centerX" id="Xjf-p9-Bvs"/>
+                            <constraint firstItem="pJp-PE-iWQ" firstAttribute="centerX" secondItem="9xD-ez-ZyS" secondAttribute="centerX" id="YU4-43-4lZ"/>
+                            <constraint firstItem="QXW-lU-nAr" firstAttribute="top" secondItem="Wyg-JK-sl6" secondAttribute="bottom" constant="8" id="dOk-Ei-K49"/>
+                            <constraint firstItem="pJp-PE-iWQ" firstAttribute="trailing" secondItem="wp2-Gk-59f" secondAttribute="trailingMargin" id="ejw-Ll-OMJ"/>
+                            <constraint firstItem="x3H-mn-Mn7" firstAttribute="leading" secondItem="wp2-Gk-59f" secondAttribute="leadingMargin" id="f84-D9-vYe"/>
+                            <constraint firstItem="9xD-ez-ZyS" firstAttribute="trailing" secondItem="wp2-Gk-59f" secondAttribute="trailingMargin" id="hXp-2X-Bc2"/>
+                            <constraint firstItem="9xD-ez-ZyS" firstAttribute="leading" secondItem="wp2-Gk-59f" secondAttribute="leadingMargin" id="hmb-4V-pkd"/>
+                            <constraint firstItem="Wyg-JK-sl6" firstAttribute="trailing" secondItem="wp2-Gk-59f" secondAttribute="trailingMargin" id="kaz-Ww-d6B"/>
+                            <constraint firstItem="QXW-lU-nAr" firstAttribute="centerX" secondItem="9xD-ez-ZyS" secondAttribute="centerX" id="lW9-mW-CJa"/>
+                            <constraint firstItem="Wyg-JK-sl6" firstAttribute="leading" secondItem="wp2-Gk-59f" secondAttribute="leadingMargin" id="m2G-Os-a2a"/>
+                            <constraint firstItem="BMu-AD-icX" firstAttribute="centerX" secondItem="9xD-ez-ZyS" secondAttribute="centerX" id="mby-PK-6Kv"/>
+                            <constraint firstItem="x3H-mn-Mn7" firstAttribute="top" secondItem="pJp-PE-iWQ" secondAttribute="bottom" constant="8" id="pY4-zp-WyH"/>
+                            <constraint firstItem="QXW-lU-nAr" firstAttribute="trailing" secondItem="wp2-Gk-59f" secondAttribute="trailingMargin" id="pq0-2i-sBy"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C0W-s1-mEA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5096" y="-138"/>
+            <point key="canvasLocation" x="5086" y="-82"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7Cm-Qb-5ZR">
@@ -12313,7 +12665,7 @@ LOOK:
                         <viewControllerLayoutGuide type="bottom" id="M4d-6Z-y6n"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ARk-Ig-1ah">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Saz-9A-Dmc">
@@ -12364,7 +12716,7 @@ IF REFERRAL IS NOT POSSIBLE
                         <viewControllerLayoutGuide type="bottom" id="dAS-f3-5sa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="VNL-xk-cDJ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bp-LU-dkA">
@@ -12436,12 +12788,16 @@ IF REFERRAL IS NOT POSSIBLE
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hdu-jt-31I">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hdu-jt-31I">
                                 <rect key="frame" x="0.0" y="64" width="600" height="778"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5t-0a-6wF">
-                                        <rect key="frame" x="8" y="8" width="584" height="544"/>
-                                        <string key="text">Counsel the mother on the 4 Rules of Home Treatment:
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J5t-0a-6wF">
+                                        <rect key="frame" x="8" y="8" width="584" height="489"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="584" id="94C-ID-lNj"/>
+                                            <constraint firstAttribute="height" constant="489" id="GUl-I4-8HJ"/>
+                                        </constraints>
+                                        <mutableString key="text">Counsel the mother on the 4 Rules of Home Treatment:
 
 Give Extra Fluids, Give Zinc Sulphate, Continue Feeding, Advise when to Return
 1. GIVE EXTRA FLUID(Give ORS and other fluids as much as the child will take)
@@ -12467,15 +12823,27 @@ Advise the mother to:
 	- Up to 6 months: 1/2 tablet per days for 10 days
 	- 6 months or more: 1 tablet per day for 10 days.
 3. CONTINUE FEEDING
-4. WHEN TO RETURN</string>
+4. WHEN TO RETURN</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="J5t-0a-6wF" firstAttribute="leading" secondItem="Hdu-jt-31I" secondAttribute="leading" constant="8" id="8t8-f5-FEu"/>
+                                    <constraint firstItem="J5t-0a-6wF" firstAttribute="top" secondItem="Hdu-jt-31I" secondAttribute="top" constant="8" id="Bhz-E6-MAv"/>
+                                    <constraint firstAttribute="trailing" secondItem="J5t-0a-6wF" secondAttribute="trailing" constant="8" id="NBc-q1-hyp"/>
+                                    <constraint firstItem="J5t-0a-6wF" firstAttribute="centerX" secondItem="Hdu-jt-31I" secondAttribute="centerX" id="q0L-0Z-oSR"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7CY-44-Rm6" firstAttribute="top" secondItem="Hdu-jt-31I" secondAttribute="bottom" constant="8" symbolic="YES" id="5LH-j9-GmV"/>
+                            <constraint firstItem="Hdu-jt-31I" firstAttribute="top" secondItem="YoS-LA-We4" secondAttribute="bottom" id="7X5-bt-bDS"/>
+                            <constraint firstAttribute="trailing" secondItem="Hdu-jt-31I" secondAttribute="trailing" id="cNc-zy-vYq"/>
+                            <constraint firstItem="Hdu-jt-31I" firstAttribute="leading" secondItem="4nX-x3-nBi" secondAttribute="leading" id="fCq-X3-5UG"/>
+                        </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="850"/>
@@ -12485,7 +12853,7 @@ Advise the mother to:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iuW-lk-aXP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5722" y="-128"/>
+            <point key="canvasLocation" x="5714" y="-96"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jXI-u8-wSV">
@@ -12556,10 +12924,10 @@ The mother should:
         <image name="young_give_zinc_sulphate.PNG" width="1166" height="541"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="U1a-TM-fy9"/>
         <segue reference="k6P-u2-BGJ"/>
+        <segue reference="U1a-TM-fy9"/>
+        <segue reference="vWq-OX-unH"/>
         <segue reference="sEj-cc-CVT"/>
-        <segue reference="Ozu-iA-Cut"/>
         <segue reference="ADN-Rt-n5w"/>
     </inferredMetricsTieBreakers>
 </document>
