@@ -12797,7 +12797,7 @@ IF REFERRAL IS NOT POSSIBLE
                                             <constraint firstAttribute="width" constant="584" id="94C-ID-lNj"/>
                                             <constraint firstAttribute="height" constant="489" id="GUl-I4-8HJ"/>
                                         </constraints>
-                                        <mutableString key="text">Counsel the mother on the 4 Rules of Home Treatment:
+                                        <string key="text">Counsel the mother on the 4 Rules of Home Treatment:
 
 Give Extra Fluids, Give Zinc Sulphate, Continue Feeding, Advise when to Return
 1. GIVE EXTRA FLUID(Give ORS and other fluids as much as the child will take)
@@ -12823,7 +12823,7 @@ Advise the mother to:
 	- Up to 6 months: 1/2 tablet per days for 10 days
 	- 6 months or more: 1 tablet per day for 10 days.
 3. CONTINUE FEEDING
-4. WHEN TO RETURN</mutableString>
+4. WHEN TO RETURN</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
