@@ -7872,14 +7872,14 @@ If it is an initial visit, assess the young infant as follows:</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GwK-Q1-t3C">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GwK-Q1-t3C">
                                 <rect key="frame" x="0.0" y="64" width="600" height="778"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuX-Ni-IRb">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuX-Ni-IRb">
                                         <rect key="frame" x="8" y="8" width="584" height="702"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="66" id="Nd6-9U-UCq"/>
+                                            <constraint firstAttribute="height" constant="702" id="1dz-s6-rVu"/>
                                         </constraints>
                                         <string key="text"> Evaluate the baby’s breathing after stimulation:
 • A baby who is gasping or not breathing at all will require resuscitation.
@@ -7927,9 +7927,21 @@ If no breathing or gasping at all after 20 minutes ventilation
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="LuX-Ni-IRb" firstAttribute="centerX" secondItem="GwK-Q1-t3C" secondAttribute="centerX" id="4KJ-DN-gEU"/>
+                                    <constraint firstItem="LuX-Ni-IRb" firstAttribute="leading" secondItem="GwK-Q1-t3C" secondAttribute="leading" constant="8" id="OZ5-7B-Min"/>
+                                    <constraint firstItem="LuX-Ni-IRb" firstAttribute="top" secondItem="GwK-Q1-t3C" secondAttribute="top" constant="8" id="qFV-WQ-MIl"/>
+                                    <constraint firstAttribute="trailing" secondItem="LuX-Ni-IRb" secondAttribute="trailing" constant="8" id="xwN-hd-flE"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GwK-Q1-t3C" firstAttribute="top" secondItem="YDj-X8-lcf" secondAttribute="bottom" id="K2i-tP-RKt"/>
+                            <constraint firstItem="GwK-Q1-t3C" firstAttribute="leading" secondItem="D3C-jB-isv" secondAttribute="leading" id="PUZ-aA-GDl"/>
+                            <constraint firstItem="IXW-Fq-CGK" firstAttribute="top" secondItem="GwK-Q1-t3C" secondAttribute="bottom" constant="8" symbolic="YES" id="PXc-g8-7TG"/>
+                            <constraint firstAttribute="trailing" secondItem="GwK-Q1-t3C" secondAttribute="trailing" id="tug-Up-mto"/>
+                        </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="850"/>
@@ -7953,14 +7965,14 @@ If no breathing or gasping at all after 20 minutes ventilation
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Yp-hM-KkD">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Yp-hM-KkD">
                                 <rect key="frame" x="0.0" y="64" width="600" height="778"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIP-eJ-MAs">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIP-eJ-MAs">
                                         <rect key="frame" x="8" y="8" width="584" height="638"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="66" id="oKT-Sw-dPF"/>
+                                            <constraint firstAttribute="height" constant="638" id="RSc-7E-i3c"/>
                                         </constraints>
                                         <string key="text">• Warm the young infant using skin to skin contact: Kangaroo Mother Care
 - Provide privacy to the mother. If mother is not available, skin to skin contact can be provided by the father or any other adult.
@@ -7996,9 +8008,21 @@ Teach the mother how to keep the young infant warm on the way to the hospital
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="iIP-eJ-MAs" secondAttribute="trailing" constant="8" id="Ofl-OW-oBC"/>
+                                    <constraint firstItem="iIP-eJ-MAs" firstAttribute="centerX" secondItem="3Yp-hM-KkD" secondAttribute="centerX" id="XNZ-KK-O7s"/>
+                                    <constraint firstItem="iIP-eJ-MAs" firstAttribute="leading" secondItem="3Yp-hM-KkD" secondAttribute="leading" constant="8" id="YRH-TU-BaT"/>
+                                    <constraint firstItem="iIP-eJ-MAs" firstAttribute="top" secondItem="3Yp-hM-KkD" secondAttribute="top" constant="8" id="ddJ-Pc-uma"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3Yp-hM-KkD" secondAttribute="trailing" id="cMP-gx-Wkx"/>
+                            <constraint firstItem="dde-Bi-z8k" firstAttribute="top" secondItem="3Yp-hM-KkD" secondAttribute="bottom" constant="8" symbolic="YES" id="h2P-7r-iXk"/>
+                            <constraint firstItem="3Yp-hM-KkD" firstAttribute="top" secondItem="iZa-nZ-OpK" secondAttribute="bottom" id="hBX-Jq-rYx"/>
+                            <constraint firstItem="3Yp-hM-KkD" firstAttribute="leading" secondItem="Nvl-zl-Q3V" secondAttribute="leading" id="x0Z-Jy-d4B"/>
+                        </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="850"/>
@@ -8954,7 +8978,7 @@ Classify HIV status</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JrB-zr-o1U">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JrB-zr-o1U">
                                 <rect key="frame" x="0.0" y="64" width="600" height="729"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Anaemia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ml8-rz-goK">
@@ -9027,7 +9051,6 @@ Classify HIV status</string>
                                     <constraint firstItem="jjy-eL-ll7" firstAttribute="top" secondItem="DlG-WY-SPd" secondAttribute="bottom" constant="8" id="8IQ-Jn-3AS"/>
                                     <constraint firstItem="D2H-G3-R2k" firstAttribute="centerX" secondItem="JrB-zr-o1U" secondAttribute="centerX" id="BLK-ve-oJd"/>
                                     <constraint firstItem="D2H-G3-R2k" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="Dag-JE-sQk"/>
-                                    <constraint firstAttribute="bottom" secondItem="Jgk-1t-Auw" secondAttribute="bottom" constant="265" id="Emr-0g-Lxd"/>
                                     <constraint firstItem="AOl-DN-TLG" firstAttribute="centerX" secondItem="JrB-zr-o1U" secondAttribute="centerX" id="Fx9-RL-3za"/>
                                     <constraint firstItem="D2H-G3-R2k" firstAttribute="top" secondItem="Ml8-rz-goK" secondAttribute="bottom" constant="1" id="L4C-CY-N4V"/>
                                     <constraint firstItem="Ml8-rz-goK" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="LRo-q7-C21"/>
@@ -9060,6 +9083,9 @@ Classify HIV status</string>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="u5J-dT-MN8"/>
+                    <connections>
+                        <outlet property="scroller" destination="JrB-zr-o1U" id="Obx-A5-Mcu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D3D-Qc-46Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
