@@ -14,13 +14,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        scroller.contentSize = CGSizeMake(400, 1000)
+        scroller.contentSize = CGSizeMake(400, 1050)
         // Do any additional setup after loading the view, typically from a nib.
     }
     override func viewDidLayoutSubviews() {
         scroller.scrollEnabled = true
         // Do any additional setup after loading the view
-        scroller.contentSize = CGSizeMake(400, 1000)
+        scroller.contentSize = CGSizeMake(400, 1050)
     }
 
     override func didReceiveMemoryWarning() {
