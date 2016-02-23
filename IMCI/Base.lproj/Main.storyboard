@@ -2512,7 +2512,7 @@ After 1 month:
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aC3-NI-IAq">
-                                <rect key="frame" x="0.0" y="64" width="600" height="688"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="878"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teach correct positioning and attachment, for breastfeed" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIf-KR-tcq">
                                         <rect key="frame" x="0.0" y="64" width="600" height="29"/>
@@ -2704,7 +2704,7 @@ After 1 month:
                                     <constraint firstItem="s2A-z0-vNm" firstAttribute="top" secondItem="V2A-jH-PBl" secondAttribute="bottom" constant="3" id="FDf-VJ-km3"/>
                                     <constraint firstItem="ITL-WU-Jcu" firstAttribute="leading" secondItem="bgA-3i-Fx5" secondAttribute="leading" id="FYi-2c-Dn2"/>
                                     <constraint firstItem="7Mw-Ri-KBV" firstAttribute="top" secondItem="EzT-YA-9Tr" secondAttribute="bottom" constant="8" symbolic="YES" id="G7Y-fo-9e0"/>
-                                    <constraint firstAttribute="bottom" secondItem="HT4-R2-avw" secondAttribute="bottom" constant="-56" id="GBC-Kb-diP"/>
+                                    <constraint firstAttribute="bottom" secondItem="HT4-R2-avw" secondAttribute="bottom" constant="134" id="GBC-Kb-diP"/>
                                     <constraint firstItem="EzT-YA-9Tr" firstAttribute="top" secondItem="ITL-WU-Jcu" secondAttribute="bottom" constant="3" id="GVQ-HT-aJb"/>
                                     <constraint firstItem="8uQ-1C-MJf" firstAttribute="leading" secondItem="3aF-ma-NKc" secondAttribute="leading" id="GZ8-li-g1B"/>
                                     <constraint firstItem="Acq-v2-4UV" firstAttribute="leading" secondItem="1KR-FN-5l0" secondAttribute="leading" id="H2L-Kt-6Bl"/>
@@ -2779,13 +2779,16 @@ After 1 month:
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="aC3-NI-IAq" secondAttribute="trailing" id="c57-Rn-4gW"/>
                             <constraint firstItem="aC3-NI-IAq" firstAttribute="top" secondItem="3Y8-AN-Sja" secondAttribute="bottom" id="fda-MW-bj0"/>
-                            <constraint firstItem="Hgf-3K-wm9" firstAttribute="top" secondItem="aC3-NI-IAq" secondAttribute="bottom" constant="198" id="nnB-p0-aAD"/>
+                            <constraint firstItem="Hgf-3K-wm9" firstAttribute="top" secondItem="aC3-NI-IAq" secondAttribute="bottom" constant="8" id="nnB-p0-aAD"/>
                             <constraint firstItem="aC3-NI-IAq" firstAttribute="leading" secondItem="7Ia-d4-1so" secondAttribute="leading" id="slT-Yo-UfJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QVz-9e-T1R"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="950"/>
+                    <connections>
+                        <outlet property="scroller" destination="aC3-NI-IAq" id="vZv-D4-XRv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ljf-QC-RW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3540,9 +3543,9 @@ Ask:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAe-62-F1U">
-                                <rect key="frame" x="20" y="110" width="280" height="458"/>
-                                <string key="text">• Show the mother how to hold her infant.
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="mAe-62-F1U">
+                                <rect key="frame" x="20" y="89" width="560" height="280"/>
+                                <mutableString key="text">• Show the mother how to hold her infant.
 	-with the infant's head and body her straight.
 	-facing her breast, with infant's nose opposite her nipple.
 	-with infant's body close to her body.
@@ -3555,25 +3558,35 @@ Ask:
 • If still not suckling effectively, ask the mother to express breat milk and feed with cup in the clinic.
 • If able to feed with a cup adise mother to continue breastfeeding the infant and at the end of each feed express breast milk and feed a cup.
 • If not able to feed with a cup, Admit or Refer to hospital.
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teach Correct Positioning and Attachment for Breastfeeding" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEa-aQ-jDi">
-                                <rect key="frame" x="20" y="64" width="280" height="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teach Correct Positioning and Attachment for Breastfeeding" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEa-aQ-jDi">
+                                <rect key="frame" x="20" y="64" width="560" height="17"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="DEa-aQ-jDi" firstAttribute="leading" secondItem="b0j-sU-AQl" secondAttribute="leadingMargin" id="506-Hn-GkY"/>
+                            <constraint firstItem="DEa-aQ-jDi" firstAttribute="trailing" secondItem="b0j-sU-AQl" secondAttribute="trailingMargin" id="A8S-4e-6gX"/>
+                            <constraint firstItem="mAe-62-F1U" firstAttribute="trailing" secondItem="b0j-sU-AQl" secondAttribute="trailingMargin" id="H70-3j-eR7"/>
+                            <constraint firstItem="mAe-62-F1U" firstAttribute="top" secondItem="DEa-aQ-jDi" secondAttribute="bottom" constant="8" id="aZo-a1-PB5"/>
+                            <constraint firstItem="mAe-62-F1U" firstAttribute="leading" secondItem="b0j-sU-AQl" secondAttribute="leadingMargin" id="aff-0u-M0P"/>
+                            <constraint firstItem="mAe-62-F1U" firstAttribute="centerX" secondItem="b0j-sU-AQl" secondAttribute="centerX" id="hbx-OU-RB8"/>
+                            <constraint firstItem="DEa-aQ-jDi" firstAttribute="top" secondItem="U6a-s8-03N" secondAttribute="bottom" id="msd-OT-uFY"/>
+                            <constraint firstItem="DEa-aQ-jDi" firstAttribute="centerX" secondItem="b0j-sU-AQl" secondAttribute="centerX" id="rDR-l5-b5n"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="m32-aZ-b8l"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lQr-h8-JXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-437" y="5676"/>
+            <point key="canvasLocation" x="27" y="3688"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6a8-hu-D7T">
@@ -3587,14 +3600,14 @@ Ask:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teach the mother to treat breast or nipple problems" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fy-yV-sZK">
-                                <rect key="frame" x="20" y="64" width="280" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teach the mother to treat breast or nipple problems" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fy-yV-sZK">
+                                <rect key="frame" x="20" y="64" width="560" height="17"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qda-aA-O64">
-                                <rect key="frame" x="20" y="112" width="280" height="295"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qda-aA-O64">
+                                <rect key="frame" x="20" y="84" width="560" height="171"/>
                                 <string key="text">• If the nipple is flat or inverted, evert the nipple several times with fingers before each feed and put the baby on the breast.
 • If the nipple is sore, apply breast milk for soothing effect and ensure correct positioning and attachment of the baby. If mother continues feeling discomfort feed expressed breast milk with cup.
 • If breasts are engorrged, let the baby to continue to suck if possible. If the baby cannot suckle effectively, help the mother to express the milk and then put the young infant to the breast. Putting warm compress on the breast may help.
@@ -3606,12 +3619,22 @@ Ask:
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="qda-aA-O64" firstAttribute="top" secondItem="9fy-yV-sZK" secondAttribute="bottom" constant="3" id="57P-nn-d4c"/>
+                            <constraint firstItem="qda-aA-O64" firstAttribute="leading" secondItem="n02-B9-HaR" secondAttribute="leadingMargin" id="DwC-zp-dbl"/>
+                            <constraint firstItem="9fy-yV-sZK" firstAttribute="centerX" secondItem="n02-B9-HaR" secondAttribute="centerX" id="Yht-7V-5xN"/>
+                            <constraint firstItem="9fy-yV-sZK" firstAttribute="leading" secondItem="n02-B9-HaR" secondAttribute="leadingMargin" id="Yjc-UD-cB4"/>
+                            <constraint firstItem="qda-aA-O64" firstAttribute="centerX" secondItem="n02-B9-HaR" secondAttribute="centerX" id="cSG-iQ-jL5"/>
+                            <constraint firstItem="qda-aA-O64" firstAttribute="trailing" secondItem="n02-B9-HaR" secondAttribute="trailingMargin" id="n5p-TR-ThL"/>
+                            <constraint firstItem="9fy-yV-sZK" firstAttribute="trailing" secondItem="n02-B9-HaR" secondAttribute="trailingMargin" id="s8g-27-YFT"/>
+                            <constraint firstItem="9fy-yV-sZK" firstAttribute="top" secondItem="3Ev-Gr-dKZ" secondAttribute="bottom" id="wq2-Bp-O6K"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OSp-xy-HF5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Sj-tc-cvb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="170" y="5676"/>
+            <point key="canvasLocation" x="634" y="3688"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VJq-BA-5Rg">
@@ -3625,8 +3648,8 @@ Ask:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDw-Fd-fWE">
-                                <rect key="frame" x="20" y="72" width="280" height="341"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDw-Fd-fWE">
+                                <rect key="frame" x="20" y="72" width="560" height="187"/>
                                 <string key="text">The mother/caregiver should have received full counselling before making the decision not to breastfeed.
 
 • Give information on replacement feeding and the risk of mixed feeding.
@@ -3643,12 +3666,18 @@ Ask:
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="CDw-Fd-fWE" firstAttribute="top" secondItem="QSI-M9-lID" secondAttribute="bottom" constant="8" id="Ay0-Wi-jhB"/>
+                            <constraint firstItem="CDw-Fd-fWE" firstAttribute="trailing" secondItem="Vwu-B5-a0m" secondAttribute="trailingMargin" id="SEu-Kq-GRW"/>
+                            <constraint firstItem="CDw-Fd-fWE" firstAttribute="leading" secondItem="Vwu-B5-a0m" secondAttribute="leadingMargin" id="b9K-kk-XD3"/>
+                            <constraint firstItem="CDw-Fd-fWE" firstAttribute="centerX" secondItem="Vwu-B5-a0m" secondAttribute="centerX" id="eZa-2c-2lY"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HWU-qA-tqx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y0B-6G-wJ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="781" y="5676"/>
+            <point key="canvasLocation" x="1245" y="3688"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Bh6-9T-yEo">
@@ -3662,14 +3691,14 @@ Ask:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teach the mother how to keep the young infant with low weight or low body temperature warm at home:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6J-sQ-LnO">
-                                <rect key="frame" x="20" y="72" width="280" height="58"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teach the mother how to keep the young infant with low weight or low body temperature warm at home:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6J-sQ-LnO">
+                                <rect key="frame" x="20" y="72" width="560" height="34"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVG-8i-Iua">
-                                <rect key="frame" x="20" y="130" width="285" height="314"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVG-8i-Iua">
+                                <rect key="frame" x="20" y="106" width="560" height="171"/>
                                 <string key="text">• Do not bathe young infant with low weight or body temperature; instead sponge with lukewarm water to clear (in a warm room).
 • Provide skin to skin contact (Kangaroo mother care) as much as possible, day and night.
 • When not in skin contact or if this is not possible.
@@ -3682,20 +3711,34 @@ Ask:
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FEEL THE FEET OF THE BABY PERIODICALLY --BABY'S FEET SHOULD BE ALWAYS WARM TO TOUCH." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eR9-4L-gU5">
-                                <rect key="frame" x="20" y="427" width="280" height="58"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FEEL THE FEET OF THE BABY PERIODICALLY --BABY'S FEET SHOULD BE ALWAYS WARM TO TOUCH." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eR9-4L-gU5">
+                                <rect key="frame" x="20" y="292" width="560" height="34"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="hVG-8i-Iua" firstAttribute="leading" secondItem="jXO-Zf-ymv" secondAttribute="leadingMargin" id="0fQ-Wy-x6P"/>
+                            <constraint firstItem="hVG-8i-Iua" firstAttribute="centerX" secondItem="jXO-Zf-ymv" secondAttribute="centerX" id="2PX-Tb-MCL"/>
+                            <constraint firstItem="j6J-sQ-LnO" firstAttribute="centerX" secondItem="jXO-Zf-ymv" secondAttribute="centerX" id="5Sh-qc-euD"/>
+                            <constraint firstItem="j6J-sQ-LnO" firstAttribute="trailing" secondItem="jXO-Zf-ymv" secondAttribute="trailingMargin" id="6IT-Ga-qD9"/>
+                            <constraint firstItem="eR9-4L-gU5" firstAttribute="top" secondItem="j6J-sQ-LnO" secondAttribute="bottom" constant="186" id="Cda-bk-jwJ"/>
+                            <constraint firstItem="eR9-4L-gU5" firstAttribute="trailing" secondItem="jXO-Zf-ymv" secondAttribute="trailingMargin" id="SWm-gM-9qa"/>
+                            <constraint firstItem="eR9-4L-gU5" firstAttribute="centerX" secondItem="jXO-Zf-ymv" secondAttribute="centerX" id="WEm-Rx-wCJ"/>
+                            <constraint firstItem="hVG-8i-Iua" firstAttribute="top" secondItem="j6J-sQ-LnO" secondAttribute="bottom" id="aVn-fL-yKS"/>
+                            <constraint firstItem="hVG-8i-Iua" firstAttribute="trailing" secondItem="jXO-Zf-ymv" secondAttribute="trailingMargin" id="eWX-EK-ipJ"/>
+                            <constraint firstItem="j6J-sQ-LnO" firstAttribute="top" secondItem="SA1-OF-lGw" secondAttribute="bottom" constant="8" id="gXL-cX-yal"/>
+                            <constraint firstItem="eR9-4L-gU5" firstAttribute="leading" secondItem="jXO-Zf-ymv" secondAttribute="leadingMargin" id="mjp-yT-YI6"/>
+                            <constraint firstItem="j6J-sQ-LnO" firstAttribute="leading" secondItem="jXO-Zf-ymv" secondAttribute="leadingMargin" id="tPg-S6-cJU"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mPO-xN-nFV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sbT-E2-Cug" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1390" y="5676"/>
+            <point key="canvasLocation" x="1854" y="3688"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jXA-PE-x5G">
@@ -3817,7 +3860,7 @@ Ask:
                                         <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29M-QS-ecl">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="29M-QS-ecl">
                                         <rect key="frame" x="8" y="120" width="544" height="166"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="166" id="c1W-BI-oNW"/>
@@ -3842,7 +3885,7 @@ Ask:
                                         <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvM-Uo-U33">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="tvM-Uo-U33">
                                         <rect key="frame" x="8" y="332" width="544" height="94"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="94" id="w43-xq-PcX"/>
@@ -3876,7 +3919,7 @@ Ask:
                                         <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3y-tk-gzT">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="b3y-tk-gzT">
                                         <rect key="frame" x="8" y="480" width="544" height="153"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="153" id="a69-wI-MOw"/>
@@ -3890,7 +3933,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbr-uy-gbF">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="Hbr-uy-gbF">
                                         <rect key="frame" x="8" y="692" width="544" height="124"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="124" id="HwT-pa-Lp8"/>
@@ -10054,7 +10097,7 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgt-s5-bZH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rgt-s5-bZH">
                                         <rect key="frame" x="20" y="107" width="560" height="78"/>
                                         <string key="text">	• Give first dose of Artesunate for severe malaria
 	• Give first dose of Chloramphenicol
@@ -10065,7 +10108,7 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zd-Xz-mCC">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Zd-Xz-mCC">
                                         <rect key="frame" x="20" y="212" width="560" height="94"/>
                                         <string key="text">	• Give Artemether + Lumefantrine (AL).
 	• Give one dose of paracetamol in clinic for high fever (≥38.5˚C)
@@ -10084,7 +10127,7 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOi-Iw-rzB">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SOi-Iw-rzB">
                                         <rect key="frame" x="20" y="325" width="560" height="78"/>
                                         <string key="text">	• Give one dose of paracetamol in clinic for high fever (≥38.5˚C)
 	• Assess for other possible causes of fever
@@ -10109,7 +10152,7 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTd-VQ-yvc">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OTd-VQ-yvc">
                                         <rect key="frame" x="20" y="429" width="560" height="94"/>
                                         <string key="text">	• Give first dose of Artesunate for severe malaria
 	• Give first dose of Chloramphenicol
@@ -10128,7 +10171,7 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDU-hn-gmQ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yDU-hn-gmQ">
                                         <rect key="frame" x="20" y="543" width="560" height="94"/>
                                         <string key="text">	• Give Artemether + Lumefantrine (AL).
 	• Give one dose of paracetamol in clinic for high fever (≥38.5˚C)
@@ -10140,7 +10183,7 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOX-g3-kAd">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vOX-g3-kAd">
                                         <rect key="frame" x="20" y="661" width="560" height="63"/>
                                         <string key="text">	• Give one dose of paracetamol in clinic for high fever (≥38.5˚C)
 	• Assess for other possible causes of fever
@@ -10171,7 +10214,7 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2DN-g7-itH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2DN-g7-itH">
                                         <rect key="frame" x="20" y="768" width="560" height="63"/>
                                         <string key="text">	• Give vitamin A
 	• Notify, take blood sample the to return.
@@ -10195,7 +10238,7 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDl-mb-WCA">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RDl-mb-WCA">
                                         <rect key="frame" x="20" y="853" width="560" height="63"/>
                                         <string key="text">	• Give vitamin A
 	• Give first dose of Chloramphenicol
@@ -10212,7 +10255,7 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBe-kG-Vhp">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NBe-kG-Vhp">
                                         <rect key="frame" x="20" y="946" width="560" height="94"/>
                                         <string key="text">	• Give vitamin A
 	• If pus draining form the eye, treat eye infection with tetracycline eye ointment
@@ -10230,7 +10273,7 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KR0-z7-Jpo">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KR0-z7-Jpo">
                                         <rect key="frame" x="20" y="1069" width="560" height="32"/>
                                         <string key="text">	• Give vitamin A if not received in the last 1 month
 	• If child has no indication for referral, draw blood and send for confirmation.</string>
@@ -13851,7 +13894,7 @@ The mother should:
         <image name="young_give_zinc_sulphate.PNG" width="1166" height="541"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Ozu-iA-Cut"/>
         <segue reference="ADN-Rt-n5w"/>
-        <segue reference="vWq-OX-unH"/>
     </inferredMetricsTieBreakers>
 </document>
