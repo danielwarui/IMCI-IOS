@@ -8824,7 +8824,7 @@ IF CHILD IS:
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UE3-7i-Ogj">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UE3-7i-Ogj">
                                         <rect key="frame" x="8" y="34" width="584" height="83"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -8839,7 +8839,7 @@ IF CHILD IS:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m00-i6-HVK">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m00-i6-HVK">
                                         <rect key="frame" x="8" y="151" width="584" height="141"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">• Give Cotrimoxazole for 5 days.
@@ -8865,7 +8865,7 @@ IF CHILD IS:
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwg-OI-chn">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwg-OI-chn">
                                         <rect key="frame" x="8" y="324" width="584" height="108"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -8921,6 +8921,9 @@ IF CHILD IS:
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="epQ-4n-R0o"/>
+                    <connections>
+                        <outlet property="scroller" destination="Lg9-B1-z7e" id="mB0-9V-xsv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VI5-Tx-mcy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -9421,7 +9424,7 @@ OR
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lNa-RC-LQm">
-                                <rect key="frame" x="20" y="72" width="560" height="621"/>
+                                <rect key="frame" x="20" y="72" width="560" height="721"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svw-3R-zsS">
                                         <rect key="frame" x="8" y="0.0" width="544" height="435"/>
@@ -9460,7 +9463,7 @@ Classify HIV status</string>
                                     <constraint firstItem="svw-3R-zsS" firstAttribute="centerX" secondItem="lNa-RC-LQm" secondAttribute="centerX" id="CYR-DE-dvp"/>
                                     <constraint firstItem="svw-3R-zsS" firstAttribute="top" secondItem="lNa-RC-LQm" secondAttribute="top" id="Hyw-bT-be9"/>
                                     <constraint firstAttribute="trailing" secondItem="svw-3R-zsS" secondAttribute="trailing" constant="8" id="hgR-Eo-eOH"/>
-                                    <constraint firstAttribute="bottom" secondItem="svw-3R-zsS" secondAttribute="bottom" constant="122" id="iKa-uM-RId"/>
+                                    <constraint firstAttribute="bottom" secondItem="svw-3R-zsS" secondAttribute="bottom" constant="286" id="iKa-uM-RId"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -9469,7 +9472,7 @@ Classify HIV status</string>
                             <constraint firstItem="lNa-RC-LQm" firstAttribute="top" secondItem="CpQ-3U-bEl" secondAttribute="bottom" constant="8" symbolic="YES" id="7ua-tK-e3l"/>
                             <constraint firstItem="lNa-RC-LQm" firstAttribute="leading" secondItem="ZAJ-eF-leT" secondAttribute="leadingMargin" id="Fxu-BL-tCg"/>
                             <constraint firstItem="lNa-RC-LQm" firstAttribute="trailing" secondItem="ZAJ-eF-leT" secondAttribute="trailingMargin" id="JX5-7m-xOX"/>
-                            <constraint firstItem="a7g-3K-5j5" firstAttribute="top" secondItem="lNa-RC-LQm" secondAttribute="bottom" constant="108" id="yul-dB-GHD"/>
+                            <constraint firstItem="a7g-3K-5j5" firstAttribute="top" secondItem="lNa-RC-LQm" secondAttribute="bottom" constant="8" id="yul-dB-GHD"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Assess" id="o0j-nS-X1v"/>
@@ -9691,18 +9694,8 @@ Classify HIV status</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lN5-Nm-f6M">
-                                <rect key="frame" x="42" y="72" width="517" height="49"/>
-                                <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="View Immunization Table">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxo-ur-QJh">
-                                <rect key="frame" x="20" y="145" width="560" height="97"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="97" id="mj8-bX-q8f"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="126" width="560" height="78"/>
                                 <string key="text">• if BCG not given at birth, it should not be given to children with symptomatic HIV/Aids.
 • Measles vaccine at 6 months is for HIV exposed/ infected children.
 • Yellow fever vaccine should not be given to children with symptomatic HIV/AIDS
@@ -9712,19 +9705,24 @@ Classify HIV status</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lN5-Nm-f6M">
+                                <rect key="frame" x="20" y="72" width="560" height="30"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="View Immunization Table">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Vxo-ur-QJh" firstAttribute="trailing" secondItem="Nft-mL-Jwc" secondAttribute="trailingMargin" id="3sJ-kV-Hkq"/>
-                            <constraint firstItem="lN5-Nm-f6M" firstAttribute="top" secondItem="yL3-uS-zBD" secondAttribute="bottom" constant="8" id="GGI-2t-hyM"/>
-                            <constraint firstItem="Vxo-ur-QJh" firstAttribute="centerX" secondItem="Nft-mL-Jwc" secondAttribute="centerX" id="IhQ-Ij-G0d"/>
-                            <constraint firstItem="lN5-Nm-f6M" firstAttribute="leading" secondItem="Nft-mL-Jwc" secondAttribute="leadingMargin" constant="22" id="JpD-0j-GDx"/>
-                            <constraint firstItem="Vxo-ur-QJh" firstAttribute="top" secondItem="lN5-Nm-f6M" secondAttribute="bottom" constant="24" id="My0-JQ-RVj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Vxo-ur-QJh" secondAttribute="trailing" id="Na3-PE-2iB"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="Vxo-ur-QJh" secondAttribute="leading" id="UOv-1g-PFP"/>
-                            <constraint firstItem="Vxo-ur-QJh" firstAttribute="leading" secondItem="Nft-mL-Jwc" secondAttribute="leadingMargin" id="Xhq-BD-1v6"/>
-                            <constraint firstItem="0pd-7G-3hu" firstAttribute="top" secondItem="Vxo-ur-QJh" secondAttribute="bottom" constant="559" id="dKC-Hy-7RU"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="lN5-Nm-f6M" secondAttribute="trailing" constant="21" id="quv-e2-Wca"/>
+                            <constraint firstItem="lN5-Nm-f6M" firstAttribute="centerX" secondItem="Nft-mL-Jwc" secondAttribute="centerX" id="3vo-i2-BDj"/>
+                            <constraint firstItem="Vxo-ur-QJh" firstAttribute="trailing" secondItem="Nft-mL-Jwc" secondAttribute="trailingMargin" id="Fj9-XD-Q8h"/>
+                            <constraint firstItem="lN5-Nm-f6M" firstAttribute="trailing" secondItem="Nft-mL-Jwc" secondAttribute="trailingMargin" id="LGU-SW-BtZ"/>
+                            <constraint firstItem="Vxo-ur-QJh" firstAttribute="centerX" secondItem="Nft-mL-Jwc" secondAttribute="centerX" id="Y63-SS-fmF"/>
+                            <constraint firstItem="lN5-Nm-f6M" firstAttribute="leading" secondItem="Nft-mL-Jwc" secondAttribute="leadingMargin" id="k8u-mp-ieY"/>
+                            <constraint firstItem="Vxo-ur-QJh" firstAttribute="top" secondItem="lN5-Nm-f6M" secondAttribute="bottom" constant="24" id="qnx-cv-D9F"/>
+                            <constraint firstItem="Vxo-ur-QJh" firstAttribute="leading" secondItem="Nft-mL-Jwc" secondAttribute="leadingMargin" id="tNx-47-jfl"/>
+                            <constraint firstItem="lN5-Nm-f6M" firstAttribute="top" secondItem="yL3-uS-zBD" secondAttribute="bottom" constant="8" id="thM-bd-X1Z"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Immunization" id="LGn-FR-gCZ"/>
@@ -9760,11 +9758,11 @@ Classify HIV status</string>
                         <viewControllerLayoutGuide type="bottom" id="Pfy-a8-lky"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jmb-AZ-Jp6">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="1350"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GYJ-cO-7na">
-                                <rect key="frame" x="0.0" y="58" width="600" height="1233"/>
+                                <rect key="frame" x="0.0" y="58" width="600" height="1283"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdN-kr-5vo">
                                         <rect key="frame" x="8" y="33" width="584" height="37"/>
@@ -9921,7 +9919,7 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rz2-Pr-Lex">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rz2-Pr-Lex">
                                         <rect key="frame" x="20" y="910" width="560" height="110"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="110" id="5Yv-8J-F29"/>
@@ -10025,7 +10023,7 @@ If child has no severe classification:
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="y1A-Mc-El6"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="1350"/>
+                    <size key="freeformSize" width="600" height="1400"/>
                     <connections>
                         <outlet property="scroller" destination="GYJ-cO-7na" id="m66-PT-OuO"/>
                     </connections>
@@ -10046,25 +10044,31 @@ If child has no severe classification:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="1550"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tks-QO-yOC">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tks-QO-yOC">
                                 <rect key="frame" x="0.0" y="64" width="600" height="1429"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Classify Fever: High Risk Malaria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2d-o2-ti7">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classify Fever: High Risk Malaria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N2d-o2-ti7">
+                                        <rect key="frame" x="8" y="0.0" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="hHi-Eu-o9E"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Very Severe Febrile Disease" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDi-Hk-SHl">
-                                        <rect key="frame" x="0.0" y="33" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Severe Febrile Disease" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDi-Hk-SHl">
+                                        <rect key="frame" x="8" y="33" width="584" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgt-s5-bZH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgt-s5-bZH">
                                         <rect key="frame" x="20" y="71" width="560" height="88"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="88" id="cMj-aa-e6M"/>
+                                        </constraints>
                                         <string key="text">	• Give first dose of Artesunate for severe malaria
 	• Give first dose of Chloramphenicol
 	• Treat the child to prevent low blood sugar
@@ -10074,7 +10078,7 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zd-Xz-mCC">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zd-Xz-mCC">
                                         <rect key="frame" x="20" y="202" width="560" height="96"/>
                                         <string key="text">	• Give Artemether + Lumefantrine (AL).
 	• Give one dose of paracetamol in clinic for high fever (≥38.5˚C)
@@ -10086,21 +10090,27 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeV-vO-goT">
-                                        <rect key="frame" x="0.0" y="161" width="600" height="38"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeV-vO-goT">
+                                        <rect key="frame" x="8" y="161" width="584" height="38"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="mJJ-oR-tgs"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Fever: No Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BzX-2H-26c">
-                                        <rect key="frame" x="0.0" y="291" width="600" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fever: No Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BzX-2H-26c">
+                                        <rect key="frame" x="8" y="291" width="584" height="32"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="hIN-Wd-8RB"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOi-Iw-rzB">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOi-Iw-rzB">
                                         <rect key="frame" x="20" y="331" width="560" height="82"/>
                                         <string key="text">	• Give one dose of paracetamol in clinic for high fever (≥38.5˚C)
 	• Assess for other possible causes of fever
@@ -10111,22 +10121,31 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Classify Fever: Low Risk Malaria &amp; No Malaria Risk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBM-p7-1C6">
-                                        <rect key="frame" x="0.0" y="403" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classify Fever: Low Risk Malaria &amp; No Malaria Risk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBM-p7-1C6">
+                                        <rect key="frame" x="8" y="403" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="CkY-sF-gY7"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Very Severe Febrile Disease" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvy-QY-3SZ">
-                                        <rect key="frame" x="0.0" y="437" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Severe Febrile Disease" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvy-QY-3SZ">
+                                        <rect key="frame" x="8" y="437" width="584" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="2tO-vg-4LA"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTd-VQ-yvc">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTd-VQ-yvc">
                                         <rect key="frame" x="20" y="474" width="560" height="104"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="104" id="Ltz-uQ-Ycr"/>
+                                        </constraints>
                                         <string key="text">	• Give first dose of Artesunate for severe malaria
 	• Give first dose of Chloramphenicol
 	• Treat the child to prevent low blood sugar
@@ -10137,14 +10156,17 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgk-nS-WY2">
-                                        <rect key="frame" x="0.0" y="580" width="600" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgk-nS-WY2">
+                                        <rect key="frame" x="8" y="580" width="584" height="40"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="6gc-FQ-aeZ"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDU-hn-gmQ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDU-hn-gmQ">
                                         <rect key="frame" x="20" y="622" width="560" height="117"/>
                                         <string key="text">	• Give Artemether + Lumefantrine (AL).
 	• Give one dose of paracetamol in clinic for high fever (≥38.5˚C)
@@ -10156,8 +10178,11 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOX-g3-kAd">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOX-g3-kAd">
                                         <rect key="frame" x="20" y="783" width="560" height="67"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="67" id="Edf-sW-fSe"/>
+                                        </constraints>
                                         <string key="text">	• Give one dose of paracetamol in clinic for high fever (≥38.5˚C)
 	• Assess for other possible causes of fever
 	• Check for HIV infection.
@@ -10166,28 +10191,34 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fever: No Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bF-O0-k2c">
-                                        <rect key="frame" x="0.0" y="737" width="600" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fever: No Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bF-O0-k2c">
+                                        <rect key="frame" x="8" y="737" width="584" height="32"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="Be4-uL-4gZ"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Classify Measles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLD-hN-T6l">
-                                        <rect key="frame" x="0.0" y="853" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classify Measles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLD-hN-T6l">
+                                        <rect key="frame" x="8" y="853" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="Uoe-ER-5S0"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Suspected Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebU-5Z-tFT">
-                                        <rect key="frame" x="0.0" y="886" width="600" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suspected Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebU-5Z-tFT">
+                                        <rect key="frame" x="8" y="886" width="584" height="40"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2DN-g7-itH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2DN-g7-itH">
                                         <rect key="frame" x="20" y="927" width="560" height="63"/>
                                         <string key="text">	• Give vitamin A
 	• Notify, take blood sample the to return.
@@ -10197,21 +10228,24 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Measles Now or Within Last 3 Months" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fC-Gh-ybG">
-                                        <rect key="frame" x="0.0" y="980" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Measles Now or Within Last 3 Months" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fC-Gh-ybG">
+                                        <rect key="frame" x="8" y="980" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Severe Complications of Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="073-Eo-tLg">
-                                        <rect key="frame" x="0.0" y="1014" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Complications of Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="073-Eo-tLg">
+                                        <rect key="frame" x="8" y="1014" width="584" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="iQu-kw-own"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDl-mb-WCA">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDl-mb-WCA">
                                         <rect key="frame" x="20" y="1051" width="560" height="77"/>
                                         <string key="text">	• Give vitamin A
 	• Give first dose of Chloramphenicol
@@ -10221,14 +10255,17 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eye or Mouth Complications of Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcp-PC-Syj">
-                                        <rect key="frame" x="0.0" y="1123" width="600" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eye or Mouth Complications of Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcp-PC-Syj">
+                                        <rect key="frame" x="8" y="1123" width="584" height="40"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="dJE-xh-Y3C"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBe-kG-Vhp">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBe-kG-Vhp">
                                         <rect key="frame" x="20" y="1168" width="560" height="107"/>
                                         <string key="text">	• Give vitamin A
 	• If pus draining form the eye, treat eye infection with tetracycline eye ointment
@@ -10239,15 +10276,21 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Eye or Mouth Complications of Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5h-sM-OvD">
-                                        <rect key="frame" x="0.0" y="1273" width="600" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Eye or Mouth Complications of Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5h-sM-OvD">
+                                        <rect key="frame" x="8" y="1273" width="584" height="32"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="Tlh-no-sG2"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KR0-z7-Jpo">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KR0-z7-Jpo">
                                         <rect key="frame" x="20" y="1304" width="560" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="vzf-vl-u0k"/>
+                                        </constraints>
                                         <string key="text">	• Give vitamin A if not received in the last 1 month
 	• If child has no indication for referral, draw blood and send for confirmation.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -10256,12 +10299,121 @@ If child has no severe classification:
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="OeV-vO-goT" firstAttribute="height" secondItem="JDi-Hk-SHl" secondAttribute="height" id="Bcw-FG-Zqo"/>
-                                    <constraint firstItem="BzX-2H-26c" firstAttribute="height" secondItem="OeV-vO-goT" secondAttribute="height" id="qzS-VH-Iny"/>
+                                    <constraint firstAttribute="trailing" secondItem="vOX-g3-kAd" secondAttribute="trailing" constant="20" id="0Qj-aw-oMO"/>
+                                    <constraint firstAttribute="trailing" secondItem="JDi-Hk-SHl" secondAttribute="trailing" constant="8" id="0aP-y2-Q7H"/>
+                                    <constraint firstItem="vOX-g3-kAd" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="0nb-r5-5rB"/>
+                                    <constraint firstItem="KR0-z7-Jpo" firstAttribute="top" secondItem="NBe-kG-Vhp" secondAttribute="bottom" constant="29" id="1Sg-fk-dya"/>
+                                    <constraint firstItem="N2d-o2-ti7" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="1f2-zr-cDd"/>
+                                    <constraint firstItem="1fC-Gh-ybG" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="24h-iH-6PV"/>
+                                    <constraint firstAttribute="trailing" secondItem="KR0-z7-Jpo" secondAttribute="trailing" constant="20" id="2Xd-lm-07f"/>
+                                    <constraint firstItem="BzX-2H-26c" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="2qP-vo-fzt"/>
+                                    <constraint firstItem="BzX-2H-26c" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="3Du-Jl-Pgp"/>
+                                    <constraint firstAttribute="bottom" secondItem="d5h-sM-OvD" secondAttribute="bottom" constant="60" id="4Zt-bC-59m"/>
+                                    <constraint firstItem="NBe-kG-Vhp" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="54E-zK-kze"/>
+                                    <constraint firstItem="073-Eo-tLg" firstAttribute="top" secondItem="1fC-Gh-ybG" secondAttribute="bottom" id="5qi-4o-Msj"/>
+                                    <constraint firstItem="JDi-Hk-SHl" firstAttribute="top" secondItem="Tks-QO-yOC" secondAttribute="top" constant="33" id="6Jy-h6-fny"/>
+                                    <constraint firstItem="0Zd-Xz-mCC" firstAttribute="top" secondItem="OeV-vO-goT" secondAttribute="bottom" constant="3" id="6Nn-5s-cET"/>
+                                    <constraint firstAttribute="trailing" secondItem="2DN-g7-itH" secondAttribute="trailing" constant="20" id="6QA-5i-OU0"/>
+                                    <constraint firstItem="NBe-kG-Vhp" firstAttribute="top" secondItem="RDl-mb-WCA" secondAttribute="bottom" constant="40" id="6Uf-k6-tTG"/>
+                                    <constraint firstItem="hcp-PC-Syj" firstAttribute="top" secondItem="073-Eo-tLg" secondAttribute="bottom" constant="72" id="71p-Wt-YiR"/>
+                                    <constraint firstAttribute="trailing" secondItem="yDU-hn-gmQ" secondAttribute="trailing" constant="20" id="7CH-rV-gVr"/>
+                                    <constraint firstItem="Wvy-QY-3SZ" firstAttribute="top" secondItem="nBM-p7-1C6" secondAttribute="bottom" id="9pA-KO-kMw"/>
+                                    <constraint firstAttribute="trailing" secondItem="1fC-Gh-ybG" secondAttribute="trailing" constant="8" id="AK2-u4-bqo"/>
+                                    <constraint firstAttribute="trailing" secondItem="SOi-Iw-rzB" secondAttribute="trailing" constant="20" id="Ave-ob-cMY"/>
+                                    <constraint firstItem="JDi-Hk-SHl" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="CIz-Mm-PyN"/>
+                                    <constraint firstAttribute="trailing" secondItem="0Zd-Xz-mCC" secondAttribute="trailing" constant="20" id="CiQ-QP-B9U"/>
+                                    <constraint firstItem="1fC-Gh-ybG" firstAttribute="top" secondItem="ebU-5Z-tFT" secondAttribute="bottom" constant="54" id="D53-kr-KVL"/>
+                                    <constraint firstItem="Wvy-QY-3SZ" firstAttribute="top" secondItem="SOi-Iw-rzB" secondAttribute="bottom" constant="24" id="DJj-Fy-hHQ"/>
+                                    <constraint firstItem="yDU-hn-gmQ" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="20" id="EhX-XV-Yiz"/>
+                                    <constraint firstItem="bLD-hN-T6l" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="FRi-fr-lJd"/>
+                                    <constraint firstItem="ebU-5Z-tFT" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="FaG-P3-vYa"/>
+                                    <constraint firstItem="ebU-5Z-tFT" firstAttribute="top" secondItem="vOX-g3-kAd" secondAttribute="bottom" constant="36" id="Fgz-aV-g9N"/>
+                                    <constraint firstAttribute="trailing" secondItem="NBe-kG-Vhp" secondAttribute="trailing" constant="20" id="G3x-pj-sLh"/>
+                                    <constraint firstItem="bLD-hN-T6l" firstAttribute="top" secondItem="vOX-g3-kAd" secondAttribute="bottom" constant="3" id="GYr-Bs-r7l"/>
+                                    <constraint firstItem="0bF-O0-k2c" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="GrD-34-OUv"/>
+                                    <constraint firstItem="OeV-vO-goT" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="HPE-0I-B1M"/>
+                                    <constraint firstItem="N2d-o2-ti7" firstAttribute="top" secondItem="Tks-QO-yOC" secondAttribute="top" id="HQs-uw-BIE"/>
+                                    <constraint firstItem="RDl-mb-WCA" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="IEK-FO-mvl"/>
+                                    <constraint firstAttribute="trailing" secondItem="BzX-2H-26c" secondAttribute="trailing" constant="8" id="Icg-fW-hH1"/>
+                                    <constraint firstItem="jgk-nS-WY2" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="Inv-RV-YEl"/>
+                                    <constraint firstItem="hcp-PC-Syj" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="Jcd-tv-BcW"/>
+                                    <constraint firstItem="nBM-p7-1C6" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="Jgp-Z1-g7J"/>
+                                    <constraint firstItem="Wvy-QY-3SZ" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="KVO-Ay-psw"/>
+                                    <constraint firstAttribute="trailing" secondItem="073-Eo-tLg" secondAttribute="trailing" constant="8" id="Kbs-v4-2u9"/>
+                                    <constraint firstItem="hcp-PC-Syj" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="Khr-r8-6Ht"/>
+                                    <constraint firstAttribute="trailing" secondItem="jgk-nS-WY2" secondAttribute="trailing" constant="8" id="M6Q-Og-1rf"/>
+                                    <constraint firstItem="nBM-p7-1C6" firstAttribute="top" secondItem="BzX-2H-26c" secondAttribute="bottom" constant="80" id="MgO-8L-tIK"/>
+                                    <constraint firstItem="jgk-nS-WY2" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="PQd-yA-2cb"/>
+                                    <constraint firstItem="OeV-vO-goT" firstAttribute="top" secondItem="rgt-s5-bZH" secondAttribute="bottom" constant="2" id="Q2x-fq-oMV"/>
+                                    <constraint firstItem="SOi-Iw-rzB" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="QC3-rc-G5e"/>
+                                    <constraint firstItem="NBe-kG-Vhp" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="20" id="SDe-jK-aH8"/>
+                                    <constraint firstItem="OTd-VQ-yvc" firstAttribute="top" secondItem="Wvy-QY-3SZ" secondAttribute="bottom" id="SoO-lL-CIx"/>
+                                    <constraint firstItem="rgt-s5-bZH" firstAttribute="top" secondItem="N2d-o2-ti7" secondAttribute="bottom" constant="37" id="U1g-0X-bI3"/>
+                                    <constraint firstAttribute="trailing" secondItem="rgt-s5-bZH" secondAttribute="trailing" constant="20" id="UAj-cp-VRi"/>
+                                    <constraint firstItem="bLD-hN-T6l" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="V2F-G9-Qtm"/>
+                                    <constraint firstItem="SOi-Iw-rzB" firstAttribute="top" secondItem="BzX-2H-26c" secondAttribute="bottom" constant="8" id="VWs-of-T9l"/>
+                                    <constraint firstItem="SOi-Iw-rzB" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="20" id="Wfk-j2-d0M"/>
+                                    <constraint firstAttribute="trailing" secondItem="OeV-vO-goT" secondAttribute="trailing" constant="8" id="XYo-z8-cJY"/>
+                                    <constraint firstItem="OTd-VQ-yvc" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="20" id="XbF-0K-TOH"/>
+                                    <constraint firstItem="d5h-sM-OvD" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="YQv-j8-qEe"/>
+                                    <constraint firstItem="rgt-s5-bZH" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="ZVz-QP-KnH"/>
+                                    <constraint firstItem="KR0-z7-Jpo" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="Zq4-EM-5Dv"/>
+                                    <constraint firstItem="JDi-Hk-SHl" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="aDU-7v-JTp"/>
+                                    <constraint firstItem="2DN-g7-itH" firstAttribute="top" secondItem="bLD-hN-T6l" secondAttribute="bottom" constant="40" id="am0-Fq-azG"/>
+                                    <constraint firstItem="OeV-vO-goT" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="bTa-e9-1lZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="OTd-VQ-yvc" secondAttribute="trailing" constant="20" id="cOC-Qb-fZQ"/>
+                                    <constraint firstItem="NBe-kG-Vhp" firstAttribute="top" secondItem="hcp-PC-Syj" secondAttribute="bottom" constant="5" id="cVA-T1-0nA"/>
+                                    <constraint firstAttribute="trailing" secondItem="hcp-PC-Syj" secondAttribute="trailing" constant="8" id="cnh-7R-VJx"/>
+                                    <constraint firstItem="d5h-sM-OvD" firstAttribute="top" secondItem="hcp-PC-Syj" secondAttribute="bottom" constant="110" id="cyN-ec-gJo"/>
+                                    <constraint firstAttribute="trailing" secondItem="d5h-sM-OvD" secondAttribute="trailing" constant="8" id="drP-Ay-pHU"/>
+                                    <constraint firstItem="073-Eo-tLg" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="esE-il-P1o"/>
+                                    <constraint firstItem="0Zd-Xz-mCC" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="f7Z-GN-8Mb"/>
+                                    <constraint firstItem="073-Eo-tLg" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="fK6-Nb-g5K"/>
+                                    <constraint firstItem="2DN-g7-itH" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="20" id="fNj-Dt-F43"/>
+                                    <constraint firstItem="0Zd-Xz-mCC" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="20" id="h7m-0q-dvT"/>
+                                    <constraint firstItem="d5h-sM-OvD" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="hLu-vF-YUH"/>
+                                    <constraint firstItem="RDl-mb-WCA" firstAttribute="top" secondItem="073-Eo-tLg" secondAttribute="bottom" id="ht6-hc-2zN"/>
+                                    <constraint firstItem="RDl-mb-WCA" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="20" id="iXD-rj-HSL"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wvy-QY-3SZ" secondAttribute="trailing" constant="8" id="iXe-NU-ogN"/>
+                                    <constraint firstItem="SOi-Iw-rzB" firstAttribute="top" secondItem="0Zd-Xz-mCC" secondAttribute="bottom" constant="33" id="ire-AC-x9S"/>
+                                    <constraint firstItem="jgk-nS-WY2" firstAttribute="top" secondItem="OTd-VQ-yvc" secondAttribute="bottom" constant="2" id="jNt-0I-0qv"/>
+                                    <constraint firstItem="Wvy-QY-3SZ" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="jTr-qB-tkc"/>
+                                    <constraint firstAttribute="trailing" secondItem="bLD-hN-T6l" secondAttribute="trailing" constant="8" id="jVp-s8-ZDn"/>
+                                    <constraint firstItem="OTd-VQ-yvc" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="jeL-qA-rXO"/>
+                                    <constraint firstItem="N2d-o2-ti7" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="jhC-Ln-j0b"/>
+                                    <constraint firstItem="KR0-z7-Jpo" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="20" id="k5i-WS-cvi"/>
+                                    <constraint firstItem="073-Eo-tLg" firstAttribute="top" secondItem="2DN-g7-itH" secondAttribute="bottom" constant="24" id="kCa-kg-ZFC"/>
+                                    <constraint firstItem="nBM-p7-1C6" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="kDP-JA-fYX"/>
+                                    <constraint firstAttribute="trailing" secondItem="0bF-O0-k2c" secondAttribute="trailing" constant="8" id="krb-IB-mIC"/>
+                                    <constraint firstItem="BzX-2H-26c" firstAttribute="top" secondItem="OeV-vO-goT" secondAttribute="bottom" constant="92" id="l6E-dA-5gT"/>
+                                    <constraint firstItem="ebU-5Z-tFT" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="8" id="lLa-uM-Qih"/>
+                                    <constraint firstItem="rgt-s5-bZH" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="20" id="mHy-5E-4UL"/>
+                                    <constraint firstAttribute="trailing" secondItem="RDl-mb-WCA" secondAttribute="trailing" constant="20" id="mXE-n0-YoI"/>
+                                    <constraint firstItem="yDU-hn-gmQ" firstAttribute="top" secondItem="jgk-nS-WY2" secondAttribute="bottom" constant="2" id="n8S-ej-Vvb"/>
+                                    <constraint firstItem="vOX-g3-kAd" firstAttribute="top" secondItem="yDU-hn-gmQ" secondAttribute="bottom" constant="44" id="n8e-Ex-vEb"/>
+                                    <constraint firstItem="vOX-g3-kAd" firstAttribute="top" secondItem="0bF-O0-k2c" secondAttribute="bottom" constant="14" id="o3f-kO-Zuy"/>
+                                    <constraint firstAttribute="trailing" secondItem="nBM-p7-1C6" secondAttribute="trailing" constant="8" id="p2u-pi-v31"/>
+                                    <constraint firstItem="2DN-g7-itH" firstAttribute="top" secondItem="ebU-5Z-tFT" secondAttribute="bottom" constant="1" id="p5m-5m-mQq"/>
+                                    <constraint firstAttribute="trailing" secondItem="N2d-o2-ti7" secondAttribute="trailing" constant="8" id="p85-GU-6QS"/>
+                                    <constraint firstItem="0bF-O0-k2c" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="q0q-21-qQ3"/>
+                                    <constraint firstItem="1fC-Gh-ybG" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="s9O-A9-hKr"/>
+                                    <constraint firstItem="rgt-s5-bZH" firstAttribute="top" secondItem="JDi-Hk-SHl" secondAttribute="bottom" constant="1" id="thJ-9p-vYu"/>
+                                    <constraint firstItem="0bF-O0-k2c" firstAttribute="top" secondItem="jgk-nS-WY2" secondAttribute="bottom" constant="117" id="vAa-9S-LG0"/>
+                                    <constraint firstItem="yDU-hn-gmQ" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="vHN-tO-Bjv"/>
+                                    <constraint firstItem="2DN-g7-itH" firstAttribute="centerX" secondItem="Tks-QO-yOC" secondAttribute="centerX" id="xEJ-DN-jj9"/>
+                                    <constraint firstAttribute="bottom" secondItem="KR0-z7-Jpo" secondAttribute="bottom" constant="15" id="xvX-MK-3kL"/>
+                                    <constraint firstItem="vOX-g3-kAd" firstAttribute="leading" secondItem="Tks-QO-yOC" secondAttribute="leading" constant="20" id="yE5-HS-HuA"/>
+                                    <constraint firstAttribute="trailing" secondItem="ebU-5Z-tFT" secondAttribute="trailing" constant="8" id="ykj-Oa-QEL"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="8dK-AK-ZpN" firstAttribute="top" secondItem="Tks-QO-yOC" secondAttribute="bottom" constant="8" symbolic="YES" id="5U4-ZD-U7x"/>
+                            <constraint firstAttribute="trailing" secondItem="Tks-QO-yOC" secondAttribute="trailing" id="d5j-pp-LW2"/>
+                            <constraint firstItem="Tks-QO-yOC" firstAttribute="top" secondItem="lPc-40-BaE" secondAttribute="bottom" id="hnt-4J-Vwk"/>
+                            <constraint firstItem="Tks-QO-yOC" firstAttribute="leading" secondItem="bPQ-xT-D9x" secondAttribute="leading" id="z7c-ey-svj"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="5JG-DG-hjP"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -10318,7 +10470,7 @@ If child has no severe classification:
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kyp-l9-1M8">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kyp-l9-1M8">
                                         <rect key="frame" x="0.0" y="32" width="600" height="110"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">For all children:
@@ -10341,7 +10493,7 @@ FOR CHILDREN 6 MONTHS UP TO 59 MONTHS: MUAC &lt; 11.5 cm</string>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6R-kj-9Gt">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6R-kj-9Gt">
                                         <rect key="frame" x="0.0" y="176" width="600" height="80"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	For all age groups:
@@ -10362,7 +10514,7 @@ IF AGE 6 MONTHS UP TO 59 MONTHS MUAC 11.5 TO 12.5 cm</string>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqn-oT-JFU">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqn-oT-JFU">
                                         <rect key="frame" x="0.0" y="294" width="600" height="87"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">For all age groups:
@@ -10383,7 +10535,7 @@ IF AGE 6 MONTHS UP TO 59 MONTHS MUAC 11.5 TO 12.5 cm</string>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwe-1a-qu2">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwe-1a-qu2">
                                         <rect key="frame" x="0.0" y="415" width="600" height="31"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• weight -1 to +2</string>
@@ -10417,8 +10569,8 @@ IF AGE 6 MONTHS UP TO 59 MONTHS MUAC 11.5 TO 12.5 cm</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tol-FI-HM2">
-                                <rect key="frame" x="20" y="72" width="560" height="348"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tol-FI-HM2">
+                                <rect key="frame" x="20" y="72" width="560" height="326"/>
                                 <string key="text">ASK:  Is there history of TB contact?
 LOOK, LISTEN, FEEL
 • Take the child’s weight and plot it against mother/child health booklet to determine the z-score
@@ -10444,7 +10596,6 @@ Determine Z score for the same:
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="bPK-y8-Npa" firstAttribute="top" secondItem="Tol-FI-HM2" secondAttribute="bottom" constant="381" id="C6C-TS-Cnp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Tol-FI-HM2" secondAttribute="trailing" id="Pqm-rE-tT2"/>
                             <constraint firstItem="Tol-FI-HM2" firstAttribute="centerX" secondItem="KaI-I9-JSU" secondAttribute="centerX" id="R1e-o9-Us5"/>
                             <constraint firstItem="Tol-FI-HM2" firstAttribute="top" secondItem="5i6-PL-gIR" secondAttribute="bottom" constant="8" symbolic="YES" id="uSX-Ev-Q6f"/>
@@ -10482,7 +10633,7 @@ Determine Z score for the same:
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFV-so-c3f">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFV-so-c3f">
                                         <rect key="frame" x="0.0" y="32" width="600" height="110"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• Give vitamin A
@@ -10504,7 +10655,7 @@ Determine Z score for the same:
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqQ-gD-lyG">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqQ-gD-lyG">
                                         <rect key="frame" x="0.0" y="176" width="600" height="146"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• Assess the child’s feeding and counsel the mother on feeding
@@ -10528,7 +10679,7 @@ Determine Z score for the same:
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxq-Wx-ZXm">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxq-Wx-ZXm">
                                         <rect key="frame" x="0.0" y="360" width="600" height="141"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• If child is less than 2 years old, and has growth faltering, assess the child’s feeding and counsel the mother on feeding according to FOOD box on the COUNSEL THE MOTHER tab.
@@ -10552,7 +10703,7 @@ Determine Z score for the same:
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSz-PX-uHW">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSz-PX-uHW">
                                         <rect key="frame" x="0.0" y="534" width="600" height="84"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• Counsel the mother on feeding according to the FOOD  box on the COUNSEL THE MOTHER tab.
@@ -10567,6 +10718,9 @@ Determine Z score for the same:
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="1IR-25-ua9"/>
+                    <connections>
+                        <outlet property="scroller" destination="bIO-XC-qDp" id="nrX-Bf-BIg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dUt-uD-vii" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -10946,54 +11100,72 @@ if yes treat immediately</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="1250"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J59-P4-sSs">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J59-P4-sSs">
                                 <rect key="frame" x="0.0" y="64" width="600" height="1129"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Classify Fever: High Risk Malaria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvk-zF-vLQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classify Fever: High Risk Malaria" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvk-zF-vLQ">
+                                        <rect key="frame" x="8" y="0.0" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="R07-wf-bXo"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Very Severe Febrile Disease" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTw-l3-T87">
-                                        <rect key="frame" x="0.0" y="33" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Severe Febrile Disease" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTw-l3-T87">
+                                        <rect key="frame" x="8" y="33" width="584" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIK-hh-ryr">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIK-hh-ryr">
                                         <rect key="frame" x="20" y="71" width="560" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="zzZ-eN-h3v"/>
+                                        </constraints>
                                         <string key="text">	• Any general danger sign or.
 	• Stiff neck.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4Q-6u-cIx">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4Q-6u-cIx">
                                         <rect key="frame" x="20" y="167" width="560" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="9UD-B4-Qqn"/>
+                                        </constraints>
                                         <string key="text">	• Malaria test POSITIVE</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKD-ec-OAb">
-                                        <rect key="frame" x="0.0" y="127" width="600" height="38"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKD-ec-OAb">
+                                        <rect key="frame" x="8" y="127" width="584" height="38"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="5HM-ws-heC"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Fever: No Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4t-Jr-Qf3">
-                                        <rect key="frame" x="0.0" y="207" width="600" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fever: No Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4t-Jr-Qf3">
+                                        <rect key="frame" x="8" y="207" width="584" height="32"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="ng6-3h-1kU"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXE-Qc-xXv">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXE-Qc-xXv">
                                         <rect key="frame" x="20" y="247" width="560" height="73"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="73" id="6JK-sz-ReW"/>
+                                        </constraints>
                                         <string key="text">	• Malaria test NEGATIVE.
 	• Runny nose PRESENT.
 	• Measles PRESENT or.
@@ -11002,21 +11174,24 @@ if yes treat immediately</string>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Classify Fever: Low Risk Malaria &amp; No Malaria Risk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0CY-WO-hPO">
-                                        <rect key="frame" x="0.0" y="328" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classify Fever: Low Risk Malaria &amp; No Malaria Risk" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0CY-WO-hPO">
+                                        <rect key="frame" x="8" y="328" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="cWR-fL-kDr"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Very Severe Febrile Disease" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZN-Cc-E9O">
-                                        <rect key="frame" x="0.0" y="362" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Severe Febrile Disease" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZN-Cc-E9O">
+                                        <rect key="frame" x="8" y="361" width="584" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWp-q0-2R2">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWp-q0-2R2">
                                         <rect key="frame" x="20" y="399" width="560" height="47"/>
                                         <string key="text">	• Any general danger sign or.
 	• Stiff neck.
@@ -11025,64 +11200,82 @@ if yes treat immediately</string>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lnf-xY-P6C">
-                                        <rect key="frame" x="0.0" y="454" width="600" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lnf-xY-P6C">
+                                        <rect key="frame" x="8" y="454" width="584" height="40"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="VIB-nR-mIa"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v51-bp-HGx">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v51-bp-HGx">
                                         <rect key="frame" x="20" y="496" width="560" height="35"/>
                                         <string key="text">	• Malaria test POSITIVE</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fever: No Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJ4-jf-PdO">
-                                        <rect key="frame" x="0.0" y="530" width="600" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fever: No Malaria" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJ4-jf-PdO">
+                                        <rect key="frame" x="8" y="530" width="584" height="32"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="fI3-7j-RlQ"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Classify Measles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QJ-mk-XQT">
-                                        <rect key="frame" x="0.0" y="634" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classify Measles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QJ-mk-XQT">
+                                        <rect key="frame" x="8" y="634" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="l1H-xu-weF"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Suspected Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlW-oa-o2Q">
-                                        <rect key="frame" x="0.0" y="667" width="600" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suspected Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlW-oa-o2Q">
+                                        <rect key="frame" x="8" y="667" width="584" height="40"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8W5-oh-Ach">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8W5-oh-Ach">
                                         <rect key="frame" x="20" y="708" width="560" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="WBm-yG-AqP"/>
+                                        </constraints>
                                         <string key="text">	Generalised rash of measles and
 	• One of: cough, runny nose or red eyes.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Measles Now or Within Last 3 Months" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ov-qj-RLv">
-                                        <rect key="frame" x="0.0" y="751" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Measles Now or Within Last 3 Months" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ov-qj-RLv">
+                                        <rect key="frame" x="8" y="751" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="Qpp-AW-1HV"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Severe Complications of Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Or-qX-EBg">
-                                        <rect key="frame" x="0.0" y="785" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Complications of Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Or-qX-EBg">
+                                        <rect key="frame" x="8" y="785" width="584" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="glN-bF-qo5"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ZF-3m-MIy">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ZF-3m-MIy">
                                         <rect key="frame" x="20" y="822" width="560" height="47"/>
                                         <string key="text">	• Any general danger sign or.
 	• Stiff neck.
@@ -11091,28 +11284,34 @@ if yes treat immediately</string>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eye or Mouth Complications of Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vf3-b7-sAa">
-                                        <rect key="frame" x="0.0" y="877" width="600" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eye or Mouth Complications of Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vf3-b7-sAa">
+                                        <rect key="frame" x="8" y="877" width="584" height="40"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="8DU-wd-mSZ"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycK-Gg-dwz">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycK-Gg-dwz">
                                         <rect key="frame" x="20" y="1008" width="560" height="39"/>
                                         <string key="text">	• No pus draining from the eyes or mouth ulcers.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Eye or Mouth Complications of Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4s-MZ-IV3">
-                                        <rect key="frame" x="0.0" y="977" width="600" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Eye or Mouth Complications of Measles" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4s-MZ-IV3">
+                                        <rect key="frame" x="8" y="977" width="584" height="32"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="Nnp-ci-23r"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Miv-65-eHo">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Miv-65-eHo">
                                         <rect key="frame" x="20" y="922" width="560" height="47"/>
                                         <string key="text">	• Pus draining from the eye or.
 	• Mouth ulcers
@@ -11121,8 +11320,11 @@ if yes treat immediately</string>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ng-5n-Xv7">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ng-5n-Xv7">
                                         <rect key="frame" x="20" y="562" width="560" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="bBp-G7-h24"/>
+                                        </constraints>
                                         <string key="text">	• No general danger sign or. 
 	• No stiff neck.
 	• Malaria test negative
@@ -11133,12 +11335,118 @@ if yes treat immediately</string>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="J4t-Jr-Qf3" firstAttribute="height" secondItem="rKD-ec-OAb" secondAttribute="height" id="Hld-31-d1D"/>
-                                    <constraint firstItem="rKD-ec-OAb" firstAttribute="height" secondItem="dTw-l3-T87" secondAttribute="height" id="c0j-IH-x5V"/>
+                                    <constraint firstItem="8QJ-mk-XQT" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="0Zv-FA-Y5z"/>
+                                    <constraint firstItem="rKD-ec-OAb" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="1gb-ZG-vsR"/>
+                                    <constraint firstItem="0CY-WO-hPO" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="25s-HK-awH"/>
+                                    <constraint firstAttribute="trailing" secondItem="dlW-oa-o2Q" secondAttribute="trailing" constant="8" id="25t-bN-cgl"/>
+                                    <constraint firstItem="dlW-oa-o2Q" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="2Pc-hx-Hdi"/>
+                                    <constraint firstItem="8QJ-mk-XQT" firstAttribute="top" secondItem="2Ng-5n-Xv7" secondAttribute="bottom" constant="8" id="2dQ-zv-6tV"/>
+                                    <constraint firstItem="v51-bp-HGx" firstAttribute="top" secondItem="Lnf-xY-P6C" secondAttribute="bottom" constant="2" id="3GM-8N-t4g"/>
+                                    <constraint firstAttribute="trailing" secondItem="4ZF-3m-MIy" secondAttribute="trailing" constant="20" id="3hf-Fa-bjz"/>
+                                    <constraint firstItem="8W5-oh-Ach" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="42h-nm-5ou"/>
+                                    <constraint firstItem="Lnf-xY-P6C" firstAttribute="top" secondItem="VWp-q0-2R2" secondAttribute="bottom" constant="8" id="7HI-ED-cOz"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vf3-b7-sAa" secondAttribute="trailing" constant="8" id="7Ts-Hu-pbZ"/>
+                                    <constraint firstItem="8W5-oh-Ach" firstAttribute="top" secondItem="8QJ-mk-XQT" secondAttribute="bottom" constant="40" id="8BH-Tx-2zK"/>
+                                    <constraint firstItem="U4Q-6u-cIx" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="8Q2-1o-e7n"/>
+                                    <constraint firstAttribute="trailing" secondItem="8W5-oh-Ach" secondAttribute="trailing" constant="20" id="8TC-W6-SnL"/>
+                                    <constraint firstItem="ycK-Gg-dwz" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="8jw-Mr-gTo"/>
+                                    <constraint firstAttribute="trailing" secondItem="gJ4-jf-PdO" secondAttribute="trailing" constant="8" id="8tc-3c-Efl"/>
+                                    <constraint firstItem="Fvk-zF-vLQ" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="9dN-am-Wmj"/>
+                                    <constraint firstAttribute="bottom" secondItem="ycK-Gg-dwz" secondAttribute="bottom" constant="18" id="9tH-Xy-uoP"/>
+                                    <constraint firstAttribute="trailing" secondItem="8QJ-mk-XQT" secondAttribute="trailing" constant="8" id="A1X-cA-Lkr"/>
+                                    <constraint firstItem="7ov-qj-RLv" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="A3B-0a-7se"/>
+                                    <constraint firstItem="Fvk-zF-vLQ" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="A4s-mC-33c"/>
+                                    <constraint firstItem="IXE-Qc-xXv" firstAttribute="top" secondItem="J4t-Jr-Qf3" secondAttribute="bottom" constant="8" id="AEb-gx-Peh"/>
+                                    <constraint firstItem="xZN-Cc-E9O" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="AKH-2E-Jge"/>
+                                    <constraint firstItem="Miv-65-eHo" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="ASq-CA-wyx"/>
+                                    <constraint firstAttribute="trailing" secondItem="0CY-WO-hPO" secondAttribute="trailing" constant="8" id="B7L-NH-5J9"/>
+                                    <constraint firstItem="I4s-MZ-IV3" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="Co1-Vx-LcE"/>
+                                    <constraint firstItem="qIK-hh-ryr" firstAttribute="top" secondItem="Fvk-zF-vLQ" secondAttribute="bottom" constant="37" id="DJr-Mr-DY0"/>
+                                    <constraint firstItem="gJ4-jf-PdO" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="Ddw-QB-ZMX"/>
+                                    <constraint firstItem="Lnf-xY-P6C" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="F3i-pA-EGd"/>
+                                    <constraint firstItem="dTw-l3-T87" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="Gfg-un-QSU"/>
+                                    <constraint firstItem="Vf3-b7-sAa" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="Gi7-IG-zDQ"/>
+                                    <constraint firstItem="Lnf-xY-P6C" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="H9f-Wa-uPu"/>
+                                    <constraint firstItem="Vf3-b7-sAa" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="HL3-2z-cUU"/>
+                                    <constraint firstItem="qIK-hh-ryr" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="HPY-tq-ocP"/>
+                                    <constraint firstItem="2Ng-5n-Xv7" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="Hl2-SA-3Mn"/>
+                                    <constraint firstItem="2Ng-5n-Xv7" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="20" id="J8W-KL-oL0"/>
+                                    <constraint firstItem="J4t-Jr-Qf3" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="JHy-Bv-8ur"/>
+                                    <constraint firstItem="9Or-qX-EBg" firstAttribute="top" secondItem="7ov-qj-RLv" secondAttribute="bottom" id="JxZ-O6-Uzt"/>
+                                    <constraint firstItem="v51-bp-HGx" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="KNC-Ts-m7f"/>
+                                    <constraint firstAttribute="trailing" secondItem="7ov-qj-RLv" secondAttribute="trailing" constant="8" id="LBr-b7-WM9"/>
+                                    <constraint firstItem="gJ4-jf-PdO" firstAttribute="top" secondItem="Lnf-xY-P6C" secondAttribute="bottom" constant="36" id="LC4-fN-OY9"/>
+                                    <constraint firstItem="Fvk-zF-vLQ" firstAttribute="top" secondItem="J59-P4-sSs" secondAttribute="top" id="Lyo-nx-RAM"/>
+                                    <constraint firstItem="8W5-oh-Ach" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="20" id="MLH-EW-auX"/>
+                                    <constraint firstItem="J4t-Jr-Qf3" firstAttribute="top" secondItem="U4Q-6u-cIx" secondAttribute="bottom" constant="8" id="O1v-Xu-g6H"/>
+                                    <constraint firstItem="2Ng-5n-Xv7" firstAttribute="top" secondItem="v51-bp-HGx" secondAttribute="bottom" constant="31" id="PNm-WR-4Bx"/>
+                                    <constraint firstItem="Vf3-b7-sAa" firstAttribute="top" secondItem="4ZF-3m-MIy" secondAttribute="bottom" constant="8" id="Pzh-Kf-UPJ"/>
+                                    <constraint firstItem="rKD-ec-OAb" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="She-Gc-ylB"/>
+                                    <constraint firstItem="8QJ-mk-XQT" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="T6K-3d-LWx"/>
+                                    <constraint firstItem="dTw-l3-T87" firstAttribute="top" secondItem="J59-P4-sSs" secondAttribute="top" constant="33" id="Tdt-Fb-Poy"/>
+                                    <constraint firstItem="7ov-qj-RLv" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="V4Q-QX-JnH"/>
+                                    <constraint firstItem="gJ4-jf-PdO" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="Wih-Ba-bl9"/>
+                                    <constraint firstItem="Miv-65-eHo" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="20" id="XBP-HK-TEE"/>
+                                    <constraint firstAttribute="trailing" secondItem="IXE-Qc-xXv" secondAttribute="trailing" constant="20" id="YGF-4b-Mfq"/>
+                                    <constraint firstItem="I4s-MZ-IV3" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="bYj-y4-9kG"/>
+                                    <constraint firstItem="0CY-WO-hPO" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="bqU-ar-RWQ"/>
+                                    <constraint firstItem="VWp-q0-2R2" firstAttribute="top" secondItem="0CY-WO-hPO" secondAttribute="bottom" constant="37" id="clN-nB-o5f"/>
+                                    <constraint firstAttribute="trailing" secondItem="dTw-l3-T87" secondAttribute="trailing" constant="8" id="clS-Bq-9NK"/>
+                                    <constraint firstAttribute="trailing" secondItem="I4s-MZ-IV3" secondAttribute="trailing" constant="8" id="dCw-N9-Gza"/>
+                                    <constraint firstItem="dTw-l3-T87" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="dDR-am-zzV"/>
+                                    <constraint firstAttribute="trailing" secondItem="ycK-Gg-dwz" secondAttribute="trailing" constant="20" id="det-Ld-98C"/>
+                                    <constraint firstItem="9Or-qX-EBg" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="dme-Yu-EoQ"/>
+                                    <constraint firstItem="U4Q-6u-cIx" firstAttribute="top" secondItem="rKD-ec-OAb" secondAttribute="bottom" constant="2" id="eE6-YK-MTj"/>
+                                    <constraint firstItem="qIK-hh-ryr" firstAttribute="top" secondItem="dTw-l3-T87" secondAttribute="bottom" constant="1" id="eEh-6D-lFK"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fvk-zF-vLQ" secondAttribute="trailing" constant="8" id="f4Z-iM-g4y"/>
+                                    <constraint firstItem="IXE-Qc-xXv" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="20" id="fBg-m5-Nfs"/>
+                                    <constraint firstAttribute="trailing" secondItem="J4t-Jr-Qf3" secondAttribute="trailing" constant="8" id="g4h-km-x2u"/>
+                                    <constraint firstItem="dlW-oa-o2Q" firstAttribute="top" secondItem="2Ng-5n-Xv7" secondAttribute="bottom" constant="41" id="gE2-rX-XcJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Lnf-xY-P6C" secondAttribute="trailing" constant="8" id="gcu-NB-DZD"/>
+                                    <constraint firstItem="Miv-65-eHo" firstAttribute="top" secondItem="Vf3-b7-sAa" secondAttribute="bottom" constant="5" id="hJt-tW-AmO"/>
+                                    <constraint firstAttribute="trailing" secondItem="xZN-Cc-E9O" secondAttribute="trailing" constant="8" id="hQX-pr-usk"/>
+                                    <constraint firstItem="rKD-ec-OAb" firstAttribute="top" secondItem="qIK-hh-ryr" secondAttribute="bottom" constant="8" id="hiX-Qn-chO"/>
+                                    <constraint firstAttribute="trailing" secondItem="qIK-hh-ryr" secondAttribute="trailing" constant="20" id="hlD-16-eY5"/>
+                                    <constraint firstItem="8W5-oh-Ach" firstAttribute="top" secondItem="dlW-oa-o2Q" secondAttribute="bottom" constant="1" id="iXR-E4-Ff1"/>
+                                    <constraint firstItem="v51-bp-HGx" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="20" id="jgS-6p-Kue"/>
+                                    <constraint firstItem="xZN-Cc-E9O" firstAttribute="top" secondItem="IXE-Qc-xXv" secondAttribute="bottom" constant="41" id="jpi-pq-YPg"/>
+                                    <constraint firstItem="9Or-qX-EBg" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="jrd-ki-vvP"/>
+                                    <constraint firstAttribute="trailing" secondItem="Miv-65-eHo" secondAttribute="trailing" constant="20" id="kKD-gP-ynl"/>
+                                    <constraint firstItem="VWp-q0-2R2" firstAttribute="top" secondItem="xZN-Cc-E9O" secondAttribute="bottom" constant="1" id="kYm-lt-yg5"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Ng-5n-Xv7" secondAttribute="trailing" constant="20" id="m48-CP-0Sx"/>
+                                    <constraint firstAttribute="trailing" secondItem="v51-bp-HGx" secondAttribute="trailing" constant="20" id="mFL-5V-e8h"/>
+                                    <constraint firstAttribute="bottom" secondItem="I4s-MZ-IV3" secondAttribute="bottom" constant="56" id="mFv-96-Es6"/>
+                                    <constraint firstItem="4ZF-3m-MIy" firstAttribute="top" secondItem="9Or-qX-EBg" secondAttribute="bottom" id="nPR-TM-G4S"/>
+                                    <constraint firstItem="0CY-WO-hPO" firstAttribute="top" secondItem="IXE-Qc-xXv" secondAttribute="bottom" constant="8" id="nyA-69-Q2A"/>
+                                    <constraint firstItem="xZN-Cc-E9O" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="pcc-Wq-8qJ"/>
+                                    <constraint firstItem="4ZF-3m-MIy" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="qGv-ax-GLg"/>
+                                    <constraint firstItem="VWp-q0-2R2" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="20" id="qmE-sJ-YN3"/>
+                                    <constraint firstAttribute="trailing" secondItem="9Or-qX-EBg" secondAttribute="trailing" constant="8" id="qrf-w2-wqS"/>
+                                    <constraint firstItem="2Ng-5n-Xv7" firstAttribute="top" secondItem="gJ4-jf-PdO" secondAttribute="bottom" id="qvK-WE-CQh"/>
+                                    <constraint firstItem="J4t-Jr-Qf3" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="rR9-Yi-YuQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="VWp-q0-2R2" secondAttribute="trailing" constant="20" id="rVb-1c-nR2"/>
+                                    <constraint firstItem="VWp-q0-2R2" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="s6l-4J-NXV"/>
+                                    <constraint firstItem="ycK-Gg-dwz" firstAttribute="top" secondItem="Miv-65-eHo" secondAttribute="bottom" constant="39" id="sKI-6d-f0T"/>
+                                    <constraint firstItem="I4s-MZ-IV3" firstAttribute="top" secondItem="Miv-65-eHo" secondAttribute="bottom" constant="8" id="sdh-5L-bEE"/>
+                                    <constraint firstAttribute="trailing" secondItem="U4Q-6u-cIx" secondAttribute="trailing" constant="20" id="tdh-xy-k9w"/>
+                                    <constraint firstItem="qIK-hh-ryr" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="20" id="u9B-OY-JcV"/>
+                                    <constraint firstItem="IXE-Qc-xXv" firstAttribute="centerX" secondItem="J59-P4-sSs" secondAttribute="centerX" id="vHg-N7-fqu"/>
+                                    <constraint firstItem="ycK-Gg-dwz" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="20" id="wN3-3O-jho"/>
+                                    <constraint firstItem="7ov-qj-RLv" firstAttribute="top" secondItem="8W5-oh-Ach" secondAttribute="bottom" constant="8" id="wNF-J3-g4a"/>
+                                    <constraint firstItem="U4Q-6u-cIx" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="20" id="xsF-Na-sV7"/>
+                                    <constraint firstItem="dlW-oa-o2Q" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="8" id="y1C-XB-NgE"/>
+                                    <constraint firstAttribute="trailing" secondItem="rKD-ec-OAb" secondAttribute="trailing" constant="8" id="yB7-7N-er4"/>
+                                    <constraint firstItem="4ZF-3m-MIy" firstAttribute="leading" secondItem="J59-P4-sSs" secondAttribute="leading" constant="20" id="zLw-5p-Kaj"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="J59-P4-sSs" firstAttribute="leading" secondItem="gim-Yc-YtJ" secondAttribute="leading" id="Rxe-XR-60b"/>
+                            <constraint firstItem="weg-Xl-rmI" firstAttribute="top" secondItem="J59-P4-sSs" secondAttribute="bottom" constant="8" symbolic="YES" id="WS7-5B-u6M"/>
+                            <constraint firstItem="J59-P4-sSs" firstAttribute="top" secondItem="zGy-NZ-yMJ" secondAttribute="bottom" id="jWh-Pt-zfb"/>
+                            <constraint firstAttribute="trailing" secondItem="J59-P4-sSs" secondAttribute="trailing" id="pLx-tn-fba"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Classify" id="nt5-3W-t12"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -11166,8 +11474,8 @@ if yes treat immediately</string>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XX5-qH-ezp">
                                 <rect key="frame" x="20" y="72" width="560" height="721"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raz-0I-LSI">
-                                        <rect key="frame" x="0.0" y="8" width="560" height="575"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raz-0I-LSI">
+                                        <rect key="frame" x="0.0" y="72" width="560" height="575"/>
                                         <string key="text">(by history or feels hot or temperature 37.5°C* or above)
 
 Has the child travelled to a high risk Malaria area in the last one month?
@@ -11485,7 +11793,7 @@ Classify EAR PROBLEM</string>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AR-Bb-bF5">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AR-Bb-bF5">
                                         <rect key="frame" x="20" y="339" width="560" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="6tS-Dp-KrS"/>
