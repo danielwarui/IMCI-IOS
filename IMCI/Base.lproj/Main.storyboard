@@ -8792,7 +8792,7 @@ IF CHILD IS:
         <!--Identify Treatment-->
         <scene sceneID="tgp-IT-nkd">
             <objects>
-                <viewController id="XNC-zf-s2f" sceneMemberID="viewController">
+                <viewController id="XNC-zf-s2f" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fdC-7N-MUf"/>
                         <viewControllerLayoutGuide type="bottom" id="Uyf-lC-Xy9"/>
@@ -8801,36 +8801,48 @@ IF CHILD IS:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Severe Pneumonia or Very Severe Disease" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nD-vo-4hp">
-                                <rect key="frame" x="0.0" y="64" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pneumonia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOW-ea-kKa">
-                                <rect key="frame" x="0.0" y="181" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ybh-9Q-QUQ">
-                                <rect key="frame" x="0.0" y="98" width="600" height="83"/>
-                                <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">• Give first dose of Chloramphenicol
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lg9-B1-z7e">
+                                <rect key="frame" x="0.0" y="64" width="600" height="729"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Pneumonia or Very Severe Disease" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSb-yK-He7">
+                                        <rect key="frame" x="8" y="0.0" width="584" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="3hz-nz-0OR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pneumonia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJd-K6-oeg">
+                                        <rect key="frame" x="8" y="117" width="584" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="XH8-z5-jXs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UE3-7i-Ogj">
+                                        <rect key="frame" x="8" y="34" width="584" height="83"/>
+                                        <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="83" id="8bU-TP-hYb"/>
+                                        </constraints>
+                                        <string key="text">• Give first dose of Chloramphenicol
 • Treat for and to prevent low blood sugar
 • Keep the child warm
 • Treat wheeze if present
 • Admit or refer URGENTLY to hospital</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QpF-rz-zam">
-                                <rect key="frame" x="0.0" y="215" width="600" height="141"/>
-                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">• Give Cotrimoxazole for 5 days.
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m00-i6-HVK">
+                                        <rect key="frame" x="8" y="151" width="584" height="141"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">• Give Cotrimoxazole for 5 days.
 • Give Vitamin A.
 • Treat wheeze if present.
 • Soothe the throat and relieve the cough with a safe remedy.
@@ -8839,32 +8851,74 @@ IF CHILD IS:
 • Advise mother when to return immediately. 
 • Follow-up in 2 days.
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Pneumonia: Cold or Cough" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNu-j1-Z03">
-                                <rect key="frame" x="0.0" y="354" width="600" height="34"/>
-                                <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Am-P3-5Ev">
-                                <rect key="frame" x="0.0" y="388" width="600" height="108"/>
-                                <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">• If coughing for 14 days or more screen for TB or refer
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Pneumonia: Cold or Cough" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNH-Zd-Yby">
+                                        <rect key="frame" x="8" y="290" width="584" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="u2d-co-5dE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwg-OI-chn">
+                                        <rect key="frame" x="8" y="324" width="584" height="108"/>
+                                        <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="108" id="YgR-kj-J2h"/>
+                                        </constraints>
+                                        <string key="text">• If coughing for 14 days or more screen for TB or refer
 • Treat wheeze if present
 • Soother the throat and relieve the cough with a safe remedy
 • Advise the mother to return immediately.
 • Follow-up in 5 days if not improving.
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="hJd-K6-oeg" secondAttribute="trailing" constant="8" id="0UJ-hY-gql"/>
+                                    <constraint firstItem="uSb-yK-He7" firstAttribute="top" secondItem="Lg9-B1-z7e" secondAttribute="top" id="2ul-DU-8qB"/>
+                                    <constraint firstItem="UE3-7i-Ogj" firstAttribute="top" secondItem="uSb-yK-He7" secondAttribute="bottom" id="44n-xv-JPw"/>
+                                    <constraint firstItem="aNH-Zd-Yby" firstAttribute="centerX" secondItem="Lg9-B1-z7e" secondAttribute="centerX" id="Gq9-IM-K67"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mwg-OI-chn" secondAttribute="trailing" constant="8" id="HaE-Lv-YgN"/>
+                                    <constraint firstItem="uSb-yK-He7" firstAttribute="leading" secondItem="Lg9-B1-z7e" secondAttribute="leading" constant="8" id="KBK-LO-SWd"/>
+                                    <constraint firstItem="Mwg-OI-chn" firstAttribute="leading" secondItem="Lg9-B1-z7e" secondAttribute="leading" constant="8" id="KBo-Zb-d37"/>
+                                    <constraint firstItem="hJd-K6-oeg" firstAttribute="leading" secondItem="Lg9-B1-z7e" secondAttribute="leading" constant="8" id="Mor-bl-twT"/>
+                                    <constraint firstAttribute="trailing" secondItem="aNH-Zd-Yby" secondAttribute="trailing" constant="8" id="N94-Gc-VQd"/>
+                                    <constraint firstItem="hJd-K6-oeg" firstAttribute="top" secondItem="UE3-7i-Ogj" secondAttribute="bottom" id="OLo-fg-JdT"/>
+                                    <constraint firstItem="hJd-K6-oeg" firstAttribute="centerX" secondItem="Lg9-B1-z7e" secondAttribute="centerX" id="Oh4-vO-a1l"/>
+                                    <constraint firstAttribute="trailing" secondItem="uSb-yK-He7" secondAttribute="trailing" constant="8" id="Ohx-dp-xMz"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mwg-OI-chn" secondAttribute="bottom" constant="233" id="Oob-6z-Jkd"/>
+                                    <constraint firstAttribute="trailing" secondItem="UE3-7i-Ogj" secondAttribute="trailing" constant="8" id="WDj-1l-Myv"/>
+                                    <constraint firstItem="aNH-Zd-Yby" firstAttribute="top" secondItem="hJd-K6-oeg" secondAttribute="bottom" constant="139" id="XXo-Ts-1My"/>
+                                    <constraint firstItem="aNH-Zd-Yby" firstAttribute="leading" secondItem="Lg9-B1-z7e" secondAttribute="leading" constant="8" id="Xiw-Mf-i1f"/>
+                                    <constraint firstItem="uSb-yK-He7" firstAttribute="centerX" secondItem="Lg9-B1-z7e" secondAttribute="centerX" id="Xnf-O6-ucG"/>
+                                    <constraint firstItem="UE3-7i-Ogj" firstAttribute="centerX" secondItem="Lg9-B1-z7e" secondAttribute="centerX" id="Ye9-UV-BDR"/>
+                                    <constraint firstItem="Mwg-OI-chn" firstAttribute="top" secondItem="aNH-Zd-Yby" secondAttribute="bottom" id="aSQ-mX-heB"/>
+                                    <constraint firstAttribute="trailing" secondItem="m00-i6-HVK" secondAttribute="trailing" constant="8" id="dmf-aW-AHC"/>
+                                    <constraint firstItem="Mwg-OI-chn" firstAttribute="centerX" secondItem="Lg9-B1-z7e" secondAttribute="centerX" id="gS0-n0-kc3"/>
+                                    <constraint firstItem="UE3-7i-Ogj" firstAttribute="leading" secondItem="Lg9-B1-z7e" secondAttribute="leading" constant="8" id="hQr-ZF-a0S"/>
+                                    <constraint firstItem="m00-i6-HVK" firstAttribute="leading" secondItem="Lg9-B1-z7e" secondAttribute="leading" constant="8" id="hon-b4-9D8"/>
+                                    <constraint firstItem="m00-i6-HVK" firstAttribute="centerX" secondItem="Lg9-B1-z7e" secondAttribute="centerX" id="kcu-Os-yBw"/>
+                                    <constraint firstItem="m00-i6-HVK" firstAttribute="top" secondItem="hJd-K6-oeg" secondAttribute="bottom" id="xXb-Mu-9nW"/>
+                                    <constraint firstItem="Mwg-OI-chn" firstAttribute="top" secondItem="m00-i6-HVK" secondAttribute="bottom" constant="32" id="yUd-Pu-dg4"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Lg9-B1-z7e" secondAttribute="trailing" id="2L5-co-9uv"/>
+                            <constraint firstItem="Uyf-lC-Xy9" firstAttribute="top" secondItem="Lg9-B1-z7e" secondAttribute="bottom" constant="8" symbolic="YES" id="4Nb-Qc-Euw"/>
+                            <constraint firstItem="Lg9-B1-z7e" firstAttribute="leading" secondItem="piR-wa-zsU" secondAttribute="leading" id="OSE-YJ-cdn"/>
+                            <constraint firstItem="Lg9-B1-z7e" firstAttribute="top" secondItem="fdC-7N-MUf" secondAttribute="bottom" id="g74-WS-pt9"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="epQ-4n-R0o"/>
                 </viewController>
@@ -9709,25 +9763,21 @@ Classify HIV status</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="1350"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GYJ-cO-7na">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GYJ-cO-7na">
                                 <rect key="frame" x="0.0" y="58" width="600" height="1233"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="for dehydration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHR-lM-0FZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
-                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Severe Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdN-kr-5vo">
-                                        <rect key="frame" x="0.0" y="33" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdN-kr-5vo">
+                                        <rect key="frame" x="8" y="33" width="584" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hI4-YY-QkS">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hI4-YY-QkS">
                                         <rect key="frame" x="20" y="71" width="560" height="169"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="169" id="ixy-6v-RRA"/>
+                                        </constraints>
                                         <string key="text">	If child also has another severe classification:
 &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise the mother to continue breastfeeding.
 OR
@@ -9740,8 +9790,11 @@ OR
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbs-lo-aTY">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbs-lo-aTY">
                                         <rect key="frame" x="20" y="288" width="560" height="170"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="170" id="eK5-JF-X9o"/>
+                                        </constraints>
                                         <string key="text">	If the child also has another severe classification:
 &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise the mother to continue breastfeeding.
 OR
@@ -9755,22 +9808,31 @@ OR
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Some Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvi-I2-b0w">
-                                        <rect key="frame" x="0.0" y="248" width="600" height="38"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Some Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvi-I2-b0w">
+                                        <rect key="frame" x="8" y="248" width="584" height="38"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="4cb-6Z-Ygn"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="No Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEM-NF-wdU">
-                                        <rect key="frame" x="0.0" y="459" width="600" height="39"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEM-NF-wdU">
+                                        <rect key="frame" x="8" y="459" width="584" height="39"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="vmn-8H-UPC"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQF-2l-fKi">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQF-2l-fKi">
                                         <rect key="frame" x="20" y="499" width="560" height="179"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="179" id="0OV-pZ-OUI"/>
+                                        </constraints>
                                         <string key="text">	If the child also has a severe classification:
 &gt; Admit or refer URGENTLY to hospital with mother giving frequent sips of ORS on the way. Advise the mother to continue breastfeeding.
 OR
@@ -9785,22 +9847,31 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="if diarrhoea 14 days or more" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ti-s5-O6E">
-                                        <rect key="frame" x="0.0" y="686" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="if diarrhoea 14 days or more" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ti-s5-O6E">
+                                        <rect key="frame" x="8" y="686" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="eob-1q-mXo"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Severe Persistent Diarrhoea" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y12-iv-CGZ">
-                                        <rect key="frame" x="0.0" y="720" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Persistent Diarrhoea" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y12-iv-CGZ">
+                                        <rect key="frame" x="8" y="720" width="584" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="X64-hk-EAg"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpn-uu-qd3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpn-uu-qd3">
                                         <rect key="frame" x="20" y="757" width="560" height="105"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="105" id="sbx-fI-NG5"/>
+                                        </constraints>
                                         <string key="text">	• Treat dehydration before referral unless the child has another severe classification.
 	• Give Vitamin A
 	• Give Zinc Sulphate
@@ -9810,22 +9881,28 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="if blood in the stool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDB-Gl-4CX">
-                                        <rect key="frame" x="0.0" y="1035" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="if blood in the stool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDB-Gl-4CX">
+                                        <rect key="frame" x="8" y="1035" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="EAR-2a-rxl"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dysentery" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSa-EO-K2G">
-                                        <rect key="frame" x="0.0" y="1068" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dysentery" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSa-EO-K2G">
+                                        <rect key="frame" x="8" y="1068" width="584" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGV-JP-SZb">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGV-JP-SZb">
                                         <rect key="frame" x="20" y="1106" width="560" height="85"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="85" id="G9S-7x-9Tv"/>
+                                        </constraints>
                                         <string key="text">	• Treat with Ciproflaxacin
 	• Give vitamin A
 	• Give Zinc sulphate
@@ -9834,15 +9911,21 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Persistent Diarrhoea" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zm-wc-p8L">
-                                        <rect key="frame" x="0.0" y="870" width="600" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Persistent Diarrhoea" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zm-wc-p8L">
+                                        <rect key="frame" x="8" y="870" width="584" height="40"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="3kx-6d-o3F"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rz2-Pr-Lex">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rz2-Pr-Lex">
                                         <rect key="frame" x="20" y="910" width="560" height="110"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="110" id="5Yv-8J-F29"/>
+                                        </constraints>
                                         <string key="text">	• Advise the mother on feeding a child who has PERSISTENT DIARRHOEA.
 	• Give Vitamin A
 	• Give Zinc Sulphate
@@ -9854,15 +9937,91 @@ If child has no severe classification:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="for dehydration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHR-lM-0FZ">
+                                        <rect key="frame" x="8" y="0.0" width="584" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="yVO-LZ-tQ8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="y12-iv-CGZ" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" id="NEK-OE-Z6T"/>
-                                    <constraint firstItem="dvi-I2-b0w" firstAttribute="height" secondItem="MdN-kr-5vo" secondAttribute="height" id="QCi-wi-B4a"/>
-                                    <constraint firstItem="lEM-NF-wdU" firstAttribute="height" secondItem="dvi-I2-b0w" secondAttribute="height" id="pES-W0-sfT"/>
+                                    <constraint firstItem="fpn-uu-qd3" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="20" id="157-85-YP9"/>
+                                    <constraint firstItem="lEM-NF-wdU" firstAttribute="top" secondItem="rbs-lo-aTY" secondAttribute="bottom" constant="1" id="2AL-Te-BOW"/>
+                                    <constraint firstItem="fpn-uu-qd3" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="5Ed-HP-79x"/>
+                                    <constraint firstItem="zQF-2l-fKi" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="6Ca-a6-9yR"/>
+                                    <constraint firstItem="lEM-NF-wdU" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="7ac-LH-WYf"/>
+                                    <constraint firstItem="rbs-lo-aTY" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="8aY-io-Sj5"/>
+                                    <constraint firstItem="y12-iv-CGZ" firstAttribute="top" secondItem="5Ti-s5-O6E" secondAttribute="bottom" id="8in-qI-D16"/>
+                                    <constraint firstAttribute="trailing" secondItem="rz2-Pr-Lex" secondAttribute="trailing" constant="20" id="AOJ-jZ-Qjd"/>
+                                    <constraint firstItem="RSa-EO-K2G" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="BVH-eD-pQ5"/>
+                                    <constraint firstAttribute="trailing" secondItem="MdN-kr-5vo" secondAttribute="trailing" constant="8" id="D3W-bf-dBV"/>
+                                    <constraint firstItem="zQF-2l-fKi" firstAttribute="top" secondItem="lEM-NF-wdU" secondAttribute="bottom" constant="1" id="DlW-85-Uhz"/>
+                                    <constraint firstAttribute="trailing" secondItem="dvi-I2-b0w" secondAttribute="trailing" constant="8" id="DwQ-4F-rzb"/>
+                                    <constraint firstItem="6zm-wc-p8L" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="EqF-Do-cDK"/>
+                                    <constraint firstItem="rz2-Pr-Lex" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="20" id="F0o-K5-FQk"/>
+                                    <constraint firstItem="MdN-kr-5vo" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="Ikb-Z7-YyN"/>
+                                    <constraint firstAttribute="trailing" secondItem="RSa-EO-K2G" secondAttribute="trailing" constant="8" id="M9P-Jn-uuh"/>
+                                    <constraint firstItem="BGV-JP-SZb" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="20" id="NxF-WU-NTq"/>
+                                    <constraint firstItem="rz2-Pr-Lex" firstAttribute="top" secondItem="6zm-wc-p8L" secondAttribute="bottom" id="OGX-3Y-YVe"/>
+                                    <constraint firstAttribute="trailing" secondItem="hDB-Gl-4CX" secondAttribute="trailing" constant="8" id="QlT-Tv-ttc"/>
+                                    <constraint firstItem="fpn-uu-qd3" firstAttribute="top" secondItem="y12-iv-CGZ" secondAttribute="bottom" id="Rxx-8i-WmY"/>
+                                    <constraint firstAttribute="trailing" secondItem="y12-iv-CGZ" secondAttribute="trailing" constant="8" id="USs-gg-g63"/>
+                                    <constraint firstItem="MHR-lM-0FZ" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="WJV-An-Ww4"/>
+                                    <constraint firstItem="MHR-lM-0FZ" firstAttribute="top" secondItem="GYJ-cO-7na" secondAttribute="top" id="Zmn-wU-6dH"/>
+                                    <constraint firstItem="5Ti-s5-O6E" firstAttribute="top" secondItem="zQF-2l-fKi" secondAttribute="bottom" constant="8" id="Zvo-sS-ZbF"/>
+                                    <constraint firstItem="rbs-lo-aTY" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="20" id="aBP-7y-Zxa"/>
+                                    <constraint firstItem="hI4-YY-QkS" firstAttribute="top" secondItem="MdN-kr-5vo" secondAttribute="bottom" constant="1" id="asb-e3-udU"/>
+                                    <constraint firstAttribute="trailing" secondItem="6zm-wc-p8L" secondAttribute="trailing" constant="8" id="ax0-gy-j7e"/>
+                                    <constraint firstItem="dvi-I2-b0w" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="8" id="bV6-xk-y0r"/>
+                                    <constraint firstItem="hI4-YY-QkS" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="chk-tZ-XSt"/>
+                                    <constraint firstAttribute="trailing" secondItem="MHR-lM-0FZ" secondAttribute="trailing" constant="8" id="e8K-II-JR9"/>
+                                    <constraint firstItem="RSa-EO-K2G" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="8" id="ee3-d8-clm"/>
+                                    <constraint firstItem="RSa-EO-K2G" firstAttribute="top" secondItem="rz2-Pr-Lex" secondAttribute="bottom" constant="48" id="ek3-nf-bZy"/>
+                                    <constraint firstItem="hI4-YY-QkS" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="20" id="g7k-GJ-R3l"/>
+                                    <constraint firstItem="6zm-wc-p8L" firstAttribute="top" secondItem="fpn-uu-qd3" secondAttribute="bottom" constant="8" id="gO5-il-Quj"/>
+                                    <constraint firstItem="5Ti-s5-O6E" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="gxL-QD-Hh5"/>
+                                    <constraint firstItem="hDB-Gl-4CX" firstAttribute="top" secondItem="rz2-Pr-Lex" secondAttribute="bottom" constant="15" id="hKY-em-NJS"/>
+                                    <constraint firstItem="BGV-JP-SZb" firstAttribute="top" secondItem="RSa-EO-K2G" secondAttribute="bottom" constant="1" id="hhI-hO-uZD"/>
+                                    <constraint firstItem="hDB-Gl-4CX" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="8" id="jQa-X4-E2u"/>
+                                    <constraint firstItem="hDB-Gl-4CX" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="jwl-hO-Uer"/>
+                                    <constraint firstItem="BGV-JP-SZb" firstAttribute="top" secondItem="hDB-Gl-4CX" secondAttribute="bottom" constant="37" id="jxU-ri-KDi"/>
+                                    <constraint firstItem="5Ti-s5-O6E" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="8" id="nK2-Hm-SuI"/>
+                                    <constraint firstAttribute="trailing" secondItem="rbs-lo-aTY" secondAttribute="trailing" constant="20" id="nOe-ms-GOe"/>
+                                    <constraint firstItem="y12-iv-CGZ" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="qCO-Mp-r2d"/>
+                                    <constraint firstItem="dvi-I2-b0w" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="qCQ-Mw-L8w"/>
+                                    <constraint firstItem="6zm-wc-p8L" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="8" id="qe7-DG-OGj"/>
+                                    <constraint firstItem="MdN-kr-5vo" firstAttribute="top" secondItem="GYJ-cO-7na" secondAttribute="top" constant="33" id="qyY-Xe-Q7B"/>
+                                    <constraint firstAttribute="trailing" secondItem="hI4-YY-QkS" secondAttribute="trailing" constant="20" id="rhE-s8-xLr"/>
+                                    <constraint firstItem="lEM-NF-wdU" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="8" id="rim-wn-Gd3"/>
+                                    <constraint firstAttribute="bottom" secondItem="BGV-JP-SZb" secondAttribute="bottom" constant="-22" id="sAA-yt-pHm"/>
+                                    <constraint firstItem="MdN-kr-5vo" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="8" id="sQI-oH-qRE"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Ti-s5-O6E" secondAttribute="trailing" constant="8" id="t5Q-Hg-RNA"/>
+                                    <constraint firstItem="rbs-lo-aTY" firstAttribute="top" secondItem="dvi-I2-b0w" secondAttribute="bottom" constant="2" id="tpA-PD-ktA"/>
+                                    <constraint firstAttribute="trailing" secondItem="fpn-uu-qd3" secondAttribute="trailing" constant="20" id="u0z-5q-cf8"/>
+                                    <constraint firstItem="dvi-I2-b0w" firstAttribute="top" secondItem="hI4-YY-QkS" secondAttribute="bottom" constant="8" id="uu6-qi-Oij"/>
+                                    <constraint firstItem="y12-iv-CGZ" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="8" id="vfv-Nx-dkI"/>
+                                    <constraint firstAttribute="trailing" secondItem="zQF-2l-fKi" secondAttribute="trailing" constant="20" id="w09-fC-ah8"/>
+                                    <constraint firstItem="hI4-YY-QkS" firstAttribute="top" secondItem="MHR-lM-0FZ" secondAttribute="bottom" constant="37" id="wEb-Q9-hdx"/>
+                                    <constraint firstItem="MHR-lM-0FZ" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="8" id="wJF-5X-C71"/>
+                                    <constraint firstItem="rz2-Pr-Lex" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="wVd-H9-Rpp"/>
+                                    <constraint firstItem="zQF-2l-fKi" firstAttribute="leading" secondItem="GYJ-cO-7na" secondAttribute="leading" constant="20" id="xe2-iG-dKe"/>
+                                    <constraint firstAttribute="trailing" secondItem="BGV-JP-SZb" secondAttribute="trailing" constant="20" id="yoJ-ju-Kak"/>
+                                    <constraint firstAttribute="trailing" secondItem="lEM-NF-wdU" secondAttribute="trailing" constant="8" id="ywm-aa-Fwp"/>
+                                    <constraint firstItem="BGV-JP-SZb" firstAttribute="centerX" secondItem="GYJ-cO-7na" secondAttribute="centerX" id="zSh-bh-NtI"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="GYJ-cO-7na" firstAttribute="leading" secondItem="jmb-AZ-Jp6" secondAttribute="leading" id="FFf-T0-RDP"/>
+                            <constraint firstAttribute="trailing" secondItem="GYJ-cO-7na" secondAttribute="trailing" id="Hvq-00-T95"/>
+                            <constraint firstItem="GYJ-cO-7na" firstAttribute="centerY" secondItem="jmb-AZ-Jp6" secondAttribute="centerY" id="KCH-up-Tce"/>
+                            <constraint firstItem="Pfy-a8-lky" firstAttribute="top" secondItem="GYJ-cO-7na" secondAttribute="bottom" constant="10" id="Vx5-4y-Owg"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="y1A-Mc-El6"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -11259,25 +11418,31 @@ Classify EAR PROBLEM</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="az8-I2-GHr">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="az8-I2-GHr">
                                 <rect key="frame" x="0.0" y="64" width="600" height="829"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="for dehydration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axm-QM-pUJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="for dehydration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axm-QM-pUJ">
+                                        <rect key="frame" x="8" y="0.0" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="1xZ-nh-46T"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Severe Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjA-Ct-ZNJ">
-                                        <rect key="frame" x="0.0" y="33" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjA-Ct-ZNJ">
+                                        <rect key="frame" x="8" y="33" width="584" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1a-6Q-A2r">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1a-6Q-A2r">
                                         <rect key="frame" x="20" y="71" width="560" height="92"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="92" id="Yl4-FD-zcy"/>
+                                        </constraints>
                                         <string key="text">	Two of the following signs:
 	• Lethargic or unconscious 
 	• Sunken eyes
@@ -11287,8 +11452,11 @@ Classify EAR PROBLEM</string>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ut-J6-xZi">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ut-J6-xZi">
                                         <rect key="frame" x="20" y="211" width="560" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="nLM-XN-z9j"/>
+                                        </constraints>
                                         <string key="text">	Two of the following signs:
 	• Restless and irritable
 	• Sunken eyes
@@ -11297,94 +11465,189 @@ Classify EAR PROBLEM</string>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Some Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Had-Bs-PTM">
-                                        <rect key="frame" x="0.0" y="171" width="600" height="38"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Some Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Had-Bs-PTM">
+                                        <rect key="frame" x="8" y="171" width="584" height="38"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="n3Y-aw-2gI"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="No Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bpn-J2-X9C">
-                                        <rect key="frame" x="0.0" y="299" width="600" height="39"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Dehydration" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bpn-J2-X9C">
+                                        <rect key="frame" x="8" y="299" width="584" height="39"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="qjA-iY-P0d"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AR-Bb-bF5">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AR-Bb-bF5">
                                         <rect key="frame" x="20" y="339" width="560" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="6tS-Dp-KrS"/>
+                                        </constraints>
                                         <string key="text">	Not enough signs to classify as some or severe dehydration
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="if diarrhoea 14 days or more" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ss-mf-qdk">
-                                        <rect key="frame" x="0.0" y="382" width="600" height="34"/>
-                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Severe Persistent Diarrhoea" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yY-ze-11V">
-                                        <rect key="frame" x="0.0" y="416" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Persistent Diarrhoea" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yY-ze-11V">
+                                        <rect key="frame" x="8" y="416" width="584" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="pnB-bf-lbm"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkv-fV-oZX">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkv-fV-oZX">
                                         <rect key="frame" x="20" y="453" width="560" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="cmF-Y8-3cn"/>
+                                        </constraints>
                                         <string key="text">	• Dehydration present
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Persistent Diarrhoea" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIm-eZ-aoD">
-                                        <rect key="frame" x="0.0" y="483" width="600" height="40"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Persistent Diarrhoea" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIm-eZ-aoD">
+                                        <rect key="frame" x="8" y="483" width="584" height="40"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2C-rU-JEV">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2C-rU-JEV">
                                         <rect key="frame" x="20" y="523" width="560" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="7WF-fJ-aAL"/>
+                                        </constraints>
                                         <string key="text">	• No Dehydration
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="if blood in the stool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsB-6U-7ij">
-                                        <rect key="frame" x="0.0" y="561" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="if blood in the stool" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsB-6U-7ij">
+                                        <rect key="frame" x="8" y="561" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="2Pu-TJ-soM"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dysentery" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3v-4Y-910">
-                                        <rect key="frame" x="0.0" y="594" width="600" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dysentery" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3v-4Y-910">
+                                        <rect key="frame" x="8" y="594" width="584" height="37"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIa-UT-iB7">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIa-UT-iB7">
                                         <rect key="frame" x="20" y="632" width="560" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="g0G-lP-iJC"/>
+                                        </constraints>
                                         <string key="text">	• Blood in the stool.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="if diarrhoea 14 days or more" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ss-mf-qdk">
+                                        <rect key="frame" x="8" y="382" width="584" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="rVN-fl-HPO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="Bpn-J2-X9C" firstAttribute="height" secondItem="Had-Bs-PTM" secondAttribute="height" id="6yV-6G-g8e"/>
-                                    <constraint firstItem="Had-Bs-PTM" firstAttribute="height" secondItem="gjA-Ct-ZNJ" secondAttribute="height" id="Bur-R0-fFY"/>
+                                    <constraint firstAttribute="trailing" secondItem="8yY-ze-11V" secondAttribute="trailing" constant="8" id="0GP-MR-JSA"/>
+                                    <constraint firstItem="Had-Bs-PTM" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="8" id="15T-4t-lh2"/>
+                                    <constraint firstAttribute="trailing" secondItem="axm-QM-pUJ" secondAttribute="trailing" constant="8" id="2c9-No-xcu"/>
+                                    <constraint firstItem="Had-Bs-PTM" firstAttribute="top" secondItem="N1a-6Q-A2r" secondAttribute="bottom" constant="8" id="46q-k2-SYB"/>
+                                    <constraint firstAttribute="trailing" secondItem="a2C-rU-JEV" secondAttribute="trailing" constant="20" id="4tG-mx-cyF"/>
+                                    <constraint firstItem="axm-QM-pUJ" firstAttribute="top" secondItem="az8-I2-GHr" secondAttribute="top" id="5co-6H-nVp"/>
+                                    <constraint firstItem="N1a-6Q-A2r" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="20" id="76h-qD-Ntv"/>
+                                    <constraint firstAttribute="trailing" secondItem="WsB-6U-7ij" secondAttribute="trailing" constant="8" id="9WU-bW-o1h"/>
+                                    <constraint firstAttribute="trailing" secondItem="8Ut-J6-xZi" secondAttribute="trailing" constant="20" id="Bn5-0v-0xI"/>
+                                    <constraint firstItem="mkv-fV-oZX" firstAttribute="top" secondItem="8yY-ze-11V" secondAttribute="bottom" id="BvS-bS-dpt"/>
+                                    <constraint firstItem="Bpn-J2-X9C" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="CPl-g6-Q55"/>
+                                    <constraint firstItem="Had-Bs-PTM" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="Fmi-r8-07Q"/>
+                                    <constraint firstItem="gjA-Ct-ZNJ" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="8" id="GEv-qy-Joy"/>
+                                    <constraint firstItem="WsB-6U-7ij" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="8" id="GFk-wb-WmC"/>
+                                    <constraint firstItem="EIa-UT-iB7" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="Gld-QG-Y4W"/>
+                                    <constraint firstItem="8yY-ze-11V" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="8" id="HKv-Oq-nSg"/>
+                                    <constraint firstItem="mkv-fV-oZX" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="IQi-nh-djC"/>
+                                    <constraint firstItem="8Ut-J6-xZi" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="Kl7-7F-MJK"/>
+                                    <constraint firstItem="a2C-rU-JEV" firstAttribute="top" secondItem="SIm-eZ-aoD" secondAttribute="bottom" id="M8U-OR-Dpx"/>
+                                    <constraint firstItem="N1a-6Q-A2r" firstAttribute="top" secondItem="axm-QM-pUJ" secondAttribute="bottom" constant="37" id="MDJ-ly-mhr"/>
+                                    <constraint firstAttribute="trailing" secondItem="J3v-4Y-910" secondAttribute="trailing" constant="8" id="MEL-0d-HGq"/>
+                                    <constraint firstAttribute="trailing" secondItem="Had-Bs-PTM" secondAttribute="trailing" constant="8" id="Mix-53-FYe"/>
+                                    <constraint firstAttribute="trailing" secondItem="mkv-fV-oZX" secondAttribute="trailing" constant="20" id="Mzk-gB-dkI"/>
+                                    <constraint firstAttribute="trailing" secondItem="N1a-6Q-A2r" secondAttribute="trailing" constant="20" id="N7J-X5-ATq"/>
+                                    <constraint firstItem="N1a-6Q-A2r" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="Noj-8f-7xZ"/>
+                                    <constraint firstItem="a2C-rU-JEV" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="P7V-Uc-lxl"/>
+                                    <constraint firstItem="SIm-eZ-aoD" firstAttribute="top" secondItem="8yY-ze-11V" secondAttribute="bottom" constant="30" id="QJV-D9-28V"/>
+                                    <constraint firstItem="WsB-6U-7ij" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="QVT-1x-TaQ"/>
+                                    <constraint firstItem="WsB-6U-7ij" firstAttribute="top" secondItem="a2C-rU-JEV" secondAttribute="bottom" constant="3" id="Qvv-3T-cRP"/>
+                                    <constraint firstItem="EIa-UT-iB7" firstAttribute="top" secondItem="J3v-4Y-910" secondAttribute="bottom" constant="1" id="Se0-fK-znp"/>
+                                    <constraint firstItem="7AR-Bb-bF5" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="20" id="SnD-Iy-Wok"/>
+                                    <constraint firstItem="J3v-4Y-910" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="8" id="UaD-SS-OI2"/>
+                                    <constraint firstItem="SIm-eZ-aoD" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="8" id="WJm-ux-Ae8"/>
+                                    <constraint firstItem="N1a-6Q-A2r" firstAttribute="top" secondItem="gjA-Ct-ZNJ" secondAttribute="bottom" constant="1" id="WL9-Si-rTl"/>
+                                    <constraint firstAttribute="trailing" secondItem="7AR-Bb-bF5" secondAttribute="trailing" constant="20" id="Ws4-yr-c9V"/>
+                                    <constraint firstItem="EIa-UT-iB7" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="20" id="XQW-0a-eS9"/>
+                                    <constraint firstItem="SIm-eZ-aoD" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="Xcx-T9-DpJ"/>
+                                    <constraint firstItem="8ss-mf-qdk" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="Y9c-hA-rME"/>
+                                    <constraint firstItem="a2C-rU-JEV" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="20" id="YJV-I8-F9Q"/>
+                                    <constraint firstItem="Bpn-J2-X9C" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="8" id="YgF-F6-vIA"/>
+                                    <constraint firstItem="axm-QM-pUJ" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="Z1B-Zj-L5s"/>
+                                    <constraint firstItem="gjA-Ct-ZNJ" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="Z3T-DL-J8y"/>
+                                    <constraint firstAttribute="trailing" secondItem="SIm-eZ-aoD" secondAttribute="trailing" constant="8" id="ZhR-8L-sbd"/>
+                                    <constraint firstItem="7AR-Bb-bF5" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="b8v-qW-WaW"/>
+                                    <constraint firstItem="Bpn-J2-X9C" firstAttribute="top" secondItem="8Ut-J6-xZi" secondAttribute="bottom" constant="8" id="bSB-t2-iYX"/>
+                                    <constraint firstItem="EIa-UT-iB7" firstAttribute="top" secondItem="WsB-6U-7ij" secondAttribute="bottom" constant="37" id="bjm-8l-arj"/>
+                                    <constraint firstAttribute="trailing" secondItem="Bpn-J2-X9C" secondAttribute="trailing" constant="8" id="byh-hO-0bT"/>
+                                    <constraint firstItem="gjA-Ct-ZNJ" firstAttribute="top" secondItem="az8-I2-GHr" secondAttribute="top" constant="33" id="eFp-Cy-3jh"/>
+                                    <constraint firstItem="7AR-Bb-bF5" firstAttribute="top" secondItem="Bpn-J2-X9C" secondAttribute="bottom" constant="1" id="epf-yt-9Vo"/>
+                                    <constraint firstItem="8yY-ze-11V" firstAttribute="top" secondItem="8ss-mf-qdk" secondAttribute="bottom" id="fYA-tc-Z9t"/>
+                                    <constraint firstItem="8ss-mf-qdk" firstAttribute="top" secondItem="7AR-Bb-bF5" secondAttribute="bottom" constant="8" id="fnb-QI-FeQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="8ss-mf-qdk" secondAttribute="trailing" constant="8" id="iNX-GD-cWw"/>
+                                    <constraint firstItem="8yY-ze-11V" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="lnY-aB-Mm8"/>
+                                    <constraint firstAttribute="trailing" secondItem="gjA-Ct-ZNJ" secondAttribute="trailing" constant="8" id="mNW-Qv-Cjv"/>
+                                    <constraint firstItem="8ss-mf-qdk" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="8" id="ms1-xc-xqQ"/>
+                                    <constraint firstItem="8Ut-J6-xZi" firstAttribute="top" secondItem="Had-Bs-PTM" secondAttribute="bottom" constant="2" id="ofD-BC-uc0"/>
+                                    <constraint firstItem="mkv-fV-oZX" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="20" id="p6d-JW-7al"/>
+                                    <constraint firstItem="J3v-4Y-910" firstAttribute="top" secondItem="a2C-rU-JEV" secondAttribute="bottom" constant="36" id="pst-Pu-ZXm"/>
+                                    <constraint firstAttribute="trailing" secondItem="EIa-UT-iB7" secondAttribute="trailing" constant="20" id="qek-sE-IuR"/>
+                                    <constraint firstItem="a2C-rU-JEV" firstAttribute="top" secondItem="mkv-fV-oZX" secondAttribute="bottom" constant="35" id="tOJ-J3-JTb"/>
+                                    <constraint firstItem="8Ut-J6-xZi" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="20" id="tRx-kI-tR9"/>
+                                    <constraint firstAttribute="bottom" secondItem="EIa-UT-iB7" secondAttribute="bottom" constant="104" id="z72-47-muy"/>
+                                    <constraint firstItem="axm-QM-pUJ" firstAttribute="leading" secondItem="az8-I2-GHr" secondAttribute="leading" constant="8" id="zFg-LT-WUG"/>
+                                    <constraint firstItem="J3v-4Y-910" firstAttribute="centerX" secondItem="az8-I2-GHr" secondAttribute="centerX" id="zpM-QO-VRp"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="az8-I2-GHr" secondAttribute="trailing" id="Gi4-Nd-aXe"/>
+                            <constraint firstItem="Kb3-5o-kV8" firstAttribute="top" secondItem="az8-I2-GHr" secondAttribute="bottom" constant="8" symbolic="YES" id="XFW-k9-e0G"/>
+                            <constraint firstItem="az8-I2-GHr" firstAttribute="leading" secondItem="jZc-0j-a1B" secondAttribute="leading" id="tky-bn-3ld"/>
+                            <constraint firstItem="az8-I2-GHr" firstAttribute="top" secondItem="EAA-Mb-tC7" secondAttribute="bottom" id="w2D-XT-eMt"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Classify" id="SaO-iJ-r4I"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -11409,8 +11672,8 @@ Classify EAR PROBLEM</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJJ-se-8XG">
-                                <rect key="frame" x="20" y="72" width="560" height="350"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJJ-se-8XG">
+                                <rect key="frame" x="20" y="72" width="560" height="326"/>
                                 <string key="text">
 IF YES ASK
 	For how long?
@@ -11439,11 +11702,10 @@ Classify Diarrhoea</string>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="lF3-b9-Pri" firstAttribute="top" secondItem="uJJ-se-8XG" secondAttribute="bottom" constant="379" id="Gn7-Rv-Dme"/>
-                            <constraint firstItem="uJJ-se-8XG" firstAttribute="centerX" secondItem="hcl-jO-0BR" secondAttribute="centerX" id="JKb-mY-WIN"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="uJJ-se-8XG" secondAttribute="trailing" id="pE1-aO-x9w"/>
-                            <constraint firstItem="uJJ-se-8XG" firstAttribute="top" secondItem="Qld-07-XYQ" secondAttribute="bottom" constant="8" symbolic="YES" id="vnn-uA-bKp"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="uJJ-se-8XG" secondAttribute="leading" id="y98-9e-Nyu"/>
+                            <constraint firstItem="uJJ-se-8XG" firstAttribute="trailing" secondItem="hcl-jO-0BR" secondAttribute="trailingMargin" id="7Ha-M3-852"/>
+                            <constraint firstItem="uJJ-se-8XG" firstAttribute="leading" secondItem="hcl-jO-0BR" secondAttribute="leadingMargin" id="8ie-x2-Lqu"/>
+                            <constraint firstItem="uJJ-se-8XG" firstAttribute="top" secondItem="Qld-07-XYQ" secondAttribute="bottom" constant="8" id="DzT-uZ-1WZ"/>
+                            <constraint firstItem="uJJ-se-8XG" firstAttribute="centerX" secondItem="hcl-jO-0BR" secondAttribute="centerX" id="KhO-yy-mAQ"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Assess" id="5Il-99-L7J"/>
