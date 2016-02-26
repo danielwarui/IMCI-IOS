@@ -7280,7 +7280,7 @@ Does it go back:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpT-DA-ejM">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpT-DA-ejM">
                                         <rect key="frame" x="8" y="67" width="584" height="261"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="261" id="tZM-Nh-M31"/>
@@ -7311,7 +7311,7 @@ Does it go back:
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhA-Oq-bWL">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhA-Oq-bWL">
                                         <rect key="frame" x="8" y="375" width="584" height="32"/>
                                         <string key="text">	• Advise mother to give home care for the young infant.
 	• Praise the mother for feeding the infant well.</string>
@@ -7349,7 +7349,7 @@ Does it go back:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIf-pR-gOM">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIf-pR-gOM">
                                         <rect key="frame" x="8" y="488" width="584" height="63"/>
                                         <string key="text">	• Treat to prevent low blood sugar.
 	• Keep baby warm.
@@ -7359,7 +7359,7 @@ Does it go back:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R35-fg-R7T">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R35-fg-R7T">
                                         <rect key="frame" x="8" y="597" width="584" height="47"/>
                                         <string key="text">	• Manage as for FEEDING PROBLEM OR LOW WEIGHT.
 	• Advice mother to keep the young infant warm.
@@ -7388,7 +7388,7 @@ Does it go back:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSL-Wj-DBT">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSL-Wj-DBT">
                                         <rect key="frame" x="8" y="694" width="584" height="37"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="37" id="OsW-ts-fiS"/>
@@ -7493,7 +7493,7 @@ Does it go back:
         <!--Immunization Status-->
         <scene sceneID="MSk-kW-Eg9">
             <objects>
-                <viewController id="qBO-5Z-JRc" sceneMemberID="viewController">
+                <viewController id="qBO-5Z-JRc" customClass="Assess_immunization" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EqX-Ug-QZh"/>
                         <viewControllerLayoutGuide type="bottom" id="IIf-oT-mL9"/>
@@ -7503,7 +7503,7 @@ Does it go back:
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJG-uZ-Pg1">
-                                <rect key="frame" x="20" y="72" width="560" height="63"/>
+                                <rect key="frame" x="20" y="393" width="560" height="63"/>
                                 <string key="text">Give all missed doses on this visit.
 • Include sick babies and those with no records (mother child health booklet) or evidence.
 • If infant has no booklet, issue a new one today.
@@ -7517,8 +7517,9 @@ Does it go back:
                         <constraints>
                             <constraint firstItem="XJG-uZ-Pg1" firstAttribute="trailing" secondItem="chC-Jy-c94" secondAttribute="trailingMargin" id="9eT-DD-rFe"/>
                             <constraint firstItem="XJG-uZ-Pg1" firstAttribute="centerX" secondItem="chC-Jy-c94" secondAttribute="centerX" id="Atx-1w-4bn"/>
+                            <constraint firstItem="XJG-uZ-Pg1" firstAttribute="centerY" secondItem="chC-Jy-c94" secondAttribute="centerY" id="NZH-2o-lLO"/>
                             <constraint firstItem="XJG-uZ-Pg1" firstAttribute="leading" secondItem="chC-Jy-c94" secondAttribute="leadingMargin" id="Wo1-pH-5Pl"/>
-                            <constraint firstItem="XJG-uZ-Pg1" firstAttribute="top" secondItem="EqX-Ug-QZh" secondAttribute="bottom" constant="8" id="dot-Ur-sX5"/>
+                            <constraint firstItem="XJG-uZ-Pg1" firstAttribute="top" secondItem="EqX-Ug-QZh" secondAttribute="bottom" constant="329" id="dot-Ur-sX5"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Immunization Status" id="N7h-tG-M5P"/>
