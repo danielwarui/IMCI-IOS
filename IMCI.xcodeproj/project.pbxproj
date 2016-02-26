@@ -70,6 +70,7 @@
 		3F8DAC761C805635003CC5C3 /* HIV_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC751C805635003CC5C3 /* HIV_3.swift */; };
 		3F8DAC781C80567A003CC5C3 /* HIV_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC771C80567A003CC5C3 /* HIV_4.swift */; };
 		3F8DAC7A1C8056B8003CC5C3 /* HIV_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC791C8056B8003CC5C3 /* HIV_5.swift */; };
+		3F8DAC7C1C80A96F003CC5C3 /* Assess_immunization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC7B1C80A96F003CC5C3 /* Assess_immunization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +151,7 @@
 		3F8DAC751C805635003CC5C3 /* HIV_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIV_3.swift; sourceTree = "<group>"; };
 		3F8DAC771C80567A003CC5C3 /* HIV_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIV_4.swift; sourceTree = "<group>"; };
 		3F8DAC791C8056B8003CC5C3 /* HIV_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIV_5.swift; sourceTree = "<group>"; };
+		3F8DAC7B1C80A96F003CC5C3 /* Assess_immunization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assess_immunization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +264,7 @@
 				3F692F2A1C4CA1B900B0542E /* Main.storyboard */,
 				3F692F2F1C4CA1B900B0542E /* LaunchScreen.storyboard */,
 				3F692F321C4CA1B900B0542E /* Info.plist */,
+				3F8DAC7B1C80A96F003CC5C3 /* Assess_immunization.swift */,
 			);
 			path = IMCI;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				3F8DAC721C8045C5003CC5C3 /* HIV_1.swift in Sources */,
 				3F692F271C4CA1B900B0542E /* AppDelegate.swift in Sources */,
 				3F8DAC781C80567A003CC5C3 /* HIV_4.swift in Sources */,
+				3F8DAC7C1C80A96F003CC5C3 /* Assess_immunization.swift in Sources */,
 				3F8DAC701C803DA1003CC5C3 /* imageZoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
