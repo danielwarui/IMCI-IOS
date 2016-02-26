@@ -2895,10 +2895,10 @@ After 1 month:
                         <viewControllerLayoutGuide type="bottom" id="j2P-cA-qQf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gY9-sA-omP">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="63D-uV-K46">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="63D-uV-K46">
                                 <rect key="frame" x="0.0" y="64" width="600" height="878"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPp-d7-Tg7">
@@ -3163,7 +3163,7 @@ After 1 month:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b5L-U0-ZIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2222" y="1862"/>
+            <point key="canvasLocation" x="1670" y="1986"/>
         </scene>
         <!--Treatment-->
         <scene sceneID="B6Z-te-UgC">
@@ -3529,7 +3529,7 @@ Ask:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IgB-ca-M9K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1780" y="2658"/>
+            <point key="canvasLocation" x="940" y="2854"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BRU-zQ-SNh">
@@ -3833,7 +3833,7 @@ Ask:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kBJ-7t-FCq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2488" y="2634"/>
+            <point key="canvasLocation" x="1716" y="2862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ahj-XK-quo">
@@ -3996,7 +3996,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SFi-Yj-ZUg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3096" y="2821"/>
+            <point key="canvasLocation" x="2568" y="3087"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hQr-ZA-dxJ">
@@ -6896,7 +6896,7 @@ Does it go back:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pel-Cf-AGh">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pel-Cf-AGh">
                                         <rect key="frame" x="20" y="267" width="560" height="107"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="107" id="cew-50-JgY"/>
@@ -6940,7 +6940,7 @@ Does it go back:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwY-Hb-5vA">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwY-Hb-5vA">
                                         <rect key="frame" x="20" y="578" width="560" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="64" id="2v8-9f-MtF"/>
@@ -7617,7 +7617,7 @@ Does it go back:
                                         <rect key="frame" x="8" y="391" width="584" height="47"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">• Give infant isoniazid prophylaxis for 6 months.
-• Give BCG vaccination to the infant inly when baby’s treatment is completed.
+• Give BCG vaccination to the infant only when baby’s treatment is completed.
 • Follow up in 14 days.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -7953,6 +7953,9 @@ Compare the mother answers to the recommendation for care and development</strin
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGy-zR-fDr">
                                 <rect key="frame" x="20" y="158" width="560" height="30"/>
                                 <state key="normal" title="for care and development"/>
+                                <connections>
+                                    <segue destination="SNP-Of-TAl" kind="show" id="1Va-9f-a08"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -7971,7 +7974,7 @@ Compare the mother answers to the recommendation for care and development</strin
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kA4-jF-JNj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8984" y="-3382"/>
+            <point key="canvasLocation" x="-8968" y="-3382"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="08R-7K-Ngb">
@@ -12411,10 +12414,10 @@ LOOK, LISTEN, FEEL
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uNj-I3-DfB">
-                                <rect key="frame" x="29" y="64" width="542" height="729"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="729"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3r0-fd-uCX">
-                                        <rect key="frame" x="20" y="26" width="502" height="115"/>
+                                        <rect key="frame" x="8" y="26" width="584" height="115"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• Immediately resuscitate using a bag and mask if the baby:
 		- Is not breathing at all even when stimulated or
@@ -12429,14 +12432,14 @@ LOOK, LISTEN, FEEL
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Local Bacterial Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rND-3L-uof">
-                                        <rect key="frame" x="20" y="149" width="502" height="17"/>
+                                        <rect key="frame" x="8" y="149" width="584" height="17"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OhN-qQ-IR6">
-                                        <rect key="frame" x="20" y="167" width="502" height="63"/>
+                                        <rect key="frame" x="8" y="167" width="584" height="63"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• Give Cotrimoxazole.
 	• Teach the mother to treat local infections at home.
@@ -12447,29 +12450,36 @@ LOOK, LISTEN, FEEL
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Severe Disease or Local Bacterial Infection Unlikely" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="846-tp-7Fc">
-                                        <rect key="frame" x="20" y="238" width="502" height="17"/>
+                                        <rect key="frame" x="8" y="238" width="584" height="17"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Low Body Temperature" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7F-HM-9x2">
-                                        <rect key="frame" x="20" y="280" width="502" height="17"/>
+                                        <rect key="frame" x="8" y="280" width="584" height="17"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bde-Xd-AUP">
-                                        <rect key="frame" x="20" y="256" width="502" height="16"/>
+                                        <rect key="frame" x="8" y="256" width="584" height="16"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• Advise mother to give home care to the young infant.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Severe Disease" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhl-RC-a9a">
+                                        <rect key="frame" x="8" y="8" width="584" height="17"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yu-xb-b1f">
-                                        <rect key="frame" x="20" y="297" width="502" height="63"/>
+                                        <rect key="frame" x="8" y="297" width="584" height="63"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• Re-warm young infant and reassess after 1 hour. Read on kangaroo warming.
 	• Treat to prevent low blood sugar.
@@ -12479,54 +12489,47 @@ LOOK, LISTEN, FEEL
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Very Severe Disease" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhl-RC-a9a">
-                                        <rect key="frame" x="20" y="8" width="502" height="17"/>
-                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="3yu-xb-b1f" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="0OH-BJ-I7B"/>
-                                    <constraint firstAttribute="trailing" secondItem="846-tp-7Fc" secondAttribute="trailing" constant="20" id="2q8-IA-Be7"/>
+                                    <constraint firstAttribute="trailing" secondItem="846-tp-7Fc" secondAttribute="trailing" constant="8" id="2q8-IA-Be7"/>
                                     <constraint firstItem="bde-Xd-AUP" firstAttribute="top" secondItem="846-tp-7Fc" secondAttribute="bottom" constant="1" id="3Ch-iM-NKV"/>
                                     <constraint firstItem="Hhl-RC-a9a" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="81T-aa-I6r"/>
                                     <constraint firstItem="Hhl-RC-a9a" firstAttribute="top" secondItem="uNj-I3-DfB" secondAttribute="top" constant="8" id="9mK-n3-fSB"/>
                                     <constraint firstItem="bde-Xd-AUP" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="BPf-xS-waq"/>
-                                    <constraint firstItem="bde-Xd-AUP" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="20" id="DHm-zf-YFg"/>
-                                    <constraint firstAttribute="trailing" secondItem="3r0-fd-uCX" secondAttribute="trailing" constant="20" id="H33-5a-Ov6"/>
+                                    <constraint firstItem="bde-Xd-AUP" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="DHm-zf-YFg"/>
+                                    <constraint firstAttribute="trailing" secondItem="3r0-fd-uCX" secondAttribute="trailing" constant="8" id="H33-5a-Ov6"/>
                                     <constraint firstItem="846-tp-7Fc" firstAttribute="top" secondItem="OhN-qQ-IR6" secondAttribute="bottom" constant="8" id="Jhw-i0-qpw"/>
                                     <constraint firstItem="3r0-fd-uCX" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="MpT-81-aHS"/>
-                                    <constraint firstItem="846-tp-7Fc" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="20" id="OnZ-qI-j7n"/>
+                                    <constraint firstItem="846-tp-7Fc" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="OnZ-qI-j7n"/>
                                     <constraint firstItem="3yu-xb-b1f" firstAttribute="top" secondItem="y7F-HM-9x2" secondAttribute="bottom" id="UEb-du-5Xk"/>
                                     <constraint firstItem="OhN-qQ-IR6" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="W4H-VI-cK7"/>
-                                    <constraint firstItem="3yu-xb-b1f" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="20" id="a4A-fi-M4k"/>
-                                    <constraint firstItem="Hhl-RC-a9a" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="20" id="aQU-S4-A3c"/>
-                                    <constraint firstAttribute="trailing" secondItem="bde-Xd-AUP" secondAttribute="trailing" constant="20" id="afo-wT-gp6"/>
-                                    <constraint firstItem="rND-3L-uof" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="20" id="bAG-bi-e6D"/>
+                                    <constraint firstItem="3yu-xb-b1f" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="a4A-fi-M4k"/>
+                                    <constraint firstItem="Hhl-RC-a9a" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="aQU-S4-A3c"/>
+                                    <constraint firstAttribute="trailing" secondItem="bde-Xd-AUP" secondAttribute="trailing" constant="8" id="afo-wT-gp6"/>
+                                    <constraint firstItem="rND-3L-uof" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="bAG-bi-e6D"/>
                                     <constraint firstItem="y7F-HM-9x2" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="cI8-SA-ef4"/>
-                                    <constraint firstAttribute="trailing" secondItem="3yu-xb-b1f" secondAttribute="trailing" constant="20" id="cb2-FC-SO7"/>
+                                    <constraint firstAttribute="trailing" secondItem="3yu-xb-b1f" secondAttribute="trailing" constant="8" id="cb2-FC-SO7"/>
                                     <constraint firstItem="OhN-qQ-IR6" firstAttribute="top" secondItem="rND-3L-uof" secondAttribute="bottom" constant="1" id="dRw-12-Coe"/>
                                     <constraint firstItem="y7F-HM-9x2" firstAttribute="top" secondItem="bde-Xd-AUP" secondAttribute="bottom" constant="8" id="iHz-BL-6SQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="Hhl-RC-a9a" secondAttribute="trailing" constant="20" id="k1A-zz-h0t"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hhl-RC-a9a" secondAttribute="trailing" constant="8" id="k1A-zz-h0t"/>
                                     <constraint firstItem="rND-3L-uof" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="lDL-ub-i51"/>
-                                    <constraint firstAttribute="trailing" secondItem="y7F-HM-9x2" secondAttribute="trailing" constant="20" id="mfk-Cr-x0F"/>
-                                    <constraint firstItem="3r0-fd-uCX" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="20" id="mg5-qz-2bx"/>
-                                    <constraint firstItem="y7F-HM-9x2" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="20" id="mpj-yn-H4H"/>
-                                    <constraint firstAttribute="trailing" secondItem="rND-3L-uof" secondAttribute="trailing" constant="20" id="oL6-gI-yZq"/>
-                                    <constraint firstAttribute="trailing" secondItem="OhN-qQ-IR6" secondAttribute="trailing" constant="20" id="pnT-Pt-nCW"/>
+                                    <constraint firstAttribute="trailing" secondItem="y7F-HM-9x2" secondAttribute="trailing" constant="8" id="mfk-Cr-x0F"/>
+                                    <constraint firstItem="3r0-fd-uCX" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="mg5-qz-2bx"/>
+                                    <constraint firstItem="y7F-HM-9x2" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="mpj-yn-H4H"/>
+                                    <constraint firstAttribute="trailing" secondItem="rND-3L-uof" secondAttribute="trailing" constant="8" id="oL6-gI-yZq"/>
+                                    <constraint firstAttribute="trailing" secondItem="OhN-qQ-IR6" secondAttribute="trailing" constant="8" id="pnT-Pt-nCW"/>
                                     <constraint firstItem="rND-3L-uof" firstAttribute="top" secondItem="3r0-fd-uCX" secondAttribute="bottom" constant="8" id="qBg-LM-esN"/>
                                     <constraint firstItem="3r0-fd-uCX" firstAttribute="top" secondItem="Hhl-RC-a9a" secondAttribute="bottom" constant="1" id="t9l-A0-5uK"/>
-                                    <constraint firstItem="OhN-qQ-IR6" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="20" id="uTE-KF-quv"/>
+                                    <constraint firstItem="OhN-qQ-IR6" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="uTE-KF-quv"/>
                                     <constraint firstItem="846-tp-7Fc" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="vCl-8x-Icv"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="uNj-I3-DfB" firstAttribute="leading" secondItem="dtw-dp-Qqi" secondAttribute="leading" constant="29" id="9Uz-wG-atL"/>
-                            <constraint firstAttribute="trailing" secondItem="uNj-I3-DfB" secondAttribute="trailing" constant="29" id="kwI-6A-hJJ"/>
+                            <constraint firstItem="uNj-I3-DfB" firstAttribute="leading" secondItem="dtw-dp-Qqi" secondAttribute="leading" id="9Uz-wG-atL"/>
+                            <constraint firstAttribute="trailing" secondItem="uNj-I3-DfB" secondAttribute="trailing" id="kwI-6A-hJJ"/>
                             <constraint firstItem="uNj-I3-DfB" firstAttribute="bottom" secondItem="PmV-rw-oOP" secondAttribute="top" constant="-8" id="lTe-8S-UlK"/>
                             <constraint firstItem="uNj-I3-DfB" firstAttribute="top" secondItem="Fwo-rZ-uwf" secondAttribute="bottom" id="nfV-ws-CiP"/>
                         </constraints>
@@ -12540,7 +12543,7 @@ LOOK, LISTEN, FEEL
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p53-aM-S8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13389" y="-2025"/>
+            <point key="canvasLocation" x="-13381" y="-1984"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="A95-2w-11T">
@@ -12703,34 +12706,21 @@ LOOK, LISTEN, FEEL
                                 <rect key="frame" x="0.0" y="64" width="600" height="729"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Jaundice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8WK-O6-q8g">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="17"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="T48-sY-ehL"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIj-Nd-8Qc">
-                                        <rect key="frame" x="0.0" y="32" width="600" height="43"/>
-                                        <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <string key="text">• Treat to prevent low blood sugar.
-• Advise mother how to keep the baby warm on the way to hospital.
-• Admit or refer URGENTLY to hospital.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jaundice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kG-e8-d8W">
-                                        <rect key="frame" x="0.0" y="83" width="600" height="34"/>
+                                        <rect key="frame" x="0.0" y="66" width="600" height="17"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPX-sh-WhM">
-                                        <rect key="frame" x="0.0" y="115" width="600" height="63"/>
+                                        <rect key="frame" x="0.0" y="86" width="600" height="63"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">• Advise caregiver to expose the any to the direct sunlight for at least an hour per day.
 • Advise mother when to return immediately.
@@ -12741,52 +12731,55 @@ LOOK, LISTEN, FEEL
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Jaundice" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rCh-Tb-Nhd">
-                                        <rect key="frame" x="0.0" y="186" width="600" height="42"/>
+                                        <rect key="frame" x="0.0" y="152" width="600" height="17"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="TNH-6E-qce"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Advise mother to give home care for the young infant." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OpI-Ph-flu">
-                                        <rect key="frame" x="0.0" y="226" width="600" height="43"/>
+                                        <rect key="frame" x="0.0" y="172" width="600" height="16"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="43" id="CKm-DD-2ge"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIj-Nd-8Qc">
+                                        <rect key="frame" x="0.0" y="20" width="600" height="43"/>
+                                        <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">• Treat to prevent low blood sugar.
+• Advise mother how to keep the baby warm on the way to hospital.
+• Admit or refer URGENTLY to hospital.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="1kG-e8-d8W" firstAttribute="top" secondItem="tIj-Nd-8Qc" secondAttribute="bottom" constant="8" id="0W4-P9-yFk"/>
-                                    <constraint firstItem="8WK-O6-q8g" firstAttribute="top" secondItem="qeQ-HY-eID" secondAttribute="top" id="1zc-yp-Acu"/>
-                                    <constraint firstAttribute="trailing" secondItem="8WK-O6-q8g" secondAttribute="trailing" id="7ZD-O9-d4J"/>
-                                    <constraint firstAttribute="trailing" secondItem="rCh-Tb-Nhd" secondAttribute="trailing" id="AoF-kb-D8X"/>
-                                    <constraint firstItem="1kG-e8-d8W" firstAttribute="centerX" secondItem="qeQ-HY-eID" secondAttribute="centerX" id="Gss-NC-CCl"/>
-                                    <constraint firstItem="tIj-Nd-8Qc" firstAttribute="centerX" secondItem="qeQ-HY-eID" secondAttribute="centerX" id="MfM-Zb-RRu"/>
-                                    <constraint firstAttribute="trailing" secondItem="tIj-Nd-8Qc" secondAttribute="trailing" id="Pio-B3-tyc"/>
-                                    <constraint firstItem="rCh-Tb-Nhd" firstAttribute="top" secondItem="XPX-sh-WhM" secondAttribute="bottom" constant="8" id="RXd-TV-dvF"/>
-                                    <constraint firstItem="XPX-sh-WhM" firstAttribute="leading" secondItem="qeQ-HY-eID" secondAttribute="leading" id="TxM-ox-kZ9"/>
-                                    <constraint firstItem="tIj-Nd-8Qc" firstAttribute="top" secondItem="qeQ-HY-eID" secondAttribute="top" constant="32" id="VVg-u4-HaN"/>
-                                    <constraint firstItem="XPX-sh-WhM" firstAttribute="top" secondItem="tIj-Nd-8Qc" secondAttribute="bottom" constant="40" id="Yx0-xp-6Wz"/>
-                                    <constraint firstAttribute="trailing" secondItem="1kG-e8-d8W" secondAttribute="trailing" id="Zhx-qu-oFI"/>
-                                    <constraint firstItem="OpI-Ph-flu" firstAttribute="centerX" secondItem="qeQ-HY-eID" secondAttribute="centerX" id="Zkp-Rt-50W"/>
-                                    <constraint firstItem="tIj-Nd-8Qc" firstAttribute="leading" secondItem="qeQ-HY-eID" secondAttribute="leading" id="cLC-Kj-LgH"/>
-                                    <constraint firstItem="OpI-Ph-flu" firstAttribute="top" secondItem="XPX-sh-WhM" secondAttribute="bottom" constant="48" id="e4n-Zx-d3T"/>
-                                    <constraint firstAttribute="trailing" secondItem="OpI-Ph-flu" secondAttribute="trailing" id="fJA-mg-n9Z"/>
-                                    <constraint firstItem="rCh-Tb-Nhd" firstAttribute="leading" secondItem="qeQ-HY-eID" secondAttribute="leading" id="fjp-kP-5uE"/>
-                                    <constraint firstItem="OpI-Ph-flu" firstAttribute="leading" secondItem="qeQ-HY-eID" secondAttribute="leading" id="gij-Fo-xnz"/>
-                                    <constraint firstItem="XPX-sh-WhM" firstAttribute="centerX" secondItem="qeQ-HY-eID" secondAttribute="centerX" id="lbG-aI-3T8"/>
-                                    <constraint firstItem="rCh-Tb-Nhd" firstAttribute="centerX" secondItem="qeQ-HY-eID" secondAttribute="centerX" id="oCK-hf-g8Z"/>
-                                    <constraint firstItem="8WK-O6-q8g" firstAttribute="centerX" secondItem="qeQ-HY-eID" secondAttribute="centerX" id="odj-kL-lKD"/>
-                                    <constraint firstAttribute="trailing" secondItem="XPX-sh-WhM" secondAttribute="trailing" id="sOc-h2-eXZ"/>
-                                    <constraint firstItem="rCh-Tb-Nhd" firstAttribute="top" secondItem="1kG-e8-d8W" secondAttribute="bottom" constant="69" id="stm-fo-zHt"/>
-                                    <constraint firstItem="8WK-O6-q8g" firstAttribute="leading" secondItem="qeQ-HY-eID" secondAttribute="leading" id="wOU-ZT-plh"/>
-                                    <constraint firstItem="1kG-e8-d8W" firstAttribute="leading" secondItem="qeQ-HY-eID" secondAttribute="leading" id="wlJ-74-E17"/>
+                                    <constraint firstAttribute="trailing" secondItem="OpI-Ph-flu" secondAttribute="trailing" id="6Yw-Od-BQL"/>
+                                    <constraint firstAttribute="trailing" secondItem="XPX-sh-WhM" secondAttribute="trailing" id="9oX-dx-OBC"/>
+                                    <constraint firstAttribute="trailing" secondItem="8WK-O6-q8g" secondAttribute="trailing" id="KKN-eQ-6aZ"/>
+                                    <constraint firstItem="1kG-e8-d8W" firstAttribute="top" secondItem="tIj-Nd-8Qc" secondAttribute="bottom" constant="3" id="M8p-m7-UjL"/>
+                                    <constraint firstItem="rCh-Tb-Nhd" firstAttribute="centerX" secondItem="qeQ-HY-eID" secondAttribute="centerX" id="MB7-sH-WjB"/>
+                                    <constraint firstAttribute="trailing" secondItem="1kG-e8-d8W" secondAttribute="trailing" id="MEO-up-9lt"/>
+                                    <constraint firstItem="OpI-Ph-flu" firstAttribute="centerX" secondItem="qeQ-HY-eID" secondAttribute="centerX" id="Mle-OT-5xX"/>
+                                    <constraint firstItem="rCh-Tb-Nhd" firstAttribute="top" secondItem="XPX-sh-WhM" secondAttribute="bottom" constant="3" id="O2i-NQ-oS6"/>
+                                    <constraint firstItem="XPX-sh-WhM" firstAttribute="top" secondItem="1kG-e8-d8W" secondAttribute="bottom" constant="3" id="PFi-dD-50i"/>
+                                    <constraint firstAttribute="trailing" secondItem="tIj-Nd-8Qc" secondAttribute="trailing" id="Qsq-3j-OdM"/>
+                                    <constraint firstAttribute="trailing" secondItem="rCh-Tb-Nhd" secondAttribute="trailing" id="UbA-Nv-lxG"/>
+                                    <constraint firstItem="1kG-e8-d8W" firstAttribute="centerX" secondItem="qeQ-HY-eID" secondAttribute="centerX" id="Urc-4f-ZZN"/>
+                                    <constraint firstItem="OpI-Ph-flu" firstAttribute="leading" secondItem="qeQ-HY-eID" secondAttribute="leading" id="ZcZ-gU-QXg"/>
+                                    <constraint firstItem="tIj-Nd-8Qc" firstAttribute="top" secondItem="8WK-O6-q8g" secondAttribute="bottom" constant="3" id="bgf-1z-HYs"/>
+                                    <constraint firstItem="tIj-Nd-8Qc" firstAttribute="leading" secondItem="qeQ-HY-eID" secondAttribute="leading" id="bkF-U2-OMS"/>
+                                    <constraint firstItem="OpI-Ph-flu" firstAttribute="top" secondItem="rCh-Tb-Nhd" secondAttribute="bottom" constant="3" id="oaO-fn-psK"/>
+                                    <constraint firstItem="tIj-Nd-8Qc" firstAttribute="centerX" secondItem="qeQ-HY-eID" secondAttribute="centerX" id="pDF-ib-Nod"/>
+                                    <constraint firstItem="8WK-O6-q8g" firstAttribute="leading" secondItem="qeQ-HY-eID" secondAttribute="leading" id="rRD-1u-usW"/>
+                                    <constraint firstItem="XPX-sh-WhM" firstAttribute="leading" secondItem="qeQ-HY-eID" secondAttribute="leading" id="som-IH-Pbu"/>
+                                    <constraint firstItem="8WK-O6-q8g" firstAttribute="centerX" secondItem="qeQ-HY-eID" secondAttribute="centerX" id="tUs-sh-8aO"/>
+                                    <constraint firstItem="rCh-Tb-Nhd" firstAttribute="leading" secondItem="qeQ-HY-eID" secondAttribute="leading" id="uIE-8i-3Y5"/>
+                                    <constraint firstItem="8WK-O6-q8g" firstAttribute="top" secondItem="qeQ-HY-eID" secondAttribute="top" id="w8u-fl-Qnh"/>
+                                    <constraint firstItem="1kG-e8-d8W" firstAttribute="leading" secondItem="qeQ-HY-eID" secondAttribute="leading" id="wQb-N1-6B6"/>
+                                    <constraint firstItem="XPX-sh-WhM" firstAttribute="centerX" secondItem="qeQ-HY-eID" secondAttribute="centerX" id="xJv-bR-LFr"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -13826,7 +13819,8 @@ The mother should:
         <image name="young_give_zinc_sulphate.PNG" width="1166" height="541"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ozu-iA-Cut"/>
+        <segue reference="1Va-9f-a08"/>
         <segue reference="ADN-Rt-n5w"/>
+        <segue reference="Ozu-iA-Cut"/>
     </inferredMetricsTieBreakers>
 </document>
