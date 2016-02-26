@@ -64,6 +64,12 @@
 		3F692F2C1C4CA1B900B0542E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F692F2A1C4CA1B900B0542E /* Main.storyboard */; };
 		3F692F311C4CA1B900B0542E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F692F2F1C4CA1B900B0542E /* LaunchScreen.storyboard */; };
 		3F692F3C1C4CA1B900B0542E /* IMCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F692F3B1C4CA1B900B0542E /* IMCITests.swift */; };
+		3F8DAC701C803DA1003CC5C3 /* imageZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC6F1C803DA1003CC5C3 /* imageZoom.swift */; };
+		3F8DAC721C8045C5003CC5C3 /* HIV_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC711C8045C5003CC5C3 /* HIV_1.swift */; };
+		3F8DAC741C805557003CC5C3 /* HIV_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC731C805557003CC5C3 /* HIV_2.swift */; };
+		3F8DAC761C805635003CC5C3 /* HIV_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC751C805635003CC5C3 /* HIV_3.swift */; };
+		3F8DAC781C80567A003CC5C3 /* HIV_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC771C80567A003CC5C3 /* HIV_4.swift */; };
+		3F8DAC7A1C8056B8003CC5C3 /* HIV_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC791C8056B8003CC5C3 /* HIV_5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +144,12 @@
 		3F692F371C4CA1B900B0542E /* IMCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F692F3B1C4CA1B900B0542E /* IMCITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCITests.swift; sourceTree = "<group>"; };
 		3F692F3D1C4CA1B900B0542E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8DAC6F1C803DA1003CC5C3 /* imageZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = imageZoom.swift; path = ../imageZoom.swift; sourceTree = "<group>"; };
+		3F8DAC711C8045C5003CC5C3 /* HIV_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HIV_1.swift; path = ../HIV_1.swift; sourceTree = "<group>"; };
+		3F8DAC731C805557003CC5C3 /* HIV_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HIV_2.swift; path = ../HIV_2.swift; sourceTree = "<group>"; };
+		3F8DAC751C805635003CC5C3 /* HIV_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIV_3.swift; sourceTree = "<group>"; };
+		3F8DAC771C80567A003CC5C3 /* HIV_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIV_4.swift; sourceTree = "<group>"; };
+		3F8DAC791C8056B8003CC5C3 /* HIV_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIV_5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +250,12 @@
 		3F692F251C4CA1B900B0542E /* IMCI */ = {
 			isa = PBXGroup;
 			children = (
+				3F8DAC731C805557003CC5C3 /* HIV_2.swift */,
+				3F8DAC751C805635003CC5C3 /* HIV_3.swift */,
+				3F8DAC771C80567A003CC5C3 /* HIV_4.swift */,
+				3F8DAC791C8056B8003CC5C3 /* HIV_5.swift */,
+				3F8DAC711C8045C5003CC5C3 /* HIV_1.swift */,
+				3F8DAC6F1C803DA1003CC5C3 /* imageZoom.swift */,
 				3F0C479F1C6634FA009F126A /* Images.xcassets */,
 				3F692F261C4CA1B900B0542E /* AppDelegate.swift */,
 				3F692F281C4CA1B900B0542E /* ViewController.swift */,
@@ -411,8 +429,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8DAC741C805557003CC5C3 /* HIV_2.swift in Sources */,
+				3F8DAC7A1C8056B8003CC5C3 /* HIV_5.swift in Sources */,
+				3F8DAC761C805635003CC5C3 /* HIV_3.swift in Sources */,
 				3F692F291C4CA1B900B0542E /* ViewController.swift in Sources */,
+				3F8DAC721C8045C5003CC5C3 /* HIV_1.swift in Sources */,
 				3F692F271C4CA1B900B0542E /* AppDelegate.swift in Sources */,
+				3F8DAC781C80567A003CC5C3 /* HIV_4.swift in Sources */,
+				3F8DAC701C803DA1003CC5C3 /* imageZoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

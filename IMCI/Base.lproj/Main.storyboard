@@ -32,17 +32,17 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdU-B7-hf3">
-                                <rect key="frame" x="559" y="638" width="0.0" height="0.0"/>
+                                <rect key="frame" x="559" y="388" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4c-jG-1lT">
-                                <rect key="frame" x="0.0" y="64" width="600" height="786"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green: Not serious and in most cases no drugs are needed. Simple advice on home management is given." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MrZ-uY-mPr">
                                         <rect key="frame" x="28" y="222" width="544" height="45"/>
@@ -364,7 +364,7 @@
                     <navigationItem key="navigationItem" title="IMCI" id="mOL-80-POI"/>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="568"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="850"/>
+                    <size key="freeformSize" width="600" height="600"/>
                     <connections>
                         <outlet property="scroller" destination="G4c-jG-1lT" id="B28-0v-qSc"/>
                     </connections>
@@ -12879,10 +12879,10 @@ LOOK:
             </objects>
             <point key="canvasLocation" x="-12762" y="-4267"/>
         </scene>
-        <!--View Controller-->
+        <!--HIV_4-->
         <scene sceneID="tIb-v8-Jru">
             <objects>
-                <viewController id="tgj-x5-KuA" sceneMemberID="viewController">
+                <viewController id="tgj-x5-KuA" customClass="HIV_4" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8RW-KZ-bPM"/>
                         <viewControllerLayoutGuide type="bottom" id="pjW-rO-dfj"/>
@@ -12890,11 +12890,6 @@ LOOK:
                     <view key="view" contentMode="scaleToFill" id="hPC-bP-iBe">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dose_of_cotrimoxazole.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="OvH-bd-dio">
-                                <rect key="frame" x="0.0" y="64" width="514" height="179"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
@@ -12902,10 +12897,10 @@ LOOK:
             </objects>
             <point key="canvasLocation" x="3530" y="-4461"/>
         </scene>
-        <!--View Controller-->
+        <!--HIV_5-->
         <scene sceneID="GFo-ES-k97">
             <objects>
-                <viewController id="kfK-Ax-Qd2" sceneMemberID="viewController">
+                <viewController id="kfK-Ax-Qd2" customClass="HIV_5" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YV6-ko-Rvl"/>
                         <viewControllerLayoutGuide type="bottom" id="9Hh-TJ-fTl"/>
@@ -12913,11 +12908,6 @@ LOOK:
                     <view key="view" contentMode="scaleToFill" id="LsX-b7-eWm">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paeds_chart.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="hmP-kA-FEk">
-                                <rect key="frame" x="0.0" y="64" width="600" height="370"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
@@ -12925,10 +12915,10 @@ LOOK:
             </objects>
             <point key="canvasLocation" x="3530" y="-3814"/>
         </scene>
-        <!--View Controller-->
+        <!--HIV_3-->
         <scene sceneID="uhl-xP-z6v">
             <objects>
-                <viewController id="Fb1-SD-JR9" sceneMemberID="viewController">
+                <viewController id="Fb1-SD-JR9" customClass="HIV_3" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2rP-Hr-xIB"/>
                         <viewControllerLayoutGuide type="bottom" id="jQo-kk-R8c"/>
@@ -12936,11 +12926,6 @@ LOOK:
                     <view key="view" contentMode="scaleToFill" id="wf5-o1-ndI">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nvp_dosage_for_infants.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="uYQ-Sc-Gfz">
-                                <rect key="frame" x="0.0" y="64" width="600" height="320"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
@@ -12948,10 +12933,10 @@ LOOK:
             </objects>
             <point key="canvasLocation" x="3530" y="-5115"/>
         </scene>
-        <!--View Controller-->
+        <!--HIV_2-->
         <scene sceneID="x9L-9s-754">
             <objects>
-                <viewController id="eST-fY-kLy" sceneMemberID="viewController">
+                <viewController id="eST-fY-kLy" customClass="HIV_2" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cLj-W2-7jr"/>
                         <viewControllerLayoutGuide type="bottom" id="jdb-t5-hjM"/>
@@ -12959,18 +12944,7 @@ LOOK:
                     <view key="view" contentMode="scaleToFill" id="Pwp-GB-OJM">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guidlines_on_nevirapine.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="KnB-5R-c7z">
-                                <rect key="frame" x="0.0" y="64" width="600" height="158"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="KnB-5R-c7z" firstAttribute="centerX" secondItem="Pwp-GB-OJM" secondAttribute="centerX" id="0em-gR-FuK"/>
-                            <constraint firstItem="KnB-5R-c7z" firstAttribute="leading" secondItem="Pwp-GB-OJM" secondAttribute="leading" id="9D4-m4-hTk"/>
-                            <constraint firstItem="jdb-t5-hjM" firstAttribute="top" secondItem="KnB-5R-c7z" secondAttribute="bottom" constant="378" id="d4J-fH-qcu"/>
-                            <constraint firstItem="KnB-5R-c7z" firstAttribute="top" secondItem="cLj-W2-7jr" secondAttribute="bottom" id="sMx-KZ-YXi"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U0J-dh-Ecl" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -13103,10 +13077,10 @@ LOOK:
             </objects>
             <point key="canvasLocation" x="2743" y="-3998"/>
         </scene>
-        <!--View Controller-->
+        <!--HIV_1-->
         <scene sceneID="ilz-8X-Am6">
             <objects>
-                <viewController id="ZlR-Y0-toj" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZlR-Y0-toj" customClass="HIV_1" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lZs-KH-oLW"/>
                         <viewControllerLayoutGuide type="bottom" id="TI5-LA-wVo"/>
@@ -13114,12 +13088,7 @@ LOOK:
                     <view key="view" contentMode="scaleToFill" id="Gd9-YE-v16">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="algorithm_for_early_diagnosis_hiv.png" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Zt-zv-vfv">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="pcm-xt-gqX"/>
                 </viewController>
@@ -13829,7 +13798,6 @@ The mother should:
         </scene>
     </scenes>
     <resources>
-        <image name="algorithm_for_early_diagnosis_hiv.png" width="623" height="619"/>
         <image name="breastfeeding_upto_six_months.PNG" width="556" height="685"/>
         <image name="breastfeeding_upto_six_to_twelve_months.PNG" width="553" height="686"/>
         <image name="breastfeeding_upto_six_to_twelve_months_one.PNG" width="552" height="352"/>
@@ -13839,7 +13807,6 @@ The mother should:
         <image name="breastfeeding_upto_two_years_and_older_one.PNG" width="551" height="354"/>
         <image name="care_for_development_0_4.PNG" width="427" height="542"/>
         <image name="care_for_development_4_6.PNG" width="410" height="539"/>
-        <image name="dose_of_cotrimoxazole.PNG" width="937" height="369"/>
         <image name="drug_antibiotic_pneumonia.png" width="604" height="703"/>
         <image name="drug_oral_ironfolate.PNG" width="561" height="231"/>
         <image name="drug_oralantimalarial.png" width="682" height="516"/>
@@ -13847,11 +13814,8 @@ The mother should:
         <image name="drug_oralvitamin_a.PNG" width="564" height="218"/>
         <image name="drug_oralzincsulphate.PNG" width="567" height="144"/>
         <image name="first_dose_of_intramuscular_antibiotics.PNG" width="1237" height="642"/>
-        <image name="guidlines_on_nevirapine.PNG" width="1193" height="278"/>
         <image name="mebendazole.PNG" width="554" height="87"/>
         <image name="medicationmetronidazole_dysentry.PNG" width="571" height="229"/>
-        <image name="nvp_dosage_for_infants.PNG" width="1192" height="565"/>
-        <image name="paeds_chart.PNG" width="1273" height="627"/>
         <image name="plan_b_ors_age.png" width="985" height="192"/>
         <image name="rehydration_child_severe_dehydration.PNG" width="408" height="620"/>
         <image name="rehydration_therapy_and_feeding.PNG" width="697" height="616"/>
