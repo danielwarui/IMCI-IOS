@@ -71,6 +71,8 @@
 		3F8DAC781C80567A003CC5C3 /* HIV_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC771C80567A003CC5C3 /* HIV_4.swift */; };
 		3F8DAC7A1C8056B8003CC5C3 /* HIV_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC791C8056B8003CC5C3 /* HIV_5.swift */; };
 		3F8DAC7C1C80A96F003CC5C3 /* Assess_immunization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC7B1C80A96F003CC5C3 /* Assess_immunization.swift */; };
+		3F8DAC7E1C81DC23003CC5C3 /* Assess_VitaminA_Deworming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC7D1C81DC23003CC5C3 /* Assess_VitaminA_Deworming.swift */; };
+		3F8DAC801C81DF5D003CC5C3 /* Assess_Immunization_Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC7F1C81DF5D003CC5C3 /* Assess_Immunization_Table.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +154,8 @@
 		3F8DAC771C80567A003CC5C3 /* HIV_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIV_4.swift; sourceTree = "<group>"; };
 		3F8DAC791C8056B8003CC5C3 /* HIV_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HIV_5.swift; sourceTree = "<group>"; };
 		3F8DAC7B1C80A96F003CC5C3 /* Assess_immunization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assess_immunization.swift; sourceTree = "<group>"; };
+		3F8DAC7D1C81DC23003CC5C3 /* Assess_VitaminA_Deworming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assess_VitaminA_Deworming.swift; path = ../Assess_VitaminA_Deworming.swift; sourceTree = "<group>"; };
+		3F8DAC7F1C81DF5D003CC5C3 /* Assess_Immunization_Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assess_Immunization_Table.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +256,8 @@
 		3F692F251C4CA1B900B0542E /* IMCI */ = {
 			isa = PBXGroup;
 			children = (
+				3F8DAC7F1C81DF5D003CC5C3 /* Assess_Immunization_Table.swift */,
+				3F8DAC7D1C81DC23003CC5C3 /* Assess_VitaminA_Deworming.swift */,
 				3F8DAC731C805557003CC5C3 /* HIV_2.swift */,
 				3F8DAC751C805635003CC5C3 /* HIV_3.swift */,
 				3F8DAC771C80567A003CC5C3 /* HIV_4.swift */,
@@ -440,7 +446,9 @@
 				3F692F271C4CA1B900B0542E /* AppDelegate.swift in Sources */,
 				3F8DAC781C80567A003CC5C3 /* HIV_4.swift in Sources */,
 				3F8DAC7C1C80A96F003CC5C3 /* Assess_immunization.swift in Sources */,
+				3F8DAC801C81DF5D003CC5C3 /* Assess_Immunization_Table.swift in Sources */,
 				3F8DAC701C803DA1003CC5C3 /* imageZoom.swift in Sources */,
+				3F8DAC7E1C81DC23003CC5C3 /* Assess_VitaminA_Deworming.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

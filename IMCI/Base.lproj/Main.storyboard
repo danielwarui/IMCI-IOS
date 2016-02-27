@@ -2205,7 +2205,7 @@ Reassess feeding: See questions at the top of COUNSEL THE MOTHER. Ask about any 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4me-V8-j0m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5348" y="5724"/>
+            <point key="canvasLocation" x="-5348" y="5492"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="nlR-wO-kXC">
@@ -9029,7 +9029,7 @@ IF CHILD IS:
         <!--Vitamin A & Deworming-->
         <scene sceneID="Oqh-Mn-JPq">
             <objects>
-                <viewController id="N7z-bp-Wlm" sceneMemberID="viewController">
+                <viewController id="N7z-bp-Wlm" customClass="Assess_VitaminA_Deworming" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Tw6-wd-TCB"/>
                         <viewControllerLayoutGuide type="bottom" id="0Is-hp-7Ub"/>
@@ -9038,19 +9038,22 @@ IF CHILD IS:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vitamin_a.png" translatesAutoresizingMaskIntoConstraints="NO" id="x6a-zf-N0R">
-                                <rect key="frame" x="0.0" y="72" width="600" height="593"/>
-                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2xr-Td-oe5">
+                                <rect key="frame" x="0.0" y="64" width="600" height="737"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="x6a-zf-N0R" firstAttribute="centerX" secondItem="whY-hn-NRq" secondAttribute="centerX" id="FQ3-Dt-Hw3"/>
-                            <constraint firstItem="x6a-zf-N0R" firstAttribute="width" secondItem="whY-hn-NRq" secondAttribute="width" id="Iqc-iX-5Cy"/>
-                            <constraint firstItem="x6a-zf-N0R" firstAttribute="top" secondItem="Tw6-wd-TCB" secondAttribute="bottom" constant="8" symbolic="YES" id="fRn-wV-Co2"/>
-                            <constraint firstItem="0Is-hp-7Ub" firstAttribute="top" secondItem="x6a-zf-N0R" secondAttribute="bottom" constant="136" id="qrf-BX-3Da"/>
+                            <constraint firstItem="2xr-Td-oe5" firstAttribute="top" secondItem="Tw6-wd-TCB" secondAttribute="bottom" id="Cj2-1C-fgA"/>
+                            <constraint firstItem="2xr-Td-oe5" firstAttribute="leading" secondItem="whY-hn-NRq" secondAttribute="leadingMargin" constant="-20" id="MUb-0b-M2q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2xr-Td-oe5" secondAttribute="trailing" constant="-20" id="nBc-Pc-m41"/>
+                            <constraint firstItem="0Is-hp-7Ub" firstAttribute="top" secondItem="2xr-Td-oe5" secondAttribute="bottom" id="u1r-8s-IFR"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Vitamin A &amp; Deworming" id="WRK-bV-JN4"/>
+                    <connections>
+                        <outlet property="scrollView" destination="2xr-Td-oe5" id="khV-5y-iVr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0q-pj-fnS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -9609,7 +9612,7 @@ Classify HIV status</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JrB-zr-o1U">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JrB-zr-o1U">
                                 <rect key="frame" x="0.0" y="64" width="600" height="729"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Anaemia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ml8-rz-goK">
@@ -9640,7 +9643,7 @@ Classify HIV status</string>
                                         <rect key="frame" x="8" y="306" width="584" height="94"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="94" id="rXe-Xk-CoU"/>
+                                            <constraint firstAttribute="height" constant="94" id="vVM-IZ-85C"/>
                                         </constraints>
                                         <string key="text">• If the child is less than 2 years old assess the child’s feeding and counsel the mother on feeding.
 • If child has a feeding problem follow up in 5 days.
@@ -9666,7 +9669,7 @@ Classify HIV status</string>
 • Give Iron and Folate
 • Give vitamin A
 • Give Artemether + Lumefantrine (AL) if high malaria risk
-• Give mebendazola or albendazole if the child is 1 year or older and has not had a dose in the last 6 months.
+• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months.
 • If T.B contact positive assess further or refer.
 • Check for HIV infection
 • Advise mother when to come immediately 
@@ -9678,38 +9681,34 @@ Classify HIV status</string>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="DlG-WY-SPd" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="72c-sS-Jf6"/>
-                                    <constraint firstItem="jjy-eL-ll7" firstAttribute="top" secondItem="DlG-WY-SPd" secondAttribute="bottom" constant="8" id="8IQ-Jn-3AS"/>
-                                    <constraint firstItem="D2H-G3-R2k" firstAttribute="centerX" secondItem="JrB-zr-o1U" secondAttribute="centerX" id="BLK-ve-oJd"/>
-                                    <constraint firstItem="D2H-G3-R2k" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="Dag-JE-sQk"/>
-                                    <constraint firstItem="AOl-DN-TLG" firstAttribute="centerX" secondItem="JrB-zr-o1U" secondAttribute="centerX" id="Fx9-RL-3za"/>
-                                    <constraint firstItem="D2H-G3-R2k" firstAttribute="top" secondItem="Ml8-rz-goK" secondAttribute="bottom" constant="1" id="L4C-CY-N4V"/>
-                                    <constraint firstItem="Ml8-rz-goK" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="LRo-q7-C21"/>
-                                    <constraint firstItem="Jgk-1t-Auw" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="LrD-GI-lCL"/>
-                                    <constraint firstAttribute="trailing" secondItem="jjy-eL-ll7" secondAttribute="trailing" constant="8" id="NwW-WV-UPe"/>
-                                    <constraint firstItem="Jgk-1t-Auw" firstAttribute="top" secondItem="jjy-eL-ll7" secondAttribute="bottom" id="P1N-E3-hV6"/>
-                                    <constraint firstAttribute="trailing" secondItem="D2H-G3-R2k" secondAttribute="trailing" constant="8" id="PXb-a4-Rgh"/>
-                                    <constraint firstItem="jjy-eL-ll7" firstAttribute="centerX" secondItem="JrB-zr-o1U" secondAttribute="centerX" id="QIV-vg-48f"/>
-                                    <constraint firstItem="Ml8-rz-goK" firstAttribute="centerX" secondItem="JrB-zr-o1U" secondAttribute="centerX" id="R4d-4m-XPE"/>
-                                    <constraint firstAttribute="trailing" secondItem="AOl-DN-TLG" secondAttribute="trailing" constant="8" id="Swo-Jo-1Bs"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ml8-rz-goK" secondAttribute="trailing" constant="8" id="dv3-fT-S95"/>
-                                    <constraint firstItem="AOl-DN-TLG" firstAttribute="top" secondItem="D2H-G3-R2k" secondAttribute="bottom" constant="8" id="gkP-55-Wl8"/>
-                                    <constraint firstItem="Ml8-rz-goK" firstAttribute="top" secondItem="JrB-zr-o1U" secondAttribute="top" constant="8" id="hH5-bx-02Q"/>
-                                    <constraint firstAttribute="trailing" secondItem="Jgk-1t-Auw" secondAttribute="trailing" constant="8" id="hQi-pC-niJ"/>
-                                    <constraint firstItem="DlG-WY-SPd" firstAttribute="centerX" secondItem="JrB-zr-o1U" secondAttribute="centerX" id="jyh-By-hDD"/>
-                                    <constraint firstItem="DlG-WY-SPd" firstAttribute="top" secondItem="AOl-DN-TLG" secondAttribute="bottom" id="pyc-ws-oYg"/>
-                                    <constraint firstItem="AOl-DN-TLG" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="sam-xQ-Cve"/>
-                                    <constraint firstItem="jjy-eL-ll7" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="tKT-vG-hIE"/>
-                                    <constraint firstAttribute="trailing" secondItem="DlG-WY-SPd" secondAttribute="trailing" constant="8" id="tRp-kW-kLB"/>
-                                    <constraint firstItem="Jgk-1t-Auw" firstAttribute="centerX" secondItem="JrB-zr-o1U" secondAttribute="centerX" id="umF-Z5-ZWB"/>
+                                    <constraint firstItem="jjy-eL-ll7" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="304-O0-hhr"/>
+                                    <constraint firstItem="AOl-DN-TLG" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="34q-gF-peI"/>
+                                    <constraint firstAttribute="trailing" secondItem="jjy-eL-ll7" secondAttribute="trailing" constant="8" id="6tz-rW-XXa"/>
+                                    <constraint firstItem="D2H-G3-R2k" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="9fa-wb-EDJ"/>
+                                    <constraint firstItem="DlG-WY-SPd" firstAttribute="centerX" secondItem="JrB-zr-o1U" secondAttribute="centerX" id="Clf-mQ-Sly"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jgk-1t-Auw" secondAttribute="bottom" constant="265" id="Ha1-5b-j0E"/>
+                                    <constraint firstItem="Ml8-rz-goK" firstAttribute="top" secondItem="JrB-zr-o1U" secondAttribute="top" constant="8" id="M4d-mi-KhB"/>
+                                    <constraint firstItem="D2H-G3-R2k" firstAttribute="top" secondItem="Ml8-rz-goK" secondAttribute="bottom" constant="1" id="RxZ-Yt-uCn"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jgk-1t-Auw" secondAttribute="trailing" constant="8" id="V6B-Zp-nxy"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ml8-rz-goK" secondAttribute="trailing" constant="8" id="Wcm-VX-xtw"/>
+                                    <constraint firstItem="DlG-WY-SPd" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="Z3c-pi-a3K"/>
+                                    <constraint firstItem="AOl-DN-TLG" firstAttribute="top" secondItem="D2H-G3-R2k" secondAttribute="bottom" constant="8" id="Zkw-2I-7CU"/>
+                                    <constraint firstItem="Jgk-1t-Auw" firstAttribute="top" secondItem="jjy-eL-ll7" secondAttribute="bottom" id="dB8-fR-LIr"/>
+                                    <constraint firstAttribute="trailing" secondItem="AOl-DN-TLG" secondAttribute="trailing" constant="8" id="dOV-w9-tva"/>
+                                    <constraint firstItem="jjy-eL-ll7" firstAttribute="top" secondItem="DlG-WY-SPd" secondAttribute="bottom" constant="8" id="eiT-Wf-PKZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="D2H-G3-R2k" secondAttribute="trailing" constant="8" id="i6Z-TJ-MZW"/>
+                                    <constraint firstItem="Ml8-rz-goK" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="pKZ-2Q-aoK"/>
+                                    <constraint firstItem="DlG-WY-SPd" firstAttribute="top" secondItem="AOl-DN-TLG" secondAttribute="bottom" id="tlk-Gb-UVb"/>
+                                    <constraint firstItem="Jgk-1t-Auw" firstAttribute="leading" secondItem="JrB-zr-o1U" secondAttribute="leading" constant="8" id="w9i-UM-UGV"/>
+                                    <constraint firstAttribute="trailing" secondItem="DlG-WY-SPd" secondAttribute="trailing" constant="8" id="ymc-Cr-6Gv"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="JrB-zr-o1U" firstAttribute="top" secondItem="SHk-6d-74M" secondAttribute="bottom" id="DcB-2q-G7S"/>
-                            <constraint firstItem="C3c-P4-dDB" firstAttribute="top" secondItem="JrB-zr-o1U" secondAttribute="bottom" constant="8" symbolic="YES" id="PBd-yg-WRl"/>
                             <constraint firstAttribute="trailing" secondItem="JrB-zr-o1U" secondAttribute="trailing" id="bd8-yT-3hf"/>
+                            <constraint firstItem="C3c-P4-dDB" firstAttribute="top" secondItem="JrB-zr-o1U" secondAttribute="bottom" constant="8" symbolic="YES" id="mMv-d1-e4f"/>
                             <constraint firstItem="JrB-zr-o1U" firstAttribute="leading" secondItem="J5F-i4-cly" secondAttribute="leading" id="wy7-LR-hDS"/>
                         </constraints>
                     </view>
@@ -9808,6 +9807,9 @@ Classify HIV status</string>
                                 <state key="normal" title="View Immunization Table">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="mpQ-KH-UbS" kind="show" id="fKG-rg-SyL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -9827,6 +9829,24 @@ Classify HIV status</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GPY-2N-7UE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1987" y="-2722"/>
+        </scene>
+        <!--Assess Immunization Table-->
+        <scene sceneID="d2Y-gz-OMv">
+            <objects>
+                <viewController id="mpQ-KH-UbS" customClass="Assess_Immunization_Table" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I65-Sw-lbh"/>
+                        <viewControllerLayoutGuide type="bottom" id="EtT-HO-qAW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gl2-Hp-5gB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YSf-lq-HlE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1385" y="-2628"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JUv-37-Pwu">
@@ -10604,22 +10624,25 @@ Determine Z score for the same:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bIO-XC-qDp">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bIO-XC-qDp">
                                 <rect key="frame" x="0.0" y="64" width="600" height="729"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Severe Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnE-0Y-evr">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnE-0Y-evr">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="PWb-2z-XPU"/>
+                                            <constraint firstAttribute="height" constant="34" id="Cxg-Pi-AXE"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFV-so-c3f">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFV-so-c3f">
                                         <rect key="frame" x="0.0" y="32" width="600" height="110"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="110" id="x3P-FH-Rca"/>
+                                        </constraints>
                                         <string key="text">	• Give vitamin A
 	• Treat for and to prevent low blood sugar
 	• Keep he child warm
@@ -10629,19 +10652,22 @@ Determine Z score for the same:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Moderate Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbI-5o-Hzb">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moderate Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbI-5o-Hzb">
                                         <rect key="frame" x="0.0" y="142" width="600" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="yoe-eO-eqe"/>
+                                            <constraint firstAttribute="height" constant="34" id="pnc-nq-bgM"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqQ-gD-lyG">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqQ-gD-lyG">
                                         <rect key="frame" x="0.0" y="176" width="600" height="146"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="146" id="gPp-xY-NaT"/>
+                                        </constraints>
                                         <string key="text">	• Assess the child’s feeding and counsel the mother on feeding
 	• If growth is faltering for 2 consecutive months, assess further or refer to the hospital
 	• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in the last 6 months
@@ -10653,19 +10679,22 @@ Determine Z score for the same:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="At Risk of Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfB-yK-G0D">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="At Risk of Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfB-yK-G0D">
                                         <rect key="frame" x="0.0" y="324" width="600" height="36"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="Ggp-9K-Pm3"/>
+                                            <constraint firstAttribute="height" constant="36" id="nWI-6g-Vh0"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxq-Wx-ZXm">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxq-Wx-ZXm">
                                         <rect key="frame" x="0.0" y="360" width="600" height="141"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="141" id="Sqg-ZW-u3B"/>
+                                        </constraints>
                                         <string key="text">	• If child is less than 2 years old, and has growth faltering, assess the child’s feeding and counsel the mother on feeding according to FOOD box on the COUNSEL THE MOTHER tab.
 	• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in there last 6 months.
 	• If T.B. contact positive assess further or refer.
@@ -10677,19 +10706,22 @@ Determine Z score for the same:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="No Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZp-oW-VML">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZp-oW-VML">
                                         <rect key="frame" x="0.0" y="500" width="600" height="36"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="f54-wA-03o"/>
+                                            <constraint firstAttribute="height" constant="36" id="g9j-wj-7Xr"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSz-PX-uHW">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSz-PX-uHW">
                                         <rect key="frame" x="0.0" y="534" width="600" height="84"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="84" id="gpY-24-hGE"/>
+                                        </constraints>
                                         <string key="text">	• Counsel the mother on feeding according to the FOOD  box on the COUNSEL THE MOTHER tab.
 	• Give mebendazole or albendazole if child is 1 year or older and has not had a dose in the previous 6 months.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -10697,9 +10729,59 @@ Determine Z score for the same:
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="bxq-Wx-ZXm" firstAttribute="top" secondItem="LfB-yK-G0D" secondAttribute="bottom" id="0w3-MQ-73m"/>
+                                    <constraint firstItem="ZFV-so-c3f" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="3In-Ii-kjN"/>
+                                    <constraint firstAttribute="trailing" secondItem="GSz-PX-uHW" secondAttribute="trailing" id="5Sn-O5-mfv"/>
+                                    <constraint firstItem="ZFV-so-c3f" firstAttribute="centerX" secondItem="bIO-XC-qDp" secondAttribute="centerX" id="6GY-tg-kra"/>
+                                    <constraint firstAttribute="trailing" secondItem="yqQ-gD-lyG" secondAttribute="trailing" id="9ts-ig-kqQ"/>
+                                    <constraint firstItem="ZFV-so-c3f" firstAttribute="top" secondItem="bIO-XC-qDp" secondAttribute="top" constant="32" id="ACJ-yF-5kg"/>
+                                    <constraint firstItem="FbI-5o-Hzb" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="Csm-0v-tro"/>
+                                    <constraint firstAttribute="trailing" secondItem="GSz-PX-uHW" secondAttribute="trailing" id="DPr-pO-kUR"/>
+                                    <constraint firstItem="LfB-yK-G0D" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="EAG-wY-FlS"/>
+                                    <constraint firstAttribute="trailing" secondItem="LfB-yK-G0D" secondAttribute="trailing" id="ETg-fe-z5f"/>
+                                    <constraint firstItem="ZFV-so-c3f" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="Ee6-gp-vQL"/>
+                                    <constraint firstAttribute="trailing" secondItem="LfB-yK-G0D" secondAttribute="trailing" id="G1w-Vt-zAr"/>
+                                    <constraint firstAttribute="trailing" secondItem="aZp-oW-VML" secondAttribute="trailing" id="Kix-Qi-4OO"/>
+                                    <constraint firstAttribute="trailing" secondItem="bxq-Wx-ZXm" secondAttribute="trailing" id="KwU-e0-ylB"/>
+                                    <constraint firstItem="GSz-PX-uHW" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="Nc3-2H-BRs"/>
+                                    <constraint firstAttribute="bottom" secondItem="GSz-PX-uHW" secondAttribute="bottom" constant="111" id="PBh-Ih-f7V"/>
+                                    <constraint firstItem="LfB-yK-G0D" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="PeU-Vh-D7V"/>
+                                    <constraint firstItem="bxq-Wx-ZXm" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="QNj-jh-mxr"/>
+                                    <constraint firstItem="nnE-0Y-evr" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="U7J-ct-e0R"/>
+                                    <constraint firstItem="LfB-yK-G0D" firstAttribute="top" secondItem="yqQ-gD-lyG" secondAttribute="bottom" constant="2" id="UX5-mz-MUj"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZFV-so-c3f" secondAttribute="trailing" id="VHO-ks-SAP"/>
+                                    <constraint firstItem="yqQ-gD-lyG" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="XFU-EF-D0E"/>
+                                    <constraint firstItem="aZp-oW-VML" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="Xaw-WP-aPk"/>
+                                    <constraint firstAttribute="trailing" secondItem="FbI-5o-Hzb" secondAttribute="trailing" id="Xug-xo-6wx"/>
+                                    <constraint firstItem="nnE-0Y-evr" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="YDQ-UV-luf"/>
+                                    <constraint firstItem="yqQ-gD-lyG" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="YSV-TB-IU1"/>
+                                    <constraint firstAttribute="trailing" secondItem="nnE-0Y-evr" secondAttribute="trailing" id="czT-B1-fXo"/>
+                                    <constraint firstAttribute="trailing" secondItem="yqQ-gD-lyG" secondAttribute="trailing" id="d3Y-1c-lJm"/>
+                                    <constraint firstAttribute="trailing" secondItem="nnE-0Y-evr" secondAttribute="trailing" id="eXA-h9-Qoz"/>
+                                    <constraint firstItem="FbI-5o-Hzb" firstAttribute="top" secondItem="ZFV-so-c3f" secondAttribute="bottom" id="epR-po-Fl3"/>
+                                    <constraint firstItem="aZp-oW-VML" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="kzS-CD-B4g"/>
+                                    <constraint firstItem="GSz-PX-uHW" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="nO0-x5-Hen"/>
+                                    <constraint firstAttribute="trailing" secondItem="FbI-5o-Hzb" secondAttribute="trailing" id="oU5-Gs-oUM"/>
+                                    <constraint firstItem="aZp-oW-VML" firstAttribute="top" secondItem="bIO-XC-qDp" secondAttribute="top" constant="500" id="ofI-0l-MsY"/>
+                                    <constraint firstItem="nnE-0Y-evr" firstAttribute="top" secondItem="bIO-XC-qDp" secondAttribute="top" id="qGM-lI-8W5"/>
+                                    <constraint firstItem="FbI-5o-Hzb" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="qJK-XI-uc2"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZFV-so-c3f" secondAttribute="trailing" id="r2t-PD-FPN"/>
+                                    <constraint firstAttribute="trailing" secondItem="bxq-Wx-ZXm" secondAttribute="trailing" id="sZd-kz-Tpu"/>
+                                    <constraint firstItem="yqQ-gD-lyG" firstAttribute="top" secondItem="FbI-5o-Hzb" secondAttribute="bottom" id="tdk-qk-eH6"/>
+                                    <constraint firstAttribute="trailing" secondItem="aZp-oW-VML" secondAttribute="trailing" id="vC5-Ls-SAe"/>
+                                    <constraint firstItem="GSz-PX-uHW" firstAttribute="top" secondItem="bxq-Wx-ZXm" secondAttribute="bottom" constant="33" id="you-bG-t7R"/>
+                                    <constraint firstItem="bxq-Wx-ZXm" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="zTS-tF-cVH"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="PwN-6g-sJY" firstAttribute="top" secondItem="bIO-XC-qDp" secondAttribute="bottom" constant="8" symbolic="YES" id="8v2-qe-OBo"/>
+                            <constraint firstAttribute="trailing" secondItem="bIO-XC-qDp" secondAttribute="trailing" id="Y5Q-cQ-zqh"/>
+                            <constraint firstItem="bIO-XC-qDp" firstAttribute="top" secondItem="wMW-ZG-llD" secondAttribute="bottom" id="bqg-b0-pJz"/>
+                            <constraint firstItem="bIO-XC-qDp" firstAttribute="leading" secondItem="4x4-30-YQ7" secondAttribute="leading" id="gmW-lf-7pS"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="1IR-25-ua9"/>
                     <connections>
@@ -13867,7 +13949,6 @@ The mother should:
         <image name="rehydration_therapy_and_feeding.PNG" width="697" height="616"/>
         <image name="supplement_multivitamin.PNG" width="834" height="318"/>
         <image name="treat_wheezing.PNG" width="720" height="643"/>
-        <image name="vitamin_a.png" width="456" height="465"/>
         <image name="young_appropriate_oral_antibiotic.PNG" width="1122" height="639"/>
         <image name="young_give_zinc_sulphate.PNG" width="1166" height="541"/>
     </resources>
