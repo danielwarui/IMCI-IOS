@@ -10,13 +10,13 @@ import UIKit
 
 class Treat_Benzylpenicillin: UIViewController, UIScrollViewDelegate {
     @IBOutlet var scrollView: UIScrollView!
-    @IBOutlet var someLabel: UILabel!
+ 
     // var scrollView: UIScrollView!
     var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        someLabel.text = "Give first dose of benzylpenicillin and gentamicin intramuscular."
+       
         imageView = UIImageView(image: UIImage(named: "first_dose_of_intramuscular_antibiotics.PNG"))
         
         scrollView = UIScrollView(frame: view.bounds)
