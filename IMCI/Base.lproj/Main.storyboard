@@ -5162,7 +5162,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X6S-eD-DCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1347" y="-1926"/>
+            <point key="canvasLocation" x="1355" y="-3101"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1ac-Ga-mfy">
@@ -5177,7 +5177,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wo-Rf-MDZ">
-                                <rect key="frame" x="20" y="65" width="560" height="83"/>
+                                <rect key="frame" x="20" y="72" width="560" height="58"/>
                                 <string key="text">• Explain to the moher why the drug is given.
 • Determine the appropriate dose for the child weight (or age).
 • Use a sterile needle and sterile syringe. Measure dose accurately.
@@ -5187,11 +5187,8 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zxU-2E-0Vh">
-                                <rect key="frame" x="20" y="156" width="560" height="41"/>
+                                <rect key="frame" x="20" y="138" width="560" height="29"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="UsX-3G-QSs"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Give an intramuscular antibiotic"/>
                                 <connections>
@@ -5199,11 +5196,8 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="KUv-iT-hdw">
-                                <rect key="frame" x="20" y="220" width="560" height="41"/>
+                                <rect key="frame" x="20" y="175" width="560" height="29"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="pYu-sm-LsJ"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="Treat the young infant to prevent low blood sugar"/>
                                 <connections>
@@ -5213,16 +5207,18 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="zxU-2E-0Vh" firstAttribute="leading" secondItem="EIR-7d-QZv" secondAttribute="leadingMargin" id="6Qf-OV-74y"/>
-                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="leading" secondItem="zxU-2E-0Vh" secondAttribute="leading" id="6un-eX-SdW"/>
-                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="trailing" secondItem="EIR-7d-QZv" secondAttribute="trailingMargin" id="Brx-ZJ-Hor"/>
-                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="trailing" secondItem="zxU-2E-0Vh" secondAttribute="trailing" id="PDd-Td-P31"/>
-                            <constraint firstItem="KUv-iT-hdw" firstAttribute="trailing" secondItem="zxU-2E-0Vh" secondAttribute="trailing" id="R1D-ca-7oB"/>
-                            <constraint firstItem="zxU-2E-0Vh" firstAttribute="top" secondItem="9wo-Rf-MDZ" secondAttribute="bottom" constant="8" id="cV4-uD-yox"/>
-                            <constraint firstItem="KUv-iT-hdw" firstAttribute="leading" secondItem="zxU-2E-0Vh" secondAttribute="leading" id="fbZ-qb-Gyk"/>
-                            <constraint firstItem="KUv-iT-hdw" firstAttribute="top" secondItem="zxU-2E-0Vh" secondAttribute="bottom" constant="23" id="uVE-Ph-uxj"/>
-                            <constraint firstItem="b9E-wp-b7W" firstAttribute="top" secondItem="KUv-iT-hdw" secondAttribute="bottom" constant="339" id="ulv-1g-amv"/>
-                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="top" secondItem="IjC-ef-vCN" secondAttribute="bottom" constant="1" id="xYq-Jc-GYg"/>
+                            <constraint firstItem="zxU-2E-0Vh" firstAttribute="trailing" secondItem="EIR-7d-QZv" secondAttribute="trailingMargin" id="8Wz-yM-IxP"/>
+                            <constraint firstItem="zxU-2E-0Vh" firstAttribute="leading" secondItem="EIR-7d-QZv" secondAttribute="leadingMargin" id="BlA-uM-PkQ"/>
+                            <constraint firstItem="KUv-iT-hdw" firstAttribute="top" secondItem="zxU-2E-0Vh" secondAttribute="bottom" constant="8" id="GWJ-Tc-wdr"/>
+                            <constraint firstItem="KUv-iT-hdw" firstAttribute="leading" secondItem="EIR-7d-QZv" secondAttribute="leadingMargin" id="OW5-zg-1I8"/>
+                            <constraint firstItem="zxU-2E-0Vh" firstAttribute="top" secondItem="9wo-Rf-MDZ" secondAttribute="bottom" constant="8" id="TSf-4b-LEv"/>
+                            <constraint firstItem="KUv-iT-hdw" firstAttribute="centerX" secondItem="EIR-7d-QZv" secondAttribute="centerX" id="UEY-w9-zjO"/>
+                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="trailing" secondItem="EIR-7d-QZv" secondAttribute="trailingMargin" id="Vpa-z8-PMp"/>
+                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="top" secondItem="IjC-ef-vCN" secondAttribute="bottom" constant="8" id="auO-al-Y3p"/>
+                            <constraint firstItem="KUv-iT-hdw" firstAttribute="trailing" secondItem="EIR-7d-QZv" secondAttribute="trailingMargin" id="ugF-Tr-xTP"/>
+                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="centerX" secondItem="EIR-7d-QZv" secondAttribute="centerX" id="zE3-Sh-ges"/>
+                            <constraint firstItem="9wo-Rf-MDZ" firstAttribute="leading" secondItem="EIR-7d-QZv" secondAttribute="leadingMargin" id="zHk-9p-Tfa"/>
+                            <constraint firstItem="zxU-2E-0Vh" firstAttribute="centerX" secondItem="EIR-7d-QZv" secondAttribute="centerX" id="zZ2-SO-nV6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ap1-aM-mij"/>
@@ -5426,10 +5422,10 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
             </objects>
             <point key="canvasLocation" x="7610" y="-183"/>
         </scene>
-        <!--View Controller-->
+        <!--Treat Benzylpenicillin-->
         <scene sceneID="jWu-cd-fO9">
             <objects>
-                <viewController id="Efu-7F-THG" sceneMemberID="viewController">
+                <viewController id="Efu-7F-THG" customClass="Treat_Benzylpenicillin" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1Kb-9T-LTu"/>
                         <viewControllerLayoutGuide type="bottom" id="b1O-Ow-B1R"/>
@@ -5444,12 +5440,12 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="first_dose_of_intramuscular_antibiotics.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="VEl-Js-3Hc">
-                                <rect key="frame" x="0.0" y="127" width="600" height="281"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="someLabel" destination="AF9-51-4CV" id="YIB-nL-WXo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z9g-uB-UsF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -13941,7 +13937,6 @@ The mother should:
         <image name="drug_oralparacetamolfever.PNG" width="585" height="195"/>
         <image name="drug_oralvitamin_a.PNG" width="564" height="218"/>
         <image name="drug_oralzincsulphate.PNG" width="567" height="144"/>
-        <image name="first_dose_of_intramuscular_antibiotics.PNG" width="1237" height="642"/>
         <image name="mebendazole.PNG" width="554" height="87"/>
         <image name="medicationmetronidazole_dysentry.PNG" width="571" height="229"/>
         <image name="plan_b_ors_age.png" width="985" height="192"/>

@@ -73,6 +73,7 @@
 		3F8DAC7C1C80A96F003CC5C3 /* Assess_immunization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC7B1C80A96F003CC5C3 /* Assess_immunization.swift */; };
 		3F8DAC7E1C81DC23003CC5C3 /* Assess_VitaminA_Deworming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC7D1C81DC23003CC5C3 /* Assess_VitaminA_Deworming.swift */; };
 		3F8DAC801C81DF5D003CC5C3 /* Assess_Immunization_Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC7F1C81DF5D003CC5C3 /* Assess_Immunization_Table.swift */; };
+		3F8DAC821C81E874003CC5C3 /* Treat_Benzylpenicillin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DAC811C81E874003CC5C3 /* Treat_Benzylpenicillin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +157,7 @@
 		3F8DAC7B1C80A96F003CC5C3 /* Assess_immunization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assess_immunization.swift; sourceTree = "<group>"; };
 		3F8DAC7D1C81DC23003CC5C3 /* Assess_VitaminA_Deworming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assess_VitaminA_Deworming.swift; path = ../Assess_VitaminA_Deworming.swift; sourceTree = "<group>"; };
 		3F8DAC7F1C81DF5D003CC5C3 /* Assess_Immunization_Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assess_Immunization_Table.swift; sourceTree = "<group>"; };
+		3F8DAC811C81E874003CC5C3 /* Treat_Benzylpenicillin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Treat_Benzylpenicillin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +264,7 @@
 				3F8DAC751C805635003CC5C3 /* HIV_3.swift */,
 				3F8DAC771C80567A003CC5C3 /* HIV_4.swift */,
 				3F8DAC791C8056B8003CC5C3 /* HIV_5.swift */,
+				3F8DAC811C81E874003CC5C3 /* Treat_Benzylpenicillin.swift */,
 				3F8DAC711C8045C5003CC5C3 /* HIV_1.swift */,
 				3F8DAC6F1C803DA1003CC5C3 /* imageZoom.swift */,
 				3F0C479F1C6634FA009F126A /* Images.xcassets */,
@@ -443,6 +446,7 @@
 				3F8DAC761C805635003CC5C3 /* HIV_3.swift in Sources */,
 				3F692F291C4CA1B900B0542E /* ViewController.swift in Sources */,
 				3F8DAC721C8045C5003CC5C3 /* HIV_1.swift in Sources */,
+				3F8DAC821C81E874003CC5C3 /* Treat_Benzylpenicillin.swift in Sources */,
 				3F692F271C4CA1B900B0542E /* AppDelegate.swift in Sources */,
 				3F8DAC781C80567A003CC5C3 /* HIV_4.swift in Sources */,
 				3F8DAC7C1C80A96F003CC5C3 /* Assess_immunization.swift in Sources */,
