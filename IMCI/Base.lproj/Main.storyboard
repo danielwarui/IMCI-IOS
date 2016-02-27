@@ -10741,25 +10741,28 @@ Determine Z score for the same:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Q0-Rh-iSi">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Q0-Rh-iSi">
                                 <rect key="frame" x="0.0" y="64" width="600" height="729"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mastoiditis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4g-fI-5gM">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mastoiditis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4g-fI-5gM">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="19"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="19" id="vvb-f1-VhF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acute Ear Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdG-Jr-mxX">
+                                        <rect key="frame" x="0.0" y="136" width="600" height="17"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Acute Ear Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdG-Jr-mxX">
-                                        <rect key="frame" x="0.0" y="100" width="600" height="34"/>
-                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWz-eC-b2j">
-                                        <rect key="frame" x="0.0" y="34" width="600" height="66"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWz-eC-b2j">
+                                        <rect key="frame" x="0.0" y="85" width="600" height="43"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• Give first dose of Chloramphenicol
 	• Give first dose of paracetamol for pain
@@ -10768,30 +10771,30 @@ Determine Z score for the same:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chronic Ear Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9qt-cZ-gKv">
-                                        <rect key="frame" x="0.0" y="232" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chronic Ear Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9qt-cZ-gKv">
+                                        <rect key="frame" x="0.0" y="257" width="600" height="17"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No Ear Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yY2-o8-o0y">
-                                        <rect key="frame" x="0.0" y="331" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Ear Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yY2-o8-o0y">
+                                        <rect key="frame" x="0.0" y="347" width="600" height="17"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7m-az-dLp">
-                                        <rect key="frame" x="0.0" y="365" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7m-az-dLp">
+                                        <rect key="frame" x="0.0" y="366" width="600" height="16"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• No additional treatment</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJJ-iH-qt8">
-                                        <rect key="frame" x="0.0" y="134" width="600" height="96"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJJ-iH-qt8">
+                                        <rect key="frame" x="0.0" y="155" width="600" height="94"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• Give Cotrimoxazole for 5 days
 	• Give paracetamol for pain
@@ -10803,8 +10806,8 @@ Determine Z score for the same:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlx-gq-7JA">
-                                        <rect key="frame" x="0.0" y="264" width="600" height="65"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dlx-gq-7JA">
+                                        <rect key="frame" x="0.0" y="276" width="600" height="63"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <string key="text">	• Dry the ear by wicking
  	• Follow-up in 5 days
@@ -10815,9 +10818,43 @@ Determine Z score for the same:
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="leading" secondItem="yY2-o8-o0y" secondAttribute="leading" id="0cF-U6-Je1"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="trailing" secondItem="9qt-cZ-gKv" secondAttribute="trailing" id="6ad-Jn-8dF"/>
+                                    <constraint firstItem="yY2-o8-o0y" firstAttribute="top" secondItem="dlx-gq-7JA" secondAttribute="bottom" constant="8" id="ArS-Vy-iih"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="leading" secondItem="M7m-az-dLp" secondAttribute="leading" id="Bet-si-AT5"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="trailing" secondItem="sWz-eC-b2j" secondAttribute="trailing" id="DiA-1N-YUI"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="trailing" secondItem="yY2-o8-o0y" secondAttribute="trailing" id="Fhm-hh-bJy"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="trailing" secondItem="AdG-Jr-mxX" secondAttribute="trailing" id="H3J-oJ-GQ0"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="leading" secondItem="AdG-Jr-mxX" secondAttribute="leading" id="J2q-o3-G2x"/>
+                                    <constraint firstAttribute="bottom" secondItem="h4g-fI-5gM" secondAttribute="bottom" constant="646" id="Jeu-K5-0WC"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="leading" secondItem="sWz-eC-b2j" secondAttribute="leading" id="Jzt-WO-yE1"/>
+                                    <constraint firstItem="gJJ-iH-qt8" firstAttribute="top" secondItem="AdG-Jr-mxX" secondAttribute="bottom" constant="2" id="LhM-bG-gMi"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="leading" secondItem="9qt-cZ-gKv" secondAttribute="leading" id="M2T-ce-3mm"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="leading" secondItem="dlx-gq-7JA" secondAttribute="leading" id="PnB-BA-QRB"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="trailing" secondItem="dlx-gq-7JA" secondAttribute="trailing" id="QBE-d3-3yw"/>
+                                    <constraint firstItem="sWz-eC-b2j" firstAttribute="top" secondItem="h4g-fI-5gM" secondAttribute="bottom" constant="2" id="RGR-PI-APH"/>
+                                    <constraint firstItem="9qt-cZ-gKv" firstAttribute="top" secondItem="gJJ-iH-qt8" secondAttribute="bottom" constant="8" id="TW0-zJ-pk2"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="trailing" secondItem="M7m-az-dLp" secondAttribute="trailing" id="VHx-Ri-JQh"/>
+                                    <constraint firstItem="M7m-az-dLp" firstAttribute="top" secondItem="yY2-o8-o0y" secondAttribute="bottom" constant="2" id="VyV-e9-eYA"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="centerX" secondItem="4Q0-Rh-iSi" secondAttribute="centerX" id="dDt-j1-eei"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="top" secondItem="4Q0-Rh-iSi" secondAttribute="top" constant="64" id="dis-7c-gyL"/>
+                                    <constraint firstItem="AdG-Jr-mxX" firstAttribute="top" secondItem="sWz-eC-b2j" secondAttribute="bottom" constant="8" id="fdj-zN-LAC"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="leading" secondItem="4Q0-Rh-iSi" secondAttribute="leading" id="frL-F5-GSi"/>
+                                    <constraint firstItem="dlx-gq-7JA" firstAttribute="top" secondItem="9qt-cZ-gKv" secondAttribute="bottom" constant="2" id="gOu-0X-gfW"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="leading" secondItem="gJJ-iH-qt8" secondAttribute="leading" id="kfq-2w-okL"/>
+                                    <constraint firstAttribute="trailing" secondItem="h4g-fI-5gM" secondAttribute="trailing" id="mI9-20-fgk"/>
+                                    <constraint firstItem="h4g-fI-5gM" firstAttribute="trailing" secondItem="gJJ-iH-qt8" secondAttribute="trailing" id="ttB-az-buk"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="4Q0-Rh-iSi" firstAttribute="leading" secondItem="hdE-Ds-2cO" secondAttribute="leadingMargin" constant="-20" id="KBf-i3-PFB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4Q0-Rh-iSi" secondAttribute="trailing" constant="-20" id="KfE-RQ-edO"/>
+                            <constraint firstItem="ok2-bM-dhD" firstAttribute="top" secondItem="4Q0-Rh-iSi" secondAttribute="bottom" constant="8" symbolic="YES" id="RBj-D7-ULf"/>
+                            <constraint firstItem="4Q0-Rh-iSi" firstAttribute="top" secondItem="v1f-h8-ECP" secondAttribute="bottom" id="zJj-oT-q6B"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="eMY-eU-32N"/>
                 </viewController>
