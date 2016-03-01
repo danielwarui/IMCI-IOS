@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -32,17 +31,17 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdU-B7-hf3">
-                                <rect key="frame" x="559" y="388" width="0.0" height="0.0"/>
+                                <rect key="frame" x="559" y="688" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4c-jG-1lT">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="836"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green: Not serious and in most cases no drugs are needed. Simple advice on home management is given." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MrZ-uY-mPr">
                                         <rect key="frame" x="28" y="222" width="544" height="45"/>
@@ -364,7 +363,7 @@
                     <navigationItem key="navigationItem" title="IMCI" id="mOL-80-POI"/>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="568"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="600"/>
+                    <size key="freeformSize" width="600" height="900"/>
                     <connections>
                         <outlet property="scroller" destination="G4c-jG-1lT" id="B28-0v-qSc"/>
                     </connections>
@@ -2895,11 +2894,11 @@ After 1 month:
                         <viewControllerLayoutGuide type="bottom" id="j2P-cA-qQf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gY9-sA-omP">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="750"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="63D-uV-K46">
-                                <rect key="frame" x="0.0" y="64" width="600" height="878"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="629"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPp-d7-Tg7">
                                         <rect key="frame" x="20" y="0.0" width="560" height="218"/>
@@ -4617,10 +4616,10 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
             </objects>
             <point key="canvasLocation" x="3814" y="-33"/>
         </scene>
-        <!--View Controller-->
+        <!--Treat Child Mebendazole-->
         <scene sceneID="NIo-Tn-Bf7">
             <objects>
-                <viewController id="ZpU-Jj-bG4" sceneMemberID="viewController">
+                <viewController id="ZpU-Jj-bG4" customClass="TreatChild_Mebendazole" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="thF-oc-lFK"/>
                         <viewControllerLayoutGuide type="bottom" id="PUa-ly-pCP"/>
@@ -4628,17 +4627,12 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                     <view key="view" contentMode="scaleToFill" id="IHZ-p4-dSd">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mebendazole.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="hNC-D3-qwE">
-                                <rect key="frame" x="0.0" y="64" width="600" height="112"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1c7-ml-0Ym" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4910" y="2159"/>
+            <point key="canvasLocation" x="3941" y="2266"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IpZ-gO-M6f">
@@ -4653,13 +4647,10 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tH2-35-vxa">
-                                <rect key="frame" x="0.0" y="64" width="600" height="778"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="628"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0v-57-uG8">
-                                        <rect key="frame" x="20" y="8" width="560" height="158"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="158" id="gdl-Pv-GeN"/>
-                                        </constraints>
+                                        <rect key="frame" x="20" y="72" width="560" height="115"/>
                                         <string key="text">• Explain to the mother what the treatment is and why it should be given.
 • Describe the treatment steps listed in the appropriate box.
 • Watch the mother as she gives the first treatment in the clinic(except remedy for coughing or sore throat).
@@ -4670,20 +4661,8 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="diz-Jc-WJh">
-                                        <rect key="frame" x="20" y="174" width="560" height="30"/>
-                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="upR-9M-0l6"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <state key="normal" title="Treat Eye Infection with Tetracycline Ointment"/>
-                                        <connections>
-                                            <segue destination="Iqm-6z-lmc" kind="show" id="bte-GS-28L"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsp-uB-59B">
-                                        <rect key="frame" x="20" y="212" width="560" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jsp-uB-59B">
+                                        <rect key="frame" x="20" y="232" width="560" height="29"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Dry the Ear by Wicking"/>
@@ -4691,8 +4670,8 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                             <segue destination="R0B-CQ-FQf" kind="show" id="Tpk-mf-gtW"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6K2-Jq-tq6">
-                                        <rect key="frame" x="20" y="250" width="560" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="6K2-Jq-tq6">
+                                        <rect key="frame" x="20" y="269" width="560" height="29"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Treat Mouth Ulcers with Gentian Violet"/>
@@ -4700,8 +4679,8 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                             <segue destination="dYq-1S-PKk" kind="show" id="c8J-Zs-BHr"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UE0-ed-lvJ">
-                                        <rect key="frame" x="20" y="288" width="560" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="UE0-ed-lvJ">
+                                        <rect key="frame" x="20" y="306" width="560" height="29"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Treat for Oral Thrush with Nystatin or GV"/>
@@ -4709,8 +4688,8 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                             <segue destination="7gL-vJ-Wlk" kind="show" id="Ssb-xI-0Sa"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4d-na-LwR">
-                                        <rect key="frame" x="20" y="326" width="560" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="F4d-na-LwR">
+                                        <rect key="frame" x="20" y="343" width="560" height="29"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Soothe the Throat, Releive the Cough wit Safe Remedy"/>
@@ -4718,50 +4697,46 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                             <segue destination="6VS-4y-bbd" kind="show" id="gTs-Gx-Lnv"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="diz-Jc-WJh">
+                                        <rect key="frame" x="20" y="195" width="560" height="29"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="Treat Eye Infection with Tetracycline Ointment"/>
+                                        <connections>
+                                            <segue destination="Iqm-6z-lmc" kind="show" id="bte-GS-28L"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="UE0-ed-lvJ" firstAttribute="height" secondItem="diz-Jc-WJh" secondAttribute="height" id="61c-FH-bxd"/>
-                                    <constraint firstItem="6K2-Jq-tq6" firstAttribute="centerX" secondItem="diz-Jc-WJh" secondAttribute="centerX" id="88E-XC-sqi"/>
-                                    <constraint firstItem="6K2-Jq-tq6" firstAttribute="top" secondItem="jsp-uB-59B" secondAttribute="bottom" constant="8" id="9Cx-WO-bTq"/>
-                                    <constraint firstItem="F4d-na-LwR" firstAttribute="width" secondItem="diz-Jc-WJh" secondAttribute="width" id="AZs-QE-d3b"/>
-                                    <constraint firstItem="diz-Jc-WJh" firstAttribute="top" secondItem="k0v-57-uG8" secondAttribute="bottom" constant="8" id="CPp-Zp-HKU"/>
-                                    <constraint firstItem="F4d-na-LwR" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="CZd-4U-Bak"/>
-                                    <constraint firstItem="jsp-uB-59B" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="D3P-4g-X6P"/>
-                                    <constraint firstItem="k0v-57-uG8" firstAttribute="top" secondItem="tH2-35-vxa" secondAttribute="top" constant="8" id="Db9-uR-SQb"/>
-                                    <constraint firstItem="F4d-na-LwR" firstAttribute="height" secondItem="diz-Jc-WJh" secondAttribute="height" id="I2M-bc-Bwu"/>
-                                    <constraint firstItem="F4d-na-LwR" firstAttribute="centerX" secondItem="diz-Jc-WJh" secondAttribute="centerX" id="KyQ-eA-5JP"/>
-                                    <constraint firstAttribute="trailing" secondItem="UE0-ed-lvJ" secondAttribute="trailing" constant="20" id="LFD-J2-rXy"/>
-                                    <constraint firstItem="UE0-ed-lvJ" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="NeG-ay-uWy"/>
-                                    <constraint firstAttribute="trailing" secondItem="k0v-57-uG8" secondAttribute="trailing" constant="20" id="Sca-Ur-sOB"/>
-                                    <constraint firstItem="jsp-uB-59B" firstAttribute="centerX" secondItem="diz-Jc-WJh" secondAttribute="centerX" id="TCo-cd-IF7"/>
-                                    <constraint firstAttribute="trailing" secondItem="jsp-uB-59B" secondAttribute="trailing" constant="20" id="Vx2-Pb-nEq"/>
-                                    <constraint firstItem="6K2-Jq-tq6" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="XQi-zP-HY6"/>
-                                    <constraint firstItem="k0v-57-uG8" firstAttribute="centerX" secondItem="tH2-35-vxa" secondAttribute="centerX" id="Xup-Ii-YPx"/>
-                                    <constraint firstAttribute="trailing" secondItem="6K2-Jq-tq6" secondAttribute="trailing" constant="20" id="YTE-b1-yVQ"/>
-                                    <constraint firstItem="6K2-Jq-tq6" firstAttribute="height" secondItem="diz-Jc-WJh" secondAttribute="height" id="ZCD-ne-DUO"/>
-                                    <constraint firstAttribute="trailing" secondItem="diz-Jc-WJh" secondAttribute="trailing" constant="20" id="a7J-hY-DnM"/>
-                                    <constraint firstItem="UE0-ed-lvJ" firstAttribute="width" secondItem="diz-Jc-WJh" secondAttribute="width" id="aSK-mi-WLj"/>
-                                    <constraint firstItem="diz-Jc-WJh" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="f21-lW-2ta"/>
-                                    <constraint firstItem="jsp-uB-59B" firstAttribute="top" secondItem="diz-Jc-WJh" secondAttribute="bottom" constant="8" id="g14-Pc-aGx"/>
-                                    <constraint firstItem="diz-Jc-WJh" firstAttribute="top" secondItem="k0v-57-uG8" secondAttribute="bottom" constant="8" id="hQq-lJ-bv9"/>
-                                    <constraint firstAttribute="trailing" secondItem="F4d-na-LwR" secondAttribute="trailing" constant="20" id="hRC-cB-mD1"/>
-                                    <constraint firstItem="UE0-ed-lvJ" firstAttribute="centerX" secondItem="diz-Jc-WJh" secondAttribute="centerX" id="in8-CH-KFh"/>
-                                    <constraint firstItem="jsp-uB-59B" firstAttribute="width" secondItem="diz-Jc-WJh" secondAttribute="width" id="kBa-SO-hk9"/>
-                                    <constraint firstItem="jsp-uB-59B" firstAttribute="height" secondItem="diz-Jc-WJh" secondAttribute="height" id="m3X-0I-UPf"/>
-                                    <constraint firstItem="UE0-ed-lvJ" firstAttribute="top" secondItem="6K2-Jq-tq6" secondAttribute="bottom" constant="8" id="qtP-ua-gp7"/>
-                                    <constraint firstItem="F4d-na-LwR" firstAttribute="top" secondItem="UE0-ed-lvJ" secondAttribute="bottom" constant="8" id="t4h-Dw-MZn"/>
-                                    <constraint firstItem="k0v-57-uG8" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="tII-CM-guB"/>
-                                    <constraint firstAttribute="bottom" secondItem="F4d-na-LwR" secondAttribute="bottom" constant="358" id="u1O-Nk-Bc7"/>
-                                    <constraint firstItem="6K2-Jq-tq6" firstAttribute="width" secondItem="diz-Jc-WJh" secondAttribute="width" id="uW5-vc-PBa"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="trailing" secondItem="UE0-ed-lvJ" secondAttribute="trailing" id="12E-1w-bxQ"/>
+                                    <constraint firstItem="UE0-ed-lvJ" firstAttribute="top" secondItem="6K2-Jq-tq6" secondAttribute="bottom" constant="8" id="3UR-Tn-L1J"/>
+                                    <constraint firstItem="6K2-Jq-tq6" firstAttribute="top" secondItem="jsp-uB-59B" secondAttribute="bottom" constant="8" id="6Gi-yE-Upv"/>
+                                    <constraint firstItem="diz-Jc-WJh" firstAttribute="top" secondItem="k0v-57-uG8" secondAttribute="bottom" constant="8" id="6ox-SI-FG6"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="centerX" secondItem="tH2-35-vxa" secondAttribute="centerX" id="AOF-IE-dK0"/>
+                                    <constraint firstItem="F4d-na-LwR" firstAttribute="top" secondItem="UE0-ed-lvJ" secondAttribute="bottom" constant="8" id="Cgn-7j-9vn"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="top" secondItem="tH2-35-vxa" secondAttribute="top" constant="72" id="D9t-k2-FAx"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="leading" secondItem="tH2-35-vxa" secondAttribute="leading" constant="20" id="EW3-hC-IyH"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="leading" secondItem="F4d-na-LwR" secondAttribute="leading" id="GGy-7a-Zgn"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="leading" secondItem="6K2-Jq-tq6" secondAttribute="leading" id="Ga9-kx-yY8"/>
+                                    <constraint firstItem="jsp-uB-59B" firstAttribute="top" secondItem="diz-Jc-WJh" secondAttribute="bottom" constant="8" id="GtH-ia-wI6"/>
+                                    <constraint firstAttribute="trailing" secondItem="k0v-57-uG8" secondAttribute="trailing" constant="20" id="IdU-fX-Rai"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="trailing" secondItem="F4d-na-LwR" secondAttribute="trailing" id="Mci-3Z-xBa"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="leading" secondItem="diz-Jc-WJh" secondAttribute="leading" id="d21-KZ-c5j"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="trailing" secondItem="6K2-Jq-tq6" secondAttribute="trailing" id="eFE-XT-QjU"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="trailing" secondItem="diz-Jc-WJh" secondAttribute="trailing" id="foe-3g-XvW"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="trailing" secondItem="jsp-uB-59B" secondAttribute="trailing" id="kBZ-8f-van"/>
+                                    <constraint firstAttribute="bottom" secondItem="k0v-57-uG8" secondAttribute="bottom" constant="441" id="lxf-Hn-WZ6"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="leading" secondItem="UE0-ed-lvJ" secondAttribute="leading" id="nut-vW-1SK"/>
+                                    <constraint firstItem="k0v-57-uG8" firstAttribute="leading" secondItem="jsp-uB-59B" secondAttribute="leading" id="rIi-es-gI5"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="tH2-35-vxa" secondAttribute="trailing" id="Az2-hU-fJc"/>
-                            <constraint firstItem="tH2-35-vxa" firstAttribute="top" secondItem="8tv-vs-UpK" secondAttribute="bottom" id="Czo-pF-OFs"/>
-                            <constraint firstAttribute="bottom" secondItem="tH2-35-vxa" secondAttribute="bottom" constant="-142" id="I2Q-Lk-XBd"/>
-                            <constraint firstItem="tH2-35-vxa" firstAttribute="leading" secondItem="Vbc-9p-XCq" secondAttribute="leading" id="qwk-oL-JCl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tH2-35-vxa" secondAttribute="trailing" constant="-20" id="02y-uJ-se5"/>
+                            <constraint firstItem="tH2-35-vxa" firstAttribute="top" secondItem="8tv-vs-UpK" secondAttribute="bottom" id="TZQ-G9-2dw"/>
+                            <constraint firstItem="tH2-35-vxa" firstAttribute="leading" secondItem="Vbc-9p-XCq" secondAttribute="leadingMargin" constant="-20" id="aLV-i7-YXJ"/>
+                            <constraint firstItem="Sry-mZ-6q5" firstAttribute="top" secondItem="tH2-35-vxa" secondAttribute="bottom" constant="8" symbolic="YES" id="c4f-tS-6Nr"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -4783,11 +4758,8 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6w-mn-3XR">
-                                <rect key="frame" x="20" y="72" width="560" height="158"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="560" id="9Wt-OB-2aY"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6w-mn-3XR">
+                                <rect key="frame" x="20" y="72" width="560" height="144"/>
                                 <string key="text">• Clean both eyes 3 times daily:
 	• Wash hands
 	• Ask child to close the eye.
@@ -4805,14 +4777,16 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="leadingMargin" secondItem="x6w-mn-3XR" secondAttribute="leading" id="A7A-3u-Xzw"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="x6w-mn-3XR" secondAttribute="trailing" id="H2k-jV-AXo"/>
+                            <constraint firstItem="x6w-mn-3XR" firstAttribute="leading" secondItem="0hz-H6-YHU" secondAttribute="leadingMargin" id="J7v-r4-WFl"/>
+                            <constraint firstItem="x6w-mn-3XR" firstAttribute="trailing" secondItem="0hz-H6-YHU" secondAttribute="trailingMargin" id="Mxp-Df-buT"/>
+                            <constraint firstItem="x6w-mn-3XR" firstAttribute="centerX" secondItem="0hz-H6-YHU" secondAttribute="centerX" id="SXB-BO-NSJ"/>
+                            <constraint firstItem="x6w-mn-3XR" firstAttribute="top" secondItem="Jhx-LX-cVX" secondAttribute="bottom" constant="8" id="gnU-zC-n5o"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aP2-2Z-nRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4608" y="680"/>
+            <point key="canvasLocation" x="4481" y="812"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="W4B-sn-P2W">
@@ -4826,11 +4800,8 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97y-Xb-hQi">
-                                <rect key="frame" x="20" y="72" width="560" height="108"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="560" id="xCF-Hl-8kG"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97y-Xb-hQi">
+                                <rect key="frame" x="20" y="72" width="560" height="72"/>
                                 <string key="text">• Dry the ear at least three times daily.
 	• Roll clean absorbent cloth or soft, strong tissue paper into a wick.
 	• Place the wick in child’s ear.
@@ -4842,6 +4813,12 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="97y-Xb-hQi" firstAttribute="centerX" secondItem="1GO-9h-Zpa" secondAttribute="centerX" id="0nM-Tg-3hn"/>
+                            <constraint firstItem="97y-Xb-hQi" firstAttribute="trailing" secondItem="1GO-9h-Zpa" secondAttribute="trailingMargin" id="0th-PF-pDp"/>
+                            <constraint firstItem="97y-Xb-hQi" firstAttribute="leading" secondItem="1GO-9h-Zpa" secondAttribute="leadingMargin" id="DAE-5Q-EhH"/>
+                            <constraint firstItem="97y-Xb-hQi" firstAttribute="top" secondItem="fjE-DS-tVT" secondAttribute="bottom" constant="8" id="dml-Dn-zwQ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uGf-9V-j9i" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4860,11 +4837,8 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nef-WR-2gS">
-                                <rect key="frame" x="20" y="72" width="560" height="108"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="560" id="MEP-Fu-FHG"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nef-WR-2gS">
+                                <rect key="frame" x="20" y="72" width="560" height="101"/>
                                 <string key="text">• Treat the mouth ulcers twice daily:
 	• Wash hands.
 	• Wash the child’s mouth with can soft cloth wrapped around the finger and wet with salt and water.
@@ -4877,11 +4851,17 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Nef-WR-2gS" firstAttribute="top" secondItem="Hgn-o8-pcn" secondAttribute="bottom" constant="8" id="Fzw-s3-nS0"/>
+                            <constraint firstItem="Nef-WR-2gS" firstAttribute="centerX" secondItem="FVm-pe-EXv" secondAttribute="centerX" id="NA0-dC-6uG"/>
+                            <constraint firstItem="Nef-WR-2gS" firstAttribute="trailing" secondItem="FVm-pe-EXv" secondAttribute="trailingMargin" id="eFP-9j-WIq"/>
+                            <constraint firstItem="Nef-WR-2gS" firstAttribute="leading" secondItem="FVm-pe-EXv" secondAttribute="leadingMargin" id="yei-1f-NeT"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1uV-Ng-WUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5450" y="1238"/>
+            <point key="canvasLocation" x="5072" y="1336"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UHL-Ni-JMN">
@@ -4895,11 +4875,8 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7S-Vg-HvS">
-                                <rect key="frame" x="20" y="72" width="560" height="108"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="560" id="w1E-32-5gM"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7S-Vg-HvS">
+                                <rect key="frame" x="20" y="72" width="560" height="72"/>
                                 <string key="text">• Dry the ear at least three times daily.
 	• Roll clean absorbent cloth or soft, strong tissue paper into a wick.
 	• Place the wick in child’s ear.
@@ -4911,16 +4888,22 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="r7S-Vg-HvS" firstAttribute="leading" secondItem="hgv-hz-wJr" secondAttribute="leadingMargin" id="FQU-iN-ev5"/>
+                            <constraint firstItem="r7S-Vg-HvS" firstAttribute="centerX" secondItem="hgv-hz-wJr" secondAttribute="centerX" id="Hyy-cO-NQr"/>
+                            <constraint firstItem="r7S-Vg-HvS" firstAttribute="trailing" secondItem="hgv-hz-wJr" secondAttribute="trailingMargin" id="NCL-li-kOK"/>
+                            <constraint firstItem="r7S-Vg-HvS" firstAttribute="top" secondItem="Stn-3r-hqA" secondAttribute="bottom" constant="8" id="PTa-ta-O7c"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Rh-nj-4jy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5195" y="1037"/>
+            <point key="canvasLocation" x="5018" y="1087"/>
         </scene>
-        <!--View Controller-->
+        <!--Treat Child Metronidazole-->
         <scene sceneID="lZk-L7-JXg">
             <objects>
-                <viewController id="Ojn-nd-Pa5" sceneMemberID="viewController">
+                <viewController id="Ojn-nd-Pa5" customClass="TreatChild_Metronidazole" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Leg-2v-a0B"/>
                         <viewControllerLayoutGuide type="bottom" id="S0A-2c-UUi"/>
@@ -4928,22 +4911,17 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                     <view key="view" contentMode="scaleToFill" id="aBJ-s6-j19">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="medicationmetronidazole_dysentry.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="5EM-Af-xWs">
-                                <rect key="frame" x="0.0" y="64" width="600" height="269"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bX7-mo-fkR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3876" y="1025"/>
+            <point key="canvasLocation" x="3615" y="1132"/>
         </scene>
-        <!--View Controller-->
+        <!--Treat Child Antimalarial-->
         <scene sceneID="cOe-4l-FHR">
             <objects>
-                <viewController id="fRo-Ra-NcB" sceneMemberID="viewController">
+                <viewController id="fRo-Ra-NcB" customClass="TreatChild_Antimalarial" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lAf-j6-2qK"/>
                         <viewControllerLayoutGuide type="bottom" id="WCe-Pv-OZU"/>
@@ -4951,22 +4929,17 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                     <view key="view" contentMode="scaleToFill" id="GTR-h4-s8q">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drug_oralantimalarial.png" translatesAutoresizingMaskIntoConstraints="NO" id="ghX-Hr-8bO">
-                                <rect key="frame" x="0.0" y="64" width="600" height="436"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="96L-i3-hWi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4066" y="1197"/>
+            <point key="canvasLocation" x="3637" y="1336"/>
         </scene>
-        <!--View Controller-->
+        <!--Treat Child Oral Antibiotic-->
         <scene sceneID="29S-i3-nmP">
             <objects>
-                <viewController id="hUg-v9-LZm" sceneMemberID="viewController">
+                <viewController id="hUg-v9-LZm" customClass="TreatChild_Oral_Antibiotic" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OlD-lO-FTH"/>
                         <viewControllerLayoutGuide type="bottom" id="vSH-b3-0wl"/>
@@ -4974,22 +4947,17 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                     <view key="view" contentMode="scaleToFill" id="yzs-O2-1u2">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drug_antibiotic_pneumonia.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xns-gj-Su7">
-                                <rect key="frame" x="0.0" y="64" width="600" height="778"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dU5-sK-Gua" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3671" y="902"/>
+            <point key="canvasLocation" x="3562" y="962"/>
         </scene>
-        <!--View Controller-->
+        <!--Treat Child Ironand Folate-->
         <scene sceneID="usB-yt-JKH">
             <objects>
-                <viewController id="AVI-wW-a0J" sceneMemberID="viewController">
+                <viewController id="AVI-wW-a0J" customClass="TreatChild_IronandFolate" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Qiu-Md-avY"/>
                         <viewControllerLayoutGuide type="bottom" id="Yhn-cb-XZy"/>
@@ -4997,22 +4965,17 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                     <view key="view" contentMode="scaleToFill" id="A3a-6k-zf4">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drug_oral_ironfolate.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="cCL-oR-nFU">
-                                <rect key="frame" x="0.0" y="64" width="600" height="302"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e8M-Y6-KSY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4522" y="1667"/>
+            <point key="canvasLocation" x="3780" y="1673"/>
         </scene>
-        <!--View Controller-->
+        <!--Treat Child Zinc Sulphate-->
         <scene sceneID="5AK-8O-iR9">
             <objects>
-                <viewController id="WC8-N3-LoQ" sceneMemberID="viewController">
+                <viewController id="WC8-N3-LoQ" customClass="TreatChild_ZincSulphate" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ayf-N0-UmT"/>
                         <viewControllerLayoutGuide type="bottom" id="c7L-ZY-dNh"/>
@@ -5020,22 +4983,17 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                     <view key="view" contentMode="scaleToFill" id="VYp-Tq-h7Y">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drug_oralzincsulphate.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="hDQ-nH-K6m">
-                                <rect key="frame" x="0.0" y="72" width="600" height="165"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jwb-Oc-ONr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4743" y="1845"/>
+            <point key="canvasLocation" x="3852" y="1919"/>
         </scene>
-        <!--View Controller-->
+        <!--Treat Child Paracetamol-->
         <scene sceneID="Kff-Os-kfM">
             <objects>
-                <viewController id="s6x-Xw-nOK" sceneMemberID="viewController">
+                <viewController id="s6x-Xw-nOK" customClass="TreatChild_Paracetamol" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8mp-Yb-0nJ"/>
                         <viewControllerLayoutGuide type="bottom" id="DkU-3V-ooX"/>
@@ -5043,22 +5001,17 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                     <view key="view" contentMode="scaleToFill" id="hht-ZQ-GhB">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drug_oralparacetamolfever.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="IZx-BH-BdB">
-                                <rect key="frame" x="0.0" y="64" width="600" height="220"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aWm-dO-27x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5178" y="2319"/>
+            <point key="canvasLocation" x="4140" y="2081"/>
         </scene>
-        <!--View Controller-->
+        <!--Treat Child VitaminA-->
         <scene sceneID="cB5-XR-7Oy">
             <objects>
-                <viewController id="Hy6-rM-fXF" sceneMemberID="viewController">
+                <viewController id="Hy6-rM-fXF" customClass="TreatChild_VitaminA" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="F4v-aR-UNf"/>
                         <viewControllerLayoutGuide type="bottom" id="1aD-xd-C8L"/>
@@ -5066,17 +5019,12 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                     <view key="view" contentMode="scaleToFill" id="ds9-cj-Vvb">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drug_oralvitamin_a.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="WbY-uX-Amw">
-                                <rect key="frame" x="0.0" y="64" width="600" height="242"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gtl-vl-ujl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4272" y="1489"/>
+            <point key="canvasLocation" x="3637" y="1513"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6pR-dN-RKJ">
@@ -5239,165 +5187,153 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <rect key="frame" x="0.0" y="0.0" width="600" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7ff-aW-1pk">
-                                <rect key="frame" x="0.0" y="64" width="600" height="828"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mSy-HM-utl">
+                                <rect key="frame" x="0.0" y="64" width="600" height="823"/>
                                 <subviews>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5u7-Ym-0DB">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="820"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5CA-OQ-Mri">
-                                                <rect key="frame" x="15" y="0.0" width="578" height="42"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <string key="text">	If the child is able to breastfeed:</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIH-1h-zDX">
-                                                <rect key="frame" x="15" y="236" width="575" height="17"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <string key="text">	If the child is not able to swallow</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3P-dH-9GI">
-                                                <rect key="frame" x="15" y="313" width="575" height="59"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <string key="text">	If low blood sugar* is suspected</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ask the mother to breatfeed the infant." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfF-V3-k1s">
-                                                <rect key="frame" x="18" y="45" width="572" height="44"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Give 20-50 ml(10ml/kg) expressed breast milk and if not available, give 20-50ml (10ml/kg) sugar water before referral" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNr-Ni-aaZ">
-                                                <rect key="frame" x="18" y="117" width="572" height="44"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Give 20-50 ml(10ml/kg) expressed breast milk or sugar water by nasogastric tube (NG tube)." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOS-7D-LTy">
-                                                <rect key="frame" x="15" y="261" width="575" height="44"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CmS-Lh-ZLv">
-                                                <rect key="frame" x="15" y="374" width="575" height="32"/>
-                                                <string key="text">Give 10% glucose 10ml/kg by nasogastric tube give same amount slowly intravenously. (To make 10% glucose mix one part of 50% glucose with 4 parts water for injection)</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZj-rA-JOy">
-                                                <rect key="frame" x="15" y="414" width="575" height="73"/>
-                                                <string key="text">* Low blood sugar(hypoglycaemia) may be suspected in any infant or child who is convulsing or has low of consciousness for which is no obvious cause; has a rectal temperature of below 35.5˚C is drowsy or sweating, is lethargic, floppy or jittery.</string>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i56-sN-Tqj">
-                                                <rect key="frame" x="15" y="97" width="575" height="17"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <string key="text">	If the child is not able to breastfeed but is able to swallow:</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VrW-k8-jwK">
-                                                <rect key="frame" x="15" y="169" width="575" height="64"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                <string key="text">	To make sugar water: Dissolve 4 level teaspoons of sugar (20 grams) in a 200 ml cup of clean water.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTL-Xd-0gh">
+                                        <rect key="frame" x="13" y="8" width="575" height="42"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="VrW-k8-jwK" firstAttribute="leading" secondItem="5u7-Ym-0DB" secondAttribute="leading" constant="15" id="0IZ-W1-hVU"/>
-                                            <constraint firstAttribute="trailing" secondItem="h3P-dH-9GI" secondAttribute="trailing" constant="10" id="1lg-BL-l1b"/>
-                                            <constraint firstItem="CmS-Lh-ZLv" firstAttribute="centerX" secondItem="5u7-Ym-0DB" secondAttribute="centerX" id="279-9m-2Hr"/>
-                                            <constraint firstAttribute="trailing" secondItem="i56-sN-Tqj" secondAttribute="trailing" constant="10" id="2cQ-Ng-8ZM"/>
-                                            <constraint firstItem="i56-sN-Tqj" firstAttribute="centerX" secondItem="5u7-Ym-0DB" secondAttribute="centerX" id="3C0-Rt-Ou3"/>
-                                            <constraint firstItem="i56-sN-Tqj" firstAttribute="leading" secondItem="5u7-Ym-0DB" secondAttribute="leading" constant="15" id="5tN-0d-Grl"/>
-                                            <constraint firstItem="CmS-Lh-ZLv" firstAttribute="leading" secondItem="5u7-Ym-0DB" secondAttribute="leading" constant="15" id="8JS-Y1-dxv"/>
-                                            <constraint firstItem="NNr-Ni-aaZ" firstAttribute="leading" secondItem="5u7-Ym-0DB" secondAttribute="leading" constant="18" id="9kZ-zL-zkf"/>
-                                            <constraint firstAttribute="trailing" secondItem="MIH-1h-zDX" secondAttribute="trailing" constant="10" id="BP9-AB-x8o"/>
-                                            <constraint firstAttribute="trailing" secondItem="fZj-rA-JOy" secondAttribute="trailing" constant="10" id="Bjg-On-JMB"/>
-                                            <constraint firstItem="fZj-rA-JOy" firstAttribute="centerX" secondItem="5u7-Ym-0DB" secondAttribute="centerX" id="Cwi-mX-JYy"/>
-                                            <constraint firstItem="BOS-7D-LTy" firstAttribute="centerX" secondItem="5u7-Ym-0DB" secondAttribute="centerX" id="Ep9-QR-oqi"/>
-                                            <constraint firstItem="bfF-V3-k1s" firstAttribute="top" secondItem="5CA-OQ-Mri" secondAttribute="bottom" constant="3" id="Gcg-DE-0FM"/>
-                                            <constraint firstItem="h3P-dH-9GI" firstAttribute="top" secondItem="BOS-7D-LTy" secondAttribute="bottom" constant="8" id="GoI-hf-Ceh"/>
-                                            <constraint firstAttribute="trailing" secondItem="NNr-Ni-aaZ" secondAttribute="trailing" constant="10" id="HrJ-jd-Gtw"/>
-                                            <constraint firstItem="NNr-Ni-aaZ" firstAttribute="top" secondItem="i56-sN-Tqj" secondAttribute="bottom" constant="3" id="IJj-eC-Rri"/>
-                                            <constraint firstAttribute="trailing" secondItem="VrW-k8-jwK" secondAttribute="trailing" constant="10" id="JHv-PF-wBs"/>
-                                            <constraint firstItem="VrW-k8-jwK" firstAttribute="top" secondItem="NNr-Ni-aaZ" secondAttribute="bottom" constant="8" id="JHx-oT-haw"/>
-                                            <constraint firstItem="MIH-1h-zDX" firstAttribute="leading" secondItem="5u7-Ym-0DB" secondAttribute="leading" constant="15" id="JuL-C2-zmx"/>
-                                            <constraint firstAttribute="trailing" secondItem="BOS-7D-LTy" secondAttribute="trailing" constant="10" id="MjG-zx-5GT"/>
-                                            <constraint firstItem="bfF-V3-k1s" firstAttribute="leading" secondItem="5u7-Ym-0DB" secondAttribute="leading" constant="18" id="OCQ-eD-FRD"/>
-                                            <constraint firstItem="bfF-V3-k1s" firstAttribute="centerX" secondItem="5u7-Ym-0DB" secondAttribute="centerX" id="R3I-be-qxR"/>
-                                            <constraint firstItem="BOS-7D-LTy" firstAttribute="leading" secondItem="5u7-Ym-0DB" secondAttribute="leading" constant="15" id="Rns-qa-6xL"/>
-                                            <constraint firstItem="h3P-dH-9GI" firstAttribute="centerX" secondItem="5u7-Ym-0DB" secondAttribute="centerX" id="SeQ-pG-4cY"/>
-                                            <constraint firstItem="MIH-1h-zDX" firstAttribute="top" secondItem="VrW-k8-jwK" secondAttribute="bottom" constant="3" id="W8J-2i-J5E"/>
-                                            <constraint firstItem="VrW-k8-jwK" firstAttribute="centerX" secondItem="5u7-Ym-0DB" secondAttribute="centerX" id="WhU-Cu-zwF"/>
-                                            <constraint firstAttribute="trailing" secondItem="5CA-OQ-Mri" secondAttribute="trailing" constant="7" id="XL0-mN-6y2"/>
-                                            <constraint firstItem="5CA-OQ-Mri" firstAttribute="top" secondItem="5u7-Ym-0DB" secondAttribute="top" id="Xyp-CK-VIr"/>
-                                            <constraint firstItem="fZj-rA-JOy" firstAttribute="top" secondItem="CmS-Lh-ZLv" secondAttribute="bottom" constant="8" id="YYQ-2J-EG2"/>
-                                            <constraint firstItem="5CA-OQ-Mri" firstAttribute="centerX" secondItem="5u7-Ym-0DB" secondAttribute="centerX" id="Zp0-9P-uuS"/>
-                                            <constraint firstItem="NNr-Ni-aaZ" firstAttribute="centerX" secondItem="5u7-Ym-0DB" secondAttribute="centerX" id="fDi-fZ-WrC"/>
-                                            <constraint firstItem="i56-sN-Tqj" firstAttribute="top" secondItem="bfF-V3-k1s" secondAttribute="bottom" constant="8" id="g82-Nr-43F"/>
-                                            <constraint firstItem="fZj-rA-JOy" firstAttribute="leading" secondItem="5u7-Ym-0DB" secondAttribute="leading" constant="15" id="oHx-3B-5b7"/>
-                                            <constraint firstItem="h3P-dH-9GI" firstAttribute="leading" secondItem="5u7-Ym-0DB" secondAttribute="leading" constant="15" id="oba-YC-gP9"/>
-                                            <constraint firstAttribute="trailing" secondItem="bfF-V3-k1s" secondAttribute="trailing" constant="10" id="q8y-eS-Wdv"/>
-                                            <constraint firstItem="CmS-Lh-ZLv" firstAttribute="top" secondItem="h3P-dH-9GI" secondAttribute="bottom" constant="2" id="qVC-sB-XVg"/>
-                                            <constraint firstItem="5CA-OQ-Mri" firstAttribute="leading" secondItem="5u7-Ym-0DB" secondAttribute="leading" constant="15" id="r6n-Eb-ueW"/>
-                                            <constraint firstItem="BOS-7D-LTy" firstAttribute="top" secondItem="MIH-1h-zDX" secondAttribute="bottom" constant="8" id="vME-n7-LOT"/>
-                                            <constraint firstItem="MIH-1h-zDX" firstAttribute="centerX" secondItem="5u7-Ym-0DB" secondAttribute="centerX" id="xCu-Yh-qMZ"/>
-                                            <constraint firstAttribute="trailing" secondItem="CmS-Lh-ZLv" secondAttribute="trailing" constant="10" id="zRV-ic-NbD"/>
+                                            <constraint firstAttribute="width" constant="575" id="7NX-xo-sv7"/>
+                                            <constraint firstAttribute="height" constant="42" id="J3h-Ac-XrA"/>
                                         </constraints>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="XL0-mN-6y2"/>
-                                                <exclude reference="Zp0-9P-uuS"/>
-                                                <exclude reference="r6n-Eb-ueW"/>
-                                                <exclude reference="OCQ-eD-FRD"/>
-                                                <exclude reference="R3I-be-qxR"/>
-                                                <exclude reference="q8y-eS-Wdv"/>
-                                                <exclude reference="9kZ-zL-zkf"/>
-                                                <exclude reference="HrJ-jd-Gtw"/>
-                                                <exclude reference="fDi-fZ-WrC"/>
-                                                <exclude reference="0IZ-W1-hVU"/>
-                                                <exclude reference="JHv-PF-wBs"/>
-                                                <exclude reference="WhU-Cu-zwF"/>
-                                            </mask>
-                                        </variation>
-                                    </scrollView>
+                                        <string key="text">	If the child is able to breastfeed:</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lmq-1E-jNV">
+                                        <rect key="frame" x="13" y="242" width="575" height="17"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">	If the child is not able to swallow</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efK-qd-K9V">
+                                        <rect key="frame" x="13" y="319" width="575" height="59"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="59" id="0HH-pz-ATM"/>
+                                        </constraints>
+                                        <string key="text">	If low blood sugar* is suspected</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Ask the mother to breatfeed the infant." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6e-ym-V0Y">
+                                        <rect key="frame" x="13" y="51" width="575" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="uKQ-ir-L9P"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Give 20-50 ml(10ml/kg) expressed breast milk and if not available, give 20-50ml (10ml/kg) sugar water before referral" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbC-jc-Ttk">
+                                        <rect key="frame" x="13" y="123" width="575" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="Ok8-LR-eGj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Give 20-50 ml(10ml/kg) expressed breast milk or sugar water by nasogastric tube (NG tube)." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8g-8Z-Hgm">
+                                        <rect key="frame" x="13" y="267" width="575" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="s5c-iE-khg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qX-ho-3lL">
+                                        <rect key="frame" x="13" y="380" width="575" height="32"/>
+                                        <string key="text">Give 10% glucose 10ml/kg by nasogastric tube give same amount slowly intravenously. (To make 10% glucose mix one part of 50% glucose with 4 parts water for injection)</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOv-iZ-cef">
+                                        <rect key="frame" x="13" y="103" width="575" height="17"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">	If the child is not able to breastfeed but is able to swallow:</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6M-9X-Rxs">
+                                        <rect key="frame" x="13" y="175" width="575" height="64"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="tTJ-yg-XhY"/>
+                                        </constraints>
+                                        <string key="text">	To make sugar water: Dissolve 4 level teaspoons of sugar (20 grams) in a 200 ml cup of clean water.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HP2-1O-15n">
+                                        <rect key="frame" x="13" y="420" width="575" height="47"/>
+                                        <string key="text">* Low blood sugar(hypoglycaemia) may be suspected in any infant or child who is convulsing or has low of consciousness for which is no obvious cause; has a rectal temperature of below 35.5˚C is drowsy or sweating, is lethargic, floppy or jittery.</string>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="HP2-1O-15n" secondAttribute="bottom" constant="356" id="0ev-WU-GwO"/>
+                                    <constraint firstItem="3qX-ho-3lL" firstAttribute="trailing" secondItem="HP2-1O-15n" secondAttribute="trailing" id="3oY-LL-UL9"/>
+                                    <constraint firstItem="lmq-1E-jNV" firstAttribute="leading" secondItem="F8g-8Z-Hgm" secondAttribute="leading" id="6ZB-UK-m1s"/>
+                                    <constraint firstItem="lmq-1E-jNV" firstAttribute="top" secondItem="h6M-9X-Rxs" secondAttribute="bottom" constant="3" id="7iZ-LL-368"/>
+                                    <constraint firstItem="W6e-ym-V0Y" firstAttribute="top" secondItem="sTL-Xd-0gh" secondAttribute="bottom" constant="1" id="8pv-ha-zxi"/>
+                                    <constraint firstItem="lmq-1E-jNV" firstAttribute="trailing" secondItem="h6M-9X-Rxs" secondAttribute="trailing" id="BbA-Kp-s4O"/>
+                                    <constraint firstItem="HP2-1O-15n" firstAttribute="leading" secondItem="3qX-ho-3lL" secondAttribute="leading" id="HEh-ok-FPv"/>
+                                    <constraint firstItem="F8g-8Z-Hgm" firstAttribute="trailing" secondItem="lmq-1E-jNV" secondAttribute="trailing" id="Itm-tj-iSD"/>
+                                    <constraint firstItem="h6M-9X-Rxs" firstAttribute="top" secondItem="IbC-jc-Ttk" secondAttribute="bottom" constant="8" symbolic="YES" id="JB0-g4-Z7d"/>
+                                    <constraint firstItem="sTL-Xd-0gh" firstAttribute="leading" secondItem="mSy-HM-utl" secondAttribute="leading" constant="13" id="L3n-Bn-SbZ"/>
+                                    <constraint firstItem="HP2-1O-15n" firstAttribute="top" secondItem="3qX-ho-3lL" secondAttribute="bottom" constant="8" symbolic="YES" id="LSZ-w3-TqN"/>
+                                    <constraint firstAttribute="trailing" secondItem="sTL-Xd-0gh" secondAttribute="trailing" constant="12" id="N8n-Wh-0KP"/>
+                                    <constraint firstItem="efK-qd-K9V" firstAttribute="leading" secondItem="F8g-8Z-Hgm" secondAttribute="leading" id="NRA-Fw-tAD"/>
+                                    <constraint firstItem="IbC-jc-Ttk" firstAttribute="leading" secondItem="hOv-iZ-cef" secondAttribute="leading" id="OXC-3L-8tE"/>
+                                    <constraint firstItem="hOv-iZ-cef" firstAttribute="trailing" secondItem="W6e-ym-V0Y" secondAttribute="trailing" id="Osw-7F-bhE"/>
+                                    <constraint firstItem="hOv-iZ-cef" firstAttribute="top" secondItem="W6e-ym-V0Y" secondAttribute="bottom" constant="8" symbolic="YES" id="QJf-e5-5Mr"/>
+                                    <constraint firstItem="W6e-ym-V0Y" firstAttribute="trailing" secondItem="sTL-Xd-0gh" secondAttribute="trailing" id="R4k-AR-AsD"/>
+                                    <constraint firstItem="IbC-jc-Ttk" firstAttribute="leading" secondItem="h6M-9X-Rxs" secondAttribute="leading" id="RAf-xV-6tc"/>
+                                    <constraint firstItem="W6e-ym-V0Y" firstAttribute="leading" secondItem="hOv-iZ-cef" secondAttribute="leading" id="REs-eq-F4Y"/>
+                                    <constraint firstItem="h6M-9X-Rxs" firstAttribute="leading" secondItem="lmq-1E-jNV" secondAttribute="leading" id="Rf6-gW-JW9"/>
+                                    <constraint firstItem="3qX-ho-3lL" firstAttribute="top" secondItem="efK-qd-K9V" secondAttribute="bottom" constant="2" id="XbI-ao-hyf"/>
+                                    <constraint firstItem="IbC-jc-Ttk" firstAttribute="trailing" secondItem="h6M-9X-Rxs" secondAttribute="trailing" id="a9H-9w-7LZ"/>
+                                    <constraint firstItem="sTL-Xd-0gh" firstAttribute="leading" secondItem="W6e-ym-V0Y" secondAttribute="leading" id="cax-xT-6S5"/>
+                                    <constraint firstItem="hOv-iZ-cef" firstAttribute="trailing" secondItem="IbC-jc-Ttk" secondAttribute="trailing" id="clP-pS-gpb"/>
+                                    <constraint firstItem="efK-qd-K9V" firstAttribute="leading" secondItem="3qX-ho-3lL" secondAttribute="leading" id="dQc-Hm-bt8"/>
+                                    <constraint firstItem="F8g-8Z-Hgm" firstAttribute="trailing" secondItem="efK-qd-K9V" secondAttribute="trailing" id="eni-E3-H3T"/>
+                                    <constraint firstItem="F8g-8Z-Hgm" firstAttribute="top" secondItem="lmq-1E-jNV" secondAttribute="bottom" constant="8" symbolic="YES" id="exC-LX-OiI"/>
+                                    <constraint firstItem="IbC-jc-Ttk" firstAttribute="top" secondItem="hOv-iZ-cef" secondAttribute="bottom" constant="3" id="hZu-li-GMJ"/>
+                                    <constraint firstItem="efK-qd-K9V" firstAttribute="top" secondItem="F8g-8Z-Hgm" secondAttribute="bottom" constant="8" symbolic="YES" id="nRk-Wd-ImR"/>
+                                    <constraint firstItem="efK-qd-K9V" firstAttribute="trailing" secondItem="3qX-ho-3lL" secondAttribute="trailing" id="oXu-G8-Gif"/>
+                                    <constraint firstItem="sTL-Xd-0gh" firstAttribute="top" secondItem="mSy-HM-utl" secondAttribute="top" constant="8" id="pWJ-Ke-eVf"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="7ff-aW-1pk" secondAttribute="trailing" id="e2r-BU-4VE"/>
-                            <constraint firstItem="7ff-aW-1pk" firstAttribute="top" secondItem="OaX-P8-B1p" secondAttribute="bottom" id="jK0-4c-R3s"/>
-                            <constraint firstItem="eQX-8w-qmo" firstAttribute="top" secondItem="7ff-aW-1pk" secondAttribute="bottom" constant="8" symbolic="YES" id="mqa-HJ-xAG"/>
-                            <constraint firstItem="7ff-aW-1pk" firstAttribute="leading" secondItem="jSX-lb-hnA" secondAttribute="leading" id="yWd-re-hCI"/>
+                            <constraint firstItem="mSy-HM-utl" firstAttribute="leading" secondItem="jSX-lb-hnA" secondAttribute="leading" id="FCB-r4-klj"/>
+                            <constraint firstItem="eQX-8w-qmo" firstAttribute="top" secondItem="mSy-HM-utl" secondAttribute="bottom" constant="13" id="FTp-xq-8gL"/>
+                            <constraint firstItem="mSy-HM-utl" firstAttribute="top" secondItem="OaX-P8-B1p" secondAttribute="bottom" id="fWB-Qz-ZB3"/>
+                            <constraint firstAttribute="trailing" secondItem="mSy-HM-utl" secondAttribute="trailing" id="mpf-d2-wDx"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="900"/>
                     <connections>
-                        <outlet property="scroller" destination="5u7-Ym-0DB" id="UtD-aK-C7U"/>
+                        <outlet property="scroller" destination="mSy-HM-utl" id="h0T-2E-dpu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fb0-ai-rja" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2410" y="-1415"/>
+            <point key="canvasLocation" x="2398" y="-1387"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yHL-2F-8gT">
@@ -5452,62 +5388,67 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ut6-5d-0LC">
-                                <rect key="frame" x="20" y="72" width="560" height="190"/>
-                                <string key="text">Follow the instructions below for every oral drug to be given at home.
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yvS-3H-6VB">
+                                <rect key="frame" x="0.0" y="64" width="600" height="528"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ut6-5d-0LC">
+                                        <rect key="frame" x="20" y="42" width="560" height="187"/>
+                                        <mutableString key="text">Follow the instructions below for every oral drug to be given at home.
 Also follow the instructions listed with each drug's dosage table.
 • Determine the appropriate drugs and dosage for the child's age weight.
-* Tell the mother the reason for giving the drug to the child.
-* Demonstrate how to measure a dose.
-* Watch the mother practise measuring a dose by herself.
-* Ask the mother to give the first dose to her child.
-* Explain carefully how to give the drug, label and package the drug.
-* If more than one drug will be given, collect, count and package each drug separately.
-* Explain that all oral drug tablets or syrups must be used to finish the course of treatment, even if the child gets better.
-* Check the mother's understanding before she leaves the clinic.
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SvL-wG-UT6">
-                                <rect key="frame" x="20" y="270" width="560" height="30"/>
-                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+• Tell the mother the reason for giving the drug to the child.
+• Demonstrate how to measure a dose.
+• Watch the mother practise measuring a dose by herself.
+• Ask the mother to give the first dose to her child.
+• Explain carefully how to give the drug, label and package the drug.
+• If more than one drug will be given, collect, count and package each drug separately.
+• Explain that all oral drug tablets or syrups must be used to finish the course of treatment, even if the child gets better.
+• Check the mother's understanding before she leaves the clinic.
+</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SvL-wG-UT6">
+                                        <rect key="frame" x="20" y="237" width="560" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Give an Appropriate Oral Antibiotic"/>
+                                        <connections>
+                                            <segue destination="tIa-gf-fu8" kind="show" id="IrN-31-8g1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1F-Yq-nID">
+                                        <rect key="frame" x="20" y="289" width="560" height="30"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Give Zinc Sulphate"/>
+                                        <connections>
+                                            <segue destination="HMh-Q6-syr" kind="show" id="Dqr-jK-QOo"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="57t-yv-3zz"/>
+                                    <constraint firstItem="SvL-wG-UT6" firstAttribute="top" secondItem="Ut6-5d-0LC" secondAttribute="bottom" constant="8" id="4Ir-HP-YGL"/>
+                                    <constraint firstItem="SvL-wG-UT6" firstAttribute="leading" secondItem="yvS-3H-6VB" secondAttribute="leading" constant="20" id="6CP-Dp-bpO"/>
+                                    <constraint firstItem="Ut6-5d-0LC" firstAttribute="leading" secondItem="yvS-3H-6VB" secondAttribute="leading" constant="20" id="AIj-j1-tDR"/>
+                                    <constraint firstItem="O1F-Yq-nID" firstAttribute="leading" secondItem="yvS-3H-6VB" secondAttribute="leading" constant="20" id="G5K-rk-SQ0"/>
+                                    <constraint firstItem="SvL-wG-UT6" firstAttribute="centerX" secondItem="yvS-3H-6VB" secondAttribute="centerX" id="HL6-ft-fZS"/>
+                                    <constraint firstItem="Ut6-5d-0LC" firstAttribute="centerX" secondItem="yvS-3H-6VB" secondAttribute="centerX" id="L7Z-AM-2Mq"/>
+                                    <constraint firstAttribute="bottom" secondItem="O1F-Yq-nID" secondAttribute="bottom" constant="145" id="PNV-oH-dtU"/>
+                                    <constraint firstItem="Ut6-5d-0LC" firstAttribute="top" secondItem="yvS-3H-6VB" secondAttribute="top" constant="42" id="WBO-of-Lqr"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ut6-5d-0LC" secondAttribute="trailing" constant="20" id="Xzv-7w-Scf"/>
+                                    <constraint firstAttribute="trailing" secondItem="O1F-Yq-nID" secondAttribute="trailing" constant="20" id="beq-n6-ogG"/>
+                                    <constraint firstAttribute="trailing" secondItem="SvL-wG-UT6" secondAttribute="trailing" constant="20" id="cyU-NX-xi1"/>
+                                    <constraint firstItem="O1F-Yq-nID" firstAttribute="centerX" secondItem="yvS-3H-6VB" secondAttribute="centerX" id="nyU-u9-09q"/>
+                                    <constraint firstItem="O1F-Yq-nID" firstAttribute="top" secondItem="SvL-wG-UT6" secondAttribute="bottom" constant="22" id="rAR-ux-J4D"/>
                                 </constraints>
-                                <state key="normal" title="Give an Appropriate Oral Antibiotic"/>
-                                <connections>
-                                    <segue destination="tIa-gf-fu8" kind="show" id="IrN-31-8g1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1F-Yq-nID">
-                                <rect key="frame" x="20" y="322" width="560" height="30"/>
-                                <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="jCU-pA-SeT"/>
-                                </constraints>
-                                <state key="normal" title="Give Zinc Sulphate"/>
-                                <connections>
-                                    <segue destination="HMh-Q6-syr" kind="show" id="UiE-s7-8Pd"/>
-                                </connections>
-                            </button>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="SvL-wG-UT6" firstAttribute="top" secondItem="Ut6-5d-0LC" secondAttribute="bottom" constant="8" id="418-yv-L90"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="O1F-Yq-nID" secondAttribute="trailing" id="DrR-CW-KWM"/>
-                            <constraint firstItem="O1F-Yq-nID" firstAttribute="top" secondItem="SvL-wG-UT6" secondAttribute="bottom" constant="22" id="E2T-9U-bS5"/>
-                            <constraint firstItem="O1F-Yq-nID" firstAttribute="centerX" secondItem="VfF-NY-Eoh" secondAttribute="centerX" id="Kdo-7t-s8W"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="O1F-Yq-nID" secondAttribute="leading" id="KuH-Gy-Uhf"/>
-                            <constraint firstItem="Ut6-5d-0LC" firstAttribute="top" secondItem="LlZ-qI-iA6" secondAttribute="bottom" constant="8" symbolic="YES" id="OdF-Of-BRx"/>
-                            <constraint firstItem="br9-31-C3m" firstAttribute="top" secondItem="O1F-Yq-nID" secondAttribute="bottom" constant="248" id="WjD-2I-xL1"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="Ut6-5d-0LC" secondAttribute="leading" id="dfn-f5-qzx"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="SvL-wG-UT6" secondAttribute="leading" id="juk-cH-6Rs"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Ut6-5d-0LC" secondAttribute="trailing" id="ni4-7I-4II"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="SvL-wG-UT6" secondAttribute="trailing" id="xpj-Cb-zsY"/>
-                            <constraint firstItem="Ut6-5d-0LC" firstAttribute="centerX" secondItem="VfF-NY-Eoh" secondAttribute="centerX" id="zhY-Vf-KJV"/>
-                            <constraint firstItem="SvL-wG-UT6" firstAttribute="centerX" secondItem="VfF-NY-Eoh" secondAttribute="centerX" id="zwL-Ge-y62"/>
+                            <constraint firstAttribute="trailing" secondItem="yvS-3H-6VB" secondAttribute="trailing" id="969-RK-AKy"/>
+                            <constraint firstItem="br9-31-C3m" firstAttribute="top" secondItem="yvS-3H-6VB" secondAttribute="bottom" constant="8" symbolic="YES" id="mdH-nW-gKE"/>
+                            <constraint firstItem="yvS-3H-6VB" firstAttribute="top" secondItem="LlZ-qI-iA6" secondAttribute="bottom" id="tsy-0S-qNa"/>
+                            <constraint firstItem="yvS-3H-6VB" firstAttribute="leading" secondItem="VfF-NY-Eoh" secondAttribute="leading" id="ybj-Et-Vvk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GhR-i1-zE1"/>
@@ -5516,10 +5457,10 @@ Also follow the instructions listed with each drug's dosage table.
             </objects>
             <point key="canvasLocation" x="3034" y="-2868"/>
         </scene>
-        <!--View Controller-->
+        <!--Treat Oral Antibiotic-->
         <scene sceneID="f7p-HT-yTS">
             <objects>
-                <viewController id="tIa-gf-fu8" sceneMemberID="viewController">
+                <viewController id="tIa-gf-fu8" customClass="Treat_Oral_Antibiotic" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ecK-5S-hgF"/>
                         <viewControllerLayoutGuide type="bottom" id="WVm-8E-qJ2"/>
@@ -5527,17 +5468,12 @@ Also follow the instructions listed with each drug's dosage table.
                     <view key="view" contentMode="scaleToFill" id="hY9-WT-R5d">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="young_appropriate_oral_antibiotic.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="flD-pd-G4c">
-                                <rect key="frame" x="0.0" y="64" width="600" height="294"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DnI-bP-8Pb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3034" y="-2232"/>
+            <point key="canvasLocation" x="3016" y="-2121"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fLV-bG-Fdg">
@@ -5552,7 +5488,7 @@ Also follow the instructions listed with each drug's dosage table.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNE-tH-nbj">
-                                <rect key="frame" x="20" y="20" width="560" height="144"/>
+                                <rect key="frame" x="20" y="64" width="560" height="144"/>
                                 <string key="text">Treat eye infection with Tetracycline Eye Ointment
 • Clean both eyes 3 times daily.
 	* Wash hand.
@@ -5579,7 +5515,7 @@ Also follow the instructions listed with each drug's dosage table.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eyd-Ue-dXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3671" y="-2216"/>
+            <point key="canvasLocation" x="4292" y="-2788"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FPy-qa-dAv">
@@ -5593,11 +5529,11 @@ Also follow the instructions listed with each drug's dosage table.
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cpy-gx-DvZ">
-                                <rect key="frame" x="0.0" y="64" width="600" height="528"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpy-gx-DvZ">
+                                <rect key="frame" x="20" y="64" width="560" height="528"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajh-zh-l3B">
-                                        <rect key="frame" x="8" y="8" width="584" height="110"/>
+                                        <rect key="frame" x="8" y="72" width="544" height="110"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="110" id="9Wz-f1-GEH"/>
                                         </constraints>
@@ -5610,31 +5546,40 @@ Also follow the instructions listed with each drug's dosage table.
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="QL3-DD-D1v">
-                                        <rect key="frame" x="8" y="126" width="584" height="55"/>
+                                        <rect key="frame" x="8" y="190" width="544" height="55"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="NMt-o0-otw"/>
                                         </constraints>
                                         <state key="normal" title="To Treat Skin Pustules or Umbilical Infection"/>
+                                        <connections>
+                                            <segue destination="GR9-9s-Ux4" kind="show" id="ecj-fq-Fsu"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jTr-UL-M2B">
-                                        <rect key="frame" x="8" y="189" width="584" height="44"/>
+                                        <rect key="frame" x="8" y="253" width="544" height="44"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="aaT-7Y-qpX"/>
                                         </constraints>
                                         <state key="normal" title="To Treat Thrush (white patches in mouth) or Mouth Ulcers"/>
+                                        <connections>
+                                            <segue destination="tvr-l2-9bG" kind="show" id="2dO-2l-f9G"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="T6B-0B-q9r">
-                                        <rect key="frame" x="8" y="241" width="584" height="48"/>
+                                        <rect key="frame" x="8" y="305" width="544" height="48"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="fbP-FO-8d8"/>
                                         </constraints>
                                         <state key="normal" title="Treat Eye Infection with Tetracycline Eye Ointment"/>
+                                        <connections>
+                                            <segue destination="qaI-lg-Goh" kind="show" id="iFH-p8-Rql"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="duA-8A-AkS">
-                                        <rect key="frame" x="8" y="297" width="584" height="47"/>
+                                        <rect key="frame" x="8" y="361" width="544" height="47"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="47" id="D2K-Jc-GDt"/>
@@ -5642,7 +5587,7 @@ Also follow the instructions listed with each drug's dosage table.
                                         <state key="normal" title="Immunize Every Sick Young Infant as Needed"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lX4-Hj-cLJ">
-                                        <rect key="frame" x="8" y="352" width="584" height="44"/>
+                                        <rect key="frame" x="8" y="416" width="544" height="44"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="2Og-rF-Mvo"/>
@@ -5650,7 +5595,7 @@ Also follow the instructions listed with each drug's dosage table.
                                         <state key="normal" title="Treat Diarrhoea"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0Mq-hb-M6v">
-                                        <rect key="frame" x="8" y="404" width="584" height="50"/>
+                                        <rect key="frame" x="8" y="468" width="544" height="50"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="23c-Mc-5v2"/>
@@ -5659,43 +5604,39 @@ Also follow the instructions listed with each drug's dosage table.
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="jTr-UL-M2B" secondAttribute="trailing" constant="8" id="0mf-Sb-Sj8"/>
-                                    <constraint firstAttribute="trailing" secondItem="duA-8A-AkS" secondAttribute="trailing" constant="8" id="1BS-XQ-qNS"/>
-                                    <constraint firstItem="T6B-0B-q9r" firstAttribute="leading" secondItem="Cpy-gx-DvZ" secondAttribute="leading" constant="8" id="3vi-CI-P1f"/>
-                                    <constraint firstItem="jTr-UL-M2B" firstAttribute="centerX" secondItem="Cpy-gx-DvZ" secondAttribute="centerX" id="6Lp-jM-osp"/>
-                                    <constraint firstItem="T6B-0B-q9r" firstAttribute="centerX" secondItem="Cpy-gx-DvZ" secondAttribute="centerX" id="9p4-0T-Utg"/>
-                                    <constraint firstItem="QL3-DD-D1v" firstAttribute="centerX" secondItem="Cpy-gx-DvZ" secondAttribute="centerX" id="9xE-Dm-MpC"/>
-                                    <constraint firstItem="duA-8A-AkS" firstAttribute="leading" secondItem="Cpy-gx-DvZ" secondAttribute="leading" constant="8" id="CcI-wU-3gQ"/>
-                                    <constraint firstItem="QL3-DD-D1v" firstAttribute="leading" secondItem="Cpy-gx-DvZ" secondAttribute="leading" constant="8" id="DPe-rc-WcI"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="centerX" secondItem="Cpy-gx-DvZ" secondAttribute="centerX" id="07c-Hy-Lzh"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="trailing" secondItem="QL3-DD-D1v" secondAttribute="trailing" id="35O-Yy-VJe"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="leading" secondItem="duA-8A-AkS" secondAttribute="leading" id="5uH-WA-ZkS"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="leading" secondItem="jTr-UL-M2B" secondAttribute="leading" id="F6u-gd-MLM"/>
                                     <constraint firstItem="duA-8A-AkS" firstAttribute="top" secondItem="T6B-0B-q9r" secondAttribute="bottom" constant="8" id="FJE-iS-icF"/>
-                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="leading" secondItem="Cpy-gx-DvZ" secondAttribute="leading" constant="8" id="JO9-Rt-5E6"/>
-                                    <constraint firstItem="lX4-Hj-cLJ" firstAttribute="leading" secondItem="Cpy-gx-DvZ" secondAttribute="leading" constant="8" id="Nn1-xX-17O"/>
-                                    <constraint firstItem="0Mq-hb-M6v" firstAttribute="leading" secondItem="Cpy-gx-DvZ" secondAttribute="leading" constant="8" id="SgA-oR-Yf6"/>
-                                    <constraint firstItem="lX4-Hj-cLJ" firstAttribute="centerX" secondItem="Cpy-gx-DvZ" secondAttribute="centerX" id="VNK-vM-NnZ"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="trailing" secondItem="Cpy-gx-DvZ" secondAttribute="trailingMargin" id="FhY-NG-Al3"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="trailing" secondItem="jTr-UL-M2B" secondAttribute="trailing" id="KVE-yO-RjH"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="trailing" secondItem="0Mq-hb-M6v" secondAttribute="trailing" id="Q6O-5Q-7lu"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="leading" secondItem="0Mq-hb-M6v" secondAttribute="leading" id="SZC-dp-hCW"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="trailing" secondItem="T6B-0B-q9r" secondAttribute="trailing" id="WsX-xi-7Cw"/>
                                     <constraint firstItem="T6B-0B-q9r" firstAttribute="top" secondItem="jTr-UL-M2B" secondAttribute="bottom" constant="8" id="XSF-9c-ssS"/>
-                                    <constraint firstAttribute="trailing" secondItem="0Mq-hb-M6v" secondAttribute="trailing" constant="8" id="Xqe-pP-QA7"/>
-                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="top" secondItem="Cpy-gx-DvZ" secondAttribute="top" constant="8" id="acw-9C-Q4V"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="leading" secondItem="Cpy-gx-DvZ" secondAttribute="leadingMargin" id="ZkY-1Y-jxk"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="trailing" secondItem="duA-8A-AkS" secondAttribute="trailing" id="bHP-po-CKX"/>
                                     <constraint firstItem="QL3-DD-D1v" firstAttribute="top" secondItem="ajh-zh-l3B" secondAttribute="bottom" constant="8" id="bWP-fN-O29"/>
-                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="centerX" secondItem="Cpy-gx-DvZ" secondAttribute="centerX" id="dee-rH-fjA"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="top" secondItem="Cpy-gx-DvZ" secondAttribute="top" constant="72" id="c2o-WD-M3o"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="leading" secondItem="lX4-Hj-cLJ" secondAttribute="leading" id="dPc-CX-ege"/>
                                     <constraint firstItem="lX4-Hj-cLJ" firstAttribute="top" secondItem="duA-8A-AkS" secondAttribute="bottom" constant="8" id="eyP-3M-f8E"/>
-                                    <constraint firstAttribute="trailing" secondItem="ajh-zh-l3B" secondAttribute="trailing" constant="8" id="fgg-4p-xdV"/>
                                     <constraint firstItem="0Mq-hb-M6v" firstAttribute="top" secondItem="lX4-Hj-cLJ" secondAttribute="bottom" constant="8" id="gni-Nb-Vij"/>
-                                    <constraint firstItem="duA-8A-AkS" firstAttribute="centerX" secondItem="Cpy-gx-DvZ" secondAttribute="centerX" id="k5e-mm-Gg5"/>
-                                    <constraint firstItem="0Mq-hb-M6v" firstAttribute="centerX" secondItem="Cpy-gx-DvZ" secondAttribute="centerX" id="mgQ-6s-jKX"/>
-                                    <constraint firstAttribute="trailing" secondItem="T6B-0B-q9r" secondAttribute="trailing" constant="8" id="oQ6-Ok-dan"/>
-                                    <constraint firstAttribute="trailing" secondItem="QL3-DD-D1v" secondAttribute="trailing" constant="8" id="p2d-Ua-9ch"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="leading" secondItem="T6B-0B-q9r" secondAttribute="leading" id="hMu-Rn-Gpd"/>
+                                    <constraint firstAttribute="bottom" secondItem="ajh-zh-l3B" secondAttribute="bottom" constant="346" id="oWh-AI-mMm"/>
                                     <constraint firstItem="jTr-UL-M2B" firstAttribute="top" secondItem="QL3-DD-D1v" secondAttribute="bottom" constant="8" id="pAH-7I-IPo"/>
-                                    <constraint firstAttribute="trailing" secondItem="lX4-Hj-cLJ" secondAttribute="trailing" constant="8" id="tg4-45-jTi"/>
-                                    <constraint firstItem="jTr-UL-M2B" firstAttribute="leading" secondItem="Cpy-gx-DvZ" secondAttribute="leading" constant="8" id="xr9-fW-mik"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="trailing" secondItem="lX4-Hj-cLJ" secondAttribute="trailing" id="rKp-tt-7yT"/>
+                                    <constraint firstItem="ajh-zh-l3B" firstAttribute="leading" secondItem="QL3-DD-D1v" secondAttribute="leading" id="vbw-ML-cLF"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Cpy-gx-DvZ" firstAttribute="leading" secondItem="A2y-26-XKU" secondAttribute="leading" id="3II-Cl-DZk"/>
-                            <constraint firstAttribute="trailing" secondItem="Cpy-gx-DvZ" secondAttribute="trailing" id="Mlh-pK-hoa"/>
-                            <constraint firstItem="Hm4-n8-NXB" firstAttribute="top" secondItem="Cpy-gx-DvZ" secondAttribute="bottom" constant="8" symbolic="YES" id="PT2-zi-7HG"/>
-                            <constraint firstItem="Cpy-gx-DvZ" firstAttribute="top" secondItem="lcE-TN-lia" secondAttribute="bottom" id="dGg-lu-dpl"/>
+                            <constraint firstItem="Cpy-gx-DvZ" firstAttribute="leading" secondItem="A2y-26-XKU" secondAttribute="leadingMargin" id="9tm-0A-AAn"/>
+                            <constraint firstItem="Hm4-n8-NXB" firstAttribute="top" secondItem="Cpy-gx-DvZ" secondAttribute="bottom" constant="8" symbolic="YES" id="Lph-Qu-rDC"/>
+                            <constraint firstItem="Cpy-gx-DvZ" firstAttribute="top" secondItem="lcE-TN-lia" secondAttribute="bottom" id="Yw3-ve-CQ4"/>
+                            <constraint firstItem="Cpy-gx-DvZ" firstAttribute="centerX" secondItem="A2y-26-XKU" secondAttribute="centerX" id="fuV-Y7-pr9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cpy-gx-DvZ" secondAttribute="trailing" id="giG-zH-NkF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="UeK-Km-9Ej"/>
@@ -5704,10 +5645,10 @@ Also follow the instructions listed with each drug's dosage table.
             </objects>
             <point key="canvasLocation" x="3671" y="-2859"/>
         </scene>
-        <!--View Controller-->
+        <!--Treat Zinc Sulphate-->
         <scene sceneID="uKS-fY-onG">
             <objects>
-                <viewController id="HMh-Q6-syr" sceneMemberID="viewController">
+                <viewController id="HMh-Q6-syr" customClass="TreatZincSulphate" customModule="IMCI" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EJD-bo-QGa"/>
                         <viewControllerLayoutGuide type="bottom" id="E20-gm-4Iz"/>
@@ -5715,17 +5656,12 @@ Also follow the instructions listed with each drug's dosage table.
                     <view key="view" contentMode="scaleToFill" id="NfN-kH-A5O">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="young_give_zinc_sulphate.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="WGp-tV-vem">
-                                <rect key="frame" x="0.0" y="64" width="600" height="294"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UXk-Tg-ilj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3034" y="-1571"/>
+            <point key="canvasLocation" x="3412" y="-2121"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="J7l-rH-62a">
@@ -5740,7 +5676,7 @@ Also follow the instructions listed with each drug's dosage table.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJG-LO-coX">
-                                <rect key="frame" x="20" y="20" width="560" height="101"/>
+                                <rect key="frame" x="20" y="64" width="560" height="101"/>
                                 <string key="text">To Treat Thrush (white patched in mouth) or Mouth Ulcers
 The mother should:
 	• Wash hands.
@@ -5763,7 +5699,7 @@ The mother should:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="58M-CS-igM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3671" y="-1571"/>
+            <point key="canvasLocation" x="3941" y="-2196"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6Hp-og-99W">
@@ -13484,6 +13420,24 @@ LOOK:
             </objects>
             <point key="canvasLocation" x="4292" y="3091"/>
         </scene>
+        <!--Trear Child Chloramphenicol-->
+        <scene sceneID="Idt-lX-UuN">
+            <objects>
+                <viewController id="1ea-4B-E5d" customClass="TrearChild_Chloramphenicol" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H2e-yy-B31"/>
+                        <viewControllerLayoutGuide type="bottom" id="DrZ-Lu-5qg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JEb-wS-Kh3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jln-kU-aRu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6329" y="699"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="5wd-Wt-OWC">
             <objects>
@@ -13498,11 +13452,6 @@ LOOK:
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tiT-Pn-je2">
                                 <rect key="frame" x="0.0" y="64" width="600" height="778"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="treat_wheezing.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="9BG-1l-UAJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
-                                    </imageView>
-                                </subviews>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -13512,7 +13461,7 @@ LOOK:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="asK-rK-GNc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6684" y="1197"/>
+            <point key="canvasLocation" x="5723" y="2162"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fqU-BQ-F0q">
@@ -13526,15 +13475,20 @@ LOOK:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fjv-ty-5Rk">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fjv-ty-5Rk">
                                 <rect key="frame" x="0.0" y="64" width="600" height="778"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="1. Artesunate for Severe Malaria" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9O-Ro-UBz">
-                                        <rect key="frame" x="0.0" y="35" width="600" height="29"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The recommended treatment for severe malaria is parenteral artesunate, quinine or artemether" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwo-6a-lYk">
+                                        <rect key="frame" x="13" y="8" width="574" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Artesunate for Severe Malaria" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9O-Ro-UBz">
+                                        <rect key="frame" x="0.0" y="32" width="600" height="17"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="39" id="6c0-cR-lpl"/>
-                                            <constraint firstAttribute="height" constant="29" id="NdU-qF-bPu"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -13545,14 +13499,8 @@ LOOK:
                                             </mask>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The recommended treatment for severe malaria is parenteral artesunate, quinine or artemether" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwo-6a-lYk">
-                                        <rect key="frame" x="13" y="0.0" width="574" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDo-w0-Uci">
-                                        <rect key="frame" x="13" y="72" width="574" height="108"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDo-w0-Uci">
+                                        <rect key="frame" x="13" y="52" width="574" height="94"/>
                                         <string key="text">• Dissolve artesunic powder with 5% sodium bicarbonate solution(provided with vial). Dilute resultant solution with 5ml of 5% dextrose
 • Administer 2.4mg/kg stat by slow IV injection then 1.2mg/kg at 12 hrs and 24 hrs then 1.2 mg/kg daily until the patient is able to tolerate oral medications.
 • Artesunate can be given IM at the same dosage and intervals.
@@ -13561,11 +13509,10 @@ LOOK:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="2. Quinine for Severe Malaria" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KnE-Gh-BcO">
-                                        <rect key="frame" x="0.0" y="188" width="600" height="29"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Quinine for Severe Malaria" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KnE-Gh-BcO">
+                                        <rect key="frame" x="0.0" y="159" width="600" height="17"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="29" id="06c-bt-SkT"/>
                                             <constraint firstAttribute="height" constant="39" id="3MA-bl-2WL"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -13577,8 +13524,8 @@ LOOK:
                                             </mask>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJI-ha-I7a">
-                                        <rect key="frame" x="13" y="225" width="574" height="163"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJI-ha-I7a">
+                                        <rect key="frame" x="13" y="179" width="574" height="156"/>
                                         <string key="text">FOR CHILDREN BEING REFERRED WITH VERY SEVERE FEBRILE DISEASE:
 • Give first dose of intramuscular quinine (20mg/kg-loading dose) and refer child urgently to hospital. IF REFERRAL IS NOT POSSIBLE:
 • Give first dose of IM quinine (20mg/kg-loading dose).The child should remain lying down for one hour.
@@ -13590,12 +13537,11 @@ LOOK:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Quinine Dosage Table" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQL-41-8e8">
-                                        <rect key="frame" x="0.0" y="396" width="600" height="29"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quinine Dosage Table" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQL-41-8e8">
+                                        <rect key="frame" x="0.0" y="348" width="600" height="17"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="39" id="BOC-Jh-dta"/>
-                                            <constraint firstAttribute="height" constant="29" id="lOr-uD-Upr"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -13606,12 +13552,11 @@ LOOK:
                                             </mask>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Quinine Dilution" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LzM-xs-zQl">
-                                        <rect key="frame" x="0.0" y="457" width="600" height="29"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quinine Dilution" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LzM-xs-zQl">
+                                        <rect key="frame" x="0.0" y="406" width="600" height="17"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="39" id="JJv-Fc-rrF"/>
-                                            <constraint firstAttribute="height" constant="29" id="mdT-ap-mab"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -13622,23 +13567,22 @@ LOOK:
                                             </mask>
                                         </variation>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXv-qT-dYF">
-                                        <rect key="frame" x="20" y="426" width="560" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXv-qT-dYF">
+                                        <rect key="frame" x="13" y="368" width="574" height="30"/>
                                         <state key="normal" title="Quinine Dosage Table"/>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lW8-NE-Mgh">
-                                        <rect key="frame" x="13" y="494" width="574" height="65"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lW8-NE-Mgh">
+                                        <rect key="frame" x="13" y="426" width="574" height="47"/>
                                         <string key="text">• To dilute injection 50mg/ml, draw 5 ml of water for injection into a syringe and then draw 1 ml of quinine injection 300mg/ml into the same syringe or 3 ml of water for injection and 1 ml of quinine 200 mg/ml. Shake gently to mix.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="3. Artemether for Severe Malaria" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGC-38-59h">
-                                        <rect key="frame" x="0.0" y="567" width="600" height="29"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. Artemether for Severe Malaria" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGC-38-59h">
+                                        <rect key="frame" x="0.0" y="486" width="600" height="17"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="39" id="WMw-d0-iZ1"/>
-                                            <constraint firstAttribute="height" constant="29" id="nYf-Gi-LRa"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -13649,8 +13593,8 @@ LOOK:
                                             </mask>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Tr-9h-6VD">
-                                        <rect key="frame" x="13" y="604" width="574" height="145"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Tr-9h-6VD">
+                                        <rect key="frame" x="13" y="506" width="574" height="125"/>
                                         <string key="text">• Administer a loading dose of 3.2mg/kg IM stat then 1.6mg/kg daily until the patient is able to tolerate oral medications.
 • Thereafter a complete course of AL is given.
 • Admit or refer patients with the following:
@@ -13662,9 +13606,53 @@ LOOK:
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="T9O-Ro-UBz" firstAttribute="leading" secondItem="Fjv-ty-5Rk" secondAttribute="leading" id="3y9-EW-yMp"/>
+                                    <constraint firstItem="lW8-NE-Mgh" firstAttribute="top" secondItem="LzM-xs-zQl" secondAttribute="bottom" constant="3" id="5Lf-PH-88B"/>
+                                    <constraint firstItem="EXv-qT-dYF" firstAttribute="top" secondItem="cQL-41-8e8" secondAttribute="bottom" constant="3" id="5dU-q9-7qA"/>
+                                    <constraint firstItem="lW8-NE-Mgh" firstAttribute="leading" secondItem="Fjv-ty-5Rk" secondAttribute="leading" constant="13" id="5fN-T0-hE6"/>
+                                    <constraint firstItem="lW8-NE-Mgh" firstAttribute="leading" secondItem="EXv-qT-dYF" secondAttribute="leading" id="Aei-TS-Ysj"/>
+                                    <constraint firstItem="T9O-Ro-UBz" firstAttribute="trailing" secondItem="LzM-xs-zQl" secondAttribute="trailing" id="ChI-cd-wrx"/>
+                                    <constraint firstItem="LzM-xs-zQl" firstAttribute="top" secondItem="EXv-qT-dYF" secondAttribute="bottom" constant="8" symbolic="YES" id="Ckg-tl-MaX"/>
+                                    <constraint firstItem="T9O-Ro-UBz" firstAttribute="trailing" secondItem="PGC-38-59h" secondAttribute="trailing" id="Fdl-4X-37H"/>
+                                    <constraint firstItem="Nwo-6a-lYk" firstAttribute="leading" secondItem="Fjv-ty-5Rk" secondAttribute="leading" constant="13" id="GbN-1H-fw4"/>
+                                    <constraint firstItem="T9O-Ro-UBz" firstAttribute="centerX" secondItem="EXv-qT-dYF" secondAttribute="centerX" id="Hcn-dF-A9m"/>
+                                    <constraint firstAttribute="trailing" secondItem="FJI-ha-I7a" secondAttribute="trailing" constant="13" id="JFR-Kf-48s"/>
+                                    <constraint firstItem="KnE-Gh-BcO" firstAttribute="top" secondItem="WDo-w0-Uci" secondAttribute="bottom" constant="13" id="LRR-dI-YgN"/>
+                                    <constraint firstItem="T9O-Ro-UBz" firstAttribute="top" secondItem="Fjv-ty-5Rk" secondAttribute="top" constant="32" id="Rbu-pJ-Nep"/>
+                                    <constraint firstItem="FJI-ha-I7a" firstAttribute="leading" secondItem="Fjv-ty-5Rk" secondAttribute="leading" constant="13" id="SdA-Nr-yid"/>
+                                    <constraint firstItem="Nwo-6a-lYk" firstAttribute="top" secondItem="Fjv-ty-5Rk" secondAttribute="top" constant="8" id="Sh1-9z-nng"/>
+                                    <constraint firstAttribute="trailing" secondItem="Nwo-6a-lYk" secondAttribute="trailing" constant="13" id="Tkb-DF-hyk"/>
+                                    <constraint firstItem="T9O-Ro-UBz" firstAttribute="leading" secondItem="cQL-41-8e8" secondAttribute="leading" id="U52-mS-qGh"/>
+                                    <constraint firstItem="5Tr-9h-6VD" firstAttribute="leading" secondItem="Fjv-ty-5Rk" secondAttribute="leading" constant="13" id="WSk-5b-VF9"/>
+                                    <constraint firstItem="WDo-w0-Uci" firstAttribute="leading" secondItem="Fjv-ty-5Rk" secondAttribute="leading" constant="13" id="Xe0-Cr-JfG"/>
+                                    <constraint firstAttribute="trailing" secondItem="lW8-NE-Mgh" secondAttribute="trailing" constant="13" id="bWk-pM-iq3"/>
+                                    <constraint firstItem="PGC-38-59h" firstAttribute="top" secondItem="lW8-NE-Mgh" secondAttribute="bottom" constant="13" id="cK2-rZ-clN"/>
+                                    <constraint firstItem="WDo-w0-Uci" firstAttribute="top" secondItem="T9O-Ro-UBz" secondAttribute="bottom" constant="3" id="ctK-wc-FUc"/>
+                                    <constraint firstItem="T9O-Ro-UBz" firstAttribute="leading" secondItem="LzM-xs-zQl" secondAttribute="leading" id="dAr-bY-olv"/>
+                                    <constraint firstAttribute="trailing" secondItem="WDo-w0-Uci" secondAttribute="trailing" constant="13" id="eGG-Kk-4ek"/>
+                                    <constraint firstItem="cQL-41-8e8" firstAttribute="top" secondItem="FJI-ha-I7a" secondAttribute="bottom" constant="13" id="eeB-eJ-6HU"/>
+                                    <constraint firstItem="T9O-Ro-UBz" firstAttribute="leading" secondItem="KnE-Gh-BcO" secondAttribute="leading" id="gUF-Wk-lXU"/>
+                                    <constraint firstItem="FJI-ha-I7a" firstAttribute="top" secondItem="KnE-Gh-BcO" secondAttribute="bottom" constant="3" id="gZN-eD-Vko"/>
+                                    <constraint firstItem="T9O-Ro-UBz" firstAttribute="trailing" secondItem="cQL-41-8e8" secondAttribute="trailing" id="l6F-fH-sVh"/>
+                                    <constraint firstItem="T9O-Ro-UBz" firstAttribute="leading" secondItem="PGC-38-59h" secondAttribute="leading" id="lSB-oo-T5G"/>
+                                    <constraint firstAttribute="trailing" secondItem="T9O-Ro-UBz" secondAttribute="trailing" id="lcR-bt-hES"/>
+                                    <constraint firstItem="T9O-Ro-UBz" firstAttribute="centerX" secondItem="Fjv-ty-5Rk" secondAttribute="centerX" id="p2h-ls-7k9"/>
+                                    <constraint firstItem="5Tr-9h-6VD" firstAttribute="top" secondItem="PGC-38-59h" secondAttribute="bottom" constant="3" id="qQf-zs-okW"/>
+                                    <constraint firstAttribute="bottom" secondItem="T9O-Ro-UBz" secondAttribute="bottom" constant="729" id="r0t-C1-ljE"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Tr-9h-6VD" secondAttribute="trailing" constant="13" id="rmb-8q-e9z"/>
+                                    <constraint firstItem="T9O-Ro-UBz" firstAttribute="trailing" secondItem="KnE-Gh-BcO" secondAttribute="trailing" id="w1R-Nr-KZW"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Fjv-ty-5Rk" firstAttribute="leading" secondItem="3ij-Oz-yQP" secondAttribute="leadingMargin" constant="-20" id="4cR-9b-EjU"/>
+                            <constraint firstItem="Fjv-ty-5Rk" firstAttribute="centerX" secondItem="3ij-Oz-yQP" secondAttribute="centerX" id="Jdf-mH-coX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Fjv-ty-5Rk" secondAttribute="trailing" constant="-20" id="dBw-HR-3oa"/>
+                            <constraint firstItem="Fjv-ty-5Rk" firstAttribute="top" secondItem="Ji1-gL-YHj" secondAttribute="bottom" id="dkb-O1-Ax6"/>
+                            <constraint firstItem="HOd-E6-F0b" firstAttribute="top" secondItem="Fjv-ty-5Rk" secondAttribute="bottom" constant="8" symbolic="YES" id="nqA-rB-i0d"/>
+                        </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="850"/>
@@ -13674,7 +13662,7 @@ LOOK:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRp-SG-6ws" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6349" y="1140"/>
+            <point key="canvasLocation" x="5723" y="1261"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2yT-tG-VrE">
@@ -13688,11 +13676,8 @@ LOOK:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Saz-9A-Dmc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Saz-9A-Dmc">
                                 <rect key="frame" x="20" y="72" width="560" height="129"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="560" id="l4F-oH-TVl"/>
-                                </constraints>
                                 <string key="text">FOR CHILDREN BEING REFERRED URGENTLY.
 • Give first dose of intramuscular chloramphenicol and refer child to hospital
 
@@ -13706,26 +13691,33 @@ IF REFERRAL IS NOT POSSIBLE
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5O-bw-gJB">
-                                <rect key="frame" x="113" y="209" width="375" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="q5O-bw-gJB">
+                                <rect key="frame" x="55" y="209" width="489" height="49"/>
                                 <color key="backgroundColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="q5O-bw-gJB" secondAttribute="height" multiplier="487:39" id="Pqr-A2-oad"/>
-                                </constraints>
                                 <state key="normal" title="Assess Chloramphenicol Dose Table">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="1ea-4B-E5d" kind="show" id="fr4-wd-L29"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="q5O-bw-gJB" firstAttribute="width" secondItem="q5O-bw-gJB" secondAttribute="height" multiplier="487:39" id="6cc-K6-tfE"/>
+                            <constraint firstItem="Saz-9A-Dmc" firstAttribute="top" secondItem="5CV-zu-Sbf" secondAttribute="bottom" constant="8" id="65d-ZU-RZX"/>
+                            <constraint firstItem="Saz-9A-Dmc" firstAttribute="trailing" secondItem="ARk-Ig-1ah" secondAttribute="trailingMargin" id="Fca-ah-JLx"/>
+                            <constraint firstItem="q5O-bw-gJB" firstAttribute="centerX" secondItem="ARk-Ig-1ah" secondAttribute="centerX" id="RgS-ZU-TEt"/>
+                            <constraint firstItem="Saz-9A-Dmc" firstAttribute="centerX" secondItem="ARk-Ig-1ah" secondAttribute="centerX" id="VXe-WA-hUg"/>
+                            <constraint firstItem="Saz-9A-Dmc" firstAttribute="leading" secondItem="ARk-Ig-1ah" secondAttribute="leadingMargin" id="ffc-bd-hLF"/>
+                            <constraint firstItem="q5O-bw-gJB" firstAttribute="leading" secondItem="ARk-Ig-1ah" secondAttribute="leadingMargin" constant="35" id="gDS-dU-pfb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q5O-bw-gJB" secondAttribute="trailing" constant="36" id="gvL-GD-wKE"/>
+                            <constraint firstItem="q5O-bw-gJB" firstAttribute="top" secondItem="Saz-9A-Dmc" secondAttribute="bottom" constant="8" id="kI1-aa-XJD"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="26d-7e-fZl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5699" y="630"/>
+            <point key="canvasLocation" x="5723" y="524"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WYY-ts-jYe">
@@ -13739,11 +13731,8 @@ IF REFERRAL IS NOT POSSIBLE
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bp-LU-dkA">
-                                <rect key="frame" x="20" y="72" width="560" height="129"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="560" id="tci-mv-Ik1"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bp-LU-dkA">
+                                <rect key="frame" x="20" y="72" width="560" height="101"/>
                                 <string key="text">• Turn he child to the side and clear the airway.
 • Avoid putting things in his/her mouth while he/she is convulsing.
 • Give 0.5 mg/kg diazepam injection solution per rectum using syringe without needle or using a catheter.
@@ -13756,11 +13745,17 @@ IF REFERRAL IS NOT POSSIBLE
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="8bp-LU-dkA" firstAttribute="top" secondItem="SBy-TU-yfF" secondAttribute="bottom" constant="8" id="prK-J6-sJ7"/>
+                            <constraint firstItem="8bp-LU-dkA" firstAttribute="centerX" secondItem="VNL-xk-cDJ" secondAttribute="centerX" id="wnG-AM-snT"/>
+                            <constraint firstItem="8bp-LU-dkA" firstAttribute="leading" secondItem="VNL-xk-cDJ" secondAttribute="leadingMargin" id="xU4-60-kPU"/>
+                            <constraint firstItem="8bp-LU-dkA" firstAttribute="trailing" secondItem="VNL-xk-cDJ" secondAttribute="trailingMargin" id="z3A-v6-1ZB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qPj-V3-LYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6079" y="821"/>
+            <point key="canvasLocation" x="5723" y="897"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Oy4-7S-qEQ">
@@ -13774,11 +13769,8 @@ IF REFERRAL IS NOT POSSIBLE
                         <rect key="frame" x="0.0" y="0.0" width="600" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWe-Qr-EhS">
-                                <rect key="frame" x="20" y="72" width="560" height="108"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="560" id="1Ef-Gf-hoT"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWe-Qr-EhS">
+                                <rect key="frame" x="20" y="72" width="560" height="72"/>
                                 <string key="text">• Safe remedies to recommend: 
 	- Breastmilk for breastfeeding children.
 	- Warm water with lemon and honey (children &gt; 6 months)
@@ -13790,11 +13782,17 @@ IF REFERRAL IS NOT POSSIBLE
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="IWe-Qr-EhS" firstAttribute="centerX" secondItem="SFL-hT-6SP" secondAttribute="centerX" id="EbS-Y1-D8p"/>
+                            <constraint firstItem="IWe-Qr-EhS" firstAttribute="trailing" secondItem="SFL-hT-6SP" secondAttribute="trailingMargin" id="Pfp-HP-nWm"/>
+                            <constraint firstItem="IWe-Qr-EhS" firstAttribute="top" secondItem="UOh-vW-bo6" secondAttribute="bottom" constant="8" id="b2H-3N-Sfj"/>
+                            <constraint firstItem="IWe-Qr-EhS" firstAttribute="leading" secondItem="SFL-hT-6SP" secondAttribute="leadingMargin" id="wIy-zm-kW3"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="clz-dy-O2c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5613" y="1458"/>
+            <point key="canvasLocation" x="5064" y="1699"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PmF-ep-USH">
@@ -13887,8 +13885,8 @@ Advise the mother to:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRZ-hB-q8h">
-                                <rect key="frame" x="20" y="28" width="560" height="126"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRZ-hB-q8h">
+                                <rect key="frame" x="20" y="72" width="560" height="115"/>
                                 <string key="text">To Treat Skin Pustules or Umbilical Infection
 Apply Gentian Violet twice daily.
 The mother should:
@@ -13903,11 +13901,16 @@ The mother should:
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="JRZ-hB-q8h" firstAttribute="leading" secondItem="rhx-vc-VsD" secondAttribute="leadingMargin" id="VNK-Hh-LgA"/>
+                            <constraint firstItem="JRZ-hB-q8h" firstAttribute="trailing" secondItem="rhx-vc-VsD" secondAttribute="trailingMargin" id="dWq-Q3-Ym4"/>
+                            <constraint firstItem="JRZ-hB-q8h" firstAttribute="top" secondItem="blB-qe-fab" secondAttribute="bottom" constant="8" id="nqQ-SL-DMl"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nY0-EO-Kue" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3671" y="-911"/>
+            <point key="canvasLocation" x="4272" y="-2380"/>
         </scene>
     </scenes>
     <resources>
@@ -13920,25 +13923,14 @@ The mother should:
         <image name="breastfeeding_upto_two_years_and_older_one.PNG" width="551" height="354"/>
         <image name="care_for_development_0_4.PNG" width="427" height="542"/>
         <image name="care_for_development_4_6.PNG" width="410" height="539"/>
-        <image name="drug_antibiotic_pneumonia.png" width="604" height="703"/>
-        <image name="drug_oral_ironfolate.PNG" width="561" height="231"/>
-        <image name="drug_oralantimalarial.png" width="682" height="516"/>
-        <image name="drug_oralparacetamolfever.PNG" width="585" height="195"/>
-        <image name="drug_oralvitamin_a.PNG" width="564" height="218"/>
-        <image name="drug_oralzincsulphate.PNG" width="567" height="144"/>
-        <image name="mebendazole.PNG" width="554" height="87"/>
-        <image name="medicationmetronidazole_dysentry.PNG" width="571" height="229"/>
         <image name="plan_b_ors_age.png" width="985" height="192"/>
         <image name="rehydration_child_severe_dehydration.PNG" width="408" height="620"/>
         <image name="rehydration_therapy_and_feeding.PNG" width="697" height="616"/>
         <image name="supplement_multivitamin.PNG" width="834" height="318"/>
-        <image name="treat_wheezing.PNG" width="720" height="643"/>
-        <image name="young_appropriate_oral_antibiotic.PNG" width="1122" height="639"/>
-        <image name="young_give_zinc_sulphate.PNG" width="1166" height="541"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1Va-9f-a08"/>
-        <segue reference="ADN-Rt-n5w"/>
-        <segue reference="Ozu-iA-Cut"/>
+        <segue reference="JcI-XD-nmN"/>
+        <segue reference="vWq-OX-unH"/>
+        <segue reference="VfE-ci-uQk"/>
     </inferredMetricsTieBreakers>
 </document>
