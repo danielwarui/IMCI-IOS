@@ -1,4 +1,3 @@
-//
 //  TreatChild_Paracetamol.swift
 //  IMCI
 //

@@ -16,7 +16,7 @@ class Assess_Immunization_Table: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imageView = UIImageView(image: UIImage(named: "immunization_table.PNG"))
+        imageView = UIImageView(image: UIImage(named: "immunization_table.png"))
         
         scrollView = UIScrollView(frame: view.bounds)
         // scrollView.backgroundColor = UIColor.brownColor()

@@ -1,4 +1,3 @@
-//
 //  TreatChild_Mebendazole.swift
 //  IMCI
 //

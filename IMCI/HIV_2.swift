@@ -15,7 +15,7 @@ class HIV_2: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imageView = UIImageView(image: UIImage(named: "guidlines_on_nevirapine.PNG"))
+        imageView = UIImageView(image: UIImage(named: "guidlines_on_nevirapine.png"))
         
         scrollView = UIScrollView(frame: view.bounds)
         // scrollView.backgroundColor = UIColor.brownColor()

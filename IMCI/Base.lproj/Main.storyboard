@@ -5643,7 +5643,7 @@ Encourage parent to seek Voluntary Counselling and Testing (VCT)
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ut6-5d-0LC">
                                         <rect key="frame" x="20" y="42" width="560" height="187"/>
-                                        <mutableString key="text">Follow the instructions below for every oral drug to be given at home.
+                                        <string key="text">Follow the instructions below for every oral drug to be given at home.
 Also follow the instructions listed with each drug's dosage table.
 • Determine the appropriate drugs and dosage for the child's age weight.
 • Tell the mother the reason for giving the drug to the child.
@@ -5654,7 +5654,7 @@ Also follow the instructions listed with each drug's dosage table.
 • If more than one drug will be given, collect, count and package each drug separately.
 • Explain that all oral drug tablets or syrups must be used to finish the course of treatment, even if the child gets better.
 • Check the mother's understanding before she leaves the clinic.
-</mutableString>
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>

@@ -1,4 +1,3 @@
-//
 //  Treat_Benzylpenicillin.swift
 //  IMCI
 //
@@ -17,7 +16,7 @@ class Treat_Benzylpenicillin: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        imageView = UIImageView(image: UIImage(named: "first_dose_of_intramuscular_antibiotics.PNG"))
+        imageView = UIImageView(image: UIImage(named: "first_dose_of_intramuscular_antibiotics.png"))
         
         scrollView = UIScrollView(frame: view.bounds)
         // scrollView.backgroundColor = UIColor.brownColor()
