@@ -50,8 +50,6 @@
 		3F0C47FE1C663686009F126A /* plan_b_rehydrationsome.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47CA1C663686009F126A /* plan_b_rehydrationsome.png */; };
 		3F0C47FF1C663686009F126A /* quinine_table.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47CB1C663686009F126A /* quinine_table.png */; };
 		3F0C48001C663686009F126A /* rehydration_child_severe_dehydration.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47CC1C663686009F126A /* rehydration_child_severe_dehydration.png */; };
-		3F0C48011C663686009F126A /* rehydration_for_child_severe_dehydration.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47CD1C663686009F126A /* rehydration_for_child_severe_dehydration.png */; };
-		3F0C48021C663686009F126A /* rehydration_therapy_and_feeding.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47CE1C663686009F126A /* rehydration_therapy_and_feeding.png */; };
 		3F0C48031C663686009F126A /* rehydration_therapy_child_and_feeding.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47CF1C663686009F126A /* rehydration_therapy_child_and_feeding.png */; };
 		3F0C48041C663686009F126A /* supplement_multivitamin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47D01C663686009F126A /* supplement_multivitamin.png */; };
 		3F0C48051C663686009F126A /* treat_wheezing.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C47D11C663686009F126A /* treat_wheezing.png */; };
@@ -87,6 +85,10 @@
 		3F8DACA31C857B60003CC5C3 /* TreatChild_Mebendazole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACA21C857B60003CC5C3 /* TreatChild_Mebendazole.swift */; };
 		3F8DACA51C858D0F003CC5C3 /* TrearChild_Chloramphenicol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACA41C858D0F003CC5C3 /* TrearChild_Chloramphenicol.swift */; };
 		3F8DACA71C859B0A003CC5C3 /* TreatChild_Wheezing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACA61C859B0A003CC5C3 /* TreatChild_Wheezing.swift */; };
+		3F8DACA91C85A588003CC5C3 /* TreatChild_ORSDosage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACA81C85A588003CC5C3 /* TreatChild_ORSDosage.swift */; };
+		3F8DACAB1C85A6F7003CC5C3 /* TreatChild_PlanC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACAA1C85A6F7003CC5C3 /* TreatChild_PlanC.swift */; };
+		3F8DACAD1C85AA10003CC5C3 /* TreatChild_RehydrationMalnutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACAC1C85AA10003CC5C3 /* TreatChild_RehydrationMalnutrition.swift */; };
+		3F8DACAF1C85ABB1003CC5C3 /* TreatChild_MultiVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACAE1C85ABB1003CC5C3 /* TreatChild_MultiVitamin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -173,8 +175,6 @@
 		3F0C47CA1C663686009F126A /* plan_b_rehydrationsome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plan_b_rehydrationsome.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/plan_b_rehydrationsome.png"; sourceTree = "<group>"; };
 		3F0C47CB1C663686009F126A /* quinine_table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quinine_table.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/quinine_table.png"; sourceTree = "<group>"; };
 		3F0C47CC1C663686009F126A /* rehydration_child_severe_dehydration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rehydration_child_severe_dehydration.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/rehydration_child_severe_dehydration.png"; sourceTree = "<group>"; };
-		3F0C47CD1C663686009F126A /* rehydration_for_child_severe_dehydration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rehydration_for_child_severe_dehydration.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/rehydration_for_child_severe_dehydration.png"; sourceTree = "<group>"; };
-		3F0C47CE1C663686009F126A /* rehydration_therapy_and_feeding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rehydration_therapy_and_feeding.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/rehydration_therapy_and_feeding.png"; sourceTree = "<group>"; };
 		3F0C47CF1C663686009F126A /* rehydration_therapy_child_and_feeding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rehydration_therapy_child_and_feeding.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/rehydration_therapy_child_and_feeding.png"; sourceTree = "<group>"; };
 		3F0C47D01C663686009F126A /* supplement_multivitamin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = supplement_multivitamin.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/supplement_multivitamin.png"; sourceTree = "<group>"; };
 		3F0C47D11C663686009F126A /* treat_wheezing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = treat_wheezing.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-hdpi/treat_wheezing.png"; sourceTree = "<group>"; };
@@ -214,6 +214,10 @@
 		3F8DACA21C857B60003CC5C3 /* TreatChild_Mebendazole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatChild_Mebendazole.swift; sourceTree = "<group>"; };
 		3F8DACA41C858D0F003CC5C3 /* TrearChild_Chloramphenicol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrearChild_Chloramphenicol.swift; sourceTree = "<group>"; };
 		3F8DACA61C859B0A003CC5C3 /* TreatChild_Wheezing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatChild_Wheezing.swift; sourceTree = "<group>"; };
+		3F8DACA81C85A588003CC5C3 /* TreatChild_ORSDosage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TreatChild_ORSDosage.swift; path = ../TreatChild_ORSDosage.swift; sourceTree = "<group>"; };
+		3F8DACAA1C85A6F7003CC5C3 /* TreatChild_PlanC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatChild_PlanC.swift; sourceTree = "<group>"; };
+		3F8DACAC1C85AA10003CC5C3 /* TreatChild_RehydrationMalnutrition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatChild_RehydrationMalnutrition.swift; sourceTree = "<group>"; };
+		3F8DACAE1C85ABB1003CC5C3 /* TreatChild_MultiVitamin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatChild_MultiVitamin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,8 +286,6 @@
 				3F0C47C81C663686009F126A /* paeds_chart.png */,
 				3F0C47CA1C663686009F126A /* plan_b_rehydrationsome.png */,
 				3F0C47CC1C663686009F126A /* rehydration_child_severe_dehydration.png */,
-				3F0C47CD1C663686009F126A /* rehydration_for_child_severe_dehydration.png */,
-				3F0C47CE1C663686009F126A /* rehydration_therapy_and_feeding.png */,
 				3F0C47CF1C663686009F126A /* rehydration_therapy_child_and_feeding.png */,
 				3F0C47D01C663686009F126A /* supplement_multivitamin.png */,
 				3F0C47D11C663686009F126A /* treat_wheezing.png */,
@@ -321,6 +323,8 @@
 				3F8DAC8E1C85646C003CC5C3 /* HIV_2.swift */,
 				3F8DAC8F1C85646C003CC5C3 /* imageZoom.swift */,
 				3F692F2A1C4CA1B900B0542E /* Main.storyboard */,
+				3F8DACAE1C85ABB1003CC5C3 /* TreatChild_MultiVitamin.swift */,
+				3F8DACAC1C85AA10003CC5C3 /* TreatChild_RehydrationMalnutrition.swift */,
 				3F8DAC981C8573EB003CC5C3 /* TreatChild_Antimalarial.swift */,
 				3F8DAC9A1C857488003CC5C3 /* TreatChild_VitaminA.swift */,
 				3F8DAC851C8428EC003CC5C3 /* TreatZincSulphate.swift */,
@@ -331,10 +335,12 @@
 				3F8DAC9E1C857682003CC5C3 /* TreatChild_ZincSulphate.swift */,
 				3F8DAC9C1C8574FF003CC5C3 /* TreatChild_IronandFolate.swift */,
 				3F8DACA61C859B0A003CC5C3 /* TreatChild_Wheezing.swift */,
+				3F8DACA81C85A588003CC5C3 /* TreatChild_ORSDosage.swift */,
 				3F8DACA01C85795E003CC5C3 /* TreatChild_Paracetamol.swift */,
 				3F8DACA21C857B60003CC5C3 /* TreatChild_Mebendazole.swift */,
 				3F8DACA41C858D0F003CC5C3 /* TrearChild_Chloramphenicol.swift */,
 				3F8DAC831C84238E003CC5C3 /* Treat_Oral_Antibiotic.swift */,
+				3F8DACAA1C85A6F7003CC5C3 /* TreatChild_PlanC.swift */,
 				3F8DAC941C856F6F003CC5C3 /* TreatChild_Oral_Antibiotic.swift */,
 				3F8DAC7F1C81DF5D003CC5C3 /* Assess_Immunization_Table.swift */,
 				3F8DAC751C805635003CC5C3 /* HIV_3.swift */,
@@ -458,13 +464,11 @@
 				3F0C48081C663686009F126A /* young_give_zinc_sulphate.png in Resources */,
 				3F0C47F41C663686009F126A /* ic_launcher.png in Resources */,
 				3F0C47D71C663686009F126A /* artesunateforsevere_malaria.png in Resources */,
-				3F0C48011C663686009F126A /* rehydration_for_child_severe_dehydration.png in Resources */,
 				3F0C47FF1C663686009F126A /* quinine_table.png in Resources */,
 				3F0C47E51C663686009F126A /* dose_of_cotrimoxazole.png in Resources */,
 				3F0C47EF1C663686009F126A /* drug_secondline_antimalarial.png in Resources */,
 				3F0C47E81C663686009F126A /* drug_oral_ironfolate.png in Resources */,
 				3F0C48041C663686009F126A /* supplement_multivitamin.png in Resources */,
-				3F0C48021C663686009F126A /* rehydration_therapy_and_feeding.png in Resources */,
 				3F0C47F21C663686009F126A /* home_care_followup.png in Resources */,
 				3F0C47E21C663686009F126A /* care_for_development.png in Resources */,
 				3F692F2C1C4CA1B900B0542E /* Main.storyboard in Resources */,
@@ -522,21 +526,25 @@
 				3F8DAC7A1C8056B8003CC5C3 /* HIV_5.swift in Sources */,
 				3F8DAC951C856F6F003CC5C3 /* TreatChild_Oral_Antibiotic.swift in Sources */,
 				3F8DAC931C85646C003CC5C3 /* imageZoom.swift in Sources */,
+				3F8DACAB1C85A6F7003CC5C3 /* TreatChild_PlanC.swift in Sources */,
 				3F8DAC761C805635003CC5C3 /* HIV_3.swift in Sources */,
 				3F692F291C4CA1B900B0542E /* ViewController.swift in Sources */,
 				3F8DAC841C84238E003CC5C3 /* Treat_Oral_Antibiotic.swift in Sources */,
 				3F8DAC861C8428EC003CC5C3 /* TreatZincSulphate.swift in Sources */,
+				3F8DACA91C85A588003CC5C3 /* TreatChild_ORSDosage.swift in Sources */,
 				3F8DAC991C8573EB003CC5C3 /* TreatChild_Antimalarial.swift in Sources */,
 				3F8DAC821C81E874003CC5C3 /* Treat_Benzylpenicillin.swift in Sources */,
 				3F692F271C4CA1B900B0542E /* AppDelegate.swift in Sources */,
 				3F8DAC971C857216003CC5C3 /* TreatChild_Metronidazole.swift in Sources */,
 				3F8DAC781C80567A003CC5C3 /* HIV_4.swift in Sources */,
 				3F8DAC7C1C80A96F003CC5C3 /* Assess_immunization.swift in Sources */,
+				3F8DACAD1C85AA10003CC5C3 /* TreatChild_RehydrationMalnutrition.swift in Sources */,
 				3F8DAC801C81DF5D003CC5C3 /* Assess_Immunization_Table.swift in Sources */,
 				3F8DAC911C85646C003CC5C3 /* HIV_1.swift in Sources */,
 				3F8DAC9D1C8574FF003CC5C3 /* TreatChild_IronandFolate.swift in Sources */,
 				3F8DACA11C85795E003CC5C3 /* TreatChild_Paracetamol.swift in Sources */,
 				3F8DAC901C85646C003CC5C3 /* Assess_VitaminA_Deworming.swift in Sources */,
+				3F8DACAF1C85ABB1003CC5C3 /* TreatChild_MultiVitamin.swift in Sources */,
 				3F8DAC921C85646C003CC5C3 /* HIV_2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
