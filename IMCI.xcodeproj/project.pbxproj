@@ -89,6 +89,15 @@
 		3F8DACAB1C85A6F7003CC5C3 /* TreatChild_PlanC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACAA1C85A6F7003CC5C3 /* TreatChild_PlanC.swift */; };
 		3F8DACAD1C85AA10003CC5C3 /* TreatChild_RehydrationMalnutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACAC1C85AA10003CC5C3 /* TreatChild_RehydrationMalnutrition.swift */; };
 		3F8DACAF1C85ABB1003CC5C3 /* TreatChild_MultiVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACAE1C85ABB1003CC5C3 /* TreatChild_MultiVitamin.swift */; };
+		3F8DACB11C85DE00003CC5C3 /* CounselChild_6Months.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACB01C85DE00003CC5C3 /* CounselChild_6Months.swift */; };
+		3F8DACB31C85E3C2003CC5C3 /* CounselChild_6_12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACB21C85E3C2003CC5C3 /* CounselChild_6_12.swift */; };
+		3F8DACB51C85E468003CC5C3 /* CounselChild_12_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACB41C85E468003CC5C3 /* CounselChild_12_2.swift */; };
+		3F8DACB91C85E6E8003CC5C3 /* CounselChild_2_Up.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACB81C85E6E8003CC5C3 /* CounselChild_2_Up.swift */; };
+		3F8DACBB1C85EBED003CC5C3 /* CounselChild_4Months.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACBA1C85EBED003CC5C3 /* CounselChild_4Months.swift */; };
+		3F8DACBD1C85EC08003CC5C3 /* CounselChild_4_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACBC1C85EC08003CC5C3 /* CounselChild_4_6.swift */; };
+		3F8DACBF1C85EC22003CC5C3 /* CounselChild_6_12_R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACBE1C85EC22003CC5C3 /* CounselChild_6_12_R.swift */; };
+		3F8DACC11C85EC3B003CC5C3 /* CounselChild_12_2_R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACC01C85EC3B003CC5C3 /* CounselChild_12_2_R.swift */; };
+		3F8DACC31C85EC50003CC5C3 /* CounselChild_2_Up_R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACC21C85EC50003CC5C3 /* CounselChild_2_Up_R.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -218,6 +227,15 @@
 		3F8DACAA1C85A6F7003CC5C3 /* TreatChild_PlanC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatChild_PlanC.swift; sourceTree = "<group>"; };
 		3F8DACAC1C85AA10003CC5C3 /* TreatChild_RehydrationMalnutrition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatChild_RehydrationMalnutrition.swift; sourceTree = "<group>"; };
 		3F8DACAE1C85ABB1003CC5C3 /* TreatChild_MultiVitamin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatChild_MultiVitamin.swift; sourceTree = "<group>"; };
+		3F8DACB01C85DE00003CC5C3 /* CounselChild_6Months.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounselChild_6Months.swift; sourceTree = "<group>"; };
+		3F8DACB21C85E3C2003CC5C3 /* CounselChild_6_12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounselChild_6_12.swift; sourceTree = "<group>"; };
+		3F8DACB41C85E468003CC5C3 /* CounselChild_12_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounselChild_12_2.swift; sourceTree = "<group>"; };
+		3F8DACB81C85E6E8003CC5C3 /* CounselChild_2_Up.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounselChild_2_Up.swift; path = ../CounselChild_2_Up.swift; sourceTree = "<group>"; };
+		3F8DACBA1C85EBED003CC5C3 /* CounselChild_4Months.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounselChild_4Months.swift; sourceTree = "<group>"; };
+		3F8DACBC1C85EC08003CC5C3 /* CounselChild_4_6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounselChild_4_6.swift; sourceTree = "<group>"; };
+		3F8DACBE1C85EC22003CC5C3 /* CounselChild_6_12_R.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounselChild_6_12_R.swift; sourceTree = "<group>"; };
+		3F8DACC01C85EC3B003CC5C3 /* CounselChild_12_2_R.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounselChild_12_2_R.swift; sourceTree = "<group>"; };
+		3F8DACC21C85EC50003CC5C3 /* CounselChild_2_Up_R.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounselChild_2_Up_R.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +344,15 @@
 				3F8DACAE1C85ABB1003CC5C3 /* TreatChild_MultiVitamin.swift */,
 				3F8DACAC1C85AA10003CC5C3 /* TreatChild_RehydrationMalnutrition.swift */,
 				3F8DAC981C8573EB003CC5C3 /* TreatChild_Antimalarial.swift */,
+				3F8DACB01C85DE00003CC5C3 /* CounselChild_6Months.swift */,
+				3F8DACB21C85E3C2003CC5C3 /* CounselChild_6_12.swift */,
+				3F8DACB41C85E468003CC5C3 /* CounselChild_12_2.swift */,
+				3F8DACB81C85E6E8003CC5C3 /* CounselChild_2_Up.swift */,
+				3F8DACBA1C85EBED003CC5C3 /* CounselChild_4Months.swift */,
+				3F8DACBC1C85EC08003CC5C3 /* CounselChild_4_6.swift */,
+				3F8DACBE1C85EC22003CC5C3 /* CounselChild_6_12_R.swift */,
+				3F8DACC01C85EC3B003CC5C3 /* CounselChild_12_2_R.swift */,
+				3F8DACC21C85EC50003CC5C3 /* CounselChild_2_Up_R.swift */,
 				3F8DAC9A1C857488003CC5C3 /* TreatChild_VitaminA.swift */,
 				3F8DAC851C8428EC003CC5C3 /* TreatZincSulphate.swift */,
 				3F692F2F1C4CA1B900B0542E /* LaunchScreen.storyboard */,
@@ -518,10 +545,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8DACC31C85EC50003CC5C3 /* CounselChild_2_Up_R.swift in Sources */,
 				3F8DACA71C859B0A003CC5C3 /* TreatChild_Wheezing.swift in Sources */,
 				3F8DAC9B1C857488003CC5C3 /* TreatChild_VitaminA.swift in Sources */,
 				3F8DAC9F1C857682003CC5C3 /* TreatChild_ZincSulphate.swift in Sources */,
 				3F8DACA31C857B60003CC5C3 /* TreatChild_Mebendazole.swift in Sources */,
+				3F8DACB91C85E6E8003CC5C3 /* CounselChild_2_Up.swift in Sources */,
+				3F8DACBF1C85EC22003CC5C3 /* CounselChild_6_12_R.swift in Sources */,
 				3F8DACA51C858D0F003CC5C3 /* TrearChild_Chloramphenicol.swift in Sources */,
 				3F8DAC7A1C8056B8003CC5C3 /* HIV_5.swift in Sources */,
 				3F8DAC951C856F6F003CC5C3 /* TreatChild_Oral_Antibiotic.swift in Sources */,
@@ -535,15 +565,21 @@
 				3F8DAC991C8573EB003CC5C3 /* TreatChild_Antimalarial.swift in Sources */,
 				3F8DAC821C81E874003CC5C3 /* Treat_Benzylpenicillin.swift in Sources */,
 				3F692F271C4CA1B900B0542E /* AppDelegate.swift in Sources */,
+				3F8DACBB1C85EBED003CC5C3 /* CounselChild_4Months.swift in Sources */,
 				3F8DAC971C857216003CC5C3 /* TreatChild_Metronidazole.swift in Sources */,
 				3F8DAC781C80567A003CC5C3 /* HIV_4.swift in Sources */,
 				3F8DAC7C1C80A96F003CC5C3 /* Assess_immunization.swift in Sources */,
 				3F8DACAD1C85AA10003CC5C3 /* TreatChild_RehydrationMalnutrition.swift in Sources */,
+				3F8DACB11C85DE00003CC5C3 /* CounselChild_6Months.swift in Sources */,
+				3F8DACB31C85E3C2003CC5C3 /* CounselChild_6_12.swift in Sources */,
 				3F8DAC801C81DF5D003CC5C3 /* Assess_Immunization_Table.swift in Sources */,
+				3F8DACB51C85E468003CC5C3 /* CounselChild_12_2.swift in Sources */,
 				3F8DAC911C85646C003CC5C3 /* HIV_1.swift in Sources */,
+				3F8DACBD1C85EC08003CC5C3 /* CounselChild_4_6.swift in Sources */,
 				3F8DAC9D1C8574FF003CC5C3 /* TreatChild_IronandFolate.swift in Sources */,
 				3F8DACA11C85795E003CC5C3 /* TreatChild_Paracetamol.swift in Sources */,
 				3F8DAC901C85646C003CC5C3 /* Assess_VitaminA_Deworming.swift in Sources */,
+				3F8DACC11C85EC3B003CC5C3 /* CounselChild_12_2_R.swift in Sources */,
 				3F8DACAF1C85ABB1003CC5C3 /* TreatChild_MultiVitamin.swift in Sources */,
 				3F8DAC921C85646C003CC5C3 /* HIV_2.swift in Sources */,
 			);
