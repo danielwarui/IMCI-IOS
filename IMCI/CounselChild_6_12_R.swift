@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CounselChild_CounselChild_6_12_R2_Up: UIViewController, UIScrollViewDelegate {
+class CounselChild_6_12_R: UIViewController, UIScrollViewDelegate {
     var scrollView: UIScrollView!
     var imageView: UIImageView!
     
