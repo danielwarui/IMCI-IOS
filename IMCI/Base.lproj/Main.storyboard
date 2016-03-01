@@ -2404,7 +2404,7 @@ After 1 month:
         <!--Counsel Child612R-->
         <scene sceneID="rfR-wR-R06">
             <objects>
-                <viewController id="Ioo-hi-iKw" customClass="CounselChild_6_12_R" sceneMemberID="viewController">
+                <viewController id="Ioo-hi-iKw" customClass="CounselChild_6_12_R" customModule="IMCI" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="STg-Z2-CvR"/>
                         <viewControllerLayoutGuide type="bottom" id="W3t-QE-hxQ"/>
@@ -2656,7 +2656,7 @@ After 1 month:
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="follow for feeding problems"/>
                                         <connections>
-                                            <segue destination="QJm-oh-Cbc" kind="show" id="Ozu-iA-Cut"/>
+                                            <segue destination="FvQ-pD-T85" kind="show" id="Byn-a8-Qk8"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgA-3i-Fx5">
@@ -2679,6 +2679,9 @@ After 1 month:
                                         <rect key="frame" x="0.0" y="834" width="600" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="counsel about mother's health"/>
+                                        <connections>
+                                            <segue destination="EoJ-30-5Ca" kind="show" id="0Gv-aa-NpT"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -2863,17 +2866,17 @@ After 1 month:
         <!--View Controller-->
         <scene sceneID="Iin-Zb-uuJ">
             <objects>
-                <viewController id="SNP-Of-TAl" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SNP-Of-TAl" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rvz-WO-QrJ"/>
                         <viewControllerLayoutGuide type="bottom" id="j2P-cA-qQf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gY9-sA-omP">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="63D-uV-K46">
-                                <rect key="frame" x="0.0" y="64" width="600" height="629"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="63D-uV-K46">
+                                <rect key="frame" x="0.0" y="64" width="600" height="528"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPp-d7-Tg7">
                                         <rect key="frame" x="20" y="0.0" width="560" height="218"/>
@@ -2968,6 +2971,8 @@ After 1 month:
                             <constraint firstItem="63D-uV-K46" firstAttribute="leading" secondItem="gY9-sA-omP" secondAttribute="leading" id="oXl-rX-f2e"/>
                         </constraints>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lAY-l8-tGS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2982,27 +2987,50 @@ After 1 month:
                         <viewControllerLayoutGuide type="bottom" id="Ddt-Wg-3qW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sNP-8m-7qX">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQc-vA-QET">
-                                <rect key="frame" x="20" y="72" width="560" height="186"/>
-                                <string key="text">		Make sure the mother or caretaker understands that mixed feeding ()giving breast milk and other milks, water and foods) before 6 months increases the risk of transmitting HIV to the infant and the risk of death from diarrhoea and other illnesses.
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mPx-YJ-ETt">
+                                <rect key="frame" x="0.0" y="64" width="600" height="528"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQc-vA-QET">
+                                        <rect key="frame" x="20" y="8" width="560" height="338"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="338" id="5iN-pE-zYb"/>
+                                        </constraints>
+                                        <string key="text">		Make sure the mother or caretaker understands that mixed feeding ()giving breast milk and other milks, water and foods) before 6 months increases the risk of transmitting HIV to the infant and the risk of death from diarrhoea and other illnesses.
 		• Reinforce exclusive breastfeeding for 6 months, initiation of breastfeeding within 1 hour after birth, Emphasise on positioning, attachment care of there breast and management of breast conditions.
 		• Advice the mother to introduce appropriate complementary feeds from age 6 months while continuing to breast feed from up to 12 months or beyond.
 		• Advice mother that breastfeeding should stop once a nutritionally adequate and safe diet without breast milk can be provided.
 		• Emphasise on adherence to ARVs.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="PQc-vA-QET" firstAttribute="centerX" secondItem="mPx-YJ-ETt" secondAttribute="centerX" id="0iT-Ix-b2o"/>
+                                    <constraint firstAttribute="bottom" secondItem="PQc-vA-QET" secondAttribute="bottom" constant="182" id="7QS-4e-cZU"/>
+                                    <constraint firstItem="PQc-vA-QET" firstAttribute="top" secondItem="mPx-YJ-ETt" secondAttribute="top" constant="8" id="S3E-B7-pxa"/>
+                                    <constraint firstAttribute="trailing" secondItem="PQc-vA-QET" secondAttribute="trailing" constant="20" id="eZZ-WW-T3f"/>
+                                    <constraint firstItem="PQc-vA-QET" firstAttribute="leading" secondItem="mPx-YJ-ETt" secondAttribute="leading" constant="20" id="fia-Ee-72F"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ddt-Wg-3qW" firstAttribute="top" secondItem="mPx-YJ-ETt" secondAttribute="bottom" constant="8" symbolic="YES" id="1xj-dE-0O0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mPx-YJ-ETt" secondAttribute="trailing" constant="-20" id="OfI-q8-M6o"/>
+                            <constraint firstItem="mPx-YJ-ETt" firstAttribute="leading" secondItem="sNP-8m-7qX" secondAttribute="leadingMargin" constant="-20" id="pLr-0m-RFZ"/>
+                            <constraint firstItem="mPx-YJ-ETt" firstAttribute="top" secondItem="L5u-sS-hk0" secondAttribute="bottom" id="tgZ-d7-E9z"/>
+                        </constraints>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yvj-qP-NyN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6389" y="4059"/>
+            <point key="canvasLocation" x="6429" y="4059"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0Hd-cU-Zp1">
@@ -3013,12 +3041,18 @@ After 1 month:
                         <viewControllerLayoutGuide type="bottom" id="KDm-xc-Srj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mRh-2S-fcE">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkv-AK-ILc">
-                                <rect key="frame" x="20" y="72" width="560" height="226"/>
-                                <string key="text">		The mother/caregiver should have received full counselling before making the decision not to breastfeed.
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2SJ-ZZ-7cC">
+                                <rect key="frame" x="0.0" y="64" width="600" height="528"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkv-AK-ILc">
+                                        <rect key="frame" x="8" y="8" width="584" height="376"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="376" id="xs0-zQ-teJ"/>
+                                        </constraints>
+                                        <string key="text">		The mother/caregiver should have received full counselling before making the decision not to breastfeed.
 		• Give information on replacement feeding and risk of mixed feeding.
 		• Give information on safe preparation, storage and appropriate feeding techniques for chosen artificial feeds.
 		• Demonstrate on how to prepare and feed the infant.
@@ -3028,17 +3062,245 @@ After 1 month:
 		• Adhere to the code of marketing of breast milk substitutes.
 		• HIV-exposed infants not breastfeeding should be given ART prophylaxis for 6 weeks only.
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="xkv-AK-ILc" secondAttribute="trailing" constant="8" id="0YK-32-3ie"/>
+                                    <constraint firstItem="xkv-AK-ILc" firstAttribute="top" secondItem="2SJ-ZZ-7cC" secondAttribute="top" constant="8" id="1fx-Lw-gEQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="xkv-AK-ILc" secondAttribute="bottom" constant="144" id="E2D-WG-WCy"/>
+                                    <constraint firstItem="xkv-AK-ILc" firstAttribute="centerX" secondItem="2SJ-ZZ-7cC" secondAttribute="centerX" id="Eiu-VV-5yQ"/>
+                                    <constraint firstItem="xkv-AK-ILc" firstAttribute="leading" secondItem="2SJ-ZZ-7cC" secondAttribute="leading" constant="8" id="kY0-Ub-gB8"/>
+                                    <constraint firstItem="xkv-AK-ILc" firstAttribute="top" secondItem="2SJ-ZZ-7cC" secondAttribute="top" constant="8" id="oF3-YS-ChJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="xkv-AK-ILc" secondAttribute="trailing" constant="8" id="sVn-8K-0sV"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2SJ-ZZ-7cC" firstAttribute="leading" secondItem="mRh-2S-fcE" secondAttribute="leadingMargin" constant="-20" id="42D-kl-hdF"/>
+                            <constraint firstItem="2SJ-ZZ-7cC" firstAttribute="top" secondItem="0NB-g2-fdd" secondAttribute="bottom" id="9Gr-d3-pSD"/>
+                            <constraint firstItem="2SJ-ZZ-7cC" firstAttribute="top" secondItem="0NB-g2-fdd" secondAttribute="bottom" id="DiN-kb-PFD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2SJ-ZZ-7cC" secondAttribute="trailing" constant="-20" id="QoT-yP-Kob"/>
+                            <constraint firstItem="2SJ-ZZ-7cC" firstAttribute="leading" secondItem="mRh-2S-fcE" secondAttribute="leadingMargin" constant="-20" id="Udy-ev-LGC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2SJ-ZZ-7cC" secondAttribute="trailing" constant="-20" id="ciS-uJ-ZeY"/>
+                            <constraint firstItem="KDm-xc-Srj" firstAttribute="top" secondItem="2SJ-ZZ-7cC" secondAttribute="bottom" constant="8" symbolic="YES" id="iiF-R8-Eu2"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gvO-XU-MIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7064" y="4059"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="f5f-6L-Tk1">
+            <objects>
+                <viewController id="FvQ-pD-T85" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qdq-zL-kSh"/>
+                        <viewControllerLayoutGuide type="bottom" id="JXl-Wi-bqe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="taS-XC-cvh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EtO-sA-Ugv">
+                                <rect key="frame" x="0.0" y="64" width="600" height="778"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="If the child is able to breastfeed" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y83-k5-S9d">
+                                        <rect key="frame" x="0.0" y="64" width="600" height="17"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="cAt-G6-atC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="cAt-G6-atC"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wee-p5-NnO">
+                                        <rect key="frame" x="13" y="89" width="574" height="16"/>
+                                        <string key="text">	Ask the mother to breastfeed the child.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="If the child is not able to breastfeed but is able to swallow:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Chx-BK-iLi">
+                                        <rect key="frame" x="0.0" y="113" width="600" height="17"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="XLK-gn-8VK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="XLK-gn-8VK"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utP-t0-Mw9">
+                                        <rect key="frame" x="13" y="138" width="574" height="47"/>
+                                        <string key="text">Give expressed breastmilk or a breast milk substitute. If neither of these is available, give sugar water. Give 30-50 ml of milk sugar water before departure.
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="To make sugar water: Dissolve 4 level teaspoons of sugar (20 grams) in a 200 ml cup of clean water" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xv4-sX-XDw">
+                                        <rect key="frame" x="0.0" y="193" width="600" height="34"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="9M7-nN-tDS"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="9M7-nN-tDS"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="If the child is not able to swallow:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNZ-sM-cjG">
+                                        <rect key="frame" x="0.0" y="229" width="600" height="17"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="m24-5d-M0j"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="m24-5d-M0j"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Give 50 ml of milk or sugar by nasogastric tube." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPR-kY-iAd">
+                                        <rect key="frame" x="13" y="254" width="574" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="For suspected low blood sugar*" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JT-t0-lEg">
+                                        <rect key="frame" x="0.0" y="278" width="600" height="17"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="Wo2-BR-ehq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Wo2-BR-ehq"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Give 10% glucose 5ml/kg by nasogastric tube OR Give the same amount slowly intravenously if a line is available. Keep warm." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKF-3p-Rwa">
+                                        <rect key="frame" x="13" y="303" width="574" height="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Admit or refer urgently to hospital" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlA-4Q-UBD">
+                                        <rect key="frame" x="0.0" y="343" width="600" height="17"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="QX1-Mx-TrE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="QX1-Mx-TrE"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Note better" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZC-ow-FcC">
+                                        <rect key="frame" x="0.0" y="363" width="600" height="17"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="PAu-2a-Lee"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="PAu-2a-Lee"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2My-33-5Gz">
+                                        <rect key="frame" x="13" y="388" width="574" height="94"/>
+                                        <string key="text">* Low blood sugar (hypoglycaemia) may be suspected in any infant or child who is convulsing or has loss of consciousness for which there is no obvious cause; has sweating, is lethargic, floppy or jittery - particularly when less than 2 months old.
+
+** To constitute 10% glucose from 50% glucose: Mix I part of 50% glucose with 4 parts of water for injection.</string>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="AlA-4Q-UBD" firstAttribute="top" secondItem="ZKF-3p-Rwa" secondAttribute="bottom" constant="8" symbolic="YES" id="0dx-NW-jBF"/>
+                                    <constraint firstAttribute="bottom" secondItem="utP-t0-Mw9" secondAttribute="bottom" constant="593" id="5rS-lr-60q"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZKF-3p-Rwa" secondAttribute="trailing" constant="13" id="EK7-wx-9TW"/>
+                                    <constraint firstItem="Chx-BK-iLi" firstAttribute="leading" secondItem="Xv4-sX-XDw" secondAttribute="leading" id="F6c-0I-B2O"/>
+                                    <constraint firstAttribute="trailing" secondItem="wee-p5-NnO" secondAttribute="trailing" constant="13" id="GUi-g8-89v"/>
+                                    <constraint firstItem="9JT-t0-lEg" firstAttribute="top" secondItem="LPR-kY-iAd" secondAttribute="bottom" constant="8" symbolic="YES" id="I6H-mo-uNv"/>
+                                    <constraint firstAttribute="trailing" secondItem="LPR-kY-iAd" secondAttribute="trailing" constant="13" id="JKU-aD-5lv"/>
+                                    <constraint firstItem="eZC-ow-FcC" firstAttribute="leading" secondItem="AlA-4Q-UBD" secondAttribute="leading" id="K3U-vL-ZOv"/>
+                                    <constraint firstItem="9JT-t0-lEg" firstAttribute="leading" secondItem="EtO-sA-Ugv" secondAttribute="leading" id="Mys-Gb-az0"/>
+                                    <constraint firstItem="Xv4-sX-XDw" firstAttribute="leading" secondItem="VNZ-sM-cjG" secondAttribute="leading" id="NAj-fl-G0w"/>
+                                    <constraint firstItem="Y83-k5-S9d" firstAttribute="top" secondItem="EtO-sA-Ugv" secondAttribute="top" constant="64" id="OXE-00-SMh"/>
+                                    <constraint firstItem="utP-t0-Mw9" firstAttribute="top" secondItem="Chx-BK-iLi" secondAttribute="bottom" constant="8" id="QeB-lV-eVX"/>
+                                    <constraint firstItem="wee-p5-NnO" firstAttribute="leading" secondItem="EtO-sA-Ugv" secondAttribute="leading" constant="13" id="TWO-hm-cdb"/>
+                                    <constraint firstItem="Chx-BK-iLi" firstAttribute="leading" secondItem="Y83-k5-S9d" secondAttribute="leading" id="ULf-Oj-eAC"/>
+                                    <constraint firstItem="2My-33-5Gz" firstAttribute="top" secondItem="eZC-ow-FcC" secondAttribute="bottom" constant="8" id="UgK-mo-21h"/>
+                                    <constraint firstItem="AlA-4Q-UBD" firstAttribute="centerX" secondItem="EtO-sA-Ugv" secondAttribute="centerX" id="Ve5-zx-fGW"/>
+                                    <constraint firstItem="AlA-4Q-UBD" firstAttribute="trailing" secondItem="9JT-t0-lEg" secondAttribute="trailing" id="Vij-Uw-kS8"/>
+                                    <constraint firstAttribute="trailing" secondItem="Y83-k5-S9d" secondAttribute="trailing" id="Wam-Ri-MBv"/>
+                                    <constraint firstItem="eZC-ow-FcC" firstAttribute="trailing" secondItem="AlA-4Q-UBD" secondAttribute="trailing" id="WbF-dw-33S"/>
+                                    <constraint firstItem="AlA-4Q-UBD" firstAttribute="leading" secondItem="9JT-t0-lEg" secondAttribute="leading" id="XEu-so-YV5"/>
+                                    <constraint firstItem="VNZ-sM-cjG" firstAttribute="trailing" secondItem="Xv4-sX-XDw" secondAttribute="trailing" id="ZdK-LM-oyb"/>
+                                    <constraint firstAttribute="trailing" secondItem="utP-t0-Mw9" secondAttribute="trailing" constant="13" id="dHm-VO-bXJ"/>
+                                    <constraint firstItem="VNZ-sM-cjG" firstAttribute="top" secondItem="Xv4-sX-XDw" secondAttribute="bottom" constant="2" id="dnp-wE-eXB"/>
+                                    <constraint firstItem="LPR-kY-iAd" firstAttribute="top" secondItem="VNZ-sM-cjG" secondAttribute="bottom" constant="8" id="eNJ-FK-S0Q"/>
+                                    <constraint firstItem="Y83-k5-S9d" firstAttribute="trailing" secondItem="Chx-BK-iLi" secondAttribute="trailing" id="fSv-HW-OfB"/>
+                                    <constraint firstItem="utP-t0-Mw9" firstAttribute="leading" secondItem="EtO-sA-Ugv" secondAttribute="leading" constant="13" id="fhH-tJ-XWn"/>
+                                    <constraint firstItem="9JT-t0-lEg" firstAttribute="leading" secondItem="VNZ-sM-cjG" secondAttribute="leading" id="iO6-Ac-yfM"/>
+                                    <constraint firstItem="Xv4-sX-XDw" firstAttribute="trailing" secondItem="Chx-BK-iLi" secondAttribute="trailing" id="jbx-LC-ZnC"/>
+                                    <constraint firstItem="eZC-ow-FcC" firstAttribute="top" secondItem="AlA-4Q-UBD" secondAttribute="bottom" constant="3" id="nFu-Jh-FJU"/>
+                                    <constraint firstItem="ZKF-3p-Rwa" firstAttribute="top" secondItem="9JT-t0-lEg" secondAttribute="bottom" constant="8" id="nwn-zP-5BZ"/>
+                                    <constraint firstItem="wee-p5-NnO" firstAttribute="top" secondItem="Y83-k5-S9d" secondAttribute="bottom" constant="8" id="oG0-28-dLg"/>
+                                    <constraint firstItem="Chx-BK-iLi" firstAttribute="top" secondItem="wee-p5-NnO" secondAttribute="bottom" constant="8" symbolic="YES" id="pDX-Jg-xZK"/>
+                                    <constraint firstItem="2My-33-5Gz" firstAttribute="leading" secondItem="EtO-sA-Ugv" secondAttribute="leading" constant="13" id="qLc-cl-4rC"/>
+                                    <constraint firstItem="9JT-t0-lEg" firstAttribute="trailing" secondItem="VNZ-sM-cjG" secondAttribute="trailing" id="qPy-2s-lFq"/>
+                                    <constraint firstItem="Xv4-sX-XDw" firstAttribute="top" secondItem="utP-t0-Mw9" secondAttribute="bottom" constant="8" symbolic="YES" id="vaJ-xD-3Ye"/>
+                                    <constraint firstAttribute="trailing" secondItem="2My-33-5Gz" secondAttribute="trailing" constant="13" id="vuG-kf-dJs"/>
+                                    <constraint firstItem="LPR-kY-iAd" firstAttribute="leading" secondItem="EtO-sA-Ugv" secondAttribute="leading" constant="13" id="w5x-eI-c4o"/>
+                                    <constraint firstItem="ZKF-3p-Rwa" firstAttribute="leading" secondItem="EtO-sA-Ugv" secondAttribute="leading" constant="13" id="w76-l1-DeE"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gvO-XU-MIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f3W-ot-y1d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7006" y="4180"/>
+            <point key="canvasLocation" x="4272" y="3795"/>
         </scene>
         <!--Storyboard Reference-->
         <scene sceneID="L77-Bh-rkb">
@@ -3764,10 +4026,10 @@ Ask:
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yMs-Jo-PAX">
-                                <rect key="frame" x="20" y="139" width="269" height="40"/>
+                                <rect key="frame" x="20" y="139" width="560" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="IWg-aj-c0Y"/>
-                                    <constraint firstAttribute="width" constant="269" id="eeE-Xe-gtr"/>
+                                    <constraint firstAttribute="width" constant="560" id="eeE-Xe-gtr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="• if baby cannot be breastfed, counsel on alternative feeding"/>
@@ -13445,7 +13707,7 @@ LOOK:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="caY-Bk-SBQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5735" y="2716"/>
+            <point key="canvasLocation" x="5723" y="3120"/>
         </scene>
         <!--Trear Child Chloramphenicol-->
         <scene sceneID="Idt-lX-UuN">
@@ -13935,6 +14197,7 @@ The mother should:
     <inferredMetricsTieBreakers>
         <segue reference="JcI-XD-nmN"/>
         <segue reference="VfE-ci-uQk"/>
-        <segue reference="H7q-pR-rRW"/>
+        <segue reference="6Vg-Vy-CgM"/>
+        <segue reference="0Gv-aa-NpT"/>
     </inferredMetricsTieBreakers>
 </document>
