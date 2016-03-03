@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -480,7 +481,7 @@
                         <viewControllerLayoutGuide type="bottom" id="OAC-I2-xGM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wOB-kE-Gup">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFE-R1-4OI">
@@ -503,7 +504,7 @@
                             <constraint firstItem="XFE-R1-4OI" firstAttribute="trailing" secondItem="wOB-kE-Gup" secondAttribute="trailingMargin" id="o3c-Dy-bto"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Fvt-h9-BIJ"/>
+                    <tabBarItem key="tabBarItem" title="Treatment" id="Fvt-h9-BIJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YVt-x4-twa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -518,7 +519,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ZwM-nW-bBA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="f9y-DO-PN1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Vj-Uh-Y5n">
@@ -1389,21 +1390,24 @@ Look for jaundice
         <!--View Controller-->
         <scene sceneID="vMI-I0-x55">
             <objects>
-                <viewController id="4w4-KS-qzx" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4w4-KS-qzx" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qpm-DN-Dhc"/>
                         <viewControllerLayoutGuide type="bottom" id="epa-Jo-fTG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="M8P-a0-ge5">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pSX-Cc-Qad">
-                                <rect key="frame" x="0.0" y="64" width="600" height="778"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pSX-Cc-Qad">
+                                <rect key="frame" x="0.0" y="64" width="600" height="521"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="YDF-JD-8iN">
-                                        <rect key="frame" x="8" y="120" width="584" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="YDF-JD-8iN">
+                                        <rect key="frame" x="12" y="79" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="jFr-U0-Ejb"/>
+                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Pneumonia">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1412,9 +1416,12 @@ Look for jaundice
                                             <segue destination="GlJ-ea-wT8" kind="show" id="ArF-Nb-WLo"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="OL0-c8-ksp">
-                                        <rect key="frame" x="8" y="153" width="584" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="OL0-c8-ksp">
+                                        <rect key="frame" x="12" y="112" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="P0y-GL-0ds"/>
+                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Persistent Diarrhoea">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1423,9 +1430,12 @@ Look for jaundice
                                             <segue destination="d5F-F2-vGa" kind="show" id="Bc1-SC-F00"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mQ2-sG-mgb">
-                                        <rect key="frame" x="8" y="219" width="584" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mQ2-sG-mgb">
+                                        <rect key="frame" x="12" y="178" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="Reh-Mf-cof"/>
+                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Wheezing">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1434,9 +1444,12 @@ Look for jaundice
                                             <segue destination="S3B-LZ-TnB" kind="show" id="fLT-52-ySv"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Lhf-1Z-99Y">
-                                        <rect key="frame" x="8" y="252" width="584" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Lhf-1Z-99Y">
+                                        <rect key="frame" x="12" y="211" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="jd9-pS-UOc"/>
+                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Malaria(High or Low Malaria Risk)">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1445,9 +1458,12 @@ Look for jaundice
                                             <segue destination="dA5-wI-mqI" kind="show" id="RiW-bj-5eD"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="VZ4-tK-sNu">
-                                        <rect key="frame" x="8" y="285" width="584" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="VZ4-tK-sNu">
+                                        <rect key="frame" x="12" y="244" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="ea7-pB-IeQ"/>
+                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Fever - No Malaria(Low or No Risk)">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1456,9 +1472,12 @@ Look for jaundice
                                             <segue destination="7OM-Ys-3eR" kind="show" id="4HB-MK-Orx"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="qTs-zE-Qfl">
-                                        <rect key="frame" x="8" y="317" width="584" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="qTs-zE-Qfl">
+                                        <rect key="frame" x="12" y="276" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="QFL-bl-2vI"/>
+                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Eye or Mouth Complications of Measles">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1467,9 +1486,12 @@ Look for jaundice
                                             <segue destination="aPF-bF-jik" kind="show" id="V8F-jN-zhK"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Pzo-Pe-MBo">
-                                        <rect key="frame" x="8" y="349" width="584" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Pzo-Pe-MBo">
+                                        <rect key="frame" x="12" y="308" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="fy4-wx-8b6"/>
+                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Ear Infection">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1478,9 +1500,12 @@ Look for jaundice
                                             <segue destination="vjx-uZ-zDQ" kind="show" id="Q21-ZF-auU"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3v8-3r-TEa">
-                                        <rect key="frame" x="8" y="382" width="584" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3v8-3r-TEa">
+                                        <rect key="frame" x="12" y="341" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="wg4-hn-awD"/>
+                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="HIV Exposed and Infected Children">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1489,17 +1514,23 @@ Look for jaundice
                                             <segue destination="7Ec-wJ-jZa" kind="show" id="GgT-qR-tTd"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shv-tN-9HO">
-                                        <rect key="frame" x="8" y="8" width="584" height="113"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shv-tN-9HO">
+                                        <rect key="frame" x="12" y="8" width="576" height="63"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="pDa-gr-q7N"/>
+                                        </constraints>
                                         <string key="text">• Care for child who returns for follow up visit using all boxes that match the child's previous classifications.
 • If the child has any new problem, Assess Classify &amp; Identify Treatment fully and treat as on the ASSESS CLASSIFY &amp; IDENTIFY TREATMENT tab on the Main Menu.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Kqv-ab-Vgx">
-                                        <rect key="frame" x="8" y="415" width="584" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Kqv-ab-Vgx">
+                                        <rect key="frame" x="12" y="374" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="2Ea-di-u4G"/>
+                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Feeding Problem">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1508,9 +1539,12 @@ Look for jaundice
                                             <segue destination="7iz-u7-nxI" kind="show" id="PZ2-2O-s0x"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7Yf-8I-8CG">
-                                        <rect key="frame" x="8" y="448" width="584" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7Yf-8I-8CG">
+                                        <rect key="frame" x="12" y="407" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="cTa-eA-qA3"/>
+                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Pallor">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1519,9 +1553,12 @@ Look for jaundice
                                             <segue destination="dRW-6b-uxy" kind="show" id="R8I-uS-duu"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CqY-ny-o14">
-                                        <rect key="frame" x="8" y="481" width="584" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CqY-ny-o14">
+                                        <rect key="frame" x="12" y="440" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="60C-Zb-Jov"/>
+                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Very Low Weight(At risk of malnutrition)">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1530,9 +1567,12 @@ Look for jaundice
                                             <segue destination="sn9-ii-YFS" kind="show" id="Qss-Qh-CTW"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="RZ6-BE-0lO">
-                                        <rect key="frame" x="8" y="186" width="584" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="RZ6-BE-0lO">
+                                        <rect key="frame" x="12" y="145" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="576" id="xxa-pp-tJv"/>
+                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Dysentery">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1542,26 +1582,97 @@ Look for jaundice
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="7Yf-8I-8CG" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="0kQ-gj-l5M"/>
+                                    <constraint firstItem="Pzo-Pe-MBo" firstAttribute="top" secondItem="qTs-zE-Qfl" secondAttribute="bottom" constant="2" id="0zn-5e-LVL"/>
+                                    <constraint firstItem="YDF-JD-8iN" firstAttribute="top" secondItem="shv-tN-9HO" secondAttribute="bottom" constant="8" id="1Sh-Pz-Qr8"/>
+                                    <constraint firstAttribute="trailing" secondItem="qTs-zE-Qfl" secondAttribute="trailing" constant="12" id="1un-Mj-kSp"/>
+                                    <constraint firstItem="CqY-ny-o14" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="7WE-gy-zT1"/>
+                                    <constraint firstItem="mQ2-sG-mgb" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="9dX-u2-Jkj"/>
+                                    <constraint firstItem="OL0-c8-ksp" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leadingMargin" constant="8" id="9ml-gT-2Ev"/>
+                                    <constraint firstItem="Lhf-1Z-99Y" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="AFG-JL-XLQ"/>
+                                    <constraint firstItem="Pzo-Pe-MBo" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="B9Y-Ce-uXN"/>
+                                    <constraint firstItem="YDF-JD-8iN" firstAttribute="centerX" secondItem="shv-tN-9HO" secondAttribute="centerX" id="BeF-HX-Ud0"/>
+                                    <constraint firstItem="OL0-c8-ksp" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="E5x-79-L5Q"/>
+                                    <constraint firstAttribute="trailing" secondItem="VZ4-tK-sNu" secondAttribute="trailing" constant="12" id="GOa-qV-5wt"/>
+                                    <constraint firstItem="OL0-c8-ksp" firstAttribute="centerX" secondItem="shv-tN-9HO" secondAttribute="centerX" id="GVh-DR-Q8G"/>
+                                    <constraint firstItem="shv-tN-9HO" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="HNN-2q-D9c"/>
+                                    <constraint firstAttribute="trailing" secondItem="3v8-3r-TEa" secondAttribute="trailing" constant="12" id="HeP-gp-maY"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Yf-8I-8CG" secondAttribute="trailing" constant="12" id="IHE-Yh-jUN"/>
+                                    <constraint firstAttribute="bottom" secondItem="CqY-ny-o14" secondAttribute="bottom" constant="10" id="Kr1-PK-Pyc"/>
+                                    <constraint firstItem="YDF-JD-8iN" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="NEJ-Ko-0kp"/>
+                                    <constraint firstItem="Lhf-1Z-99Y" firstAttribute="top" secondItem="mQ2-sG-mgb" secondAttribute="bottom" constant="3" id="Nbf-a1-4xa"/>
+                                    <constraint firstItem="RZ6-BE-0lO" firstAttribute="top" secondItem="OL0-c8-ksp" secondAttribute="bottom" constant="3" id="PBT-Z2-KRN"/>
+                                    <constraint firstItem="3v8-3r-TEa" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="PER-1d-SeN"/>
+                                    <constraint firstItem="CqY-ny-o14" firstAttribute="top" secondItem="7Yf-8I-8CG" secondAttribute="bottom" constant="3" id="QjO-Ul-m7q"/>
+                                    <constraint firstItem="qTs-zE-Qfl" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="Qkh-Ag-ZtX"/>
+                                    <constraint firstItem="VZ4-tK-sNu" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="STb-0j-0n5"/>
+                                    <constraint firstAttribute="trailing" secondItem="OL0-c8-ksp" secondAttribute="trailing" constant="12" id="TKv-QM-XOZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Kqv-ab-Vgx" secondAttribute="trailing" constant="12" id="UTh-s0-DLe"/>
+                                    <constraint firstItem="qTs-zE-Qfl" firstAttribute="top" secondItem="VZ4-tK-sNu" secondAttribute="bottom" constant="2" id="Uks-hP-R5r"/>
+                                    <constraint firstItem="YDF-JD-8iN" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="Vze-Kc-mdK"/>
+                                    <constraint firstItem="qTs-zE-Qfl" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="WoG-LM-mmQ"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="OL0-c8-ksp" secondAttribute="trailing" constant="8" id="XqL-c5-7hW"/>
+                                    <constraint firstItem="3v8-3r-TEa" firstAttribute="top" secondItem="Pzo-Pe-MBo" secondAttribute="bottom" constant="3" id="ZwK-Yv-Bxy"/>
+                                    <constraint firstItem="YDF-JD-8iN" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leadingMargin" constant="8" id="aWB-Sc-Wjk"/>
+                                    <constraint firstItem="Kqv-ab-Vgx" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="bIX-Q7-WXq"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pzo-Pe-MBo" secondAttribute="trailing" constant="12" id="bnu-Uk-CZQ"/>
+                                    <constraint firstItem="mQ2-sG-mgb" firstAttribute="top" secondItem="RZ6-BE-0lO" secondAttribute="bottom" constant="3" id="bo3-4j-Ct4"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="YDF-JD-8iN" secondAttribute="trailing" id="fWM-Ie-ytP"/>
+                                    <constraint firstItem="mQ2-sG-mgb" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="gXS-aW-fQz"/>
+                                    <constraint firstItem="OL0-c8-ksp" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="hty-KC-A7A"/>
+                                    <constraint firstAttribute="trailing" secondItem="RZ6-BE-0lO" secondAttribute="trailing" constant="12" id="kZ6-Ku-T6r"/>
+                                    <constraint firstItem="shv-tN-9HO" firstAttribute="top" secondItem="pSX-Cc-Qad" secondAttribute="top" constant="8" id="kh3-Ks-YcX"/>
+                                    <constraint firstItem="Kqv-ab-Vgx" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="kzl-JU-YLY"/>
+                                    <constraint firstAttribute="trailing" secondItem="CqY-ny-o14" secondAttribute="trailing" constant="12" id="lSc-hN-5HY"/>
+                                    <constraint firstItem="Lhf-1Z-99Y" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="n0H-gv-45Y"/>
+                                    <constraint firstItem="VZ4-tK-sNu" firstAttribute="top" secondItem="Lhf-1Z-99Y" secondAttribute="bottom" constant="3" id="nCt-IA-NzZ"/>
+                                    <constraint firstItem="CqY-ny-o14" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="nb9-oX-xiU"/>
+                                    <constraint firstAttribute="trailing" secondItem="YDF-JD-8iN" secondAttribute="trailing" constant="12" id="odE-9J-4X7"/>
+                                    <constraint firstItem="7Yf-8I-8CG" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="oxO-aX-rID"/>
+                                    <constraint firstItem="RZ6-BE-0lO" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="qZT-yF-WxS"/>
+                                    <constraint firstItem="RZ6-BE-0lO" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="rc7-4M-RUn"/>
+                                    <constraint firstAttribute="trailing" secondItem="Lhf-1Z-99Y" secondAttribute="trailing" constant="12" id="s7d-8M-RDc"/>
+                                    <constraint firstItem="OL0-c8-ksp" firstAttribute="top" secondItem="YDF-JD-8iN" secondAttribute="bottom" constant="3" id="vKr-iE-urq"/>
+                                    <constraint firstItem="VZ4-tK-sNu" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="w39-DJ-ELc"/>
+                                    <constraint firstItem="3v8-3r-TEa" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="x0P-Lw-MqC"/>
+                                    <constraint firstItem="Kqv-ab-Vgx" firstAttribute="top" secondItem="3v8-3r-TEa" secondAttribute="bottom" constant="3" id="y2F-FV-mWd"/>
+                                    <constraint firstAttribute="trailing" secondItem="shv-tN-9HO" secondAttribute="trailing" constant="12" id="yNB-Vn-9fT"/>
+                                    <constraint firstItem="Pzo-Pe-MBo" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="yaj-TG-1gy"/>
+                                    <constraint firstItem="7Yf-8I-8CG" firstAttribute="top" secondItem="Kqv-ab-Vgx" secondAttribute="bottom" constant="3" id="zIC-ws-m6N"/>
+                                    <constraint firstAttribute="trailing" secondItem="mQ2-sG-mgb" secondAttribute="trailing" constant="12" id="zv9-xA-auP"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="BeF-HX-Ud0"/>
+                                        <exclude reference="aWB-Sc-Wjk"/>
+                                        <exclude reference="fWM-Ie-ytP"/>
+                                        <exclude reference="9ml-gT-2Ev"/>
+                                        <exclude reference="GVh-DR-Q8G"/>
+                                        <exclude reference="XqL-c5-7hW"/>
+                                    </mask>
+                                </variation>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="pSX-Cc-Qad" secondAttribute="trailing" constant="-20" id="3Ke-UK-2Nv"/>
-                            <constraint firstItem="epa-Jo-fTG" firstAttribute="top" secondItem="pSX-Cc-Qad" secondAttribute="bottom" constant="8" symbolic="YES" id="5wB-jh-UeN"/>
-                            <constraint firstItem="pSX-Cc-Qad" firstAttribute="leading" secondItem="M8P-a0-ge5" secondAttribute="leadingMargin" constant="-20" id="QpC-ZA-uww"/>
-                            <constraint firstItem="pSX-Cc-Qad" firstAttribute="top" secondItem="qpm-DN-Dhc" secondAttribute="bottom" id="h7x-dz-jmt"/>
+                            <constraint firstItem="epa-Jo-fTG" firstAttribute="top" secondItem="pSX-Cc-Qad" secondAttribute="bottom" constant="15" id="11F-hI-FIJ"/>
+                            <constraint firstItem="pSX-Cc-Qad" firstAttribute="top" secondItem="qpm-DN-Dhc" secondAttribute="bottom" id="5kw-CK-WMJ"/>
+                            <constraint firstItem="pSX-Cc-Qad" firstAttribute="width" secondItem="M8P-a0-ge5" secondAttribute="height" multiplier="71:75" id="B0B-LA-11a"/>
+                            <constraint firstItem="pSX-Cc-Qad" firstAttribute="leading" secondItem="M8P-a0-ge5" secondAttribute="leading" id="Ol3-Nm-dMa"/>
+                            <constraint firstItem="pSX-Cc-Qad" firstAttribute="width" secondItem="M8P-a0-ge5" secondAttribute="width" id="Ro1-tz-CaV"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="B0B-LA-11a"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="C1V-8M-Rcv"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="850"/>
-                    <connections>
-                        <outlet property="scroller" destination="pSX-Cc-Qad" id="jZu-w3-mS7"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SWm-o4-Qpc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9608" y="2872"/>
+            <point key="canvasLocation" x="-9609" y="2872"/>
         </scene>
         <!--Treatment-->
         <scene sceneID="NFZ-RQ-wXz">
@@ -1572,7 +1683,7 @@ Look for jaundice
                         <viewControllerLayoutGuide type="bottom" id="3ZT-Wd-Miz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZBe-YY-OHo">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RwW-C8-6Mq">
@@ -1611,7 +1722,7 @@ Review in 2 weeks.
                         <viewControllerLayoutGuide type="bottom" id="L2L-Mw-HTj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NHX-DQ-ZLb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POl-o4-nYK">
@@ -1665,7 +1776,7 @@ Review in 2 weeks.
                         <viewControllerLayoutGuide type="bottom" id="tXp-zc-pwa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="J3d-5q-TbZ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBO-XI-H66">
@@ -1708,7 +1819,7 @@ Treatment for mouth ulcers:
                         <viewControllerLayoutGuide type="bottom" id="wwu-Dn-gm0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="e41-Q5-hfu">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjD-oo-JbY">
@@ -1763,7 +1874,7 @@ Smell the mouth.</string>
                         <viewControllerLayoutGuide type="bottom" id="j6b-ij-KLc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6OK-mo-Suq">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUi-2Y-COG">
@@ -1801,7 +1912,7 @@ Smell the mouth.</string>
                         <viewControllerLayoutGuide type="bottom" id="OTS-jM-9rq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qWy-GY-J7g">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Mr-QB-oyr">
@@ -1856,7 +1967,7 @@ Assess for other causes of fever.</string>
                         <viewControllerLayoutGuide type="bottom" id="UzS-Pl-vOr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="KcK-bX-QEc">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Csu-9A-c8c">
@@ -1894,7 +2005,7 @@ Assess for other causes of fever.</string>
                         <viewControllerLayoutGuide type="bottom" id="egw-IY-Ed3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="z4a-HD-Kip">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFI-u9-bSN">
@@ -1948,7 +2059,7 @@ Assess for other causes of fever.</string>
                         <viewControllerLayoutGuide type="bottom" id="xaZ-oe-JMr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ris-7v-WLf">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0w7-8f-Ot6">
@@ -1988,7 +2099,7 @@ Child one year and over
                         <viewControllerLayoutGuide type="bottom" id="rGV-Oy-VKS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4IA-mP-kSV">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xa1-fe-1Kf">
@@ -2107,7 +2218,7 @@ Ask:
                         <viewControllerLayoutGuide type="bottom" id="1Ho-Rq-oZE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pPY-ZU-nPQ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cX-7o-6oI">
@@ -2145,7 +2256,7 @@ Ask:
                         <viewControllerLayoutGuide type="bottom" id="Q4i-t2-Vbs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="FS7-lm-Wgf">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5x-MY-uD1">
@@ -2180,7 +2291,7 @@ Ask:
                         <viewControllerLayoutGuide type="bottom" id="LiG-Gp-Dlw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sJF-qC-LAA">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ip0-d6-7hm">
@@ -2233,7 +2344,7 @@ Reassess feeding: See questions at the top of COUNSEL THE MOTHER. Ask about any 
                         <viewControllerLayoutGuide type="bottom" id="bF9-bm-l1Z"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="V9V-ZU-PsY">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRj-9u-XFz">
@@ -2287,7 +2398,7 @@ Reassess feeding.</string>
                         <viewControllerLayoutGuide type="bottom" id="HHH-VR-OzX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LL0-Pt-yuA">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kk-2a-u76">
@@ -2331,7 +2442,7 @@ After 1 months:
                         <viewControllerLayoutGuide type="bottom" id="uen-b7-dhz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wXf-Jy-01u">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBl-eN-xmS">
@@ -3876,15 +3987,15 @@ After 1 month:
                         <viewControllerLayoutGuide type="bottom" id="Oah-vA-gc1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0mq-o7-rvw">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zx7-Hp-WOe">
                                 <rect key="frame" x="20" y="72" width="560" height="109"/>
-                                <string key="text">• If Chest undraping or a general danger sign, give a dose of second-line antibiotic or intramuscular chloramphenicol. Then admit or refer URGENTLY to hospital.
+                                <mutableString key="text">• If Chest indrawing or a general danger sign, give a dose of second-line antibiotic or intramuscular chloramphenicol. Then admit or refer URGENTLY to hospital.
 • If breathing rate, fever and eating have not improved, changed to the second-line antibiotic and advise the mother to return in 2 days or refer. (If this child had measles within the last 3 months or is known or suspected to have symptomatic HIV infections, refer.)
 • If breathing slower, less fever, or eating better, complete the 5 days of antibiotic.
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -3913,7 +4024,7 @@ After 1 month:
                         <viewControllerLayoutGuide type="bottom" id="BIo-7z-Azb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7xN-jO-FLq">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWD-aw-jgS">
@@ -3955,7 +4066,7 @@ Give it for 5 days. Advise the mother to continue ciproflaxin and zinc and to re
                         <viewControllerLayoutGuide type="bottom" id="xNw-xl-Vav"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="c55-Ac-RFo">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nP-fx-veX">
@@ -4014,14 +4125,14 @@ Ask:
                         <viewControllerLayoutGuide type="bottom" id="kqc-yP-8Xl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="LAv-Qk-AYN">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWI-g5-iUQ">
                                 <rect key="frame" x="20" y="72" width="560" height="109"/>
-                                <string key="text">• If the diarrhoea has not stopped (child is still having 3 more loose stools per day), do a full reassessment of the child. Give any treatment needed. Then refer to hospital.
-• If the diarrhoea has stopped(child having &lt; 3 loose stools per day), tell the mother to follow the usual feeding recommendations for the child’s age, but give one extra meal every day 1months. Ask her to continue giving zinc for total of 10 days.
-• NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.</string>
+                                <mutableString key="text">• If the diarrhoea has not stopped (child is still having 3 more loose stools per day), do a full reassessment of the child. Give any treatment needed. Then refer to hospital.
+• If the diarrhoea has stopped(child having &lt; 3 loose stools per day), tell the mother to follow the usual feeding recommendations for the child’s age, but give one extra meal every day 1 month. Ask her to continue giving zinc for total of 10 days.
+• NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -4050,7 +4161,7 @@ Ask:
                         <viewControllerLayoutGuide type="bottom" id="CD4-mR-YKK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZQK-Pq-iDY">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kns-8Y-bnV">
@@ -4106,7 +4217,7 @@ Ask:
                         <viewControllerLayoutGuide type="bottom" id="wnZ-ok-2Nw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gcl-bo-eDH">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOX-it-wEo">
@@ -11069,7 +11180,7 @@ If child has no severe classification:
         <!--Classify-->
         <scene sceneID="zna-hj-0fT">
             <objects>
-                <viewController id="gds-Fw-r0O" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gds-Fw-r0O" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vp4-z8-3T1"/>
                         <viewControllerLayoutGuide type="bottom" id="uPS-97-cal"/>
@@ -11078,22 +11189,25 @@ If child has no severe classification:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A6Y-7D-jlp">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A6Y-7D-jlp">
                                 <rect key="frame" x="0.0" y="64" width="600" height="729"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Severe Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SqS-8l-eN1">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Severe Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SqS-8l-eN1">
+                                        <rect key="frame" x="8" y="0.0" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="ZPJ-1f-WJG"/>
+                                            <constraint firstAttribute="height" constant="34" id="Pxp-Zp-paB"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kyp-l9-1M8">
-                                        <rect key="frame" x="0.0" y="32" width="600" height="110"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kyp-l9-1M8">
+                                        <rect key="frame" x="8" y="32" width="584" height="86"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="127" id="PQy-D2-jTa"/>
+                                        </constraints>
                                         <string key="text">For all children:
 	• With visible severe wasting.
 	• Oedema of both feet.
@@ -11103,20 +11217,28 @@ FOR CHILDREN 6 MONTHS UP TO 59 MONTHS: MUAC &lt; 11.5 cm</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="PQy-D2-jTa"/>
+                                            </mask>
+                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Moderate Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Y4-2e-IWB">
-                                        <rect key="frame" x="0.0" y="142" width="600" height="34"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moderate Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Y4-2e-IWB">
+                                        <rect key="frame" x="8" y="119" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="XmV-3W-fq2"/>
+                                            <constraint firstAttribute="height" constant="34" id="iSd-SB-t9S"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6R-kj-9Gt">
-                                        <rect key="frame" x="0.0" y="176" width="600" height="80"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6R-kj-9Gt">
+                                        <rect key="frame" x="8" y="153" width="584" height="80"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="Ozr-ns-TJg"/>
+                                        </constraints>
                                         <string key="text">	For all age groups:
 	• Static weight or losing weight.
 	• -3 to &lt; -2 Z-score
@@ -11125,19 +11247,22 @@ IF AGE 6 MONTHS UP TO 59 MONTHS MUAC 11.5 TO 12.5 cm</string>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="At Risk of Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTp-vZ-EU4">
-                                        <rect key="frame" x="0.0" y="258" width="600" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="At Risk of Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTp-vZ-EU4">
+                                        <rect key="frame" x="8" y="235" width="584" height="36"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="m4o-Zp-GPJ"/>
+                                            <constraint firstAttribute="height" constant="36" id="sKN-Ce-tek"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqn-oT-JFU">
-                                        <rect key="frame" x="0.0" y="294" width="600" height="87"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqn-oT-JFU">
+                                        <rect key="frame" x="8" y="271" width="584" height="87"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="87" id="uat-gi-WSQ"/>
+                                        </constraints>
                                         <string key="text">For all age groups:
 	• Static weight or losing weight.
 	• -2 to &lt; -1 Z-score
@@ -11146,33 +11271,110 @@ IF AGE 6 MONTHS UP TO 59 MONTHS MUAC 11.5 TO 12.5 cm</string>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="No Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Fb-ie-vS6">
-                                        <rect key="frame" x="0.0" y="381" width="600" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Fb-ie-vS6">
+                                        <rect key="frame" x="8" y="358" width="584" height="36"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="MAD-kc-0Bn"/>
+                                            <constraint firstAttribute="height" constant="36" id="orB-Ve-v9p"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwe-1a-qu2">
-                                        <rect key="frame" x="0.0" y="415" width="600" height="31"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwe-1a-qu2">
+                                        <rect key="frame" x="8" y="392" width="584" height="31"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="9fT-O6-ERd"/>
+                                        </constraints>
                                         <string key="text">	• weight -1 to +2</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="Kyp-l9-1M8" firstAttribute="width" secondItem="SqS-8l-eN1" secondAttribute="width" id="4JC-WY-rYy"/>
+                                    <constraint firstItem="O6R-kj-9Gt" firstAttribute="trailing" secondItem="7Y4-2e-IWB" secondAttribute="trailing" id="6Kz-xH-38I"/>
+                                    <constraint firstItem="qTp-vZ-EU4" firstAttribute="leading" secondItem="A6Y-7D-jlp" secondAttribute="leadingMargin" id="6VO-5C-Qjr"/>
+                                    <constraint firstItem="O6R-kj-9Gt" firstAttribute="trailing" secondItem="A6Y-7D-jlp" secondAttribute="trailingMargin" id="76R-yn-UGb"/>
+                                    <constraint firstItem="Gqn-oT-JFU" firstAttribute="top" secondItem="qTp-vZ-EU4" secondAttribute="bottom" id="7SP-FG-tgL"/>
+                                    <constraint firstItem="qTp-vZ-EU4" firstAttribute="trailing" secondItem="A6Y-7D-jlp" secondAttribute="trailingMargin" id="9Bw-sj-tgg"/>
+                                    <constraint firstItem="qTp-vZ-EU4" firstAttribute="top" secondItem="O6R-kj-9Gt" secondAttribute="bottom" constant="2" id="9iC-iy-EFa"/>
+                                    <constraint firstItem="0Fb-ie-vS6" firstAttribute="trailing" secondItem="bwe-1a-qu2" secondAttribute="trailing" id="EKC-5a-uCl"/>
+                                    <constraint firstItem="7Y4-2e-IWB" firstAttribute="top" secondItem="Kyp-l9-1M8" secondAttribute="bottom" constant="1" id="EgC-hS-L1k"/>
+                                    <constraint firstItem="7Y4-2e-IWB" firstAttribute="width" secondItem="SqS-8l-eN1" secondAttribute="width" id="FYg-Qx-vki"/>
+                                    <constraint firstItem="SqS-8l-eN1" firstAttribute="top" secondItem="A6Y-7D-jlp" secondAttribute="top" constant="64" id="HvR-kU-HzY"/>
+                                    <constraint firstItem="Kyp-l9-1M8" firstAttribute="trailing" secondItem="7Y4-2e-IWB" secondAttribute="trailing" id="KRC-iL-4rH"/>
+                                    <constraint firstItem="Gqn-oT-JFU" firstAttribute="trailing" secondItem="0Fb-ie-vS6" secondAttribute="trailing" id="Lx5-Ey-tEs"/>
+                                    <constraint firstItem="qTp-vZ-EU4" firstAttribute="leading" secondItem="A6Y-7D-jlp" secondAttribute="leadingMargin" id="M0Q-26-ZX4"/>
+                                    <constraint firstItem="Gqn-oT-JFU" firstAttribute="top" secondItem="qTp-vZ-EU4" secondAttribute="bottom" id="NZA-eY-Fkd"/>
+                                    <constraint firstItem="Kyp-l9-1M8" firstAttribute="top" secondItem="A6Y-7D-jlp" secondAttribute="topMargin" constant="24" id="NZS-kT-nrV"/>
+                                    <constraint firstItem="bwe-1a-qu2" firstAttribute="top" secondItem="Gqn-oT-JFU" secondAttribute="bottom" constant="34" id="Nxe-tg-1EZ"/>
+                                    <constraint firstItem="Gqn-oT-JFU" firstAttribute="trailing" secondItem="qTp-vZ-EU4" secondAttribute="trailing" id="OnP-XR-I8G"/>
+                                    <constraint firstItem="Gqn-oT-JFU" firstAttribute="leading" secondItem="A6Y-7D-jlp" secondAttribute="leadingMargin" id="P20-xz-cn3"/>
+                                    <constraint firstItem="Gqn-oT-JFU" firstAttribute="width" secondItem="SqS-8l-eN1" secondAttribute="width" id="Pbv-9J-dlP"/>
+                                    <constraint firstItem="0Fb-ie-vS6" firstAttribute="top" secondItem="Gqn-oT-JFU" secondAttribute="bottom" id="QMK-Nf-fEZ"/>
+                                    <constraint firstItem="O6R-kj-9Gt" firstAttribute="trailing" secondItem="A6Y-7D-jlp" secondAttribute="trailingMargin" id="Qmi-8H-K0f"/>
+                                    <constraint firstItem="7Y4-2e-IWB" firstAttribute="top" secondItem="Kyp-l9-1M8" secondAttribute="bottom" constant="1" id="RQh-QP-MwK"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="bwe-1a-qu2" secondAttribute="bottom" constant="257" id="SG0-eZ-gU4"/>
+                                    <constraint firstItem="O6R-kj-9Gt" firstAttribute="top" secondItem="7Y4-2e-IWB" secondAttribute="bottom" id="ShH-L0-Qhz"/>
+                                    <constraint firstItem="0Fb-ie-vS6" firstAttribute="width" secondItem="SqS-8l-eN1" secondAttribute="width" id="U0a-UR-WC3"/>
+                                    <constraint firstItem="SqS-8l-eN1" firstAttribute="top" secondItem="A6Y-7D-jlp" secondAttribute="topMargin" constant="-8" id="ULm-vc-qRN"/>
+                                    <constraint firstItem="Kyp-l9-1M8" firstAttribute="trailing" secondItem="A6Y-7D-jlp" secondAttribute="trailingMargin" id="Xgq-Ab-2kY"/>
+                                    <constraint firstItem="Gqn-oT-JFU" firstAttribute="trailing" secondItem="A6Y-7D-jlp" secondAttribute="trailingMargin" id="Zuw-qg-N8w"/>
+                                    <constraint firstItem="qTp-vZ-EU4" firstAttribute="top" secondItem="O6R-kj-9Gt" secondAttribute="bottom" constant="2" id="atE-Kc-Q9u"/>
+                                    <constraint firstItem="0Fb-ie-vS6" firstAttribute="trailing" secondItem="A6Y-7D-jlp" secondAttribute="trailingMargin" id="bHf-nB-FMK"/>
+                                    <constraint firstItem="SqS-8l-eN1" firstAttribute="leading" secondItem="A6Y-7D-jlp" secondAttribute="leadingMargin" id="bq1-WJ-xOl"/>
+                                    <constraint firstItem="O6R-kj-9Gt" firstAttribute="width" secondItem="SqS-8l-eN1" secondAttribute="width" id="c4K-Ge-9KT"/>
+                                    <constraint firstItem="Gqn-oT-JFU" firstAttribute="leading" secondItem="qTp-vZ-EU4" secondAttribute="leading" id="cEv-mf-y09"/>
+                                    <constraint firstItem="bwe-1a-qu2" firstAttribute="top" secondItem="Gqn-oT-JFU" secondAttribute="bottom" constant="34" id="dCb-iA-0bz"/>
+                                    <constraint firstItem="0Fb-ie-vS6" firstAttribute="leading" secondItem="A6Y-7D-jlp" secondAttribute="leadingMargin" id="diy-62-i0B"/>
+                                    <constraint firstItem="7Y4-2e-IWB" firstAttribute="leading" secondItem="A6Y-7D-jlp" secondAttribute="leadingMargin" id="e9q-qE-qRC"/>
+                                    <constraint firstItem="O6R-kj-9Gt" firstAttribute="leading" secondItem="qTp-vZ-EU4" secondAttribute="leading" id="ecc-sc-Xo0"/>
+                                    <constraint firstItem="7Y4-2e-IWB" firstAttribute="trailing" secondItem="A6Y-7D-jlp" secondAttribute="trailingMargin" id="gOI-6w-MXM"/>
+                                    <constraint firstItem="Gqn-oT-JFU" firstAttribute="leading" secondItem="0Fb-ie-vS6" secondAttribute="leading" id="hWl-KM-8du"/>
+                                    <constraint firstItem="SqS-8l-eN1" firstAttribute="trailing" secondItem="Kyp-l9-1M8" secondAttribute="trailing" id="hhg-dl-Clm"/>
+                                    <constraint firstItem="Gqn-oT-JFU" firstAttribute="centerX" secondItem="A6Y-7D-jlp" secondAttribute="centerX" id="htg-fw-jwK"/>
+                                    <constraint firstItem="7Y4-2e-IWB" firstAttribute="leading" secondItem="Kyp-l9-1M8" secondAttribute="leading" id="ibk-uQ-3cQ"/>
+                                    <constraint firstItem="O6R-kj-9Gt" firstAttribute="leading" secondItem="A6Y-7D-jlp" secondAttribute="leadingMargin" id="jFd-Lx-a8d"/>
+                                    <constraint firstItem="qTp-vZ-EU4" firstAttribute="width" secondItem="SqS-8l-eN1" secondAttribute="width" id="jQt-KP-VtV"/>
+                                    <constraint firstItem="O6R-kj-9Gt" firstAttribute="leading" secondItem="7Y4-2e-IWB" secondAttribute="leading" id="kAG-YN-28I"/>
+                                    <constraint firstItem="bwe-1a-qu2" firstAttribute="leading" secondItem="0Fb-ie-vS6" secondAttribute="leading" id="kDe-Mv-Cs9"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="0Fb-ie-vS6" secondAttribute="bottom" constant="286" id="l2D-Ya-Chd"/>
+                                    <constraint firstItem="bwe-1a-qu2" firstAttribute="width" secondItem="SqS-8l-eN1" secondAttribute="width" id="oS7-RP-HHQ"/>
+                                    <constraint firstItem="SqS-8l-eN1" firstAttribute="trailing" secondItem="A6Y-7D-jlp" secondAttribute="trailingMargin" id="rMW-W5-YgG"/>
+                                    <constraint firstItem="Kyp-l9-1M8" firstAttribute="top" secondItem="A6Y-7D-jlp" secondAttribute="top" constant="96" id="rep-fE-76E"/>
+                                    <constraint firstItem="Kyp-l9-1M8" firstAttribute="leading" secondItem="A6Y-7D-jlp" secondAttribute="leadingMargin" id="sYO-E6-MUm"/>
+                                    <constraint firstItem="SqS-8l-eN1" firstAttribute="leading" secondItem="Kyp-l9-1M8" secondAttribute="leading" id="suR-Cr-SLD"/>
+                                    <constraint firstItem="O6R-kj-9Gt" firstAttribute="trailing" secondItem="qTp-vZ-EU4" secondAttribute="trailing" id="udR-lJ-mYc"/>
+                                    <constraint firstItem="bwe-1a-qu2" firstAttribute="trailing" secondItem="A6Y-7D-jlp" secondAttribute="trailingMargin" id="uwF-Z8-sHe"/>
+                                    <constraint firstItem="O6R-kj-9Gt" firstAttribute="top" secondItem="7Y4-2e-IWB" secondAttribute="bottom" id="v1R-pE-A1m"/>
+                                    <constraint firstItem="bwe-1a-qu2" firstAttribute="leading" secondItem="A6Y-7D-jlp" secondAttribute="leadingMargin" id="vT0-Ye-OGv"/>
+                                    <constraint firstItem="7Y4-2e-IWB" firstAttribute="top" secondItem="SqS-8l-eN1" secondAttribute="bottom" constant="126" id="yVK-9U-cf0"/>
+                                    <constraint firstItem="0Fb-ie-vS6" firstAttribute="top" secondItem="Gqn-oT-JFU" secondAttribute="bottom" id="yjR-KH-W29"/>
+                                    <constraint firstAttribute="bottom" secondItem="bwe-1a-qu2" secondAttribute="bottom" constant="201" id="zze-99-rtk"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="HvR-kU-HzY"/>
+                                        <exclude reference="rep-fE-76E"/>
+                                        <exclude reference="EgC-hS-L1k"/>
+                                        <exclude reference="yVK-9U-cf0"/>
+                                        <exclude reference="zze-99-rtk"/>
+                                    </mask>
+                                </variation>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="A6Y-7D-jlp" secondAttribute="trailing" id="0gH-O1-d8o"/>
+                            <constraint firstItem="A6Y-7D-jlp" firstAttribute="leading" secondItem="hkw-w9-Ck0" secondAttribute="leading" id="46B-cE-aNp"/>
+                            <constraint firstItem="uPS-97-cal" firstAttribute="top" secondItem="A6Y-7D-jlp" secondAttribute="bottom" constant="8" symbolic="YES" id="JHa-EI-LPq"/>
+                            <constraint firstItem="A6Y-7D-jlp" firstAttribute="top" secondItem="Vp4-z8-3T1" secondAttribute="bottom" id="ev6-I0-c7Z"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Classify" id="91c-d8-N9G"/>
-                    <connections>
-                        <outlet property="scroller" destination="A6Y-7D-jlp" id="8Yr-H8-bye"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x8B-Zd-6da" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -11190,9 +11392,12 @@ IF AGE 6 MONTHS UP TO 59 MONTHS MUAC 11.5 TO 12.5 cm</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tol-FI-HM2">
-                                <rect key="frame" x="20" y="72" width="560" height="326"/>
-                                <string key="text">ASK:  Is there history of TB contact?
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ba8-sV-1VR">
+                                <rect key="frame" x="0.0" y="64" width="600" height="729"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGf-Ah-Lnl">
+                                        <rect key="frame" x="8" y="8" width="584" height="311"/>
+                                        <string key="text">ASK:  Is there history of TB contact?
 LOOK, LISTEN, FEEL
 • Take the child’s weight and plot it against mother/child health booklet to determine the z-score
 • Take the child’s length/height for age and plot on mother/child health booklet to determine the z_score.
@@ -11210,17 +11415,29 @@ Determine Z score for the same:
 • -3 to &lt; -2 
 • -2 to &lt; -1
 • -1 to +2</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gGf-Ah-Lnl" secondAttribute="trailing" constant="8" id="0NH-eI-iPE"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="gGf-Ah-Lnl" secondAttribute="bottom" constant="387" id="EJ6-xB-yqg"/>
+                                    <constraint firstItem="gGf-Ah-Lnl" firstAttribute="leading" secondItem="Ba8-sV-1VR" secondAttribute="leadingMargin" id="FZw-7Z-QYd"/>
+                                    <constraint firstItem="gGf-Ah-Lnl" firstAttribute="top" secondItem="Ba8-sV-1VR" secondAttribute="topMargin" id="Nn0-pT-X8R"/>
+                                    <constraint firstItem="gGf-Ah-Lnl" firstAttribute="centerX" secondItem="Ba8-sV-1VR" secondAttribute="centerX" id="QXE-VW-SBr"/>
+                                    <constraint firstItem="gGf-Ah-Lnl" firstAttribute="leading" secondItem="Ba8-sV-1VR" secondAttribute="leading" constant="8" id="flU-kL-qNX"/>
+                                    <constraint firstItem="gGf-Ah-Lnl" firstAttribute="trailing" secondItem="Ba8-sV-1VR" secondAttribute="trailingMargin" id="nqO-qq-Ebm"/>
+                                    <constraint firstItem="gGf-Ah-Lnl" firstAttribute="top" secondItem="Ba8-sV-1VR" secondAttribute="top" constant="8" id="pOd-cW-7Po"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="Tol-FI-HM2" secondAttribute="trailing" id="Pqm-rE-tT2"/>
-                            <constraint firstItem="Tol-FI-HM2" firstAttribute="centerX" secondItem="KaI-I9-JSU" secondAttribute="centerX" id="R1e-o9-Us5"/>
-                            <constraint firstItem="Tol-FI-HM2" firstAttribute="top" secondItem="5i6-PL-gIR" secondAttribute="bottom" constant="8" symbolic="YES" id="uSX-Ev-Q6f"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="Tol-FI-HM2" secondAttribute="leading" id="zKG-GH-zI3"/>
+                            <constraint firstItem="bPK-y8-Npa" firstAttribute="top" secondItem="Ba8-sV-1VR" secondAttribute="bottom" constant="8" symbolic="YES" id="AQN-bS-OgA"/>
+                            <constraint firstItem="Ba8-sV-1VR" firstAttribute="top" secondItem="5i6-PL-gIR" secondAttribute="bottom" id="Y3u-pM-aN3"/>
+                            <constraint firstAttribute="trailing" secondItem="Ba8-sV-1VR" secondAttribute="trailing" id="e8c-aa-RAy"/>
+                            <constraint firstItem="Ba8-sV-1VR" firstAttribute="leading" secondItem="KaI-I9-JSU" secondAttribute="leading" id="mjb-Uv-DKA"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Assess" id="Ar9-tN-tt9"/>
@@ -11280,10 +11497,10 @@ Determine Z score for the same:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqQ-gD-lyG">
-                                        <rect key="frame" x="0.0" y="176" width="600" height="146"/>
+                                        <rect key="frame" x="0.0" y="176" width="600" height="197"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="146" id="gPp-xY-NaT"/>
+                                            <constraint firstAttribute="height" constant="197" id="gPp-xY-NaT"/>
                                         </constraints>
                                         <string key="text">	• Assess the child’s feeding and counsel the mother on feeding
 	• If growth is faltering for 2 consecutive months, assess further or refer to the hospital
@@ -11297,7 +11514,7 @@ Determine Z score for the same:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="At Risk of Acute Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LfB-yK-G0D">
-                                        <rect key="frame" x="0.0" y="324" width="600" height="36"/>
+                                        <rect key="frame" x="0.0" y="372" width="600" height="36"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="36" id="nWI-6g-Vh0"/>
@@ -11307,10 +11524,10 @@ Determine Z score for the same:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxq-Wx-ZXm">
-                                        <rect key="frame" x="0.0" y="360" width="600" height="141"/>
+                                        <rect key="frame" x="0.0" y="408" width="600" height="179"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="141" id="Sqg-ZW-u3B"/>
+                                            <constraint firstAttribute="height" constant="179" id="Sqg-ZW-u3B"/>
                                         </constraints>
                                         <string key="text">	• If child is less than 2 years old, and has growth faltering, assess the child’s feeding and counsel the mother on feeding according to FOOD box on the COUNSEL THE MOTHER tab.
 	• Give mebendazole or albendazole if the child is 1 year or older and has not had a dose in there last 6 months.
@@ -11324,7 +11541,7 @@ Determine Z score for the same:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Malnutrition" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZp-oW-VML">
-                                        <rect key="frame" x="0.0" y="500" width="600" height="36"/>
+                                        <rect key="frame" x="0.0" y="587" width="600" height="36"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="36" id="g9j-wj-7Xr"/>
@@ -11334,7 +11551,7 @@ Determine Z score for the same:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSz-PX-uHW">
-                                        <rect key="frame" x="0.0" y="534" width="600" height="84"/>
+                                        <rect key="frame" x="0.0" y="621" width="600" height="84"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="84" id="gpY-24-hGE"/>
@@ -11362,11 +11579,11 @@ Determine Z score for the same:
                                     <constraint firstAttribute="trailing" secondItem="aZp-oW-VML" secondAttribute="trailing" id="Kix-Qi-4OO"/>
                                     <constraint firstAttribute="trailing" secondItem="bxq-Wx-ZXm" secondAttribute="trailing" id="KwU-e0-ylB"/>
                                     <constraint firstItem="GSz-PX-uHW" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="Nc3-2H-BRs"/>
-                                    <constraint firstAttribute="bottom" secondItem="GSz-PX-uHW" secondAttribute="bottom" constant="111" id="PBh-Ih-f7V"/>
+                                    <constraint firstAttribute="bottom" secondItem="GSz-PX-uHW" secondAttribute="bottom" constant="24" id="PBh-Ih-f7V"/>
                                     <constraint firstItem="LfB-yK-G0D" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="PeU-Vh-D7V"/>
                                     <constraint firstItem="bxq-Wx-ZXm" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="QNj-jh-mxr"/>
                                     <constraint firstItem="nnE-0Y-evr" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="U7J-ct-e0R"/>
-                                    <constraint firstItem="LfB-yK-G0D" firstAttribute="top" secondItem="yqQ-gD-lyG" secondAttribute="bottom" constant="2" id="UX5-mz-MUj"/>
+                                    <constraint firstItem="LfB-yK-G0D" firstAttribute="top" secondItem="yqQ-gD-lyG" secondAttribute="bottom" constant="-1" id="UX5-mz-MUj"/>
                                     <constraint firstAttribute="trailing" secondItem="ZFV-so-c3f" secondAttribute="trailing" id="VHO-ks-SAP"/>
                                     <constraint firstItem="yqQ-gD-lyG" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="XFU-EF-D0E"/>
                                     <constraint firstItem="aZp-oW-VML" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="Xaw-WP-aPk"/>
@@ -11380,14 +11597,14 @@ Determine Z score for the same:
                                     <constraint firstItem="aZp-oW-VML" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="kzS-CD-B4g"/>
                                     <constraint firstItem="GSz-PX-uHW" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="nO0-x5-Hen"/>
                                     <constraint firstAttribute="trailing" secondItem="FbI-5o-Hzb" secondAttribute="trailing" id="oU5-Gs-oUM"/>
-                                    <constraint firstItem="aZp-oW-VML" firstAttribute="top" secondItem="bIO-XC-qDp" secondAttribute="top" constant="500" id="ofI-0l-MsY"/>
+                                    <constraint firstItem="aZp-oW-VML" firstAttribute="top" secondItem="bIO-XC-qDp" secondAttribute="top" constant="587" id="ofI-0l-MsY"/>
                                     <constraint firstItem="nnE-0Y-evr" firstAttribute="top" secondItem="bIO-XC-qDp" secondAttribute="top" id="qGM-lI-8W5"/>
                                     <constraint firstItem="FbI-5o-Hzb" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="qJK-XI-uc2"/>
                                     <constraint firstAttribute="trailing" secondItem="ZFV-so-c3f" secondAttribute="trailing" id="r2t-PD-FPN"/>
                                     <constraint firstAttribute="trailing" secondItem="bxq-Wx-ZXm" secondAttribute="trailing" id="sZd-kz-Tpu"/>
                                     <constraint firstItem="yqQ-gD-lyG" firstAttribute="top" secondItem="FbI-5o-Hzb" secondAttribute="bottom" id="tdk-qk-eH6"/>
                                     <constraint firstAttribute="trailing" secondItem="aZp-oW-VML" secondAttribute="trailing" id="vC5-Ls-SAe"/>
-                                    <constraint firstItem="GSz-PX-uHW" firstAttribute="top" secondItem="bxq-Wx-ZXm" secondAttribute="bottom" constant="33" id="you-bG-t7R"/>
+                                    <constraint firstItem="GSz-PX-uHW" firstAttribute="top" secondItem="bxq-Wx-ZXm" secondAttribute="bottom" constant="34" id="you-bG-t7R"/>
                                     <constraint firstItem="bxq-Wx-ZXm" firstAttribute="leading" secondItem="bIO-XC-qDp" secondAttribute="leading" id="zTS-tF-cVH"/>
                                 </constraints>
                             </scrollView>
