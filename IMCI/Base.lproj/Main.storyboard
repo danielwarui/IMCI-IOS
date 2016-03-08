@@ -2207,7 +2207,7 @@ Ask:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOX-Vx-zEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1321" y="862"/>
+            <point key="canvasLocation" x="1437" y="422"/>
         </scene>
         <!--Treatment-->
         <scene sceneID="W0Y-pq-tKY">
@@ -3992,10 +3992,10 @@ After 1 month:
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zx7-Hp-WOe">
                                 <rect key="frame" x="20" y="72" width="560" height="109"/>
-                                <mutableString key="text">• If Chest indrawing or a general danger sign, give a dose of second-line antibiotic or intramuscular chloramphenicol. Then admit or refer URGENTLY to hospital.
+                                <string key="text">• If Chest indrawing or a general danger sign, give a dose of second-line antibiotic or intramuscular chloramphenicol. Then admit or refer URGENTLY to hospital.
 • If breathing rate, fever and eating have not improved, changed to the second-line antibiotic and advise the mother to return in 2 days or refer. (If this child had measles within the last 3 months or is known or suspected to have symptomatic HIV infections, refer.)
 • If breathing slower, less fever, or eating better, complete the 5 days of antibiotic.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -4130,9 +4130,9 @@ Ask:
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWI-g5-iUQ">
                                 <rect key="frame" x="20" y="72" width="560" height="109"/>
-                                <mutableString key="text">• If the diarrhoea has not stopped (child is still having 3 more loose stools per day), do a full reassessment of the child. Give any treatment needed. Then refer to hospital.
+                                <string key="text">• If the diarrhoea has not stopped (child is still having 3 more loose stools per day), do a full reassessment of the child. Give any treatment needed. Then refer to hospital.
 • If the diarrhoea has stopped(child having &lt; 3 loose stools per day), tell the mother to follow the usual feeding recommendations for the child’s age, but give one extra meal every day 1 month. Ask her to continue giving zinc for total of 10 days.
-• NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.</mutableString>
+• NB: Attention to diet is an essential part of the management of a child with persistent diarrhoea.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -6322,7 +6322,7 @@ Also follow the instructions listed with each drug's dosage table.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eyd-Ue-dXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4292" y="-2788"/>
+            <point key="canvasLocation" x="5032" y="-2403"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FPy-qa-dAv">
@@ -6392,6 +6392,9 @@ Also follow the instructions listed with each drug's dosage table.
                                             <constraint firstAttribute="height" constant="47" id="D2K-Jc-GDt"/>
                                         </constraints>
                                         <state key="normal" title="Immunize Every Sick Young Infant as Needed"/>
+                                        <connections>
+                                            <segue destination="99s-aQ-DzV" kind="show" id="WW3-DY-nsJ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lX4-Hj-cLJ">
                                         <rect key="frame" x="8" y="416" width="544" height="44"/>
@@ -6400,6 +6403,9 @@ Also follow the instructions listed with each drug's dosage table.
                                             <constraint firstAttribute="height" constant="44" id="2Og-rF-Mvo"/>
                                         </constraints>
                                         <state key="normal" title="Treat Diarrhoea"/>
+                                        <connections>
+                                            <segue destination="fP7-e2-Kq0" kind="show" id="29t-Y9-aCg"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0Mq-hb-M6v">
                                         <rect key="frame" x="8" y="468" width="544" height="50"/>
@@ -6408,6 +6414,9 @@ Also follow the instructions listed with each drug's dosage table.
                                             <constraint firstAttribute="height" constant="50" id="23c-Mc-5v2"/>
                                         </constraints>
                                         <state key="normal" title="Counsel the mother about care for development problems"/>
+                                        <connections>
+                                            <segue destination="1Ud-S5-qsS" kind="show" id="ltx-7c-rUR"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -6450,7 +6459,7 @@ Also follow the instructions listed with each drug's dosage table.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4HP-fB-rTu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3671" y="-2859"/>
+            <point key="canvasLocation" x="3655" y="-2970"/>
         </scene>
         <!--Treat Zinc Sulphate-->
         <scene sceneID="uKS-fY-onG">
@@ -6506,7 +6515,7 @@ The mother should:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="58M-CS-igM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3941" y="-2196"/>
+            <point key="canvasLocation" x="4747" y="-2650"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6Hp-og-99W">
@@ -14854,12 +14863,15 @@ The mother should:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nY0-EO-Kue" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4272" y="-2380"/>
+            <point key="canvasLocation" x="4408" y="-2793"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="ltx-7c-rUR"/>
+        <segue reference="WW3-DY-nsJ"/>
+        <segue reference="29t-Y9-aCg"/>
         <segue reference="VfE-ci-uQk"/>
-        <segue reference="0Gv-aa-NpT"/>
         <segue reference="JcI-XD-nmN"/>
+        <segue reference="0Gv-aa-NpT"/>
     </inferredMetricsTieBreakers>
 </document>
