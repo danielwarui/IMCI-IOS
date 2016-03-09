@@ -98,6 +98,7 @@
 		3F8DACBF1C85EC22003CC5C3 /* CounselChild_6_12_R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACBE1C85EC22003CC5C3 /* CounselChild_6_12_R.swift */; };
 		3F8DACC11C85EC3B003CC5C3 /* CounselChild_12_2_R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACC01C85EC3B003CC5C3 /* CounselChild_12_2_R.swift */; };
 		3F8DACC31C85EC50003CC5C3 /* CounselChild_2_Up_R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8DACC21C85EC50003CC5C3 /* CounselChild_2_Up_R.swift */; };
+		3FF20CC61C9061160030ADF7 /* ministrylogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF20CC51C9061160030ADF7 /* ministrylogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -236,6 +237,7 @@
 		3F8DACBE1C85EC22003CC5C3 /* CounselChild_6_12_R.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounselChild_6_12_R.swift; sourceTree = "<group>"; };
 		3F8DACC01C85EC3B003CC5C3 /* CounselChild_12_2_R.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounselChild_12_2_R.swift; sourceTree = "<group>"; };
 		3F8DACC21C85EC50003CC5C3 /* CounselChild_2_Up_R.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounselChild_2_Up_R.swift; sourceTree = "<group>"; };
+		3FF20CC51C9061160030ADF7 /* ministrylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ministrylogo.png; path = "../../../../StudioProjects/IMCI/app/src/main/res/drawable-xxhdpi/ministrylogo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -376,6 +378,7 @@
 				3F8DAC811C81E874003CC5C3 /* Treat_Benzylpenicillin.swift */,
 				3F0C479F1C6634FA009F126A /* Images.xcassets */,
 				3F8DAC871C84BB64003CC5C3 /* Images-2.xcassets */,
+				3FF20CC51C9061160030ADF7 /* ministrylogo.png */,
 			);
 			path = IMCI;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				3F0C47F71C663686009F126A /* intramuscular_antibiotic.png in Resources */,
 				3F0C47EB1C663686009F126A /* drug_oralsalbutamol.png in Resources */,
 				3F0C47DE1C663686009F126A /* breastfeeding_upto_two_years_and_older_one.png in Resources */,
+				3FF20CC61C9061160030ADF7 /* ministrylogo.png in Resources */,
 				3F0C47D81C663686009F126A /* breastfeeding_upto_six_months_one.png in Resources */,
 				3F0C47F11C663686009F126A /* guidlines_on_nevirapine.png in Resources */,
 				3F0C47EA1C663686009F126A /* drug_oralparacetamolfever.png in Resources */,
@@ -711,6 +715,7 @@
 		3F692F411C4CA1B900B0542E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IMCI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MoH.org.IMCI;
@@ -721,6 +726,7 @@
 		3F692F421C4CA1B900B0542E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IMCI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MoH.org.IMCI;

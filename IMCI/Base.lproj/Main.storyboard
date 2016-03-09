@@ -1400,14 +1400,11 @@ Look for jaundice
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pSX-Cc-Qad">
-                                <rect key="frame" x="0.0" y="64" width="600" height="521"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="528"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="YDF-JD-8iN">
                                         <rect key="frame" x="12" y="79" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="jFr-U0-Ejb"/>
-                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Pneumonia">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1419,9 +1416,6 @@ Look for jaundice
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="OL0-c8-ksp">
                                         <rect key="frame" x="12" y="112" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="P0y-GL-0ds"/>
-                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Persistent Diarrhoea">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1433,9 +1427,6 @@ Look for jaundice
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mQ2-sG-mgb">
                                         <rect key="frame" x="12" y="178" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="Reh-Mf-cof"/>
-                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Wheezing">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1447,9 +1438,6 @@ Look for jaundice
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Lhf-1Z-99Y">
                                         <rect key="frame" x="12" y="211" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="jd9-pS-UOc"/>
-                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Malaria(High or Low Malaria Risk)">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1461,9 +1449,6 @@ Look for jaundice
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="VZ4-tK-sNu">
                                         <rect key="frame" x="12" y="244" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="ea7-pB-IeQ"/>
-                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Fever - No Malaria(Low or No Risk)">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1475,9 +1460,6 @@ Look for jaundice
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="qTs-zE-Qfl">
                                         <rect key="frame" x="12" y="276" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="QFL-bl-2vI"/>
-                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Eye or Mouth Complications of Measles">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1489,9 +1471,6 @@ Look for jaundice
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Pzo-Pe-MBo">
                                         <rect key="frame" x="12" y="308" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="fy4-wx-8b6"/>
-                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Ear Infection">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1503,9 +1482,6 @@ Look for jaundice
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="3v8-3r-TEa">
                                         <rect key="frame" x="12" y="341" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="wg4-hn-awD"/>
-                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="HIV Exposed and Infected Children">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1516,9 +1492,6 @@ Look for jaundice
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shv-tN-9HO">
                                         <rect key="frame" x="12" y="8" width="576" height="63"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="pDa-gr-q7N"/>
-                                        </constraints>
                                         <string key="text">• Care for child who returns for follow up visit using all boxes that match the child's previous classifications.
 • If the child has any new problem, Assess Classify &amp; Identify Treatment fully and treat as on the ASSESS CLASSIFY &amp; IDENTIFY TREATMENT tab on the Main Menu.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -1528,9 +1501,6 @@ Look for jaundice
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Kqv-ab-Vgx">
                                         <rect key="frame" x="12" y="374" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="2Ea-di-u4G"/>
-                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Feeding Problem">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1542,9 +1512,6 @@ Look for jaundice
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7Yf-8I-8CG">
                                         <rect key="frame" x="12" y="407" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="cTa-eA-qA3"/>
-                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Pallor">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1556,9 +1523,6 @@ Look for jaundice
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CqY-ny-o14">
                                         <rect key="frame" x="12" y="440" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="60C-Zb-Jov"/>
-                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Very Low Weight(At risk of malnutrition)">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1570,9 +1534,6 @@ Look for jaundice
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="RZ6-BE-0lO">
                                         <rect key="frame" x="12" y="145" width="576" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="576" id="xxa-pp-tJv"/>
-                                        </constraints>
                                         <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
                                         <state key="normal" title="Dysentery">
                                             <color key="titleShadowColor" red="0.99607843139999996" green="0.69019607839999997" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1583,64 +1544,66 @@ Look for jaundice
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="7Yf-8I-8CG" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="0kQ-gj-l5M"/>
-                                    <constraint firstItem="Pzo-Pe-MBo" firstAttribute="top" secondItem="qTs-zE-Qfl" secondAttribute="bottom" constant="2" id="0zn-5e-LVL"/>
-                                    <constraint firstItem="YDF-JD-8iN" firstAttribute="top" secondItem="shv-tN-9HO" secondAttribute="bottom" constant="8" id="1Sh-Pz-Qr8"/>
-                                    <constraint firstAttribute="trailing" secondItem="qTs-zE-Qfl" secondAttribute="trailing" constant="12" id="1un-Mj-kSp"/>
-                                    <constraint firstItem="CqY-ny-o14" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="7WE-gy-zT1"/>
-                                    <constraint firstItem="mQ2-sG-mgb" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="9dX-u2-Jkj"/>
+                                    <constraint firstItem="YDF-JD-8iN" firstAttribute="top" secondItem="shv-tN-9HO" secondAttribute="bottom" constant="8" id="1bo-2G-a7g"/>
+                                    <constraint firstItem="shv-tN-9HO" firstAttribute="top" secondItem="pSX-Cc-Qad" secondAttribute="top" constant="8" id="3k3-Bm-150"/>
+                                    <constraint firstItem="OL0-c8-ksp" firstAttribute="top" secondItem="YDF-JD-8iN" secondAttribute="bottom" constant="3" id="4pV-um-5fM"/>
+                                    <constraint firstItem="Lhf-1Z-99Y" firstAttribute="top" secondItem="mQ2-sG-mgb" secondAttribute="bottom" constant="3" id="5v2-Xk-mxn"/>
+                                    <constraint firstAttribute="trailing" secondItem="shv-tN-9HO" secondAttribute="trailing" constant="12" id="6UC-ig-KyS"/>
+                                    <constraint firstAttribute="trailing" secondItem="YDF-JD-8iN" secondAttribute="trailing" constant="12" id="8Za-O2-yq8"/>
+                                    <constraint firstItem="Pzo-Pe-MBo" firstAttribute="top" secondItem="qTs-zE-Qfl" secondAttribute="bottom" constant="2" id="9Wv-8f-GFD"/>
                                     <constraint firstItem="OL0-c8-ksp" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leadingMargin" constant="8" id="9ml-gT-2Ev"/>
-                                    <constraint firstItem="Lhf-1Z-99Y" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="AFG-JL-XLQ"/>
-                                    <constraint firstItem="Pzo-Pe-MBo" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="B9Y-Ce-uXN"/>
+                                    <constraint firstAttribute="trailing" secondItem="OL0-c8-ksp" secondAttribute="trailing" constant="12" id="AsO-N2-Yl1"/>
+                                    <constraint firstItem="YDF-JD-8iN" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="BHe-ZK-xg8"/>
                                     <constraint firstItem="YDF-JD-8iN" firstAttribute="centerX" secondItem="shv-tN-9HO" secondAttribute="centerX" id="BeF-HX-Ud0"/>
-                                    <constraint firstItem="OL0-c8-ksp" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="E5x-79-L5Q"/>
-                                    <constraint firstAttribute="trailing" secondItem="VZ4-tK-sNu" secondAttribute="trailing" constant="12" id="GOa-qV-5wt"/>
+                                    <constraint firstItem="shv-tN-9HO" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="Bhr-CM-cgT"/>
+                                    <constraint firstItem="7Yf-8I-8CG" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="DSG-jq-7YF"/>
+                                    <constraint firstItem="Lhf-1Z-99Y" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="E4C-d1-dUE"/>
+                                    <constraint firstItem="VZ4-tK-sNu" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="Fwd-fQ-RYI"/>
+                                    <constraint firstAttribute="bottom" secondItem="CqY-ny-o14" secondAttribute="bottom" constant="51" id="G39-st-jeT"/>
+                                    <constraint firstItem="CqY-ny-o14" firstAttribute="top" secondItem="7Yf-8I-8CG" secondAttribute="bottom" constant="3" id="GHg-EL-gAq"/>
+                                    <constraint firstItem="Kqv-ab-Vgx" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="GSO-za-2Pb"/>
                                     <constraint firstItem="OL0-c8-ksp" firstAttribute="centerX" secondItem="shv-tN-9HO" secondAttribute="centerX" id="GVh-DR-Q8G"/>
-                                    <constraint firstItem="shv-tN-9HO" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="HNN-2q-D9c"/>
-                                    <constraint firstAttribute="trailing" secondItem="3v8-3r-TEa" secondAttribute="trailing" constant="12" id="HeP-gp-maY"/>
-                                    <constraint firstAttribute="trailing" secondItem="7Yf-8I-8CG" secondAttribute="trailing" constant="12" id="IHE-Yh-jUN"/>
-                                    <constraint firstAttribute="bottom" secondItem="CqY-ny-o14" secondAttribute="bottom" constant="10" id="Kr1-PK-Pyc"/>
-                                    <constraint firstItem="YDF-JD-8iN" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="NEJ-Ko-0kp"/>
-                                    <constraint firstItem="Lhf-1Z-99Y" firstAttribute="top" secondItem="mQ2-sG-mgb" secondAttribute="bottom" constant="3" id="Nbf-a1-4xa"/>
-                                    <constraint firstItem="RZ6-BE-0lO" firstAttribute="top" secondItem="OL0-c8-ksp" secondAttribute="bottom" constant="3" id="PBT-Z2-KRN"/>
-                                    <constraint firstItem="3v8-3r-TEa" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="PER-1d-SeN"/>
-                                    <constraint firstItem="CqY-ny-o14" firstAttribute="top" secondItem="7Yf-8I-8CG" secondAttribute="bottom" constant="3" id="QjO-Ul-m7q"/>
-                                    <constraint firstItem="qTs-zE-Qfl" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="Qkh-Ag-ZtX"/>
-                                    <constraint firstItem="VZ4-tK-sNu" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="STb-0j-0n5"/>
-                                    <constraint firstAttribute="trailing" secondItem="OL0-c8-ksp" secondAttribute="trailing" constant="12" id="TKv-QM-XOZ"/>
-                                    <constraint firstAttribute="trailing" secondItem="Kqv-ab-Vgx" secondAttribute="trailing" constant="12" id="UTh-s0-DLe"/>
-                                    <constraint firstItem="qTs-zE-Qfl" firstAttribute="top" secondItem="VZ4-tK-sNu" secondAttribute="bottom" constant="2" id="Uks-hP-R5r"/>
-                                    <constraint firstItem="YDF-JD-8iN" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="Vze-Kc-mdK"/>
-                                    <constraint firstItem="qTs-zE-Qfl" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="WoG-LM-mmQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="mQ2-sG-mgb" secondAttribute="trailing" constant="12" id="IMd-Tv-PO4"/>
+                                    <constraint firstItem="Kqv-ab-Vgx" firstAttribute="top" secondItem="3v8-3r-TEa" secondAttribute="bottom" constant="3" id="KHX-Yw-iTr"/>
+                                    <constraint firstItem="OL0-c8-ksp" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="MOG-C2-zN1"/>
+                                    <constraint firstItem="qTs-zE-Qfl" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="Mnl-hN-f5b"/>
+                                    <constraint firstAttribute="trailing" secondItem="Lhf-1Z-99Y" secondAttribute="trailing" constant="12" id="OSW-LS-JBQ"/>
+                                    <constraint firstItem="Pzo-Pe-MBo" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="Oli-sd-KEC"/>
+                                    <constraint firstItem="RZ6-BE-0lO" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="P2h-Vb-iyU"/>
+                                    <constraint firstItem="YDF-JD-8iN" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="QLN-NC-W5j"/>
+                                    <constraint firstAttribute="trailing" secondItem="VZ4-tK-sNu" secondAttribute="trailing" constant="12" id="Qej-EE-Zcg"/>
+                                    <constraint firstAttribute="bottom" secondItem="CqY-ny-o14" secondAttribute="bottom" constant="58" id="UGy-DV-Eve"/>
+                                    <constraint firstItem="7Yf-8I-8CG" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="WXW-H7-JzF"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="OL0-c8-ksp" secondAttribute="trailing" constant="8" id="XqL-c5-7hW"/>
-                                    <constraint firstItem="3v8-3r-TEa" firstAttribute="top" secondItem="Pzo-Pe-MBo" secondAttribute="bottom" constant="3" id="ZwK-Yv-Bxy"/>
+                                    <constraint firstItem="mQ2-sG-mgb" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="Xtc-Ez-Par"/>
+                                    <constraint firstItem="3v8-3r-TEa" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="ZHw-YB-aQ2"/>
+                                    <constraint firstAttribute="trailing" secondItem="RZ6-BE-0lO" secondAttribute="trailing" constant="12" id="ZKi-Hz-KV4"/>
+                                    <constraint firstItem="Kqv-ab-Vgx" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="ZtI-th-RqA"/>
                                     <constraint firstItem="YDF-JD-8iN" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leadingMargin" constant="8" id="aWB-Sc-Wjk"/>
-                                    <constraint firstItem="Kqv-ab-Vgx" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="bIX-Q7-WXq"/>
-                                    <constraint firstAttribute="trailing" secondItem="Pzo-Pe-MBo" secondAttribute="trailing" constant="12" id="bnu-Uk-CZQ"/>
-                                    <constraint firstItem="mQ2-sG-mgb" firstAttribute="top" secondItem="RZ6-BE-0lO" secondAttribute="bottom" constant="3" id="bo3-4j-Ct4"/>
+                                    <constraint firstItem="OL0-c8-ksp" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="av0-R8-UFo"/>
+                                    <constraint firstItem="3v8-3r-TEa" firstAttribute="top" secondItem="Pzo-Pe-MBo" secondAttribute="bottom" constant="3" id="b0z-tN-VTa"/>
+                                    <constraint firstItem="RZ6-BE-0lO" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="ckZ-JJ-fNW"/>
+                                    <constraint firstItem="7Yf-8I-8CG" firstAttribute="top" secondItem="Kqv-ab-Vgx" secondAttribute="bottom" constant="3" id="d6t-o9-x8W"/>
+                                    <constraint firstItem="qTs-zE-Qfl" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="ewl-Aa-dtI"/>
+                                    <constraint firstItem="CqY-ny-o14" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="fUv-M0-uf1"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="YDF-JD-8iN" secondAttribute="trailing" id="fWM-Ie-ytP"/>
-                                    <constraint firstItem="mQ2-sG-mgb" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="gXS-aW-fQz"/>
-                                    <constraint firstItem="OL0-c8-ksp" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="hty-KC-A7A"/>
-                                    <constraint firstAttribute="trailing" secondItem="RZ6-BE-0lO" secondAttribute="trailing" constant="12" id="kZ6-Ku-T6r"/>
-                                    <constraint firstItem="shv-tN-9HO" firstAttribute="top" secondItem="pSX-Cc-Qad" secondAttribute="top" constant="8" id="kh3-Ks-YcX"/>
-                                    <constraint firstItem="Kqv-ab-Vgx" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="kzl-JU-YLY"/>
-                                    <constraint firstAttribute="trailing" secondItem="CqY-ny-o14" secondAttribute="trailing" constant="12" id="lSc-hN-5HY"/>
-                                    <constraint firstItem="Lhf-1Z-99Y" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="n0H-gv-45Y"/>
-                                    <constraint firstItem="VZ4-tK-sNu" firstAttribute="top" secondItem="Lhf-1Z-99Y" secondAttribute="bottom" constant="3" id="nCt-IA-NzZ"/>
-                                    <constraint firstItem="CqY-ny-o14" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="nb9-oX-xiU"/>
-                                    <constraint firstAttribute="trailing" secondItem="YDF-JD-8iN" secondAttribute="trailing" constant="12" id="odE-9J-4X7"/>
-                                    <constraint firstItem="7Yf-8I-8CG" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="oxO-aX-rID"/>
-                                    <constraint firstItem="RZ6-BE-0lO" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="qZT-yF-WxS"/>
-                                    <constraint firstItem="RZ6-BE-0lO" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="rc7-4M-RUn"/>
-                                    <constraint firstAttribute="trailing" secondItem="Lhf-1Z-99Y" secondAttribute="trailing" constant="12" id="s7d-8M-RDc"/>
-                                    <constraint firstItem="OL0-c8-ksp" firstAttribute="top" secondItem="YDF-JD-8iN" secondAttribute="bottom" constant="3" id="vKr-iE-urq"/>
-                                    <constraint firstItem="VZ4-tK-sNu" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="w39-DJ-ELc"/>
-                                    <constraint firstItem="3v8-3r-TEa" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="x0P-Lw-MqC"/>
-                                    <constraint firstItem="Kqv-ab-Vgx" firstAttribute="top" secondItem="3v8-3r-TEa" secondAttribute="bottom" constant="3" id="y2F-FV-mWd"/>
-                                    <constraint firstAttribute="trailing" secondItem="shv-tN-9HO" secondAttribute="trailing" constant="12" id="yNB-Vn-9fT"/>
-                                    <constraint firstItem="Pzo-Pe-MBo" firstAttribute="width" secondItem="shv-tN-9HO" secondAttribute="width" id="yaj-TG-1gy"/>
-                                    <constraint firstItem="7Yf-8I-8CG" firstAttribute="top" secondItem="Kqv-ab-Vgx" secondAttribute="bottom" constant="3" id="zIC-ws-m6N"/>
-                                    <constraint firstAttribute="trailing" secondItem="mQ2-sG-mgb" secondAttribute="trailing" constant="12" id="zv9-xA-auP"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Yf-8I-8CG" secondAttribute="trailing" constant="12" id="gUk-VP-9uS"/>
+                                    <constraint firstItem="VZ4-tK-sNu" firstAttribute="top" secondItem="Lhf-1Z-99Y" secondAttribute="bottom" constant="3" id="gYR-ze-ibi"/>
+                                    <constraint firstItem="mQ2-sG-mgb" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="gll-yr-8Jo"/>
+                                    <constraint firstItem="CqY-ny-o14" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="gzb-Bq-M60"/>
+                                    <constraint firstItem="RZ6-BE-0lO" firstAttribute="top" secondItem="OL0-c8-ksp" secondAttribute="bottom" constant="3" id="hcB-s9-6Us"/>
+                                    <constraint firstItem="Lhf-1Z-99Y" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="ide-re-Zfc"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pzo-Pe-MBo" secondAttribute="trailing" constant="12" id="kf5-1c-C6l"/>
+                                    <constraint firstAttribute="trailing" secondItem="Kqv-ab-Vgx" secondAttribute="trailing" constant="12" id="kqq-G6-Ct1"/>
+                                    <constraint firstItem="shv-tN-9HO" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="lAw-1Z-TwL"/>
+                                    <constraint firstItem="VZ4-tK-sNu" firstAttribute="leading" secondItem="pSX-Cc-Qad" secondAttribute="leading" constant="12" id="lxR-fS-4RJ"/>
+                                    <constraint firstItem="3v8-3r-TEa" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="mBs-ad-43u"/>
+                                    <constraint firstItem="mQ2-sG-mgb" firstAttribute="top" secondItem="RZ6-BE-0lO" secondAttribute="bottom" constant="3" id="nHi-Bf-a89"/>
+                                    <constraint firstAttribute="trailing" secondItem="3v8-3r-TEa" secondAttribute="trailing" constant="12" id="qFE-IE-H4a"/>
+                                    <constraint firstAttribute="trailing" secondItem="qTs-zE-Qfl" secondAttribute="trailing" constant="12" id="qId-uJ-mbj"/>
+                                    <constraint firstItem="Pzo-Pe-MBo" firstAttribute="centerX" secondItem="pSX-Cc-Qad" secondAttribute="centerX" id="tBt-ru-pcn"/>
+                                    <constraint firstItem="qTs-zE-Qfl" firstAttribute="top" secondItem="VZ4-tK-sNu" secondAttribute="bottom" constant="2" id="u2E-Sb-5Aw"/>
+                                    <constraint firstAttribute="trailing" secondItem="CqY-ny-o14" secondAttribute="trailing" constant="12" id="zdD-4h-Ft6"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -1650,17 +1613,18 @@ Look for jaundice
                                         <exclude reference="9ml-gT-2Ev"/>
                                         <exclude reference="GVh-DR-Q8G"/>
                                         <exclude reference="XqL-c5-7hW"/>
+                                        <exclude reference="G39-st-jeT"/>
                                     </mask>
                                 </variation>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="epa-Jo-fTG" firstAttribute="top" secondItem="pSX-Cc-Qad" secondAttribute="bottom" constant="15" id="11F-hI-FIJ"/>
-                            <constraint firstItem="pSX-Cc-Qad" firstAttribute="top" secondItem="qpm-DN-Dhc" secondAttribute="bottom" id="5kw-CK-WMJ"/>
                             <constraint firstItem="pSX-Cc-Qad" firstAttribute="width" secondItem="M8P-a0-ge5" secondAttribute="height" multiplier="71:75" id="B0B-LA-11a"/>
-                            <constraint firstItem="pSX-Cc-Qad" firstAttribute="leading" secondItem="M8P-a0-ge5" secondAttribute="leading" id="Ol3-Nm-dMa"/>
-                            <constraint firstItem="pSX-Cc-Qad" firstAttribute="width" secondItem="M8P-a0-ge5" secondAttribute="width" id="Ro1-tz-CaV"/>
+                            <constraint firstItem="epa-Jo-fTG" firstAttribute="top" secondItem="pSX-Cc-Qad" secondAttribute="bottom" constant="8" symbolic="YES" id="TLp-uT-7iL"/>
+                            <constraint firstItem="pSX-Cc-Qad" firstAttribute="top" secondItem="qpm-DN-Dhc" secondAttribute="bottom" id="ZM3-mS-gl8"/>
+                            <constraint firstItem="pSX-Cc-Qad" firstAttribute="leading" secondItem="M8P-a0-ge5" secondAttribute="leading" id="eEO-NJ-wK0"/>
+                            <constraint firstItem="pSX-Cc-Qad" firstAttribute="width" secondItem="M8P-a0-ge5" secondAttribute="width" id="mvX-uA-0OC"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -8824,7 +8788,7 @@ Compare the mother answers to the recommendation for care and development</strin
                                 <rect key="frame" x="0.0" y="64" width="600" height="686"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ASK THE MOTHER WHAT THE YOUNG INFANT'S PROBLEMS ARE:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBI-Op-r4q">
-                                        <rect key="frame" x="8" y="72" width="584" height="41"/>
+                                        <rect key="frame" x="8" y="8" width="584" height="41"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="41" id="fEK-KX-RAG"/>
@@ -8834,7 +8798,7 @@ Compare the mother answers to the recommendation for care and development</strin
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHECK FOR:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8z-kA-Z1D">
-                                        <rect key="frame" x="8" y="187" width="584" height="21"/>
+                                        <rect key="frame" x="8" y="123" width="584" height="21"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="kAf-i3-pGQ"/>
@@ -8844,7 +8808,7 @@ Compare the mother answers to the recommendation for care and development</strin
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bVt-WT-5mh">
-                                        <rect key="frame" x="8" y="401" width="584" height="36"/>
+                                        <rect key="frame" x="8" y="337" width="584" height="36"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="36" id="hH0-to-ZNK"/>
@@ -8856,7 +8820,7 @@ Compare the mother answers to the recommendation for care and development</strin
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6l-JT-AaY">
-                                        <rect key="frame" x="8" y="445" width="584" height="30"/>
+                                        <rect key="frame" x="8" y="381" width="584" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="tHr-DF-7Qa"/>
@@ -8868,7 +8832,7 @@ Compare the mother answers to the recommendation for care and development</strin
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ux9-xL-nct">
-                                        <rect key="frame" x="8" y="577" width="584" height="30"/>
+                                        <rect key="frame" x="8" y="513" width="584" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="fjU-Go-GaI"/>
@@ -8880,14 +8844,14 @@ Compare the mother answers to the recommendation for care and development</strin
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helping Babies Breathe:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCN-Dx-dzx">
-                                        <rect key="frame" x="8" y="559" width="584" height="17"/>
+                                        <rect key="frame" x="8" y="495" width="584" height="17"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UcX-EZ-Rkx">
-                                        <rect key="frame" x="8" y="211" width="584" height="30"/>
+                                        <rect key="frame" x="8" y="147" width="584" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="kxn-Wl-hEj"/>
@@ -8899,7 +8863,7 @@ Compare the mother answers to the recommendation for care and development</strin
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQu-mM-UJy">
-                                        <rect key="frame" x="8" y="249" width="584" height="30"/>
+                                        <rect key="frame" x="8" y="185" width="584" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="GuK-hB-tMz"/>
@@ -8911,7 +8875,7 @@ Compare the mother answers to the recommendation for care and development</strin
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZi-yL-1Kw">
-                                        <rect key="frame" x="8" y="287" width="584" height="30"/>
+                                        <rect key="frame" x="8" y="223" width="584" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="xny-uH-Wda"/>
@@ -8923,7 +8887,7 @@ Compare the mother answers to the recommendation for care and development</strin
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TkE-HJ-ajH">
-                                        <rect key="frame" x="8" y="325" width="584" height="30"/>
+                                        <rect key="frame" x="8" y="261" width="584" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="W1a-qQ-cQm"/>
@@ -8935,7 +8899,7 @@ Compare the mother answers to the recommendation for care and development</strin
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfA-Lo-KlP">
-                                        <rect key="frame" x="8" y="483" width="584" height="30"/>
+                                        <rect key="frame" x="8" y="419" width="584" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="t2n-7x-hLu"/>
@@ -8947,7 +8911,7 @@ Compare the mother answers to the recommendation for care and development</strin
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TO3-dh-pTb">
-                                        <rect key="frame" x="8" y="521" width="584" height="30"/>
+                                        <rect key="frame" x="8" y="457" width="584" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="8lo-iM-bXB"/>
@@ -8959,7 +8923,7 @@ Compare the mother answers to the recommendation for care and development</strin
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXg-sB-jm4">
-                                        <rect key="frame" x="8" y="363" width="584" height="30"/>
+                                        <rect key="frame" x="8" y="299" width="584" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="6zN-GI-zMH"/>
@@ -8971,7 +8935,7 @@ Compare the mother answers to the recommendation for care and development</strin
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53S-3j-apg">
-                                        <rect key="frame" x="8" y="113" width="584" height="66"/>
+                                        <rect key="frame" x="8" y="49" width="584" height="66"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="66" id="rk3-Jg-SiF"/>
                                         </constraints>
@@ -8982,14 +8946,14 @@ If it is an initial visit, assess the young infant as follows:</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keep the infant warm:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfU-ek-MEX">
-                                        <rect key="frame" x="8" y="615" width="584" height="17"/>
+                                        <rect key="frame" x="8" y="551" width="584" height="17"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CaX-28-OaJ">
-                                        <rect key="frame" x="8" y="640" width="584" height="30"/>
+                                        <rect key="frame" x="8" y="576" width="584" height="30"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="Ar9-05-qFe"/>
@@ -9024,7 +8988,7 @@ If it is an initial visit, assess the young infant as follows:</string>
                                     <constraint firstItem="DCN-Dx-dzx" firstAttribute="leading" secondItem="ux9-xL-nct" secondAttribute="leading" id="OMJ-9Y-mvU"/>
                                     <constraint firstItem="DCN-Dx-dzx" firstAttribute="trailing" secondItem="TO3-dh-pTb" secondAttribute="trailing" id="Ofa-DX-Tcm"/>
                                     <constraint firstItem="f6l-JT-AaY" firstAttribute="centerX" secondItem="u6a-lZ-32j" secondAttribute="centerX" id="QXX-lR-AgL"/>
-                                    <constraint firstAttribute="bottom" secondItem="CaX-28-OaJ" secondAttribute="bottom" constant="16" id="RiF-8X-MjE"/>
+                                    <constraint firstAttribute="bottom" secondItem="CaX-28-OaJ" secondAttribute="bottom" constant="80" id="RiF-8X-MjE"/>
                                     <constraint firstItem="bVt-WT-5mh" firstAttribute="leading" secondItem="YXg-sB-jm4" secondAttribute="leading" id="RvX-N1-4Vp"/>
                                     <constraint firstItem="53S-3j-apg" firstAttribute="top" secondItem="gBI-Op-r4q" secondAttribute="bottom" id="TUS-TD-Hus"/>
                                     <constraint firstItem="53S-3j-apg" firstAttribute="leading" secondItem="gBI-Op-r4q" secondAttribute="leading" id="UDG-xM-TiL"/>
@@ -9038,7 +9002,7 @@ If it is an initial visit, assess the young infant as follows:</string>
                                     <constraint firstItem="UcX-EZ-Rkx" firstAttribute="top" secondItem="E8z-kA-Z1D" secondAttribute="bottom" constant="3" id="fze-5B-HMc"/>
                                     <constraint firstItem="UcX-EZ-Rkx" firstAttribute="leading" secondItem="u6a-lZ-32j" secondAttribute="leadingMargin" id="gJQ-Ud-NRP"/>
                                     <constraint firstItem="E8z-kA-Z1D" firstAttribute="leading" secondItem="UcX-EZ-Rkx" secondAttribute="leading" id="hvy-mQ-xkI"/>
-                                    <constraint firstItem="gBI-Op-r4q" firstAttribute="top" secondItem="u6a-lZ-32j" secondAttribute="top" constant="72" id="ifA-wG-dE2"/>
+                                    <constraint firstItem="gBI-Op-r4q" firstAttribute="top" secondItem="u6a-lZ-32j" secondAttribute="top" constant="8" id="ifA-wG-dE2"/>
                                     <constraint firstItem="bfA-Lo-KlP" firstAttribute="trailing" secondItem="TO3-dh-pTb" secondAttribute="trailing" id="jfw-mL-V3F"/>
                                     <constraint firstItem="f6l-JT-AaY" firstAttribute="top" secondItem="bVt-WT-5mh" secondAttribute="bottom" constant="8" symbolic="YES" id="k2d-25-XEZ"/>
                                     <constraint firstItem="TkE-HJ-ajH" firstAttribute="top" secondItem="rZi-yL-1Kw" secondAttribute="bottom" constant="8" symbolic="YES" id="mET-YO-xZ4"/>
@@ -9097,7 +9061,7 @@ If it is an initial visit, assess the young infant as follows:</string>
         <!--View Controller-->
         <scene sceneID="6fQ-bL-LXr">
             <objects>
-                <viewController id="eZ9-wR-S09" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eZ9-wR-S09" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YDj-X8-lcf"/>
                         <viewControllerLayoutGuide type="bottom" id="IXW-Fq-CGK"/>
@@ -9106,14 +9070,14 @@ If it is an initial visit, assess the young infant as follows:</string>
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GwK-Q1-t3C">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GwK-Q1-t3C">
                                 <rect key="frame" x="0.0" y="64" width="600" height="778"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuX-Ni-IRb">
                                         <rect key="frame" x="8" y="8" width="584" height="702"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="702" id="1dz-s6-rVu"/>
+                                            <constraint firstAttribute="height" constant="702" id="tjg-FF-PUm"/>
                                         </constraints>
                                         <string key="text"> Evaluate the baby’s breathing after stimulation:
 • A baby who is gasping or not breathing at all will require resuscitation.
@@ -9162,26 +9126,24 @@ If no breathing or gasping at all after 20 minutes ventilation
                                 </subviews>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="LuX-Ni-IRb" firstAttribute="centerX" secondItem="GwK-Q1-t3C" secondAttribute="centerX" id="4KJ-DN-gEU"/>
-                                    <constraint firstItem="LuX-Ni-IRb" firstAttribute="leading" secondItem="GwK-Q1-t3C" secondAttribute="leading" constant="8" id="OZ5-7B-Min"/>
-                                    <constraint firstItem="LuX-Ni-IRb" firstAttribute="top" secondItem="GwK-Q1-t3C" secondAttribute="top" constant="8" id="qFV-WQ-MIl"/>
-                                    <constraint firstAttribute="trailing" secondItem="LuX-Ni-IRb" secondAttribute="trailing" constant="8" id="xwN-hd-flE"/>
+                                    <constraint firstAttribute="trailing" secondItem="LuX-Ni-IRb" secondAttribute="trailing" constant="8" id="4Ib-Vx-4rF"/>
+                                    <constraint firstItem="LuX-Ni-IRb" firstAttribute="leading" secondItem="GwK-Q1-t3C" secondAttribute="leading" constant="8" id="9Td-JU-Nf4"/>
+                                    <constraint firstItem="LuX-Ni-IRb" firstAttribute="centerX" secondItem="GwK-Q1-t3C" secondAttribute="centerX" id="FrJ-OR-rxP"/>
+                                    <constraint firstItem="LuX-Ni-IRb" firstAttribute="top" secondItem="GwK-Q1-t3C" secondAttribute="top" constant="8" id="dJs-a3-Mmr"/>
+                                    <constraint firstAttribute="bottom" secondItem="LuX-Ni-IRb" secondAttribute="bottom" constant="4" id="l7B-Gt-uf4"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GwK-Q1-t3C" firstAttribute="top" secondItem="YDj-X8-lcf" secondAttribute="bottom" id="K2i-tP-RKt"/>
-                            <constraint firstItem="GwK-Q1-t3C" firstAttribute="leading" secondItem="D3C-jB-isv" secondAttribute="leading" id="PUZ-aA-GDl"/>
-                            <constraint firstItem="IXW-Fq-CGK" firstAttribute="top" secondItem="GwK-Q1-t3C" secondAttribute="bottom" constant="8" symbolic="YES" id="PXc-g8-7TG"/>
-                            <constraint firstAttribute="trailing" secondItem="GwK-Q1-t3C" secondAttribute="trailing" id="tug-Up-mto"/>
+                            <constraint firstItem="GwK-Q1-t3C" firstAttribute="leading" secondItem="D3C-jB-isv" secondAttribute="leading" id="6oz-J7-AkW"/>
+                            <constraint firstItem="GwK-Q1-t3C" firstAttribute="top" secondItem="YDj-X8-lcf" secondAttribute="bottom" id="Lng-rh-FA1"/>
+                            <constraint firstItem="GwK-Q1-t3C" firstAttribute="width" secondItem="D3C-jB-isv" secondAttribute="width" id="UrJ-Cx-izq"/>
+                            <constraint firstItem="IXW-Fq-CGK" firstAttribute="top" secondItem="GwK-Q1-t3C" secondAttribute="bottom" constant="8" symbolic="YES" id="VBS-ag-ndq"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="850"/>
-                    <connections>
-                        <outlet property="scroller" destination="GwK-Q1-t3C" id="Pqo-Ue-cVg"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dA-pf-aWz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -9199,14 +9161,14 @@ If no breathing or gasping at all after 20 minutes ventilation
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Yp-hM-KkD">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Yp-hM-KkD">
                                 <rect key="frame" x="0.0" y="64" width="600" height="778"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIP-eJ-MAs">
                                         <rect key="frame" x="8" y="8" width="584" height="638"/>
                                         <color key="backgroundColor" red="1" green="0.41176470590000003" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="638" id="RSc-7E-i3c"/>
+                                            <constraint firstAttribute="height" constant="638" id="Jm6-30-elf"/>
                                         </constraints>
                                         <string key="text">• Warm the young infant using skin to skin contact: Kangaroo Mother Care
 - Provide privacy to the mother. If mother is not available, skin to skin contact can be provided by the father or any other adult.
@@ -9243,19 +9205,20 @@ Teach the mother how to keep the young infant warm on the way to the hospital
                                 </subviews>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="iIP-eJ-MAs" secondAttribute="trailing" constant="8" id="Ofl-OW-oBC"/>
-                                    <constraint firstItem="iIP-eJ-MAs" firstAttribute="centerX" secondItem="3Yp-hM-KkD" secondAttribute="centerX" id="XNZ-KK-O7s"/>
-                                    <constraint firstItem="iIP-eJ-MAs" firstAttribute="leading" secondItem="3Yp-hM-KkD" secondAttribute="leading" constant="8" id="YRH-TU-BaT"/>
-                                    <constraint firstItem="iIP-eJ-MAs" firstAttribute="top" secondItem="3Yp-hM-KkD" secondAttribute="top" constant="8" id="ddJ-Pc-uma"/>
+                                    <constraint firstAttribute="bottom" secondItem="iIP-eJ-MAs" secondAttribute="bottom" constant="68" id="5HR-qX-fT9"/>
+                                    <constraint firstItem="iIP-eJ-MAs" firstAttribute="leading" secondItem="3Yp-hM-KkD" secondAttribute="leading" constant="8" id="7Bh-sB-R3W"/>
+                                    <constraint firstAttribute="trailing" secondItem="iIP-eJ-MAs" secondAttribute="trailing" constant="8" id="XR4-87-AMn"/>
+                                    <constraint firstItem="iIP-eJ-MAs" firstAttribute="top" secondItem="3Yp-hM-KkD" secondAttribute="top" constant="8" id="bl3-wC-mUt"/>
+                                    <constraint firstItem="iIP-eJ-MAs" firstAttribute="centerX" secondItem="3Yp-hM-KkD" secondAttribute="centerX" id="leW-nR-vs5"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="3Yp-hM-KkD" secondAttribute="trailing" id="cMP-gx-Wkx"/>
-                            <constraint firstItem="dde-Bi-z8k" firstAttribute="top" secondItem="3Yp-hM-KkD" secondAttribute="bottom" constant="8" symbolic="YES" id="h2P-7r-iXk"/>
-                            <constraint firstItem="3Yp-hM-KkD" firstAttribute="top" secondItem="iZa-nZ-OpK" secondAttribute="bottom" id="hBX-Jq-rYx"/>
-                            <constraint firstItem="3Yp-hM-KkD" firstAttribute="leading" secondItem="Nvl-zl-Q3V" secondAttribute="leading" id="x0Z-Jy-d4B"/>
+                            <constraint firstItem="3Yp-hM-KkD" firstAttribute="top" secondItem="iZa-nZ-OpK" secondAttribute="bottom" id="1La-jA-x1y"/>
+                            <constraint firstItem="dde-Bi-z8k" firstAttribute="top" secondItem="3Yp-hM-KkD" secondAttribute="bottom" constant="8" symbolic="YES" id="7Zh-ZW-G5u"/>
+                            <constraint firstItem="3Yp-hM-KkD" firstAttribute="width" secondItem="Nvl-zl-Q3V" secondAttribute="width" id="hmz-Oc-ywW"/>
+                            <constraint firstItem="3Yp-hM-KkD" firstAttribute="leading" secondItem="Nvl-zl-Q3V" secondAttribute="leading" id="tEv-z1-xHb"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -11803,28 +11766,28 @@ Determine Z score for the same:
                                 <rect key="frame" x="0.0" y="64" width="600" height="803"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQb-Ld-pv2">
-                                        <rect key="frame" x="0.0" y="64" width="600" height="21"/>
+                                        <rect key="frame" x="0.0" y="8" width="600" height="21"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fa7-gB-3nv">
-                                        <rect key="frame" x="0.0" y="238" width="600" height="21"/>
+                                        <rect key="frame" x="0.0" y="182" width="600" height="21"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check for general danger signs" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXH-MN-6Pn">
-                                        <rect key="frame" x="0.0" y="411" width="600" height="21"/>
+                                        <rect key="frame" x="0.0" y="355" width="600" height="21"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.6588235294" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v43-Mz-cjj">
-                                        <rect key="frame" x="20" y="93" width="560" height="129"/>
+                                        <rect key="frame" x="20" y="37" width="560" height="129"/>
                                         <string key="text">If the child is on the initial visit
 Ask: 
 • Is the child able to drink or breastfeed?
@@ -11839,7 +11802,7 @@ if yes treat immediately</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7Y-H1-2FQ">
-                                        <rect key="frame" x="8" y="267" width="584" height="28"/>
+                                        <rect key="frame" x="8" y="211" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Does the child have cough or difficult breathing?"/>
@@ -11848,7 +11811,7 @@ if yes treat immediately</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pND-cg-Xeo">
-                                        <rect key="frame" x="8" y="303" width="584" height="28"/>
+                                        <rect key="frame" x="8" y="247" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Does the child have diarrhoea?"/>
@@ -11857,7 +11820,7 @@ if yes treat immediately</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMK-Cq-4Ld">
-                                        <rect key="frame" x="8" y="339" width="584" height="28"/>
+                                        <rect key="frame" x="8" y="283" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Does the child have a fever?"/>
@@ -11866,7 +11829,7 @@ if yes treat immediately</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA0-HS-UKS">
-                                        <rect key="frame" x="8" y="375" width="584" height="28"/>
+                                        <rect key="frame" x="8" y="319" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Does the child have an ear problem?"/>
@@ -11875,7 +11838,7 @@ if yes treat immediately</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ib3-Vm-LoD">
-                                        <rect key="frame" x="8" y="548" width="584" height="28"/>
+                                        <rect key="frame" x="8" y="492" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Check for child's immunization, Vitamin A &amp; deworming status"/>
@@ -11884,7 +11847,7 @@ if yes treat immediately</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPv-4l-7Wu">
-                                        <rect key="frame" x="8" y="512" width="584" height="28"/>
+                                        <rect key="frame" x="8" y="456" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Check for HIV exposure and infection"/>
@@ -11893,7 +11856,7 @@ if yes treat immediately</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5f-72-tkO">
-                                        <rect key="frame" x="8" y="584" width="584" height="28"/>
+                                        <rect key="frame" x="8" y="528" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Assess for other problems that the child may have"/>
@@ -11902,7 +11865,7 @@ if yes treat immediately</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njv-0b-KnN">
-                                        <rect key="frame" x="8" y="476" width="584" height="28"/>
+                                        <rect key="frame" x="8" y="420" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Check for anaemia"/>
@@ -11911,7 +11874,7 @@ if yes treat immediately</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0r-nr-wn8">
-                                        <rect key="frame" x="8" y="440" width="584" height="28"/>
+                                        <rect key="frame" x="8" y="384" width="584" height="28"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.95686274510000002" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <state key="normal" title="Check for malnutrition"/>
@@ -11961,7 +11924,7 @@ if yes treat immediately</string>
                                     <constraint firstItem="v43-Mz-cjj" firstAttribute="leading" secondItem="jDu-6z-BZT" secondAttribute="leading" constant="20" id="asv-ao-c1P"/>
                                     <constraint firstItem="l5f-72-tkO" firstAttribute="centerX" secondItem="P7Y-H1-2FQ" secondAttribute="centerX" id="bkb-dB-3ap"/>
                                     <constraint firstItem="ZA0-HS-UKS" firstAttribute="trailing" secondItem="P7Y-H1-2FQ" secondAttribute="trailing" id="c8f-xw-ruO"/>
-                                    <constraint firstItem="fQb-Ld-pv2" firstAttribute="top" secondItem="jDu-6z-BZT" secondAttribute="top" constant="64" id="edE-yQ-w9A"/>
+                                    <constraint firstItem="fQb-Ld-pv2" firstAttribute="top" secondItem="jDu-6z-BZT" secondAttribute="top" constant="8" id="edE-yQ-w9A"/>
                                     <constraint firstItem="Ib3-Vm-LoD" firstAttribute="leading" secondItem="jDu-6z-BZT" secondAttribute="leadingMargin" id="eeJ-LZ-jcI"/>
                                     <constraint firstItem="Ib3-Vm-LoD" firstAttribute="trailing" secondItem="E0r-nr-wn8" secondAttribute="trailing" id="jOT-Ol-Sku"/>
                                     <constraint firstItem="JPv-4l-7Wu" firstAttribute="width" secondItem="P7Y-H1-2FQ" secondAttribute="width" id="jQM-nG-Joz"/>
@@ -11969,7 +11932,7 @@ if yes treat immediately</string>
                                     <constraint firstItem="E0r-nr-wn8" firstAttribute="top" secondItem="IXH-MN-6Pn" secondAttribute="bottom" constant="8" symbolic="YES" id="mwO-yR-u5a"/>
                                     <constraint firstItem="njv-0b-KnN" firstAttribute="centerX" secondItem="P7Y-H1-2FQ" secondAttribute="centerX" id="mxw-bS-Tlw"/>
                                     <constraint firstItem="pND-cg-Xeo" firstAttribute="top" secondItem="P7Y-H1-2FQ" secondAttribute="bottom" constant="8" symbolic="YES" id="okg-Fc-Hxd"/>
-                                    <constraint firstAttribute="bottom" secondItem="l5f-72-tkO" secondAttribute="bottom" constant="168" id="prv-rG-0jd"/>
+                                    <constraint firstAttribute="bottom" secondItem="l5f-72-tkO" secondAttribute="bottom" constant="247" id="prv-rG-0jd"/>
                                     <constraint firstItem="Ib3-Vm-LoD" firstAttribute="centerX" secondItem="P7Y-H1-2FQ" secondAttribute="centerX" id="tL7-7u-qjV"/>
                                     <constraint firstItem="JPv-4l-7Wu" firstAttribute="centerX" secondItem="P7Y-H1-2FQ" secondAttribute="centerX" id="wwp-R0-xYS"/>
                                     <constraint firstItem="fa7-gB-3nv" firstAttribute="trailing" secondItem="IXH-MN-6Pn" secondAttribute="trailing" id="xEu-q7-UPU"/>
@@ -13127,10 +13090,10 @@ Classify Diarrhoea</string>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EbD-O1-SQZ">
-                                <rect key="frame" x="20" y="72" width="560" height="463"/>
+                                <rect key="frame" x="20" y="64" width="560" height="471"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3Z-fj-GT1">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="342"/>
+                                        <rect key="frame" x="0.0" y="8" width="560" height="342"/>
                                         <string key="text">Ask:
 Has the infant had convulsions?
 ASK and LOOK
@@ -13161,8 +13124,8 @@ LOOK, LISTEN, FEEL
                                 <constraints>
                                     <constraint firstItem="J3Z-fj-GT1" firstAttribute="centerX" secondItem="EbD-O1-SQZ" secondAttribute="centerX" id="JWc-Wf-jwX"/>
                                     <constraint firstItem="J3Z-fj-GT1" firstAttribute="leading" secondItem="EbD-O1-SQZ" secondAttribute="leading" id="MnQ-Lb-I9U"/>
-                                    <constraint firstAttribute="bottom" secondItem="J3Z-fj-GT1" secondAttribute="bottom" constant="57" id="WgQ-Jf-BM5"/>
-                                    <constraint firstItem="J3Z-fj-GT1" firstAttribute="top" secondItem="EbD-O1-SQZ" secondAttribute="top" id="bbq-gS-e9S"/>
+                                    <constraint firstAttribute="bottom" secondItem="J3Z-fj-GT1" secondAttribute="bottom" constant="121" id="WgQ-Jf-BM5"/>
+                                    <constraint firstItem="J3Z-fj-GT1" firstAttribute="top" secondItem="EbD-O1-SQZ" secondAttribute="top" constant="8" id="bbq-gS-e9S"/>
                                     <constraint firstAttribute="trailing" secondItem="J3Z-fj-GT1" secondAttribute="trailing" id="kX6-bP-i66"/>
                                 </constraints>
                             </scrollView>
@@ -13171,7 +13134,7 @@ LOOK, LISTEN, FEEL
                         <constraints>
                             <constraint firstItem="EbD-O1-SQZ" firstAttribute="trailing" secondItem="Vfw-Dh-80j" secondAttribute="trailingMargin" id="7SE-Uv-92X"/>
                             <constraint firstItem="EbD-O1-SQZ" firstAttribute="leading" secondItem="Vfw-Dh-80j" secondAttribute="leadingMargin" id="OAT-mD-KJv"/>
-                            <constraint firstItem="EbD-O1-SQZ" firstAttribute="top" secondItem="M4u-vf-9Ju" secondAttribute="bottom" constant="8" symbolic="YES" id="anS-kx-vcT"/>
+                            <constraint firstItem="EbD-O1-SQZ" firstAttribute="top" secondItem="M4u-vf-9Ju" secondAttribute="bottom" id="anS-kx-vcT"/>
                             <constraint firstItem="kRv-fD-N9g" firstAttribute="top" secondItem="EbD-O1-SQZ" secondAttribute="bottom" constant="16" id="hCZ-1h-BQA"/>
                         </constraints>
                     </view>
@@ -13382,7 +13345,7 @@ LOOK, LISTEN, FEEL
         <!--Identify Treatment-->
         <scene sceneID="VfV-VZ-Hg9">
             <objects>
-                <viewController id="N0E-za-D6k" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="N0E-za-D6k" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Fwo-rZ-uwf"/>
                         <viewControllerLayoutGuide type="bottom" id="PmV-rw-oOP"/>
@@ -13391,7 +13354,7 @@ LOOK, LISTEN, FEEL
                         <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uNj-I3-DfB">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uNj-I3-DfB">
                                 <rect key="frame" x="0.0" y="64" width="600" height="729"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3r0-fd-uCX">
@@ -13469,55 +13432,46 @@ LOOK, LISTEN, FEEL
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="3yu-xb-b1f" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="0OH-BJ-I7B"/>
-                                    <constraint firstAttribute="trailing" secondItem="846-tp-7Fc" secondAttribute="trailing" constant="8" id="2q8-IA-Be7"/>
-                                    <constraint firstItem="bde-Xd-AUP" firstAttribute="top" secondItem="846-tp-7Fc" secondAttribute="bottom" constant="1" id="3Ch-iM-NKV"/>
-                                    <constraint firstItem="Hhl-RC-a9a" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="81T-aa-I6r"/>
-                                    <constraint firstItem="Hhl-RC-a9a" firstAttribute="top" secondItem="uNj-I3-DfB" secondAttribute="top" constant="8" id="9mK-n3-fSB"/>
-                                    <constraint firstItem="bde-Xd-AUP" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="BPf-xS-waq"/>
-                                    <constraint firstItem="bde-Xd-AUP" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="DHm-zf-YFg"/>
-                                    <constraint firstAttribute="trailing" secondItem="3r0-fd-uCX" secondAttribute="trailing" constant="8" id="H33-5a-Ov6"/>
-                                    <constraint firstItem="846-tp-7Fc" firstAttribute="top" secondItem="OhN-qQ-IR6" secondAttribute="bottom" constant="8" id="Jhw-i0-qpw"/>
-                                    <constraint firstItem="3r0-fd-uCX" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="MpT-81-aHS"/>
-                                    <constraint firstItem="846-tp-7Fc" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="OnZ-qI-j7n"/>
-                                    <constraint firstItem="3yu-xb-b1f" firstAttribute="top" secondItem="y7F-HM-9x2" secondAttribute="bottom" id="UEb-du-5Xk"/>
-                                    <constraint firstItem="OhN-qQ-IR6" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="W4H-VI-cK7"/>
-                                    <constraint firstItem="3yu-xb-b1f" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="a4A-fi-M4k"/>
-                                    <constraint firstItem="Hhl-RC-a9a" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="aQU-S4-A3c"/>
-                                    <constraint firstAttribute="trailing" secondItem="bde-Xd-AUP" secondAttribute="trailing" constant="8" id="afo-wT-gp6"/>
-                                    <constraint firstItem="rND-3L-uof" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="bAG-bi-e6D"/>
-                                    <constraint firstItem="y7F-HM-9x2" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="cI8-SA-ef4"/>
-                                    <constraint firstAttribute="trailing" secondItem="3yu-xb-b1f" secondAttribute="trailing" constant="8" id="cb2-FC-SO7"/>
-                                    <constraint firstItem="OhN-qQ-IR6" firstAttribute="top" secondItem="rND-3L-uof" secondAttribute="bottom" constant="1" id="dRw-12-Coe"/>
-                                    <constraint firstItem="y7F-HM-9x2" firstAttribute="top" secondItem="bde-Xd-AUP" secondAttribute="bottom" constant="8" id="iHz-BL-6SQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="Hhl-RC-a9a" secondAttribute="trailing" constant="8" id="k1A-zz-h0t"/>
-                                    <constraint firstItem="rND-3L-uof" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="lDL-ub-i51"/>
-                                    <constraint firstAttribute="trailing" secondItem="y7F-HM-9x2" secondAttribute="trailing" constant="8" id="mfk-Cr-x0F"/>
-                                    <constraint firstItem="3r0-fd-uCX" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="mg5-qz-2bx"/>
-                                    <constraint firstItem="y7F-HM-9x2" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="mpj-yn-H4H"/>
-                                    <constraint firstAttribute="trailing" secondItem="rND-3L-uof" secondAttribute="trailing" constant="8" id="oL6-gI-yZq"/>
-                                    <constraint firstAttribute="trailing" secondItem="OhN-qQ-IR6" secondAttribute="trailing" constant="8" id="pnT-Pt-nCW"/>
-                                    <constraint firstItem="rND-3L-uof" firstAttribute="top" secondItem="3r0-fd-uCX" secondAttribute="bottom" constant="8" id="qBg-LM-esN"/>
-                                    <constraint firstItem="3r0-fd-uCX" firstAttribute="top" secondItem="Hhl-RC-a9a" secondAttribute="bottom" constant="1" id="t9l-A0-5uK"/>
-                                    <constraint firstItem="OhN-qQ-IR6" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leading" constant="8" id="uTE-KF-quv"/>
-                                    <constraint firstItem="846-tp-7Fc" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="vCl-8x-Icv"/>
+                                    <constraint firstItem="Hhl-RC-a9a" firstAttribute="leading" secondItem="uNj-I3-DfB" secondAttribute="leadingMargin" id="0w1-ml-ho9"/>
+                                    <constraint firstItem="846-tp-7Fc" firstAttribute="leading" secondItem="OhN-qQ-IR6" secondAttribute="leading" id="29G-cE-FJg"/>
+                                    <constraint firstItem="Hhl-RC-a9a" firstAttribute="trailing" secondItem="uNj-I3-DfB" secondAttribute="trailingMargin" id="2Lh-J8-k4c"/>
+                                    <constraint firstItem="3r0-fd-uCX" firstAttribute="leading" secondItem="Hhl-RC-a9a" secondAttribute="leading" id="3j6-9P-49U"/>
+                                    <constraint firstItem="y7F-HM-9x2" firstAttribute="top" secondItem="bde-Xd-AUP" secondAttribute="bottom" constant="8" symbolic="YES" id="5r6-vE-xl8"/>
+                                    <constraint firstItem="bde-Xd-AUP" firstAttribute="trailing" secondItem="846-tp-7Fc" secondAttribute="trailing" id="7jc-9g-QKO"/>
+                                    <constraint firstItem="Hhl-RC-a9a" firstAttribute="top" secondItem="uNj-I3-DfB" secondAttribute="top" constant="8" id="A7Y-hr-7VD"/>
+                                    <constraint firstItem="bde-Xd-AUP" firstAttribute="top" secondItem="846-tp-7Fc" secondAttribute="bottom" constant="1" id="F5x-mj-geF"/>
+                                    <constraint firstItem="3r0-fd-uCX" firstAttribute="trailing" secondItem="Hhl-RC-a9a" secondAttribute="trailing" id="FgD-of-hxz"/>
+                                    <constraint firstItem="3yu-xb-b1f" firstAttribute="top" secondItem="y7F-HM-9x2" secondAttribute="bottom" id="Fm3-gN-F0W"/>
+                                    <constraint firstItem="846-tp-7Fc" firstAttribute="top" secondItem="OhN-qQ-IR6" secondAttribute="bottom" constant="8" symbolic="YES" id="H32-Wu-zi7"/>
+                                    <constraint firstItem="OhN-qQ-IR6" firstAttribute="trailing" secondItem="rND-3L-uof" secondAttribute="trailing" id="HAN-Ml-Vqt"/>
+                                    <constraint firstItem="OhN-qQ-IR6" firstAttribute="leading" secondItem="rND-3L-uof" secondAttribute="leading" id="J6c-Ee-ZDt"/>
+                                    <constraint firstItem="rND-3L-uof" firstAttribute="top" secondItem="3r0-fd-uCX" secondAttribute="bottom" constant="8" symbolic="YES" id="OeW-LZ-x1u"/>
+                                    <constraint firstItem="3yu-xb-b1f" firstAttribute="trailing" secondItem="y7F-HM-9x2" secondAttribute="trailing" id="YJA-Xl-sdI"/>
+                                    <constraint firstItem="846-tp-7Fc" firstAttribute="trailing" secondItem="OhN-qQ-IR6" secondAttribute="trailing" id="bFf-iS-TUA"/>
+                                    <constraint firstItem="y7F-HM-9x2" firstAttribute="leading" secondItem="bde-Xd-AUP" secondAttribute="leading" id="eEO-VV-slY"/>
+                                    <constraint firstItem="Hhl-RC-a9a" firstAttribute="centerX" secondItem="uNj-I3-DfB" secondAttribute="centerX" id="hAY-kP-85n"/>
+                                    <constraint firstItem="3r0-fd-uCX" firstAttribute="top" secondItem="Hhl-RC-a9a" secondAttribute="bottom" constant="1" id="hNf-WG-wBP"/>
+                                    <constraint firstItem="y7F-HM-9x2" firstAttribute="trailing" secondItem="bde-Xd-AUP" secondAttribute="trailing" id="mxA-LM-YPY"/>
+                                    <constraint firstItem="3r0-fd-uCX" firstAttribute="trailing" secondItem="rND-3L-uof" secondAttribute="trailing" id="n7h-t9-bV3"/>
+                                    <constraint firstItem="3yu-xb-b1f" firstAttribute="leading" secondItem="y7F-HM-9x2" secondAttribute="leading" id="qU3-G4-Npq"/>
+                                    <constraint firstItem="OhN-qQ-IR6" firstAttribute="top" secondItem="rND-3L-uof" secondAttribute="bottom" constant="1" id="ry3-Hp-tJ7"/>
+                                    <constraint firstItem="rND-3L-uof" firstAttribute="leading" secondItem="3r0-fd-uCX" secondAttribute="leading" id="t9W-Y3-aez"/>
+                                    <constraint firstItem="846-tp-7Fc" firstAttribute="leading" secondItem="bde-Xd-AUP" secondAttribute="leading" id="wKp-SE-9Mt"/>
+                                    <constraint firstAttribute="bottom" secondItem="3yu-xb-b1f" secondAttribute="bottom" constant="369" id="xYq-t8-0hJ"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="uNj-I3-DfB" firstAttribute="leading" secondItem="dtw-dp-Qqi" secondAttribute="leading" id="9Uz-wG-atL"/>
-                            <constraint firstAttribute="trailing" secondItem="uNj-I3-DfB" secondAttribute="trailing" id="kwI-6A-hJJ"/>
-                            <constraint firstItem="uNj-I3-DfB" firstAttribute="bottom" secondItem="PmV-rw-oOP" secondAttribute="top" constant="-8" id="lTe-8S-UlK"/>
-                            <constraint firstItem="uNj-I3-DfB" firstAttribute="top" secondItem="Fwo-rZ-uwf" secondAttribute="bottom" id="nfV-ws-CiP"/>
+                            <constraint firstItem="uNj-I3-DfB" firstAttribute="top" secondItem="Fwo-rZ-uwf" secondAttribute="bottom" id="Mcy-y8-QHW"/>
+                            <constraint firstItem="PmV-rw-oOP" firstAttribute="top" secondItem="uNj-I3-DfB" secondAttribute="bottom" constant="8" symbolic="YES" id="bDo-8b-ggW"/>
+                            <constraint firstItem="uNj-I3-DfB" firstAttribute="width" secondItem="dtw-dp-Qqi" secondAttribute="width" id="tnN-cS-vHN"/>
+                            <constraint firstItem="uNj-I3-DfB" firstAttribute="leading" secondItem="dtw-dp-Qqi" secondAttribute="leading" id="tos-Ac-Jkf"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="dff-dh-O5k"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="850"/>
-                    <connections>
-                        <outlet property="scroller" destination="uNj-I3-DfB" id="xFo-hC-q8S"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p53-aM-S8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
