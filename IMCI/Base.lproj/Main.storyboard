@@ -7829,38 +7829,25 @@ Does it go back:
                         <viewControllerLayoutGuide type="bottom" id="3Zx-KO-MHC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Df1-th-J9T">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="950"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V6C-iw-PRW">
-                                <rect key="frame" x="0.0" y="64" width="605" height="729"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="829"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirmed HIV Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHU-NK-kQK">
-                                        <rect key="frame" x="8" y="0.0" width="589" height="34"/>
+                                        <rect key="frame" x="8" y="0.0" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="vh7-j3-t0e"/>
+                                            <constraint firstAttribute="height" constant="34" id="VX9-fh-6zg"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIV Exposed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6U-N7-MTs">
-                                        <rect key="frame" x="8" y="179" width="589" height="34"/>
-                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="xju-E5-wGX"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGz-Ob-2zG">
-                                        <rect key="frame" x="8" y="32" width="589" height="146"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="fGz-Ob-2zG">
+                                        <rect key="frame" x="8" y="37" width="584" height="181"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="146" id="Lso-Ri-UIM"/>
-                                        </constraints>
                                         <string key="text">• Treat, counsel and follow up existing infections.
 • Initiate or continue with Cotrimoxazole prophylaxis.
 • Give vitamin A.
@@ -7872,11 +7859,21 @@ Does it go back:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xyY-7a-aqD">
-                                        <rect key="frame" x="8" y="212" width="589" height="122"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIV Exposed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6U-N7-MTs">
+                                        <rect key="frame" x="8" y="226" width="584" height="34"/>
+                                        <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="Gip-sv-HOm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="xyY-7a-aqD">
+                                        <rect key="frame" x="8" y="263" width="584" height="159"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="122" id="j6z-i1-3Ly"/>
+                                            <constraint firstAttribute="height" constant="159" id="b06-Xr-USK"/>
                                         </constraints>
                                         <string key="text">• Treat, counsel and follow up existing infections.
 • Initiate or continue with Cotrimoxazole prophylaxis.
@@ -7890,30 +7887,30 @@ Does it go back:
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suspected Symptomatic HIV Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8DP-hv-zmh">
-                                        <rect key="frame" x="8" y="335" width="589" height="34"/>
+                                        <rect key="frame" x="8" y="430" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="PeR-cX-2ri"/>
+                                            <constraint firstAttribute="height" constant="34" id="z21-bh-2S4"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIV Infection Unlikely" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOM-DG-2YU">
-                                        <rect key="frame" x="8" y="477" width="589" height="34"/>
+                                        <rect key="frame" x="8" y="584" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="34" id="IAB-t9-Df6"/>
+                                            <constraint firstAttribute="height" constant="34" id="hjS-Bo-uRs"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" red="1" green="0.73333333329999995" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vb0-SZ-iyB">
-                                        <rect key="frame" x="8" y="510" width="589" height="50"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="vb0-SZ-iyB">
+                                        <rect key="frame" x="8" y="620" width="584" height="67"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="6Gw-WH-Atg"/>
+                                            <constraint firstAttribute="height" constant="67" id="cr8-5T-Qmk"/>
                                         </constraints>
                                         <string key="text">• Manage presenting conditions according to IMCI and other recommeded national guidelines.
 • Advise the mother about feeding and about her own health.</string>
@@ -7921,9 +7918,12 @@ Does it go back:
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8o-5b-ejA">
-                                        <rect key="frame" x="8" y="366" width="589" height="109"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="E8o-5b-ejA">
+                                        <rect key="frame" x="8" y="467" width="584" height="109"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="109" id="wAg-4Y-Qyv"/>
+                                        </constraints>
                                         <string key="text">• Treat, counsel and follow up existing infections.
 • Initiate or continue with Cotrimoxazole prophylaxis.
 • Give vitamin A.
@@ -7936,39 +7936,33 @@ Does it go back:
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="C6U-N7-MTs" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="2N5-mt-APR"/>
-                                    <constraint firstAttribute="trailing" secondItem="C6U-N7-MTs" secondAttribute="trailing" constant="8" id="4Bi-UM-pia"/>
-                                    <constraint firstItem="xyY-7a-aqD" firstAttribute="centerX" secondItem="V6C-iw-PRW" secondAttribute="centerX" id="4Xb-0b-OnT"/>
-                                    <constraint firstItem="vHU-NK-kQK" firstAttribute="centerX" secondItem="V6C-iw-PRW" secondAttribute="centerX" id="6mv-ex-lnb"/>
-                                    <constraint firstItem="8DP-hv-zmh" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="7VF-Zk-0KS"/>
-                                    <constraint firstItem="C6U-N7-MTs" firstAttribute="centerX" secondItem="V6C-iw-PRW" secondAttribute="centerX" id="Bfb-Eg-OK7"/>
-                                    <constraint firstItem="MOM-DG-2YU" firstAttribute="top" secondItem="E8o-5b-ejA" secondAttribute="bottom" constant="2" id="I6C-nR-0pt"/>
-                                    <constraint firstItem="fGz-Ob-2zG" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="KEu-Qj-yoy"/>
-                                    <constraint firstItem="fGz-Ob-2zG" firstAttribute="top" secondItem="V6C-iw-PRW" secondAttribute="top" constant="32" id="N0w-Ej-MrN"/>
-                                    <constraint firstAttribute="trailing" secondItem="8DP-hv-zmh" secondAttribute="trailing" constant="8" id="NQm-KQ-adQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="xyY-7a-aqD" secondAttribute="trailing" constant="8" id="OpH-AO-sgT"/>
-                                    <constraint firstItem="xyY-7a-aqD" firstAttribute="top" secondItem="fGz-Ob-2zG" secondAttribute="bottom" constant="34" id="P5w-VE-cDK"/>
-                                    <constraint firstItem="MOM-DG-2YU" firstAttribute="centerX" secondItem="V6C-iw-PRW" secondAttribute="centerX" id="PPe-v8-DCk"/>
-                                    <constraint firstItem="xyY-7a-aqD" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="QEf-BF-vPT"/>
-                                    <constraint firstItem="MOM-DG-2YU" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="S6Y-n1-yhQ"/>
-                                    <constraint firstItem="E8o-5b-ejA" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="Yun-NU-SlH"/>
-                                    <constraint firstItem="vb0-SZ-iyB" firstAttribute="top" secondItem="E8o-5b-ejA" secondAttribute="bottom" constant="35" id="crQ-9s-Ji4"/>
-                                    <constraint firstItem="8DP-hv-zmh" firstAttribute="top" secondItem="xyY-7a-aqD" secondAttribute="bottom" constant="1" id="dd7-cV-SAV"/>
-                                    <constraint firstItem="8DP-hv-zmh" firstAttribute="centerX" secondItem="V6C-iw-PRW" secondAttribute="centerX" id="eN9-W0-Nu0"/>
-                                    <constraint firstItem="E8o-5b-ejA" firstAttribute="centerX" secondItem="V6C-iw-PRW" secondAttribute="centerX" id="goO-u2-S7g"/>
-                                    <constraint firstAttribute="bottom" secondItem="vb0-SZ-iyB" secondAttribute="bottom" constant="105" id="hhs-FD-XU4"/>
-                                    <constraint firstAttribute="trailing" secondItem="vHU-NK-kQK" secondAttribute="trailing" constant="8" id="ioz-cd-xGw"/>
-                                    <constraint firstAttribute="trailing" secondItem="fGz-Ob-2zG" secondAttribute="trailing" constant="8" id="ix5-wV-2uf"/>
-                                    <constraint firstAttribute="trailing" secondItem="vb0-SZ-iyB" secondAttribute="trailing" constant="8" id="lTy-Ti-pGd"/>
-                                    <constraint firstAttribute="trailing" secondItem="MOM-DG-2YU" secondAttribute="trailing" constant="8" id="nGr-UJ-lD1"/>
-                                    <constraint firstItem="vb0-SZ-iyB" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="oYi-IX-MVj"/>
-                                    <constraint firstItem="vHU-NK-kQK" firstAttribute="top" secondItem="V6C-iw-PRW" secondAttribute="top" id="r2L-as-pyX"/>
-                                    <constraint firstItem="E8o-5b-ejA" firstAttribute="top" secondItem="xyY-7a-aqD" secondAttribute="bottom" constant="32" id="rzQ-wP-jHN"/>
-                                    <constraint firstItem="C6U-N7-MTs" firstAttribute="top" secondItem="fGz-Ob-2zG" secondAttribute="bottom" constant="1" id="sKr-CH-iAo"/>
-                                    <constraint firstItem="vb0-SZ-iyB" firstAttribute="centerX" secondItem="V6C-iw-PRW" secondAttribute="centerX" id="snJ-Lt-7vh"/>
-                                    <constraint firstAttribute="trailing" secondItem="E8o-5b-ejA" secondAttribute="trailing" constant="8" id="vTX-Zr-f1z"/>
-                                    <constraint firstItem="vHU-NK-kQK" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="w7k-Z9-6UL"/>
-                                    <constraint firstItem="fGz-Ob-2zG" firstAttribute="centerX" secondItem="V6C-iw-PRW" secondAttribute="centerX" id="xUS-tx-ojL"/>
+                                    <constraint firstAttribute="trailing" secondItem="vHU-NK-kQK" secondAttribute="trailing" constant="8" id="0YP-pT-tJJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="vb0-SZ-iyB" secondAttribute="trailing" constant="8" id="17S-YO-e0w"/>
+                                    <constraint firstAttribute="trailing" secondItem="8DP-hv-zmh" secondAttribute="trailing" constant="8" id="3DZ-mM-FoC"/>
+                                    <constraint firstItem="E8o-5b-ejA" firstAttribute="top" secondItem="8DP-hv-zmh" secondAttribute="bottom" constant="3" id="49B-XZ-xwj"/>
+                                    <constraint firstItem="vb0-SZ-iyB" firstAttribute="top" secondItem="MOM-DG-2YU" secondAttribute="bottom" constant="2" id="6Xw-zJ-l01"/>
+                                    <constraint firstItem="8DP-hv-zmh" firstAttribute="top" secondItem="xyY-7a-aqD" secondAttribute="bottom" constant="8" symbolic="YES" id="9YZ-eb-9CG"/>
+                                    <constraint firstAttribute="bottom" secondItem="vb0-SZ-iyB" secondAttribute="bottom" constant="42" id="DnB-Is-RMc"/>
+                                    <constraint firstItem="vHU-NK-kQK" firstAttribute="centerX" secondItem="V6C-iw-PRW" secondAttribute="centerX" id="G1D-nA-OHR"/>
+                                    <constraint firstItem="vHU-NK-kQK" firstAttribute="top" secondItem="V6C-iw-PRW" secondAttribute="top" id="G8Y-C1-x2H"/>
+                                    <constraint firstItem="MOM-DG-2YU" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="LJ2-1t-TQp"/>
+                                    <constraint firstAttribute="trailing" secondItem="E8o-5b-ejA" secondAttribute="trailing" constant="8" id="NDT-qF-StP"/>
+                                    <constraint firstItem="MOM-DG-2YU" firstAttribute="top" secondItem="E8o-5b-ejA" secondAttribute="bottom" constant="8" symbolic="YES" id="RLQ-PD-1en"/>
+                                    <constraint firstItem="xyY-7a-aqD" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="TpV-23-gCu"/>
+                                    <constraint firstAttribute="trailing" secondItem="fGz-Ob-2zG" secondAttribute="trailing" constant="8" id="WPh-5v-voc"/>
+                                    <constraint firstAttribute="trailing" secondItem="xyY-7a-aqD" secondAttribute="trailing" constant="8" id="chr-ih-CuH"/>
+                                    <constraint firstItem="8DP-hv-zmh" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="dUr-Vj-2VN"/>
+                                    <constraint firstItem="fGz-Ob-2zG" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="hVL-iW-aME"/>
+                                    <constraint firstItem="E8o-5b-ejA" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="j6b-1d-7nd"/>
+                                    <constraint firstItem="fGz-Ob-2zG" firstAttribute="top" secondItem="vHU-NK-kQK" secondAttribute="bottom" constant="3" id="loa-Nw-QzG"/>
+                                    <constraint firstItem="xyY-7a-aqD" firstAttribute="top" secondItem="C6U-N7-MTs" secondAttribute="bottom" constant="3" id="oXX-7B-vMk"/>
+                                    <constraint firstItem="vb0-SZ-iyB" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="r4v-7z-grf"/>
+                                    <constraint firstItem="C6U-N7-MTs" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="rkY-gm-6Jk"/>
+                                    <constraint firstAttribute="trailing" secondItem="C6U-N7-MTs" secondAttribute="trailing" constant="8" id="umF-zN-d9L"/>
+                                    <constraint firstItem="C6U-N7-MTs" firstAttribute="top" secondItem="fGz-Ob-2zG" secondAttribute="bottom" constant="8" symbolic="YES" id="wOh-pQ-YMu"/>
+                                    <constraint firstAttribute="trailing" secondItem="MOM-DG-2YU" secondAttribute="trailing" constant="8" id="yvU-yN-FlB"/>
+                                    <constraint firstItem="vHU-NK-kQK" firstAttribute="leading" secondItem="V6C-iw-PRW" secondAttribute="leading" constant="8" id="zK0-w3-cWU"/>
+                                    <constraint firstAttribute="bottom" secondItem="vHU-NK-kQK" secondAttribute="bottom" constant="695" id="zap-pA-4RA"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -7977,12 +7971,20 @@ Does it go back:
                             <constraint firstItem="V6C-iw-PRW" firstAttribute="leading" secondItem="Df1-th-J9T" secondAttribute="leading" id="Pcs-ZA-Lr2"/>
                             <constraint firstItem="3Zx-KO-MHC" firstAttribute="top" secondItem="V6C-iw-PRW" secondAttribute="bottom" constant="8" symbolic="YES" id="Sti-mC-0A0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="V6C-iw-PRW" secondAttribute="trailing" constant="-25" id="XzM-ky-gDh"/>
+                            <constraint firstItem="V6C-iw-PRW" firstAttribute="width" secondItem="Df1-th-J9T" secondAttribute="width" id="Yi9-LD-4OD"/>
+                            <constraint firstItem="V6C-iw-PRW" firstAttribute="leading" secondItem="Df1-th-J9T" secondAttribute="leading" id="iLs-un-p6t"/>
                             <constraint firstItem="V6C-iw-PRW" firstAttribute="top" secondItem="bON-7J-Dx7" secondAttribute="bottom" id="ncq-Le-eUH"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Pcs-ZA-Lr2"/>
+                                <exclude reference="XzM-ky-gDh"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Identify Treatment" id="NCL-gX-Q1X"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="850"/>
+                    <size key="freeformSize" width="600" height="950"/>
                     <connections>
                         <outlet property="scroller" destination="V6C-iw-PRW" id="0iC-sS-kqC"/>
                     </connections>
@@ -9234,20 +9236,20 @@ Teach the mother how to keep the young infant warm on the way to the hospital
         <!--Classify-->
         <scene sceneID="Pkr-p7-KFo">
             <objects>
-                <viewController id="S2m-29-ixW" customClass="ViewController" customModule="IMCI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="S2m-29-ixW" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9Wo-om-v0j"/>
                         <viewControllerLayoutGuide type="bottom" id="ITh-BU-MbS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ofw-2Y-Iq9">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="750"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PXL-NW-whp">
-                                <rect key="frame" x="0.0" y="64" width="600" height="679"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PXL-NW-whp">
+                                <rect key="frame" x="0.0" y="64" width="600" height="629"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirmed HIV Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HxV-NN-c0Y">
-                                        <rect key="frame" x="8" y="64" width="584" height="34"/>
+                                        <rect key="frame" x="8" y="69" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="hK2-Wo-KMu"/>
@@ -9257,7 +9259,7 @@ Teach the mother how to keep the young infant warm on the way to the hospital
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIV Exposed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQ6-ug-vVw">
-                                        <rect key="frame" x="8" y="139" width="584" height="34"/>
+                                        <rect key="frame" x="8" y="143" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="Sox-UI-XtN"/>
@@ -9267,7 +9269,7 @@ Teach the mother how to keep the young infant warm on the way to the hospital
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Child &lt; 18 months and DNA PCR test POSITIVE." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3Y-hD-dnK">
-                                        <rect key="frame" x="8" y="101" width="584" height="30"/>
+                                        <rect key="frame" x="8" y="105" width="584" height="30"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="FdD-TL-kkz"/>
@@ -9277,10 +9279,10 @@ Teach the mother how to keep the young infant warm on the way to the hospital
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0B-1i-8iu">
-                                        <rect key="frame" x="8" y="175" width="584" height="108"/>
+                                        <rect key="frame" x="8" y="180" width="584" height="132"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="108" id="C9t-Bt-zSE"/>
+                                            <constraint firstAttribute="height" constant="132" id="C9t-Bt-zSE"/>
                                         </constraints>
                                         <string key="text">Children &lt; 18 months
 • If mother’s HIV status is POSITIVE and no result for child.
@@ -9293,7 +9295,7 @@ OR
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suspected Symptomatic HIV Infection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDB-tA-cTJ">
-                                        <rect key="frame" x="8" y="291" width="584" height="34"/>
+                                        <rect key="frame" x="8" y="320" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="1yz-DP-K35"/>
@@ -9303,8 +9305,11 @@ OR
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBu-OH-dbB">
-                                        <rect key="frame" x="8" y="328" width="584" height="109"/>
+                                        <rect key="frame" x="8" y="357" width="584" height="135"/>
                                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="135" id="Ueg-Wg-Rr1"/>
+                                        </constraints>
                                         <string key="text">Suspected Symptomatic HIV Infection
 • No test results for child or mother.
 • 2 or more of the following conditions:
@@ -9317,7 +9322,7 @@ OR 	- An AIDS defining condition</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIV Infection Unlikely" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxX-Y5-ukB">
-                                        <rect key="frame" x="8" y="439" width="584" height="34"/>
+                                        <rect key="frame" x="8" y="500" width="584" height="34"/>
                                         <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="vYk-Go-BWR"/>
@@ -9327,7 +9332,7 @@ OR 	- An AIDS defining condition</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• If child is &lt; 18 months with UNKNOWN mother’s HIV status and tests antibody NEGATIVE." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhH-yN-ODI">
-                                        <rect key="frame" x="8" y="476" width="584" height="39"/>
+                                        <rect key="frame" x="8" y="537" width="584" height="39"/>
                                         <color key="backgroundColor" red="0.56470588239999997" green="0.93333333330000001" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="39" id="PpD-cT-XF9"/>
@@ -9343,24 +9348,25 @@ OR 	- An AIDS defining condition</string>
                                     <constraint firstItem="wxX-Y5-ukB" firstAttribute="trailing" secondItem="uhH-yN-ODI" secondAttribute="trailing" id="C2c-yk-hZV"/>
                                     <constraint firstItem="cQ6-ug-vVw" firstAttribute="top" secondItem="i3Y-hD-dnK" secondAttribute="bottom" constant="8" symbolic="YES" id="CIq-Vy-u8U"/>
                                     <constraint firstItem="cQ6-ug-vVw" firstAttribute="trailing" secondItem="s0B-1i-8iu" secondAttribute="trailing" id="GFQ-yV-RO4"/>
-                                    <constraint firstItem="s0B-1i-8iu" firstAttribute="centerX" secondItem="PXL-NW-whp" secondAttribute="centerX" id="Hx8-gL-PLe"/>
-                                    <constraint firstItem="i3Y-hD-dnK" firstAttribute="top" secondItem="HxV-NN-c0Y" secondAttribute="bottom" constant="3" id="I7C-Om-Ifi"/>
+                                    <constraint firstItem="i3Y-hD-dnK" firstAttribute="top" secondItem="HxV-NN-c0Y" secondAttribute="bottom" constant="2" id="I7C-Om-Ifi"/>
                                     <constraint firstItem="uhH-yN-ODI" firstAttribute="top" secondItem="wxX-Y5-ukB" secondAttribute="bottom" constant="3" id="Ic2-H7-GQD"/>
                                     <constraint firstItem="cQ6-ug-vVw" firstAttribute="leading" secondItem="s0B-1i-8iu" secondAttribute="leading" id="Jcj-uf-pRZ"/>
                                     <constraint firstItem="i3Y-hD-dnK" firstAttribute="leading" secondItem="cQ6-ug-vVw" secondAttribute="leading" id="N60-aO-E0t"/>
-                                    <constraint firstItem="VBu-OH-dbB" firstAttribute="leading" secondItem="PXL-NW-whp" secondAttribute="leadingMargin" id="N8S-aD-OcK"/>
                                     <constraint firstItem="i3Y-hD-dnK" firstAttribute="leading" secondItem="HxV-NN-c0Y" secondAttribute="leading" id="Qy1-aS-nyE"/>
                                     <constraint firstItem="VBu-OH-dbB" firstAttribute="top" secondItem="KDB-tA-cTJ" secondAttribute="bottom" constant="3" id="Stw-ml-KqL"/>
+                                    <constraint firstAttribute="bottom" secondItem="uhH-yN-ODI" secondAttribute="bottom" constant="53" id="UAw-ui-InD"/>
                                     <constraint firstItem="wxX-Y5-ukB" firstAttribute="leading" secondItem="uhH-yN-ODI" secondAttribute="leading" id="WDI-71-EV5"/>
                                     <constraint firstItem="i3Y-hD-dnK" firstAttribute="trailing" secondItem="cQ6-ug-vVw" secondAttribute="trailing" id="ZW3-bM-ONc"/>
                                     <constraint firstItem="wxX-Y5-ukB" firstAttribute="trailing" secondItem="VBu-OH-dbB" secondAttribute="trailing" id="Zht-g3-v8a"/>
-                                    <constraint firstItem="s0B-1i-8iu" firstAttribute="top" secondItem="cQ6-ug-vVw" secondAttribute="bottom" constant="2" id="bEB-Z7-QJH"/>
+                                    <constraint firstItem="s0B-1i-8iu" firstAttribute="top" secondItem="cQ6-ug-vVw" secondAttribute="bottom" constant="3" id="bEB-Z7-QJH"/>
                                     <constraint firstItem="wxX-Y5-ukB" firstAttribute="leading" secondItem="VBu-OH-dbB" secondAttribute="leading" id="bW2-Lj-rUQ"/>
-                                    <constraint firstItem="wxX-Y5-ukB" firstAttribute="top" secondItem="VBu-OH-dbB" secondAttribute="bottom" constant="2" id="d1j-WJ-hOj"/>
-                                    <constraint firstItem="wxX-Y5-ukB" firstAttribute="trailing" secondItem="PXL-NW-whp" secondAttribute="trailingMargin" id="jhE-8u-cWX"/>
-                                    <constraint firstItem="HxV-NN-c0Y" firstAttribute="top" secondItem="PXL-NW-whp" secondAttribute="top" constant="64" id="pl4-ih-JA1"/>
+                                    <constraint firstItem="KDB-tA-cTJ" firstAttribute="centerY" secondItem="PXL-NW-whp" secondAttribute="centerY" constant="22.5" id="bhC-ry-iVt"/>
+                                    <constraint firstItem="wxX-Y5-ukB" firstAttribute="top" secondItem="VBu-OH-dbB" secondAttribute="bottom" constant="8" id="d1j-WJ-hOj"/>
+                                    <constraint firstItem="s0B-1i-8iu" firstAttribute="leading" secondItem="PXL-NW-whp" secondAttribute="leadingMargin" id="imF-9h-1sJ"/>
+                                    <constraint firstItem="HxV-NN-c0Y" firstAttribute="centerX" secondItem="PXL-NW-whp" secondAttribute="centerX" id="ow0-rZ-zch"/>
                                     <constraint firstItem="s0B-1i-8iu" firstAttribute="trailing" secondItem="KDB-tA-cTJ" secondAttribute="trailing" id="szy-LR-iVb"/>
                                     <constraint firstItem="VBu-OH-dbB" firstAttribute="leading" secondItem="KDB-tA-cTJ" secondAttribute="leading" id="x2q-eb-eW7"/>
+                                    <constraint firstItem="KDB-tA-cTJ" firstAttribute="trailing" secondItem="PXL-NW-whp" secondAttribute="trailingMargin" id="x73-fa-bxl"/>
                                     <constraint firstItem="HxV-NN-c0Y" firstAttribute="trailing" secondItem="i3Y-hD-dnK" secondAttribute="trailing" id="xDX-pb-eyP"/>
                                     <constraint firstItem="VBu-OH-dbB" firstAttribute="trailing" secondItem="KDB-tA-cTJ" secondAttribute="trailing" id="xTu-GV-x98"/>
                                 </constraints>
@@ -9368,18 +9374,13 @@ OR 	- An AIDS defining condition</string>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.91764705879999997" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="PXL-NW-whp" firstAttribute="top" secondItem="9Wo-om-v0j" secondAttribute="bottom" id="S1L-bi-2Ll"/>
-                            <constraint firstAttribute="trailing" secondItem="PXL-NW-whp" secondAttribute="trailing" id="V8f-ez-9lq"/>
-                            <constraint firstItem="ITh-BU-MbS" firstAttribute="top" secondItem="PXL-NW-whp" secondAttribute="bottom" constant="8" symbolic="YES" id="XSN-Fo-euP"/>
-                            <constraint firstItem="PXL-NW-whp" firstAttribute="leading" secondItem="ofw-2Y-Iq9" secondAttribute="leading" id="bF4-V9-Ras"/>
+                            <constraint firstItem="PXL-NW-whp" firstAttribute="width" secondItem="ofw-2Y-Iq9" secondAttribute="width" id="TG7-ZX-lSF"/>
+                            <constraint firstItem="ITh-BU-MbS" firstAttribute="top" secondItem="PXL-NW-whp" secondAttribute="bottom" constant="8" symbolic="YES" id="UfU-Bz-Vxv"/>
+                            <constraint firstItem="PXL-NW-whp" firstAttribute="leading" secondItem="ofw-2Y-Iq9" secondAttribute="leading" id="fa4-tJ-LaG"/>
+                            <constraint firstItem="PXL-NW-whp" firstAttribute="top" secondItem="9Wo-om-v0j" secondAttribute="bottom" id="wKm-MY-BQH"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Classify" id="RhU-DJ-Aza"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="600" height="800"/>
-                    <connections>
-                        <outlet property="scroller" destination="PXL-NW-whp" id="NOY-Hg-1Vu"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RbF-90-B9Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
